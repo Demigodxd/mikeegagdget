@@ -8,7 +8,7 @@ The homepage hero, navigation, mobile bottom bar, brand colours, prices, product
 - `assets/commerce.js`: prominent Buy Outright links use the existing guided checkout; colour options follow the selected recorded variant; financing messages use the shared formatter.
 - `assets/journey.js`: friendly EasyBuy breakdown, upfront fees where applicable, numbered monthly schedule, customer fields, validation and submission events; duration handlers no longer accumulate on revisiting the plan.
 - `assets/landing-page.js`: tracking excludes WhatsApp message query strings; internal Buy links no longer trigger WhatsApp Contact events.
-- `assets/storefront-ui.mjs`, `assets/sales.css`: explicit model-name photo fallbacks, card Buy Outright links and form styling using the existing palette and geometry. Scoped contrast fixes keep checkout text readable on its existing light cards.
+- `assets/storefront-ui.mjs`, `assets/sales.css`: explicit model-name photo fallbacks, card Buy Outright links with the deposit and starting variant matched to the displayed lowest price and form styling using the existing palette and geometry. Scoped contrast fixes keep checkout text readable on its existing light cards.
 - `commerce/storefront-data.mjs`, `assets/storefront.js`, `templates/home.html.template`, `scripts/generate-storefront.mjs`: Open Box and colour filters; connectivity is a separate variant attribute/filter. Unknown connectivity stays unknown (no current record confirms Wi-Fi Only). Existing availability remains confirmation-only, never fabricated as in stock.
 - `scripts/generate-upgrade-pages.mjs`: fixes an unclosed financing-fields wrapper in the guided form.
 - `scripts/audit-image-coverage.mjs`, `docs/image-coverage.md`: reproducible inventory-wide image report.

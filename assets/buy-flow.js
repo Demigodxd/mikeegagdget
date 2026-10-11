@@ -135,7 +135,7 @@ if (form) {
     const q = quote();
     if(isSwap&&step===3&&!q.manual&&!q.pending&&!missingAnswers().length){const signature=[phone.id,old?.id,q.topUp].join('|');if(signature!==lastSwapQuote){lastSwapQuote=signature;track('swap_calculation_completed',{product_id:phone.id,current_phone:old?.id,value:q.topUp});}}
     let summary = `<div class="summary-device">${photo(phone)}<div><h2>${phone.model}</h2><p>${phone.storage}</p></div></div>`;
-    summary += rows([['Phone price',phone.price ? money(phone.price) : 'To confirm']]);
+    summary += rows([['Phone price',phone.price ? money(phone.price) : 'To confirm'],['Condition',targetCondition],['Colour',colour(phone)]]);
     const message = ['Hello Mikee Gadget Plug, here is my phone selection.',`Phone: ${phone.label}`,`Listed price: ${phone.price ? money(phone.price) : 'Please confirm'}`,`Purchase: ${isSwap ? 'Swap' : 'Buy'}`,`Preferred condition: ${targetCondition}`, `Preferred colour: ${colour(phone)}`];
     if (isSwap) {
       message.push(`Swapping from: ${old.label}`);

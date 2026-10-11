@@ -28,3 +28,9 @@ test('outright orders show quantity and quoted delivery without financing or pay
  assert.throws(()=>outrightMessage({phone,quantity:1.5,customer}),RangeError);
  assert.throws(()=>outrightMessage({phone,quantity:-1,customer}),RangeError);
 });
+
+test('catalogue starting deposit and shortcut match the lowest displayed price',async()=>{
+ const {card}=await import('../assets/storefront-ui.mjs');
+ const html=card({slug:'iphone-18-pro',model:'iPhone 18 Pro',category:'iphones',brand:'Apple',route:'/iphone-18-pro',conditions:['Brand New'],easy:true,variants:[{storage:'256GB · Burgundy',price:1970000},{storage:'256GB · Glacier',price:1920000}]});
+ assert.match(html,/From ₦1,920,000/);assert.match(html,/₦1,344,000 deposit/);assert.match(html,/phone=iphone-18-pro%7C256GB%20%C2%B7%20Glacier/);
+});

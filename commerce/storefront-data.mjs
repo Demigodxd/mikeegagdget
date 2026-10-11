@@ -36,7 +36,8 @@ const makeVariant = v => ({
  ram:v.ram,
  color:v.color,
  warranty:v.warranty,
- activationStatus:v.activationStatus
+ connectivity:v.connectivity||(/wi[ -]?fi[ -]?only/i.test(v.storage)?'Wi-Fi Only':null),
+ activationStatus:v.activationStatus||(/non-active/i.test(v.storage)?'Not Activated':null)
 });
 const phoneItems = products.map(p=>{
  const entry=retailInventory.find(item=>item.slug===p.slug);

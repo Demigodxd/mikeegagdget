@@ -1,3 +1,5 @@
+import {financePlan} from '../commerce/upgrade-core.mjs';
+import {financeMessage} from '../commerce/order-messages.mjs';
 import {activateImages} from './storefront-ui.mjs';
 activateImages();
 import { calculatePlan } from "../easy-buy/easy-buy-core.mjs";
@@ -228,7 +230,7 @@ if (productDataElement) {
         link.dataset.productId=`${product.slug}|${selectedStorage}`;
         link.dataset.value=price||'';
         const q=new URLSearchParams({phone:`${product.slug}|${selectedStorage}`,condition:selectedCondition(),color:selectedColor()});
-        if(link.dataset.action==='buy') {link.href=whatsappHref(product.whatsappNumber,`${messageFor('buy')}\nListed price: ${price?naira.format(price):'Please confirm'}${variant?.offerId?' (Hot Deal)':''}`);link.textContent=price?'Buy Now on WhatsApp': 'Ask for Price';}
+        if(link.dataset.action==='buy') {link.href=`/buy/?${q}`;link.textContent=price?'Buy Outright': 'Ask for Price';}
         if(link.dataset.action==='easyBuy'){link.href=`/easybuy/?${q}`;link.textContent='Check Pay Small Small Plan';}
         if(link.dataset.action==='swap'){q.set('target',q.get('phone'));link.href=`/swap/?${q}`;link.textContent='Swap to this phone →';}
         if(!price && link.dataset.action!=='buy'){link.href=whatsappHref(product.whatsappNumber,messageFor(link.dataset.action));link.textContent=link.dataset.action==='easyBuy'?'Ask About Pay Small Small':'Ask About a Swap';}
@@ -264,18 +266,7 @@ if (productDataElement) {
     paymentOutput.textContent = naira.format(monthlyPayment);
     totalOutput.textContent = naira.format(totalAfterDeposit);
 
-    const message = [
-      "Hello Mikee Gadget Plug, I want to apply for Easy Buy.",
-      `Phone: ${product.model} ${selectedStorage}`,
-      `Preferred colour: ${selectedColor()}`,
-      `Condition: ${selectedCondition()}`,
-      `Price used for estimate: ${naira.format(price)}`,
-      `Initial payment estimate: ${naira.format(deposit)} (${Math.round(plan.depositRate*100)}%)`,
-      `Duration: ${duration} month${duration === 1 ? "" : "s"}`,
-      `Estimated monthly payment: ${naira.format(monthlyPayment)}`,
-      `Estimated total after deposit: ${naira.format(totalAfterDeposit)}`,
-      "Please confirm the current phone price, stock, eligibility, exact due dates and complete terms before I pay."
-    ].join("\n");
+    const message = financeMessage({phone:{...product,storage:selectedStorage,price},condition:selectedCondition(),colour:selectedColor(),plan:financePlan({amount:price,phone:product,duration})});
     calculatorWhatsapp.href = whatsappHref(product.whatsappNumber, message);
   }
 
@@ -285,7 +276,7 @@ if (productDataElement) {
     selectedStorage = variant.storage;
     // Colour groups carry different supplied prices. Keep the selector inside
     // the chosen group so a Burgundy quote cannot use the Glacier/Black price.
-    if (colorSelect && (product.slug.startsWith('iphone-18-') || product.slug.startsWith('google-pixel-')) && variant.color) {
+    if (colorSelect && variant.color) {
       const colors=variant.color.split('/').map(value=>value.trim());
       const previous=colorSelect.value;
       colorSelect.replaceChildren(...colors.map(color=>{const option=document.createElement('option');option.value=color;option.textContent=color;return option;}));

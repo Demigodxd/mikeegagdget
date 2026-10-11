@@ -237,7 +237,7 @@ const renderVariantSelector = (product) => `
           data-price="${variant.price ?? ""}"
           data-price-confirm="${variant.priceNeedsExtraConfirmation ? "true" : "false"}"
           aria-pressed="${variant.storage === product.defaultStorage ? "true" : "false"}"
-        ><span class="storage-name">${escapeHtml(variant.storage)}</span><span class="storage-price">${variant.price ? formatNaira(variant.price) : 'Confirm Price'}</span></button>`).join("")}
+        ><span class="storage-name">${escapeHtml(variant.storage.replace(/Non-Active/gi,"Not Activated"))}</span><span class="storage-price">${variant.price ? formatNaira(variant.price) : 'Confirm Price'}</span></button>`).join("")}
     </div>
     <div class="selection-grid">
       <label>

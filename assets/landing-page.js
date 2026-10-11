@@ -142,7 +142,7 @@
     if(link.dataset.checkEligibility==='true')pushEvent('check_eligibility_clicked');
 
     decorateInternalLink(link);
-    const isWhatsapp = link.dataset.track === "whatsapp" || link.href.includes("wa.me/");
+    const isWhatsapp = link.href.includes("wa.me/");
     const isCall = link.dataset.track === "call" || link.href.startsWith("tel:");
     const isDirections = link.dataset.track === "directions" || link.href.includes("google.com/maps");
 
@@ -151,16 +151,16 @@
       if (link.dataset.easyBuy === "true" || body.classList.contains("easy-buy-page")) {
         pushEvent("begin_easy_buy_application");
       }
-      pushEvent("click_whatsapp", { link_url: link.href });
-      pushEvent("whatsapp_click", { link_url: link.href });
+      pushEvent("click_whatsapp", { link_url: link.href.split("?")[0] });
+      pushEvent("whatsapp_click", { link_url: link.href.split("?")[0] });
     }
     if (isCall) {
-      pushEvent("click_call", { link_url: link.href });
-      pushEvent("call_click", { link_url: link.href });
+      pushEvent("click_call", { link_url: link.href.split("?")[0] });
+      pushEvent("call_click", { link_url: link.href.split("?")[0] });
     }
     if (isDirections) {
-      pushEvent("click_directions", { link_url: link.href });
-      pushEvent("directions_click", { link_url: link.href });
+      pushEvent("click_directions", { link_url: link.href.split("?")[0] });
+      pushEvent("directions_click", { link_url: link.href.split("?")[0] });
     }
     if (link.dataset.primaryAction === "select_phone") {
       pushEvent("select_phone");

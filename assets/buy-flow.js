@@ -1,3 +1,5 @@
+import {outrightMessage,customerLines,paymentLines} from '../commerce/order-messages.mjs';
+import {customerFields,customerData,bindCustomerFields,validateCustomer} from './customer-fields.mjs';
 import {media,activateImages} from './storefront-ui.mjs';
 import { choices as baseChoices, money, estimateSwap, financePlan } from '../commerce/upgrade-core.mjs';
 import { commerceSite } from '../commerce/catalog.mjs';
@@ -9,6 +11,11 @@ const choices=baseChoices.map(offerChoice);
 const $ = id => document.getElementById(id);
 const form = $('buy-flow');
 if (form) {
+  const reference='MIKEE-'+Date.now().toString(36).toUpperCase()+'-'+Math.random().toString(36).slice(2,6).toUpperCase();
+  const customerBox=document.createElement('div');customerBox.innerHTML='<label id=quantity-label>Quantity<input id=order-quantity type=number min=1 max=20 step=1 value=1 required></label>'+customerFields();
+  form.querySelector('[data-screen="3"]').appendChild(customerBox);bindCustomerFields();
+  customerBox.addEventListener('input',()=>render());
+  customerBox.addEventListener('focusin',()=>track('buy_outright_form_started'),{once:true});
   const query = new URLSearchParams(location.search);
   const find = id => choices.find(phone => phone.id === id);
   const radio = name => form.querySelector(`input[name="${name}"]:checked`)?.value;
@@ -35,10 +42,10 @@ if (form) {
   function modelOptions(field, list = models, preferred) { options(field,list.map(p => [p.slug,p.model]),preferred); }
   function variants(prefix,preferred) {
     const rows = choices.filter(p => p.slug === $(`${prefix}-model`).value && (prefix === 'swap' || p.forSale !== false));
-    options($(`${prefix}-variant`),rows.map(p => [p.id,`${p.storage}${prefix === "buy" ? (p.price ? ` · ${money(p.price)}` : " · confirm price") : ""}`]),preferred);
+    options($(`${prefix}-variant`),rows.map(p => [p.id,`${p.storage.replace(/Non-Active/gi,'Not Activated')}${prefix === "buy" ? (p.price ? ` · ${money(p.price)}` : " · confirm price") : ""}`]),preferred);
     if(prefix==='buy'){
       const chosen=$('buy-variant').value;
-      $('buy-storage-choices').innerHTML=rows.map(phone=>`<button type="button" data-buy-storage="${phone.id}" aria-pressed="${phone.id===chosen}" class="${phone.id===chosen?'is-selected':''}"><strong>${phone.storage}</strong><span>${phone.price?money(phone.price):'Confirm price'}</span></button>`).join('');
+      $('buy-storage-choices').innerHTML=rows.map(phone=>`<button type="button" data-buy-storage="${phone.id}" aria-pressed="${phone.id===chosen}" class="${phone.id===chosen?'is-selected':''}"><strong>${phone.storage.replace(/Non-Active/gi,'Not Activated')}</strong><span>${phone.price?money(phone.price):'Confirm price'}</span></button>`).join('');
     }
   }
   modelOptions($('buy-model'),models,initial.slug); variants('buy',initial.id);
@@ -64,6 +71,9 @@ if (form) {
     const swap = estimateSwap({current:oldPhone(),target,faceIdBroken:radio('faceId') === 'no', batteryChanged:radio('batteryChanged') === 'yes',screenChanged:radio('screenChanged') === 'yes',backChanged:radio('backChanged') === 'yes',screenCracked:radio('screenCracked') === 'yes',backCracked:radio('backCracked') === 'yes'});
     return { ...swap, amount:swap.manual ? null : swap.topUp, swap:true };
   }
+  let preferredColour=query.get('color')||'';
+  const colourOptions=phone=>phone?.color?.split('/').map(x=>x.trim())||[];
+  const colour=phone=>{const colors=colourOptions(phone);return colors.includes(preferredColour)?preferredColour:colors.length===1?colors[0]:'To be confirmed';};
   const photo = phone => media(phone?.image,phone?.model || 'Your phone');
   const rows = entries => `<dl class="order-lines">${entries.map(([label,value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`).join('')}</dl>`;
   function error(message) { $('flow-error').textContent = message; $('flow-error').hidden = !message; }
@@ -105,22 +115,28 @@ if (form) {
     $('swap-fields').hidden = !isSwap;
     $('row-faceId').hidden = !old?.hasFaceId; $('row-backChanged').hidden = !old?.hasGlassBack; $('row-backCracked').hidden = !old?.hasGlassBack;
     $('easy-fields').hidden = !easy;
+    $('quantity-label').hidden=easy||isSwap;
+    $('order-quantity').disabled=easy||isSwap;
+    if(easy||isSwap)$('order-quantity').value=1;
     if (!phone) {
       $('selected-device').innerHTML = '<p>No matching model. Clear your search or try another model.</p>';
       $('order-summary').innerHTML = '<p>Choose a phone to start your upgrade.</p>';
       $('flow-next').disabled = true; $('order-whatsapp').hidden = true; return;
     }
     $('flow-next').disabled = false;
-    $('selected-device').innerHTML = `${photo(phone)}<div><strong>${phone.model}</strong><span>${phone.storage}</span><b>${phone.price ? money(phone.price) : 'Ask for today’s price'}</b></div>`;
+    $('selected-device').innerHTML = `${photo(phone)}<div><strong>${phone.model}</strong><span>${phone.storage.replace(/Non-Active/gi,'Not Activated')}</span><b>${phone.price ? money(phone.price) : 'Ask for today’s price'}</b></div>`;
     targetCondition=conditionFor(phone,targetCondition);
     $('buy-condition').innerHTML=phone.conditions?.length>1?`<label for="buy-condition-select">Condition<select id="buy-condition-select"><option value="Confirm available condition" ${targetCondition==='Confirm available condition'?'selected':''}>Confirm with Mikee</option>${phone.conditions.map(item=>`<option value="${item}" ${targetCondition===item?'selected':''}>${item}</option>`).join('')}</select></label>`:`<p class="buy-condition-badge">${targetCondition}</p>`;
+    const colorHost=document.getElementById('buy-colour')||document.createElement('div');colorHost.id='buy-colour';$('buy-condition').after(colorHost);
+    const colors=colourOptions(phone);colorHost.replaceChildren();
+    if(colors.length){const label=document.createElement('label');label.textContent='Colour';const select=document.createElement('select');select.id='buy-colour-select';for(const c of colors)select.add(new Option(c,c));if(colors.includes(preferredColour))select.value=preferredColour;preferredColour=select.value;label.append(select);colorHost.append(label);}else{preferredColour='';colorHost.textContent='Colour: confirm available colours with Mikee.';}
     $('model-feedback').textContent = phone.price ? 'Listed price. Confirm the exact unit and availability before payment.' : 'This model needs a current price from us. You can still send your selection.';
     if (isSwap && !old) { $('order-summary').innerHTML='<p>Choose a current phone or ask us for a personal quote.</p>'; $('flow-next').disabled=true; $('order-whatsapp').hidden=true; return; }
     const q = quote();
     if(isSwap&&step===3&&!q.manual&&!q.pending&&!missingAnswers().length){const signature=[phone.id,old?.id,q.topUp].join('|');if(signature!==lastSwapQuote){lastSwapQuote=signature;track('swap_calculation_completed',{product_id:phone.id,current_phone:old?.id,value:q.topUp});}}
     let summary = `<div class="summary-device">${photo(phone)}<div><h2>${phone.model}</h2><p>${phone.storage}</p></div></div>`;
     summary += rows([['Phone price',phone.price ? money(phone.price) : 'To confirm']]);
-    const message = ['Hello Mikee Gadget Plug, here is my phone selection.',`Phone: ${phone.label}`,`Listed price: ${phone.price ? money(phone.price) : 'Please confirm'}`,`Purchase: ${isSwap ? 'Swap' : 'Buy'}`,`Preferred condition: ${targetCondition}`, `Preferred colour: ${query.get('color') || 'Please confirm'}`];
+    const message = ['Hello Mikee Gadget Plug, here is my phone selection.',`Phone: ${phone.label}`,`Listed price: ${phone.price ? money(phone.price) : 'Please confirm'}`,`Purchase: ${isSwap ? 'Swap' : 'Buy'}`,`Preferred condition: ${targetCondition}`, `Preferred colour: ${colour(phone)}`];
     if (isSwap) {
       message.push(`Swapping from: ${old.label}`);
       if (q.pending) summary += '<div class="summary-hint">Tell us your current phone’s condition to see its swap value.</div>';
@@ -150,8 +166,8 @@ if (form) {
       message.push('Pay Small Small: standard plan',`Duration: ${$('plan-duration').value} month(s)`);
       if (!q.manual && !q.pending && q.amount > 0 && !depositError) {
         const plan = financePlan({amount:q.amount,phone,duration:Number($('plan-duration').value),deposit:Number($('plan-deposit').value)});
-        summary += `<div class="plan-summary"><span class="eyebrow">MONTHLY REPAYMENT</span><div class="monthly-amount"><strong>${money(plan.payments[0])}</strong><span>/ month${plan.payments.at(-1) !== plan.payments[0] ? ' (last payment adjusted)' : ''}</span></div><p class="fine">Required down payment: ${money(plan.deposit)} · ${plan.rate*100}% monthly interest${plan.processingFee?` · ${money(plan.processingFee)} processing fee`:''}.</p><details><summary>View full payment breakdown</summary>${rows([['Phone price',money(q.amount)],['Down payment',money(plan.deposit)],['Balance financed',money(plan.balance)],['Interest',money(plan.interest)],['Processing fee',money(plan.processingFee)],['Due upfront',money(plan.dueUpfront)],['Total paid',money(plan.totalPayable)]])}</details><p class="fine">${isSwap ? 'Plus your trade-in phone. ' : ''}Final stock, due dates and delivery are confirmed before payment.</p></div>`;
-        message.push(`Deposit: ${money(plan.deposit)}`,`Balance financed: ${money(plan.balance)}`,`Interest: ${plan.rate*100}% monthly`, `Total interest: ${money(plan.interest)}`,`Processing fee: ${money(plan.processingFee)} (paid upfront, not financed)`,`Due upfront: ${money(plan.dueUpfront)}`,`Monthly repayments: ${plan.payments.map(money).join(', ')}`,`Total cash paid including deposit and fee: ${money(plan.totalPayable)}${isSwap ? ', plus trade-in phone' : ''}`);
+        summary += `<div class="plan-summary"><span class="eyebrow">MONTHLY REPAYMENT</span><div class="monthly-amount"><strong>${money(plan.payments[0])}</strong><span>/ month${plan.payments.at(-1) !== plan.payments[0] ? ' (last payment adjusted)' : ''}</span></div><p class="fine">Required down payment: ${money(plan.deposit)} · ${plan.rate*100}% monthly interest${plan.processingFee?` · ${money(plan.processingFee)} processing fee`:''}.</p><p><strong>Pay Today: ${money(plan.dueUpfront)} · Total Cost: ${money(plan.totalPayable)}</strong></p><details><summary>View full payment breakdown</summary>${rows([['Phone price',money(q.amount)],['Down payment',money(plan.deposit)],['Balance financed',money(plan.balance)],['Interest',money(plan.interest)],['Processing fee',money(plan.processingFee)],['Due upfront',money(plan.dueUpfront)],['Total paid',money(plan.totalPayable)]])}</details><p class="fine">${isSwap ? 'Plus your trade-in phone. ' : ''}Final stock, due dates and delivery are confirmed before payment.</p></div>`;
+        message.push(...paymentLines(plan));
       } else if (q.amount === 0 && !q.pending && !q.manual) summary += '<p class="summary-hint">There is no estimated balance to finance. Ask us to confirm the swap arrangement.</p>';
       else if (depositError) summary += `<p class="summary-hint">${depositError}</p>`;
     }
@@ -160,8 +176,15 @@ if (form) {
     $('order-summary').innerHTML = summary;
     const ready = step === 3 && !q.pending && !depositError && (!isSwap || !missingAnswers().length);
     $('order-whatsapp').hidden = !ready;
-    $('order-whatsapp').href = `https://wa.me/${commerceSite.whatsappNumber}?text=${encodeURIComponent(message.join('\n'))}`;
-    $('order-whatsapp').textContent = q.manual ? 'Ask for my final quote ↗' : 'Send my selection on WhatsApp ↗';
+    const customer=customerData();
+    const quantity=Number($('order-quantity').value);
+    let finalMessage=message.concat(customerLines(customer)).join('\n');
+    if(!easy&&!isSwap&&Number.isInteger(quantity)&&quantity>=1&&quantity<=20){
+      finalMessage=outrightMessage({phone,condition:targetCondition,colour:colour(phone),quantity,customer,reference});
+      const review=document.createElement('p');review.className='fine';review.textContent=`Quantity: ${quantity} · Product subtotal: ${phone.price?money(phone.price*quantity):'To confirm'} · ${customer.method==='Delivery'?'Total pending delivery quotation':'Pickup at Computer Village, Ikeja'}`;$('order-summary').appendChild(review);
+    }
+    $('order-whatsapp').href = `https://wa.me/${commerceSite.whatsappNumber}?text=${encodeURIComponent(finalMessage)}`;
+    $('order-whatsapp').textContent = q.manual ? 'Ask for my final quote ↗' : (!easy&&!isSwap?'Place Order via WhatsApp ↗':'Send my selection on WhatsApp ↗');
     if (easy) $('order-whatsapp').dataset.easyBuy = 'true'; else delete $('order-whatsapp').dataset.easyBuy;
     if (step === 3) error(depositError);
     const url = new URL(location.href); url.searchParams.set('phone',phone.id); url.searchParams.set('purchase',radio('purchase')); url.searchParams.set('payment',radio('payment')); url.searchParams.set('condition',targetCondition); history.replaceState({},'',url);
@@ -187,6 +210,7 @@ if (form) {
       setRadio('payment',event.target.value==='easy'?'easy':'outright');
       track(event.target.value==='swap'?'swap_selected':event.target.value==='easy'?'pay_small_small_selected':'buy_outright_selected',{product_id:selected()?.id});
     }
+    if(event.target.id==='buy-colour-select')preferredColour=event.target.value;
     if(event.target.id==='buy-condition-select'){targetCondition=event.target.value;track('select_condition',{product_id:selected()?.id,condition:targetCondition});}
     if(event.target.id==='plan-duration')track('repayment_duration_selected',{product_id:selected()?.id,months:Number(event.target.value)});
     error(''); render();
@@ -194,7 +218,7 @@ if (form) {
   $('flow-next').addEventListener('click',() => showStep(Math.min(3,step+1)));
   $('flow-back').addEventListener('click',() => { error(''); showStep(Math.max(1,step-1)); });
   document.querySelectorAll('[data-step]').forEach(button => button.addEventListener('click',() => showStep(Number(button.dataset.step))));
-  $('order-whatsapp').addEventListener('click',event => { if (!validate(3)) event.preventDefault(); });
+  $('order-whatsapp').addEventListener('click',event => { if (!validate(3)||!validateCustomer()||!$('order-quantity').reportValidity()){event.preventDefault();event.stopPropagation();return;} render();track(radio('purchase')==='swap'?'swap_request_submitted':radio('payment')==='easy'?'financing_inquiry_submitted':'buy_outright_order_submitted',{product_id:selected()?.id}); });
   form.addEventListener('submit',event => { event.preventDefault(); if (step < 3) showStep(step+1); });
   render();
   if (legacyId || query.get('target')) showStep(2);

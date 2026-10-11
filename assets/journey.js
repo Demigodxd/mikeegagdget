@@ -1,3 +1,5 @@
+import {financeMessage} from '../commerce/order-messages.mjs';
+import {customerFields,customerData,bindCustomerFields,validateCustomer} from './customer-fields.mjs';
 import {choices as baseChoices,estimateSwap,financePlan,FINANCE_PLATFORMS,money} from '../commerce/upgrade-core.mjs';
 import {offerChoice} from '../commerce/offers.mjs';
 import {commerceSite} from '../commerce/catalog.mjs';
@@ -78,14 +80,14 @@ if(root){
  }
 
  const rows=entries=>`<dl class="journey-lines">${entries.map(([label,value])=>`<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>`;
- const device=(phone,showPrice=true)=>phone?`<div class="journey-device">${media(phone.image,phone.model)}<div><strong>${esc(phone.model)}</strong><span>${esc(phone.storage)}</span>${showPrice&&phone.price?`<b>${money(phone.price)}</b>`:''}</div></div>`:'';
+ const device=(phone,showPrice=true)=>phone?`<div class="journey-device">${media(phone.image,phone.model)}<div><strong>${esc(phone.model)}</strong><span>${esc(phone.storage.replace(/Non-Active/gi,'Not Activated'))}</span>${showPrice&&phone.price?`<b>${money(phone.price)}</b>`:''}</div></div>`:'';
 
  function resultButtons(models,selectedSlug=''){
   if(!models.length)return '<p class="model-no-results">No matching phones. Try a shorter name.</p>';
   return models.slice(0,12).map(phone=>`<button type="button" class="model-result" data-model-slug="${esc(phone.slug)}" role="option" aria-selected="${phone.slug===selectedSlug}" ${phone.slug===selectedSlug?'aria-current="true"':''}><span>${esc(phone.model)}</span>${phone.slug===selectedSlug?'<b aria-hidden="true">✓</b>':'<span aria-hidden="true">→</span>'}</button>`).join('');
  }
 
- const storageChips=(variants,key,isCurrent)=>variants.map(phone=>`<button type="button" class="storage-choice${phone.id===state[key]?' is-selected':''}" data-storage-choice="${esc(phone.id)}" aria-pressed="${phone.id===state[key]}"><strong>${esc(phone.storage)}</strong>${!isCurrent?`<span>${money(phone.price)}</span>`:''}</button>`).join('');
+ const storageChips=(variants,key,isCurrent)=>variants.map(phone=>`<button type="button" class="storage-choice${phone.id===state[key]?' is-selected':''}" data-storage-choice="${esc(phone.id)}" aria-pressed="${phone.id===state[key]}"><strong>${esc(phone.storage.replace(/Non-Active/gi,'Not Activated'))}</strong>${!isCurrent?`<span>${money(phone.price)}</span>`:''}</button>`).join('');
 
  function chooseUI(isCurrent){
   const list=isCurrent?eligibleCurrentPhones():available;
@@ -99,7 +101,7 @@ if(root){
   const sectionLabel=isCurrent?'YOUR CURRENT PHONE':mode==='swap'?'YOUR NEW PHONE':'CHOOSE YOUR PHONE';
   const heading=isCurrent?'What phone are you swapping?':mode==='swap'?'What do you want to upgrade to?':'Which phone do you want?';
   const helper=isCurrent?`<p class="journey-help">Instant estimates are available for supported iPhone models. <a href="https://wa.me/${commerceSite.whatsappNumber}?text=Hello%20Mikee%2C%20please%20value%20my%20Samsung%20or%20Pixel%20for%20a%20swap.">Samsung or Pixel? Ask for a valuation.</a></p>`:'';
-  const storageOptions=variants.map(phone=>`<option value="${esc(phone.id)}" ${phone.id===state[key]?'selected':''}>${esc(phone.storage)}${!isCurrent?` · ${money(phone.price)}`:''}</option>`).join('');
+  const storageOptions=variants.map(phone=>`<option value="${esc(phone.id)}" ${phone.id===state[key]?'selected':''}>${esc(phone.storage.replace(/Non-Active/gi,'Not Activated'))}${!isCurrent?` · ${money(phone.price)}`:''}</option>`).join('');
   const preview=chosen||chosenModel;
   return `<p class="journey-section-label">${sectionLabel}</p><h2>${heading}</h2>${helper}
    <div class="model-finder"><label for="journey-search">Find your model<input id="journey-search" type="search" placeholder="Search, e.g. 13 Pro Max" autocomplete="off" value="${esc(state.searches[key])}" aria-controls="journey-search-results" aria-expanded="false"></label><div id="journey-search-results" class="model-search-results" role="listbox" hidden></div></div>
@@ -153,7 +155,7 @@ if(root){
   const populateStorage=()=>{
    const variants=list.filter(phone=>phone.slug===state[modelKey]);
    storage.disabled=!variants.length;
-   storage.innerHTML='<option value="">Choose storage</option>'+variants.map(phone=>`<option value="${esc(phone.id)}" ${phone.id===state[key]?'selected':''}>${esc(phone.storage)}${isCurrent?'':` · ${money(phone.price)}`}</option>`).join('');
+   storage.innerHTML='<option value="">Choose storage</option>'+variants.map(phone=>`<option value="${esc(phone.id)}" ${phone.id===state[key]?'selected':''}>${esc(phone.storage.replace(/Non-Active/gi,'Not Activated'))}${isCurrent?'':` · ${money(phone.price)}`}</option>`).join('');
    chips.innerHTML=storageChips(variants,key,isCurrent);
   };
 
@@ -263,7 +265,7 @@ if(root){
    ['Phone price',money(phone.price)],
    ['Minimum deposit required',money(plan.minimumDeposit)],
    ['Down payment',money(plan.deposit)],
-   ['Balance financed',money(plan.balance)],
+   ['Remaining balance',money(plan.balance)],
    ['Monthly interest rate',`${plan.rate*100}%`],
    ['Processing fee (paid with deposit)',money(plan.processingFee)],
    ['Due upfront (deposit + fee)',money(plan.dueUpfront)],
@@ -272,36 +274,18 @@ if(root){
    ['Total interest / cost',money(plan.interest)],
    ['Total repayment',money(plan.totalPayable)]
   ];
-  return `<div class="plan-summary-heading"><div><p class="journey-section-label">MONTHLY REPAYMENT</p><h3 class="plan-monthly">${monthly}</h3></div><span>Estimate</span></div><p class="journey-help">Required down payment: ${money(plan.deposit)}. ${plan.rate*100}% monthly interest on the remaining balance.${plan.processingFee?` A ${money(plan.processingFee)} processing fee applies.`:''}</p><details><summary>View full payment breakdown</summary>${rows(entries)}</details><p class="journey-help">Final stock, eligibility, due dates and delivery are confirmed before payment.</p>`;
+  return `<div class="plan-summary-heading"><div><p class="journey-section-label">MONTHLY REPAYMENT</p><h3 class="plan-monthly">${monthly}</h3></div><span>Estimate</span></div><p class="journey-help">Required down payment: ${money(plan.deposit)}. ${plan.rate*100}% monthly interest on the remaining balance.${plan.processingFee?` A ${money(plan.processingFee)} processing fee applies.`:''}</p><p class="journey-help"><strong>Pay Today: ${money(plan.dueUpfront)} · Total Cost: ${money(plan.totalPayable)}</strong></p><details><summary>View full payment breakdown</summary>${rows(entries)}${rows(plan.payments.map((amount,index)=>[`Payment ${index+1} (Month ${index+1})`,money(amount)]))}</details><p class="journey-help">Final stock, eligibility, due dates and delivery are confirmed before payment.</p>`;
  }
 
  function easyPlanMessage(phone,plan){
-  const lines=[
-   'Hello Mikee Gadget Plug,',
-   'I want to use EasyBuy.',
-   `Phone: ${phone.label}`,
-   `Phone price: ${money(phone.price)}${phone.offerId?' (Hot Deal)':''}`,
-   `Preferred condition: ${condition()}`,
-   `Preferred colour: ${query.get('color')||'Please confirm'}`,
-   `Plan: ${FINANCE_PLATFORMS.standard.label}`,
-   `Deposit: ${money(plan.deposit)}`,
-   `Balance financed: ${money(plan.balance)}`,
-   `Interest: ${plan.rate*100}% monthly; ${money(plan.interest)} total`,
-   `Processing fee: ${money(plan.processingFee)} (paid upfront, not financed)`,
-   `Due upfront (deposit + fee): ${money(plan.dueUpfront)}`,
-   `Duration: ${state.duration} month(s)`,
-   `Payments: ${plan.payments.map(money).join(', ')}`,
-   `Total repayment including deposit and fee: ${money(plan.totalPayable)}`,
-   'Please confirm the exact unit, stock, due dates, fees and complete terms before payment.'
-  ];
-  return lines.join('\n');
+  return financeMessage({phone,plan,condition:condition(),colour:phone.color?.split('/').map(x=>x.trim()).includes(query.get('color'))?query.get('color'):phone.color||'To be confirmed',customer:customerData('finance-customer')});
  }
 
  function trackPlan(phone,plan){
   const signature=[phone.id,plan.deposit,state.duration,state.platform,plan.totalPayable].join('|');
   if(signature===lastTrackedPlan)return;
   lastTrackedPlan=signature;
-  track('easybuy_calculated',{product_id:phone.id,deposit:plan.deposit,months:state.duration,total:plan.totalPayable,platform:state.platform});
+  track('easybuy_calculated',{product_id:phone.id,platform:state.platform});
  }
 
  function updateEasyPlan({shouldTrack=false}={}){
@@ -336,26 +320,32 @@ if(root){
   let plans=[];
   try{plans=FINANCE_DURATIONS.map(duration=>planFor(duration));}catch{}
   const plan=plans[FINANCE_DURATIONS.indexOf(state.duration)];
-  return `<p class="journey-section-label">PAY SMALL SMALL</p><h2>See your monthly repayment</h2>${device(phone)}<p class="journey-help">Required down payment: <strong>${money(minimumDeposit(phone.price,phone))}</strong> (${Math.round(depositRateFor(phone)*100)}%). ${isAppleDevice(phone)?'The standard iPhone plan uses 20% monthly interest. A lower 7.5% plan requires a credit check and approval.':'Other gadgets use 7.5% monthly interest, with no more than ₦250,000 financed.'}</p><fieldset class="repayment-selector"><legend><strong>CHOOSE REPAYMENT PERIOD</strong><span>1, 2 or 3 months</span></legend><div class="repayment-options" id="repayment-options">${repaymentCards(plans)}</div></fieldset><section class="plan-summary" id="plan-summary" aria-live="polite">${plan?planSummary(phone,plan):''}</section>${isAppleDevice(phone)?`<p class="journey-help">Is the interest too high? <a href="${CREDIT_LIMIT_URL}" target="_blank" rel="noopener" data-check-eligibility="true">Check eligibility for 7.5% ↗</a></p>`:''}`;
+  return `<p class="journey-section-label">PAY SMALL SMALL</p><h2>See your monthly repayment</h2>${device(phone)}<p class="journey-help">Required down payment: <strong>${money(minimumDeposit(phone.price,phone))}</strong> (${Math.round(depositRateFor(phone)*100)}%). ${isAppleDevice(phone)?'The standard iPhone plan uses 20% monthly interest. A lower 7.5% plan requires a credit check and approval.':'Other gadgets use 7.5% monthly interest, with no more than ₦250,000 financed.'}</p><fieldset class="repayment-selector"><legend><strong>CHOOSE REPAYMENT PERIOD</strong><span>1, 2 or 3 months</span></legend><div class="repayment-options" id="repayment-options">${repaymentCards(plans)}</div></fieldset><section class="plan-summary" id="plan-summary" aria-live="polite">${plan?planSummary(phone,plan):''}</section>${customerFields('finance-customer')}${isAppleDevice(phone)?`<p class="journey-help">Is the interest too high? <a href="${CREDIT_LIMIT_URL}" target="_blank" rel="noopener" data-check-eligibility="true">Check eligibility for 7.5% ↗</a></p>`:''}`;
  }
 
  function bindEasyPlan(){
+  bindCustomerFields('finance-customer');
   const screen=$('journey-screen');
-  screen.addEventListener('change',event=>{
+  screen.oninput=()=>{const phone=selected();if(phone)$('journey-whatsapp').href=`https://wa.me/${commerceSite.whatsappNumber}?text=${encodeURIComponent(easyPlanMessage(phone,planFor()))}`;};
+  screen.onchange=event=>{
+   screen.oninput();
    if(event.target.id==='journey-condition'){state.condition=event.target.value;const url=new URL(location.href);url.searchParams.set('condition',state.condition);history.replaceState({},'',url);track('select_condition',{product_id:state.target,condition:state.condition});updateEasyPlan();}
    if(event.target.name==='duration'){
     state.duration=Number(event.target.value);
     track('repayment_duration_selected',{product_id:state.target,months:state.duration});
     updateEasyPlan({shouldTrack:true});
    }
-  });
-  $('journey-whatsapp').addEventListener('click',event=>{
+  };
+  $('journey-whatsapp').onclick=event=>{
+   if(!validateCustomer('finance-customer')){event.preventDefault();event.stopPropagation();return;}
+   $('journey-whatsapp').href=`https://wa.me/${commerceSite.whatsappNumber}?text=${encodeURIComponent(easyPlanMessage(selected(),planFor()))}`;
+   track('financing_inquiry_submitted',{product_id:state.target});
    if(event.currentTarget.getAttribute('aria-disabled')==='true'){
     event.preventDefault();
     return;
    }
    try{trackPlan(selected(),planFor());}catch{}
-  });
+  };
   updateEasyPlan();
   track('standard_plan_selected',{product_id:state.target,rate:planFor().rate});
  }

@@ -37,3 +37,15 @@ body[data-product-slug^="google-pixel"] .product-hero-copy .purchase-actions .co
 .selector-pills button:not(.is-active) .storage-price{color:#e5e8db!important}
 .selector-pills button.is-active .storage-price{color:#15321e!important}
 @media(max-width:760px){body[data-page-type="product"]{padding-bottom:calc(110px + env(safe-area-inset-bottom))}}
+
+.customer-fields{border:0;padding:0;margin:1.5rem 0;min-width:0}.customer-fields legend{font-weight:700;margin-bottom:1rem}.customer-fields label{display:block;margin-bottom:1rem}.customer-fields input,.customer-fields select,.customer-fields textarea{display:block;box-sizing:border-box;width:100%;max-width:100%;font:inherit;padding:.85rem;border:1px solid #ccc;border-radius:12px;background:#fff;color:#141414}.customer-fields textarea{min-height:90px}.customer-fields [hidden]{display:none}
+
+/* Keep the existing light checkout cards readable inside the dark shell. */
+body[data-page="buy"] .flow-main,body[data-page="buy"] .order-summary{--ink:#183d32;--muted:#526157;--line:#d5ddd4;color:#183d32;color-scheme:light}
+body[data-page="buy"] .flow-main .button.secondary{color:#183d32}
+body[data-page="buy"] .flow-main .eyebrow,body[data-page="buy"] .order-summary .eyebrow{color:#765919}
+body[data-page="buy"] .summary-live{background:#e2eddf;color:#254b32}
+body[data-page] .customer-fields{border:0;padding:0;margin:24px 0}
+body[data-page] .customer-fields input,body[data-page] .customer-fields select,body[data-page] .customer-fields textarea{background:#172115;color:#f4f3ee;border:1px solid #687b5e}
+body[data-page="buy"] .flow-main input,body[data-page="buy"] .flow-main select,body[data-page="buy"] .flow-main textarea{background:#fff;color:#183d32;border-color:#87978b}
+.customer-fields textarea:focus-visible{outline:2px solid #b58c34;outline-offset:3px}

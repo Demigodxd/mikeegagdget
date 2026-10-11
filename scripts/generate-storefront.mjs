@@ -4,6 +4,7 @@ import {card,media,escape,priceText} from '../assets/storefront-ui.mjs';
 import {commerceSite as site} from '../commerce/catalog.mjs';
 import {featuredDeals} from '../commerce/offers.mjs';
 let html=await readFile('templates/home.html.template','utf8');
+html=html.replace('{{COLOUR_OPTIONS}}',[...new Set(storeItems.flatMap(item=>item.variants.flatMap(v=>v.color?.split('/').map(c=>c.trim())||[])))].sort().map(c=>`<option>${escape(c)}</option>`).join(''));
 const trust=html.match(/<div class="trust-loop">([\s\S]*?)<\/div>/)?.[1]||'';
 html=html.replace('{{TRUST_DUPLICATE}}','<div class="trust-loop" aria-hidden="true">'+trust+'</div>');
 const categoryHtml=categories.map(c=>`<a class="category-tile" href="${c.route}" data-category="${c.id}">${media(c.image,c.name)}<strong>${c.name}</strong><span aria-hidden="true">Shop ↗</span></a>`).join('');

@@ -34,7 +34,7 @@ const whatsappHref = (message) =>
   `https://wa.me/${commerceSite.whatsappNumber}?text=${encodeURIComponent(message)}`;
 
 const communityHref = commerceSite.communityUrl || whatsappHref(
-  "Hello Mikee Gadget Plug, I want to join your WhatsApp Gadget Community for new arrivals, price drops, swap deals, Easy Buy offers and limited-stock alerts. Please send me the group link."
+  "Hello Lisa Electronics, I want to join your WhatsApp Gadget Community for new arrivals, price drops, swap deals, Easy Buy offers and limited-stock alerts. Please send me the group link."
 );
 
 const productMessage = (product, storage = product.defaultStorage, intent = "buy") => {
@@ -54,10 +54,10 @@ const productFaqs = (product) => {
     ? `Do you sell UK-used ${product.model}?`
     : `What condition is the ${product.model} available in?`;
   const conditionAnswer = product.brand === "Apple"
-    ? `Mikee Gadget Plug lists UK-used and brand-new iPhone enquiries. Ask which ${product.model} units are available today and request the exact condition before payment.`
+    ? `Lisa Electronics lists UK-used and brand-new iPhone enquiries. Ask which ${product.model} units are available today and request the exact condition before payment.`
     : product.brand === "Google"
-      ? `This listing is for ${product.conditions[0]}. Ask Mikee Gadget Plug to confirm the exact unit, its condition and current stock before payment.`
-      : `Condition depends on the current device available. Ask Mikee Gadget Plug whether the exact ${product.model} offered is new or used and request inspection details.`;
+      ? `This listing is for ${product.conditions[0]}. Ask Lisa Electronics to confirm the exact unit, its condition and current stock before payment.`
+      : `Condition depends on the current device available. Ask Lisa Electronics whether the exact ${product.model} offered is new or used and request inspection details.`;
 
   return [
     {
@@ -70,7 +70,7 @@ const productFaqs = (product) => {
     },
     {
       question: `Can I buy ${product.model} and pay in installments?`,
-      answer: `Ask Mikee Gadget Plug to confirm Easy Buy eligibility for the exact device. The calculator is an estimate only; approval, deposit, due dates and complete terms are confirmed before commitment.`
+      answer: `Ask Lisa Electronics to confirm Easy Buy eligibility for the exact device. The calculator is an estimate only; approval, deposit, due dates and complete terms are confirmed before commitment.`
     },
     {
       question: conditionQuestion,
@@ -78,7 +78,7 @@ const productFaqs = (product) => {
     },
     {
       question: `Can I swap my old phone for ${product.model}?`,
-      answer: `You can request a valuation on WhatsApp. Mikee Gadget Plug must inspect or review your current phone before confirming a swap value or balance.`
+      answer: `You can request a valuation on WhatsApp. Lisa Electronics must inspect or review your current phone before confirming a swap value or balance.`
     },
     {
       question: "Do you deliver outside Lagos?",
@@ -158,9 +158,9 @@ const renderHeader = () => `
   </aside>
   <header class="commerce-header">
     <nav class="commerce-nav" aria-label="Main navigation">
-      <a class="commerce-brand" href="/" aria-label="Mikee Gadget Plug home">
+      <a class="commerce-brand" href="/" aria-label="Lisa Electronics home">
         <span class="commerce-brand-mark" aria-hidden="true">M</span>
-        <span><strong>MIKEE</strong><small>Gadget Plug</small></span>
+        <span><strong>LISA</strong><small>Electronics</small></span>
       </a>
       <button class="commerce-menu-button" type="button" aria-expanded="false" aria-controls="commerce-menu" aria-label="Open navigation">
         <span></span><span></span>
@@ -178,7 +178,7 @@ const renderHeader = () => `
         <button class="commerce-search-trigger" type="button" data-search-open aria-label="Search phones">
           <span aria-hidden="true">⌕</span> Search
         </button>
-        <a class="commerce-nav-whatsapp" href="${whatsappHref("Hello Mikee Gadget Plug, I want to buy a phone. Please help me find the right model.")}" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="commerce-nav-whatsapp" href="${whatsappHref("Hello Lisa Electronics, I want to buy a phone. Please help me find the right model.")}" target="_blank" rel="noopener">WhatsApp</a>
       </div>
     </nav>
   </header>
@@ -291,7 +291,7 @@ const renderDetails = (product) => `
       <p class="commerce-eyebrow">Device details</p>
       <h2>Know what you’re choosing</h2>
       <p>We’ll confirm the colour, condition and SIM options for your exact device.</p>
-      ${product.specificationsPending ? '<p>Ask Mikee for the specifications of the exact unit before ordering.</p>' : `<div class="spec-grid">
+      ${product.specificationsPending ? '<p>Ask Lisa Electronics for the specifications of the exact unit before ordering.</p>' : `<div class="spec-grid">
         ${product.ram ? `<article><span>RAM</span><strong>${escapeHtml(product.ram)}</strong></article>` : ''}
         <article><span>Display</span><strong>${escapeHtml(product.specifications.display)}</strong></article>
         <article><span>Camera</span><strong>${escapeHtml(product.specifications.camera)}</strong></article>
@@ -305,7 +305,7 @@ const renderDetails = (product) => `
       <p class="commerce-eyebrow">Condition guide</p>
       ${product.conditions.includes('UK Used') ? '<article><span>01</span><div><h3>UK Used</h3><p>Request photos, battery information and the condition of the exact device before payment.</p></div></article>' : ''}
       ${product.conditions.includes('Brand New') ? '<article><span>02</span><div><h3>Brand New</h3><p>Ask what comes with the exact unit and confirm availability.</p></div></article>' : ''}
-      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition to confirm</h3><p>Ask Mikee for the exact unit details before payment.</p></div></article>' : ''}
+      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition to confirm</h3><p>Ask Lisa Electronics for the exact unit details before payment.</p></div></article>' : ''}
     </aside>
   </section>`;
 
@@ -373,15 +373,15 @@ const renderFooter = () => `
     <div class="footer-intro">
       <a class="commerce-brand commerce-brand-footer" href="/">
         <span class="commerce-brand-mark" aria-hidden="true">M</span>
-        <span><strong>MIKEE</strong><small>Gadget Plug</small></span>
+        <span><strong>LISA</strong><small>Electronics</small></span>
       </a>
       <p>Original devices. Better deals.<br>Your gadget plug in Computer Village, Ikeja.</p>
-      <a class="commerce-button commerce-button-light" href="${whatsappHref("Hello Mikee Gadget Plug, I need help choosing a phone.")}" target="_blank" rel="noopener">Ask Mikee Gadget Plug on WhatsApp</a>
+      <a class="commerce-button commerce-button-light" href="${whatsappHref("Hello Lisa Electronics, I need help choosing a phone.")}" target="_blank" rel="noopener">Ask Lisa Electronics on WhatsApp</a>
     </div>
     <div><strong>Shop phones</strong><a href="/iphones">All iPhones</a><a href="/samsung-phones">Samsung phones</a><a href="/google-pixel-phones">Google Pixel</a><a href="/uk-used-iphones">UK-used iPhones</a></div>
     <div><strong>Ways to buy</strong><a href="/easy-buy/">Easy Buy calculator</a><a href="/phones-on-installment">Phones on installment</a><a href="/phone-swap">Swap your phone</a><a href="${escapeHtml(communityHref)}" target="_blank" rel="noopener">WhatsApp community</a></div>
     <address><strong>Visit or call</strong><span>${escapeHtml(commerceSite.address)}</span><a href="tel:${commerceSite.telephoneHref}">${commerceSite.telephoneDisplay}</a><a href="${commerceSite.directionsUrl}" target="_blank" rel="noopener">Get directions</a></address>
-    <p class="footer-legal">© 2026 Mikee Gadget Plug. Prices, stock, warranty and Easy Buy terms must be confirmed before payment.</p>
+    <p class="footer-legal">© 2026 Lisa Electronics. Prices, stock, warranty and Easy Buy terms must be confirmed before payment.</p>
   </footer>`;
 
 const renderProductPage = (product) => {
@@ -513,7 +513,7 @@ const renderContentOnly = (category) => {
 
   return `<div class="content-only-grid">
     <article><span>01</span><h2>Tell us what you need</h2><p>Share your preferred brand, processor, RAM, storage, screen size, condition and budget.</p></article>
-    <article><span>02</span><h2>Get current options</h2><p>Mikee Gadget Plug will send the laptops currently available with their exact specifications and prices.</p></article>
+    <article><span>02</span><h2>Get current options</h2><p>Lisa Electronics will send the laptops currently available with their exact specifications and prices.</p></article>
     <article><span>03</span><h2>Confirm before payment</h2><p>Ask for photos, condition, battery information where relevant, warranty terms and delivery arrangements.</p></article>
   </div>`;
 };
@@ -523,12 +523,12 @@ const renderCategoryPage = (category) => {
   const canonical = `${commerceSite.baseUrl}${category.route}`;
   const breadcrumbs = [{ name: "Home", href: "/" }, { name: category.h1, href: category.route }];
   const categoryMessage = category.contentOnly === "laptops"
-    ? "Hello Mikee Gadget Plug, please send me the laptops currently available, including specifications, condition and prices."
+    ? "Hello Lisa Electronics, please send me the laptops currently available, including specifications, condition and prices."
     : category.contentOnly === "accessories"
-      ? "Hello Mikee Gadget Plug, please send me the gadget accessories currently available and their prices."
+      ? "Hello Lisa Electronics, please send me the gadget accessories currently available and their prices."
       : category.swap
-        ? "Hello Mikee Gadget Plug, I want to swap my current phone. Please explain how to get a valuation and send eligible upgrade options."
-        : `Hello Mikee Gadget Plug, I’m browsing ${category.h1}. Please send current models, prices, condition and payment options.`;
+        ? "Hello Lisa Electronics, I want to swap my current phone. Please explain how to get a valuation and send eligible upgrade options."
+        : `Hello Lisa Electronics, I’m browsing ${category.h1}. Please send current models, prices, condition and payment options.`;
 
   return `<!doctype html>
 <html lang="en-NG">
@@ -564,7 +564,7 @@ const renderCategoryPage = (category) => {
         <h1>${escapeHtml(category.h1)}</h1>
         <p>${escapeHtml(category.description)}</p>
         <div class="category-actions">
-          <a class="commerce-button commerce-button-primary" href="${whatsappHref(categoryMessage)}" target="_blank" rel="noopener">Ask Mikee Gadget Plug on WhatsApp</a>
+          <a class="commerce-button commerce-button-primary" href="${whatsappHref(categoryMessage)}" target="_blank" rel="noopener">Ask Lisa Electronics on WhatsApp</a>
           ${category.easyBuy ? `<a class="commerce-button commerce-button-dark" href="/easy-buy/#calculator">Open Easy Buy Calculator</a>` : ""}
         </div>
       </div>
@@ -579,7 +579,7 @@ const renderCategoryPage = (category) => {
         ${renderContentOnly(category)}
         <div class="content-only-cta">
           <h2>Get the current list on WhatsApp</h2>
-          <p>Mikee Gadget Plug will confirm the exact products, specifications, condition, price and pickup or delivery arrangement.</p>
+          <p>Lisa Electronics will confirm the exact products, specifications, condition, price and pickup or delivery arrangement.</p>
           <a class="commerce-button commerce-button-dark" href="${whatsappHref(categoryMessage)}" target="_blank" rel="noopener">Request Current Options</a>
         </div>
       </section>` : `
@@ -602,7 +602,7 @@ const renderCategoryPage = (category) => {
       <a href="/phone-swap"><span>Upgrade</span><strong>Swap your phone</strong></a>
     </section>
     <section class="commerce-section community-banner">
-      <div><p class="commerce-eyebrow">Not ready to buy?</p><h2>Join the Mikee Gadget Plug gadget deals community</h2><p>Get arrival alerts, price drops, UK-used deals, swap updates, Easy Buy offers and accessory deals.</p></div>
+      <div><p class="commerce-eyebrow">Not ready to buy?</p><h2>Join the Lisa Electronics gadget deals community</h2><p>Get arrival alerts, price drops, UK-used deals, swap updates, Easy Buy offers and accessory deals.</p></div>
       <a class="commerce-button commerce-button-light" href="${escapeHtml(communityHref)}" target="_blank" rel="noopener">${commerceSite.communityUrl ? "Join the WhatsApp Group" : "Request the Group Link"}</a>
     </section>
   </main>
@@ -662,7 +662,7 @@ const searchIndex = [
     type: "category",
     label: category.h1,
     route: category.route,
-    brand: category.brand || "Mikee Gadget Plug",
+    brand: category.brand || "Lisa Electronics",
     storage: [],
     price: null,
     image: null,

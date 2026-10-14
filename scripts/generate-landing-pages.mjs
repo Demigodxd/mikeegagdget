@@ -74,7 +74,7 @@ const localBusinessSchema = {
   telephone: site.telephoneHref,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "1 Ola Ayeni Street, Off Simbiat Abiola Way",
+    streetAddress: "No. 10 Pepple Street",
     addressLocality: "Ikeja",
     addressRegion: "Lagos",
     addressCountry: "NG"
@@ -91,7 +91,7 @@ const renderHeader = (page) => `
   <header class="intent-header">
     <nav class="intent-nav" aria-label="Main navigation">
       <a class="intent-brand" href="/" aria-label="Lisa Electronics home">
-        <span class="intent-brand-mark" aria-hidden="true"></span>
+        <img src="/images/lisa-logo.jpeg" alt="Lisa Electronics" width="56" height="56" style="width:56px;height:56px;object-fit:contain;border-radius:50%;flex-shrink:0">
         <span><strong>LISA</strong><small>Electronics</small></span>
       </a>
       <button class="intent-menu-button" type="button" aria-expanded="false" aria-controls="intent-menu">
@@ -249,7 +249,7 @@ const renderFooter = (page) => `
   <footer class="intent-footer">
     <div>
       <a class="intent-brand intent-brand-footer" href="/">
-        <span class="intent-brand-mark" aria-hidden="true"></span>
+        <img src="/images/lisa-logo.jpeg" alt="Lisa Electronics" width="56" height="56" style="width:56px;height:56px;object-fit:contain;border-radius:50%;flex-shrink:0">
         <span><strong>LISA</strong><small>Electronics</small></span>
       </a>
       <p>Phone and device enquiries from a physical store in Ikeja, Lagos.</p>

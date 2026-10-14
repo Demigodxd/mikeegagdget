@@ -169,7 +169,7 @@ test('General chat and mobile Chat keep the message clean while tracking attribu
  dom.window.eval(await readFile('assets/sales.js','utf8'));
  const general=[...document.querySelectorAll('a[href*="wa.me/"]')].find(a=>a.textContent.trim()==='Chat on WhatsApp');
  assert.ok(general);general.addEventListener('click',event=>event.preventDefault(),{once:true});general.click();
- assert.equal(new URL(general.href).searchParams.get('text'),'Hello Mikee Gadget Plug, I need help choosing a device.');
+ assert.equal(new URL(general.href).searchParams.get('text'),'Hello Lisa Electronics, I need help choosing a device.');
  const mobile=document.querySelector('.mobile-bottom-nav a:last-child');assert.ok(mobile);mobile.addEventListener('click',event=>event.preventDefault(),{once:true});mobile.click();
  assert.doesNotMatch(new URL(mobile.href).searchParams.get('text'),attributionInMessage);
  assert.equal(JSON.parse(sessionStorage.getItem('mikee-gadget-plug_ad_attribution')).ttclid,'qa-test');

@@ -159,7 +159,7 @@ const renderHeader = () => `
   <header class="commerce-header">
     <nav class="commerce-nav" aria-label="Main navigation">
       <a class="commerce-brand" href="/" aria-label="Lisa Electronics home">
-        <span class="commerce-brand-mark" aria-hidden="true">M</span>
+        <img src="/images/lisa-logo.jpeg" alt="Lisa Electronics" width="56" height="56" style="width:56px;height:56px;object-fit:contain;border-radius:50%;flex-shrink:0">
         <span><strong>LISA</strong><small>Electronics</small></span>
       </a>
       <button class="commerce-menu-button" type="button" aria-expanded="false" aria-controls="commerce-menu" aria-label="Open navigation">
@@ -372,7 +372,7 @@ const renderFooter = () => `
   <footer class="commerce-footer">
     <div class="footer-intro">
       <a class="commerce-brand commerce-brand-footer" href="/">
-        <span class="commerce-brand-mark" aria-hidden="true">M</span>
+        <img src="/images/lisa-logo.jpeg" alt="Lisa Electronics" width="56" height="56" style="width:56px;height:56px;object-fit:contain;border-radius:50%;flex-shrink:0">
         <span><strong>LISA</strong><small>Electronics</small></span>
       </a>
       <p>Original devices. Better deals.<br>Your gadget plug in Computer Village, Ikeja.</p>
@@ -420,7 +420,7 @@ const renderProductPage = (product) => {
   <meta property="og:image" content="${commerceSite.baseUrl}${firstImage}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#f7f8fb">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/images/lisa-logo.jpeg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -546,7 +546,7 @@ const renderCategoryPage = (category) => {
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="${commerceSite.baseUrl}/images/shop.jpeg">
   <meta name="theme-color" content="#f7f8fb">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/images/lisa-logo.jpeg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">

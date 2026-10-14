@@ -1,6 +1,6 @@
 import { allowedFrequencies, calculatePlan, depositRateFor } from "./easy-buy-core.mjs";
 
-const whatsappNumber = "2347086865133";
+const whatsappNumber = "2347089254544";
 
 const easyBuyPhones = [
   { id: "iphone-11-64", model: "iPhone 11", storage: "64GB", price: 230000, series: 11, image: "../images/11-1.jpeg" },

@@ -50,7 +50,7 @@ const phoneItems = products.map(p=>{
 });
 const whatsappFor = item => {
  const variantSummary=item.variants.map(v=>v.storage).join(', ');
- const message=`Hello Mikee Gadget Plug, I’m interested in ${item.model} (${item.condition}). Please confirm current price, availability, variant ${variantSummary}, warranty and delivery options.`;
+ const message=`Hello Lisa Electronics, I’m interested in ${item.model} (${item.condition}). Please confirm current price, availability, variant ${variantSummary}, warranty and delivery options.`;
  return `https://wa.me/${commerceSite.whatsappNumber}?text=${encodeURIComponent(message)}`;
 };
 const otherItems = retailInventory.filter(item=>!item.isPhone).map(item=>({

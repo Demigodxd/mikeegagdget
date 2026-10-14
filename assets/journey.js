@@ -100,7 +100,7 @@ if(root){
   const variants=list.filter(phone=>phone.slug===slug);
   const sectionLabel=isCurrent?'YOUR CURRENT PHONE':mode==='swap'?'YOUR NEW PHONE':'CHOOSE YOUR PHONE';
   const heading=isCurrent?'What phone are you swapping?':mode==='swap'?'What do you want to upgrade to?':'Which phone do you want?';
-  const helper=isCurrent?`<p class="journey-help">Instant estimates are available for supported iPhone models. <a href="https://wa.me/${commerceSite.whatsappNumber}?text=Hello%20Mikee%2C%20please%20value%20my%20Samsung%20or%20Pixel%20for%20a%20swap.">Samsung or Pixel? Ask for a valuation.</a></p>`:'';
+  const helper=isCurrent?`<p class="journey-help">Instant estimates are available for supported iPhone models. <a href="https://wa.me/${commerceSite.whatsappNumber}?text=Hello%20Lisa%20Electronics%2C%20please%20value%20my%20Samsung%20or%20Pixel%20for%20a%20swap.">Samsung or Pixel? Ask for a valuation.</a></p>`:'';
   const storageOptions=variants.map(phone=>`<option value="${esc(phone.id)}" ${phone.id===state[key]?'selected':''}>${esc(phone.storage.replace(/Non-Active/gi,'Not Activated'))}${!isCurrent?` · ${money(phone.price)}`:''}</option>`).join('');
   const preview=chosen||chosenModel;
   return `<p class="journey-section-label">${sectionLabel}</p><h2>${heading}</h2>${helper}
@@ -411,7 +411,7 @@ if(root){
    html=`<p class="journey-section-label">YOUR NEW PHONE</p><h2>Your next upgrade.</h2>${device(phone)}`;
    const result=quote();
    const message=[
-    'Hello Mikee Gadget Plug,',
+    'Hello Lisa Electronics,',
     'I want to swap my phone.',
     `New phone: ${phone.label}`,
     `New phone price: ${money(phone.price)}${phone.offerId?' (Hot Deal)':''}`,

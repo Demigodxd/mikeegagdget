@@ -7,7 +7,7 @@ export const site = {
   telephoneDisplay: "0708 925 4544",
   address: "No. 10 Pepple Street, Ikeja, Computer Village, Lagos, Nigeria",
   delivery: "Delivery is available in Lagos and across Nigeria. Confirm the delivery fee and timing before payment.",
-  directionsUrl: "https://www.google.com/maps/search/?api=1&query=10%20Pepple%20Street%2C%20Computer%20Village%2C%20Ikeja%2C%20Lagos"
+  directionsUrl: "https://share.google/F3PBLPkRmLXqiUX0U"
 };
 
 const iphoneConditions = [

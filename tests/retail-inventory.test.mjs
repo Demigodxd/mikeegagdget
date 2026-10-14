@@ -79,7 +79,7 @@ test('verified local images are the only images attached to the new catalog',()=
 });
 
 test('generic store cards use only the available shop image sizes',()=>{
- const html=media('/images/store/mikee-shop-720.webp','Mikee Gadget Plug shop');
+ const html=media('/images/store/mikee-shop-720.webp','Lisa Electronics shop');
  assert.match(html,/src="\/images\/store\/mikee-shop-720\.webp"/);
  assert.match(html,/mikee-shop-720\.webp 720w, \/images\/store\/mikee-shop-1280\.webp 1280w/);
  assert.doesNotMatch(html,/mikee-shop-360\.webp/);

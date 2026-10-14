@@ -25,7 +25,7 @@ const htmlFiles = [];
 async function collectHtml(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   for (const entry of entries) {
-    if (entry.name === ".git" || entry.name === "node_modules") continue;
+    if (entry.name === ".git" || entry.name === "node_modules" || entry.name === "dist") continue;
     const fullPath = join(directory, entry.name);
     if (entry.isDirectory()) {
       await collectHtml(fullPath);

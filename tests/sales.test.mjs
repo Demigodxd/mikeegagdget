@@ -49,9 +49,9 @@ test('Easy Buy and Swap continue to use final listed target prices',()=>{
 });
 test('homepage keeps its buying and enquiry routes without applying stale discounts',async()=>{
  const html=await readFile('index.html','utf8');
- assert.ok(html.indexOf('hot-deals')<html.indexOf('id="categories"'));
+ assert.ok(html.indexOf('id="categories"')<html.indexOf('hot-deals'));
  assert.ok(html.includes('data-model="iphone-18-pro-max"'));
- assert.match(html,/Contact Mikee to ask about current offers/);
+ assert.match(html,/Contact Lisa Electronics to ask about current offers/);
  for(const route of ['easybuy','swap','deals','iphone-14-pro-max','iphone-13','pixel-11','samsung-s23']){
   const page=await readFile(`${route}/index.html`,'utf8');
   assert.ok(page.includes('<h1>'),route);

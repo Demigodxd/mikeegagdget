@@ -1,0 +1,21 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {JSDOM} from 'jsdom';
+import {matchesDevice,sortDevices} from '../assets/discovery-core.mjs';
+const phone={slug:'iphone-12-pro-max',model:'iPhone 12 Pro Max',brand:'Apple',category:'iphones',variants:[{storage:'256GB',price:500000}],conditions:['UK Used'],route:'/iphone-12-pro-max'};
+test('search accepts joined names, punctuation and spaced storage',()=>{for(const q of ['iphone12promax','iPhone 12 Pro Max','iphone-12 pro max','256 GB'])assert.equal(matchesDevice(phone,q),true);assert.equal(matchesDevice(phone,'Samsung'),false);});
+test('price sorting leaves unknown prices last in either direction without mutating input',()=>{const cheap={...phone,slug:'cheap',variants:[{price:200000}]},unknown={...phone,slug:'unknown',variants:[{price:null}]};const original=[unknown,phone,cheap];assert.deepEqual(sortDevices(original,'price-asc').map(p=>p.slug),['cheap',phone.slug,'unknown']);assert.deepEqual(sortDevices(original,'price-desc').map(p=>p.slug),[phone.slug,'cheap','unknown']);assert.equal(original[0],unknown);});
+test('storefront filtering, comparison and reset work together',async()=>{
+ const dom=new JSDOM(await readFile('index.html','utf8'),{url:'https://example.test/?q=iphone12promax'});
+ const catalog=[phone,{...phone,slug:'iphone-13',model:'iPhone 13',variants:[{storage:'128GB',price:400000}]}];
+ for(const key of ['window','document','location','history'])globalThis[key]=dom.window[key];
+ globalThis.matchMedia=()=>({matches:true});globalThis.fetch=async()=>({ok:true,json:async()=>catalog});
+ await import('../assets/storefront.js');await new Promise(r=>setTimeout(r,30));
+ const d=dom.window.document;assert.equal(d.querySelectorAll('#productGrid article').length,1);
+ d.querySelector('#productGrid [data-compare]').click();await new Promise(r=>setTimeout(r,20));
+ assert.equal(d.getElementById('compareSection').hidden,false);assert.match(d.getElementById('compareTable').textContent,/iPhone 12 Pro Max/);
+ d.getElementById('clearComparison').click();assert.equal(d.getElementById('compareSection').hidden,true);
+ d.getElementById('catalogFilters').reset();await new Promise(r=>setTimeout(r,30));assert.equal(d.querySelectorAll('#productGrid article').length,2);dom.window.close();
+});
+test('deployment includes runtime modules but excludes project internals',async()=>{const {access}=await import('node:fs/promises');for(const path of ['index.html','assets/discovery-core.mjs','commerce/catalog.mjs','easy-buy/easy-buy-core.mjs','shop/laptops/index.html'])await access(`dist/${path}`);await assert.rejects(access('dist/package.json'));await assert.rejects(access('dist/.git'));});

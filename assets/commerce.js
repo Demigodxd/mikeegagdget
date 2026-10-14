@@ -302,9 +302,9 @@ if (productDataElement) {
     if (productPrice) productPrice.textContent = variant.price ? naira.format(variant.price) : "Confirm Price";
     if (priceNote) {
       priceNote.textContent = variant.availability?.includes('out of stock')
-        ? "This source variant was out of stock when checked. Ask Mikee Gadget Plug to confirm availability and today's price."
+        ? "This source variant was out of stock when checked. Ask Lisa Electronics to confirm availability and today's price."
         : variant.priceNeedsExtraConfirmation
-        ? "This supplied guide price needs extra confirmation. Ask Mikee Gadget Plug for today’s exact price before planning."
+        ? "This supplied guide price needs extra confirmation. Ask Lisa Electronics for today’s exact price before planning."
         : variant.price
           ? (variant.offerId ? `Hot Deal · regular price ${naira.format(variant.regularPrice)}. Confirm the exact unit before payment.` : "Confirm today’s price, condition and stock before payment.")
           : "No price was supplied for this variant. Request today’s exact price before payment.";

@@ -3204,7 +3204,7 @@ export const retailPhoneProducts = Object.freeze(retailInventory.filter(item => 
     security: "Confirm supported security features",
     sim: "Confirm SIM options for the exact unit"
   },
-  description: `Choose a listed ${item.condition.toLowerCase()} ${item.model} variant, then confirm exact stock, colour, warranty and delivery with Mikee Gadget Plug.`,
-  seoTitle: `Buy ${item.model} ${item.condition} in Nigeria | Mikee Gadget Plug`,
-  metaDescription: `View ${item.condition.toLowerCase()} ${item.model} storage and colour options at Mikee Gadget Plug. Confirm stock, warranty, Easy Buy, swap and delivery details before payment.`
+  description: `Choose a listed ${item.condition.toLowerCase()} ${item.model} variant, then confirm exact stock, colour, warranty and delivery with Lisa Electronics.`,
+  seoTitle: `Buy ${item.model} ${item.condition} in Nigeria | Lisa Electronics`,
+  metaDescription: `View ${item.condition.toLowerCase()} ${item.model} storage and colour options at Lisa Electronics. Confirm stock, warranty, Easy Buy, swap and delivery details before payment.`
 })));

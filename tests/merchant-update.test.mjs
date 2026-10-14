@@ -13,7 +13,7 @@ test('the supplied shop image replaces the illustration with responsive lightwei
  assert.match(html,/loading="lazy" decoding="async" alt="Lisa Electronics shop image supplied by the store"/);
  assert.doesNotMatch(html,/shop-illustration|Illustrative gadget shop/);
  for(const width of [720,1280])assert.ok((await stat(`images/store/mikee-shop-${width}.webp`)).size<1_000_000);
- assert.match(html,/1 Ola Ayeni Street/);
+ assert.match(html,/No. 10 Pepple Street/);
  assert.match(html,/Computer Village, Ikeja/);
  assert.doesNotMatch(html,/shop-concept|Store concept illustration/);
 });

@@ -5,9 +5,9 @@ export const site = {
   whatsappNumber: "2347089254544",
   telephoneHref: "+2347089254544",
   telephoneDisplay: "0708 925 4544",
-  address: "1 Ola Ayeni Street, Off Simbiat Abiola Way, Ikeja, Computer Village, Lagos, Nigeria",
+  address: "No. 10 Pepple Street, Ikeja, Computer Village, Lagos, Nigeria",
   delivery: "Delivery is available in Lagos and across Nigeria. Confirm the delivery fee and timing before payment.",
-  directionsUrl: "https://www.google.com/maps/search/?api=1&query=1%20Ola%20Ayeni%20Street%2C%20Off%20Simbiat%20Abiola%20Way%2C%20Ikeja%2C%20Computer%20Village%2C%20Lagos%2C%20Nigeria"
+  directionsUrl: "https://www.google.com/maps/search/?api=1&query=10%20Pepple%20Street%2C%20Computer%20Village%2C%20Ikeja%2C%20Lagos"
 };
 
 const iphoneConditions = [
@@ -36,7 +36,7 @@ const priceAvailabilityFaq = (model) => [
   },
   {
     question: `Can I inspect the ${model} before buying?`,
-    answer: `You can request store pickup at 1 Ola Ayeni Street in Ikeja and inspect the exact device offered before payment.`
+    answer: `You can request store pickup at No. 10 Pepple Street in Ikeja and inspect the exact device offered before payment.`
   },
   {
     question: `Can Lisa Electronics deliver outside Lagos?`,
@@ -67,7 +67,7 @@ const seriesFaq = (series) => [
   },
   {
     question: `Can I collect my phone in Ikeja?`,
-    answer: `Yes. Ask Lisa Electronics to reserve the confirmed device for pickup at 1 Ola Ayeni Street, off Simbiat Abiola Way, Ikeja.`
+    answer: `Yes. Ask Lisa Electronics to reserve the confirmed device for pickup at No. 10 Pepple Street, Ikeja.`
   }
 ];
 
@@ -269,7 +269,7 @@ export const landingPages = [
     faqs: [
       { question: "Which UK-used iPhones does Lisa Electronics list?", answer: "The existing catalogue covers iPhone 11 through iPhone 17 series. Ask which exact models and conditions are available today." },
       { question: "Will I see the battery health before buying?", answer: "Ask for the battery-health reading for the exact device offered and confirm it before payment." },
-      { question: "Can I inspect a used iPhone in person?", answer: "Yes. Arrange pickup at 1 Ola Ayeni Street in Ikeja and inspect the exact phone offered." },
+      { question: "Can I inspect a used iPhone in person?", answer: "Yes. Arrange pickup at No. 10 Pepple Street in Ikeja and inspect the exact phone offered." },
       { question: "Are used iPhone prices fixed?", answer: "Prices can vary by model, storage and condition. Use WhatsApp to request today’s price." },
       { question: "Can a used iPhone be delivered outside Lagos?", answer: "Delivery is available in Lagos and across Nigeria. Confirm the fee, timing and inspection arrangement first." }
     ],
@@ -289,7 +289,7 @@ export const landingPages = [
     secondaryCta: { label: "Get store directions", href: "#store" },
     whatsappMessage: "Hello, I’m looking for an iPhone shop in Ikeja. Please send today’s available iPhone models, prices, storage options and store pickup details.",
     seoTitle: "iPhone Shop in Ikeja, Lagos | Lisa Electronics",
-    metaDescription: "Visit Lisa Electronics, an iPhone shop at 1 Ola Ayeni Street, Ikeja. Ask about current models, prices, inspection, pickup and delivery.",
+    metaDescription: "Visit Lisa Electronics, an iPhone shop at No. 10 Pepple Street, Ikeja. Ask about current models, prices, inspection, pickup and delivery.",
     conversionEventName: "click_whatsapp",
     leadType: "store_visit",
     pageType: "location",
@@ -299,7 +299,7 @@ export const landingPages = [
     infoTitle: "Plan your iPhone purchase before visiting",
     infoText: "Send the model, storage and condition you want so Lisa Electronics can confirm availability before you travel to Computer Village.",
     cards: [
-      { kicker: "Address", title: "1 Ola Ayeni Street, Ikeja", text: "Off Simbiat Abiola Way, in the Computer Village area of Lagos." },
+      { kicker: "Address", title: "No. 10 Pepple Street, Ikeja", text: "Computer Village, Ikeja, Lagos." },
       { kicker: "Before pickup", title: "Confirm the exact device", text: "Ask for the model, storage, colour, condition and current price before visiting." },
       { kicker: "At the store", title: "Inspect before payment", text: "Review the exact phone offered and ask for the applicable written warranty or support terms." }
     ],
@@ -311,7 +311,7 @@ export const landingPages = [
       "Whether you prefer store pickup or delivery."
     ],
     faqs: [
-      { question: "Where is Lisa Electronics in Ikeja?", answer: "The store address is 1 Ola Ayeni Street, off Simbiat Abiola Way, Ikeja, Computer Village, Lagos." },
+      { question: "Where is Lisa Electronics in Ikeja?", answer: "The store address is No. 10 Pepple Street, Ikeja, Computer Village, Lagos." },
       { question: "Should I confirm stock before visiting?", answer: "Yes. Send the exact iPhone model and storage on WhatsApp so Lisa Electronics can confirm current availability." },
       { question: "Does Lisa Electronics sell both brand-new and UK-used iPhones?", answer: "Both conditions appear in the existing Lisa Electronics catalogue. Confirm the condition available for your model today." },
       { question: "Can I ask about Easy Buy in the store?", answer: "Yes. Ask for eligible devices, the minimum deposit under the ₦250,000 cap, separate fee, repayment estimate and verification requirements." },
@@ -366,18 +366,18 @@ export const landingPages = [
     primaryKeywordTheme: "phone shop near me Ikeja",
     h1: "Phone Shop in Ikeja, Computer Village",
     eyebrow: "Find Lisa Electronics",
-    heroText: "Visit Lisa Electronics at 1 Ola Ayeni Street for iPhone, Samsung and other device enquiries, or message first to confirm current availability and price.",
+    heroText: "Visit Lisa Electronics at No. 10 Pepple Street for iPhone, Samsung and other device enquiries, or message first to confirm current availability and price.",
     primaryCta: "Get Directions to Lisa Electronics",
     secondaryCta: { label: "Call 0708 925 4544", href: "tel:+2347089254544" },
     whatsappMessage: "Hello, I found your phone shop in Ikeja. Please send today’s available phone brands, prices and store pickup details.",
     seoTitle: "Phone Shop in Ikeja, Computer Village | Lisa Electronics",
-    metaDescription: "Find Lisa Electronics at 1 Ola Ayeni Street, Ikeja, Computer Village. Call, WhatsApp, get directions or ask about pickup and delivery.",
+    metaDescription: "Find Lisa Electronics at No. 10 Pepple Street, Ikeja, Computer Village. Call, WhatsApp, get directions or ask about pickup and delivery.",
     conversionEventName: "click_directions",
     leadType: "directions",
     pageType: "location",
     heroImage: "/images/shop.jpeg",
     heroAlt: "Lisa Electronics phone shop in Computer Village Ikeja",
-    badge: "1 Ola Ayeni Street, Ikeja",
+    badge: "No. 10 Pepple Street, Ikeja",
     infoTitle: "Contact the store before you travel",
     infoText: "Ask for the exact product, current price and pickup timing so the team can respond to your need directly.",
     cards: [
@@ -393,7 +393,7 @@ export const landingPages = [
       "Ask about delivery in Lagos or across Nigeria."
     ],
     faqs: [
-      { question: "What is the Lisa Electronics store address?", answer: "1 Ola Ayeni Street, off Simbiat Abiola Way, Ikeja, Computer Village, Lagos, Nigeria." },
+      { question: "What is the Lisa Electronics store address?", answer: "No. 10 Pepple Street, Ikeja, Computer Village, Lagos, Nigeria." },
       { question: "What phone number can I call?", answer: "Call 0708 925 4544. You can also use the WhatsApp button on this page." },
       { question: "Which brands can I ask about?", answer: "The existing Lisa Electronics site lists iPhone, Samsung and Google Pixel phones, plus laptops, accessories and smartwatches." },
       { question: "Can I arrange store pickup?", answer: "Yes. Confirm the exact device, price and pickup time with Lisa Electronics before visiting." },
@@ -1010,7 +1010,7 @@ export const landingPages = [
       { question: "Which Samsung phones are on offer today?", answer: "Offers can change. Use the WhatsApp button to request current Samsung models, configurations and prices." },
       { question: "Are the deals guaranteed to stay available?", answer: "No. Lisa Electronics must confirm the exact price and availability when you enquire." },
       { question: "Can I compare two Samsung deals?", answer: "Yes. Ask for model, storage, colour, condition and price for each phone so you can compare fairly." },
-      { question: "Can I collect a deal in Ikeja?", answer: "Yes. Confirm the exact device and pickup time before visiting 1 Ola Ayeni Street." },
+      { question: "Can I collect a deal in Ikeja?", answer: "Yes. Confirm the exact device and pickup time before visiting No. 10 Pepple Street." },
       { question: "Can a Samsung deal be delivered?", answer: "Delivery is available in Lagos and across Nigeria. Confirm the fee and timing before payment." }
     ],
     finalTitle: "Get today’s confirmed Samsung offers",

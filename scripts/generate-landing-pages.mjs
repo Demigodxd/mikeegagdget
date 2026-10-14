@@ -74,7 +74,7 @@ const localBusinessSchema = {
   telephone: site.telephoneHref,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "1 Ola Ayeni Street, Off Simbiat Abiola Way",
+    streetAddress: "No. 10 Pepple Street",
     addressLocality: "Ikeja",
     addressRegion: "Lagos",
     addressCountry: "NG"

@@ -186,7 +186,7 @@ for (const category of shopCategories) {
   assert(html.includes(`<link rel="canonical" href="${url}" />`), `${category.route}: incorrect canonical URL.`);
   for (const property of ["og:title", "og:description"]) {
     const content = html.match(new RegExp(`<meta property="${property}" content="([^"]+)"`))?.[1];
-    assert(content?.includes(category.name), `${category.route}: ${property} must describe the category.`);
+    assert(content?.replaceAll('&amp;','&').includes(category.name), `${category.route}: ${property} must describe the category.`);
   }
   assert(html.includes(`<meta property="og:image" content="${commerceSite.baseUrl}${category.image}">`), `${category.route}: sharing image must be an absolute category image URL.`);
 }

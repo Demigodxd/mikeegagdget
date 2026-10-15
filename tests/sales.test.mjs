@@ -31,7 +31,7 @@ test('retail selling prices stay final across product, store and calculator data
  const serialized=JSON.stringify({products,storeItems,choices});
  assert.doesNotMatch(serialized,/"(?:supplierPrice|supplierCost|basePrice|markup|profit|sellingPrice)"/i);
  const publicCatalog=JSON.parse(await readFile('assets/store-catalog.json','utf8'));
- assert.equal(publicCatalog.length,retailInventory.length);
+ assert.equal(publicCatalog.length,storeItems.length);
  assert.doesNotMatch(JSON.stringify(publicCatalog),/"(?:supplierPrice|supplierCost|basePrice|markup|profit|sellingPrice)"/i);
  const legacy=choices.find(phone=>phone.id==='iphone-x|64GB');
  assert.equal(legacy.forSale,false);assert.equal(legacy.price,null);assert.equal(legacy.swapReferencePrice,147000);

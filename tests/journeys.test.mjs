@@ -87,15 +87,13 @@ test('Swap quick search and searchable model picker share current-phone state wi
  chooseModel('15 pro max','iphone-15-pro-max');value('journey-storage','iphone-15-pro-max|256GB');next();
  assert.equal(document.querySelector('[data-journey]').dataset.currentPhone,currentId);assert.equal(document.querySelector('[data-journey]').dataset.targetPhone,'iphone-15-pro-max|256GB');dom.window.close();
 });
-test('Homepage uses the supplied lightweight hero, static motion fallback and truthful location treatment',async()=>{
- const html=await readFile('index.html','utf8'),css=await readFile('assets/classic.css','utf8');
- assert.match(html,/<video[^>]+id="heroVideo"[^>]+muted[^>]+autoplay[^>]+loop[^>]+playsinline/);assert.match(html,/mikee-premium-hero-mobile\.webm/);assert.match(html,/mikee-premium-hero-poster\.webp/);assert.doesNotMatch(html,/trust-pause|shop-concept|Store concept illustration/);assert.match(html,/Computer Village, Ikeja/);assert.match(css,/prefers-reduced-motion:reduce/);assert.match(css,/aspect-ratio:200\/89/);assert.ok(statSync('assets/hero/mikee-premium-hero-mobile.webm').size<250000);
-});
-test('Reduced-motion visitors keep the hero poster and do not load or play video',async()=>{
- const dom=new JSDOM(await readFile('index.html','utf8'),{url:'https://mikee.test/',runScripts:'outside-only'});let loads=0,plays=0;
- dom.window.matchMedia=()=>({matches:true,addEventListener(){}});dom.window.HTMLMediaElement.prototype.load=()=>loads++;dom.window.HTMLMediaElement.prototype.play=()=>{plays++;return Promise.resolve();};
- dom.window.document.getElementById('hotDeals').remove();dom.window.eval(await readFile('assets/store-motion.js','utf8'));
- const video=dom.window.document.getElementById('heroVideo');assert.equal(video.getAttribute('poster'),'/assets/hero/mikee-premium-hero-poster.webp');assert.ok([...video.querySelectorAll('source')].every(source=>!source.hasAttribute('src')));assert.equal(loads,0);assert.equal(plays,0);dom.window.close();
+test('Lisa homepage uses static product art, dedicated audio shelves and reduced-motion styling',async()=>{
+ const html=await readFile('index.html','utf8'),css=await readFile('assets/lisa-store.css','utf8');
+ assert.doesNotMatch(html,/<video|mikee-premium|mikee-shop/);
+ assert.match(html,/Good tech/);assert.match(html,/id="sound"/);assert.match(html,/id="earbuds"/);
+ assert.match(css,/object-fit:contain/);assert.match(css,/prefers-reduced-motion:reduce/);
+ const dom=new JSDOM(html);assert.ok(dom.window.document.querySelector('#sound .store-phone'));
+ assert.ok(dom.window.document.querySelector('#earbuds .store-phone'));dom.window.close();
 });
 test('Homepage instant search, empty search and image fallback stay usable',async()=>{
  const dom=await setup('index.html','/');await import(`../assets/storefront.js?test=${++serial}`);

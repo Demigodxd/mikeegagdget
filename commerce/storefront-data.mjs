@@ -1,11 +1,12 @@
 import {commerceSite} from './catalog.mjs';
 import {products as baseProducts} from './catalog.mjs';
 import {retailInventory} from './retail-inventory.mjs';
+import {accessoryInventory} from './accessory-inventory.mjs';
 import {categoryImages} from './product-images.mjs';
 import {offerProduct} from './offers.mjs';
 
 const products=baseProducts.map(offerProduct);
-const categoryOrder=['iphones','samsung','pixel','tablets','laptops','ps5','accessories','macbooks','ipads','watches','airpods','audio','games'];
+const categoryOrder=['iphones','samsung','pixel','tablets','laptops','ps5','accessories','speakers','earbuds','headphones','power-banks','networking','streaming','macbooks','ipads','watches','airpods','audio','games'];
 export const categories = [
  ['iphones','iPhones','Apple'],
  ['samsung','Samsung','Samsung'],
@@ -19,8 +20,14 @@ export const categories = [
  ['ps5','PlayStation 5','Sony'],
  ['games','Games','Sony'],
  ['laptops','Laptops','Various'],
+ ['speakers','Speakers & Music','Various'],
+ ['earbuds','Earbuds','Various'],
+ ['headphones','Headphones','Various'],
+ ['power-banks','Power Banks','Various'],
+ ['networking','Wi-Fi & Networking','Various'],
+ ['streaming','TV & Streaming','Various'],
  ['accessories','Accessories','Various']
-].map(([id,name,brand])=>({id,name,brand,image:categoryImages[id]||'/images/store/mikee-shop-720.webp',route:({iphones:'/iphones',samsung:'/samsung-phones',pixel:'/google-pixel-phones'})[id] || `/shop/${id}/`}));
+].map(([id,name,brand])=>({id,name,brand,image:accessoryInventory.find(p=>p.category===id)?.image||categoryImages[id]||'/images/lisa-logo.jpeg',route:({iphones:'/iphones',samsung:'/samsung-phones',pixel:'/google-pixel-phones'})[id] || `/shop/${id}/`}));
 categories.sort((a,b)=>categoryOrder.indexOf(a.id)-categoryOrder.indexOf(b.id));
 export const shopCategories = categories.filter(c=>!['iphones','samsung','pixel'].includes(c.id)).map(category => ({
  ...category,
@@ -53,9 +60,11 @@ const whatsappFor = item => {
  const message=`Hello Lisa Electronics, I’m interested in ${item.model} (${item.condition}). Please confirm current price, availability, variant ${variantSummary}, warranty and delivery options.`;
  return `https://wa.me/${commerceSite.whatsappNumber}?text=${encodeURIComponent(message)}`;
 };
-const otherItems = retailInventory.filter(item=>!item.isPhone).map(item=>({
+const normal = s=>s.toLowerCase().replace(/apple|[^a-z0-9]/g,'');
+const importedNames=new Set(accessoryInventory.map(p=>normal(p.model)));
+const otherItems = [...retailInventory.filter(item=>!item.isPhone&&!importedNames.has(normal(item.model))),...accessoryInventory].map(item=>({
  slug:item.slug,model:item.model,brand:item.brand,category:item.category,image:item.image||'',
- route:whatsappFor(item),conditions:[item.condition],availability:'Confirm exact unit and availability',
+ route:`/product/${item.slug}/`, enquiryUrl:whatsappFor(item),priceMax:item.priceMax,priceCheckedAt:item.priceCheckedAt,conditions:[item.condition],availability:'Confirm exact unit and availability',
  easy:false,swap:false,variants:item.variants.map(makeVariant)
 }));
 export const storeItems = [...phoneItems,...otherItems];

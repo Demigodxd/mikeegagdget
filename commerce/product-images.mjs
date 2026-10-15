@@ -181,7 +181,16 @@ export const categoryImages = {
  macbooks: '/images/store/macbooks.webp', ipads: '/images/store/ipads.webp',
  watches: '/images/store/watches.webp', airpods: '/images/store/airpods.webp',
  ps5: '/images/store/ps5.webp', games: '/images/store/games.webp',
- laptops: '/images/store/macbooks.webp', accessories: '/images/store/airpods.webp'
+ laptops: '/images/store/macbooks.webp', accessories: '/images/store/airpods.webp',
+"iphones": "/images/catalog/iphone-17-pro-max.webp",
+"samsung": "/images/products/category-samsung.png",
+"pixel": "/images/products/category-pixel.png",
+"tablets": "/images/products/category-tablets.png",
+"watches": "/images/products/samsung-galaxy-watch5-brand-new.png",
+"airpods": "/images/products/apple-airpods-pro-2.png",
+"audio": "/images/products/jbl-charge-5.png",
+"games": "/images/products/playstation-5-ps5-controller.png",
+"accessories": "/images/products/samsung-type-c-45w-pd-fast-charger.png"
 };
 
 // User-supplied shop photo, sized for mobile and desktop.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mikeegadget.com.ng/sitemap.xml
+Sitemap: https://lisaelectronics.vercel.app/sitemap.xml

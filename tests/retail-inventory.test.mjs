@@ -13,7 +13,8 @@ const price=(slug,storage)=>record(slug)?.variants.find(variant=>variant.storage
 test('all supplied products and variants are represented once with conditions kept separate',()=>{
  assert.equal(retailInventory.length,159);
  assert.equal(retailPhoneProducts.length,106);
- assert.equal(storeItems.length,159);
+ assert.ok(storeItems.length>159);
+ assert.equal(new Set(storeItems.map(item=>item.slug)).size,storeItems.length);
  assert.equal(new Set(retailInventory.map(item=>item.slug)).size,retailInventory.length);
  assert.equal(retailInventory.reduce((sum,item)=>sum+item.variants.length,0),264);
  const productCounts=Object.fromEntries(['Brand New','UK Used','Open Box','Confirm condition'].map(condition=>[

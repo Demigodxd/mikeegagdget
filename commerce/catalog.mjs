@@ -4,7 +4,7 @@ import { retailPhoneProducts } from "./retail-inventory.mjs";
 export const commerceSite = Object.freeze({
   name: "Lisa Electronics",
   legalName: "LISA ELECTRONICS",
-  baseUrl: "https://www.mikeegadget.com.ng",
+  baseUrl: "https://lisaelectronics.vercel.app",
   whatsappNumber: "2347089254544",
   telephoneHref: "+2347089254544",
   telephoneDisplay: "0708 925 4544",

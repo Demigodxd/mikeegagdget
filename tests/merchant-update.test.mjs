@@ -6,16 +6,12 @@ import {storeItems} from '../commerce/storefront-data.mjs';
 import {choices,financePlan,estimateSwap} from '../commerce/upgrade-core.mjs';
 import {calculatePlan} from '../easy-buy/easy-buy-core.mjs';
 
-test('the supplied shop image replaces the illustration with responsive lightweight assets',async()=>{
+test('Lisa location uses the owner-provided map link with an embedded map and accurate contact',async()=>{
  const html=await readFile('index.html','utf8');
  assert.ok(!html.includes('{{'),'No unresolved homepage template tokens');
- assert.match(html,/mikee-shop-720\.webp 720w, \/images\/store\/mikee-shop-1280\.webp 1280w/);
- assert.match(html,/loading="lazy" decoding="async" alt="Lisa Electronics shop image supplied by the store"/);
- assert.doesNotMatch(html,/shop-illustration|Illustrative gadget shop/);
- for(const width of [720,1280])assert.ok((await stat(`images/store/mikee-shop-${width}.webp`)).size<1_000_000);
- assert.match(html,/No. 10 Pepple Street/);
- assert.match(html,/Computer Village, Ikeja/);
- assert.doesNotMatch(html,/shop-concept|Store concept illustration/);
+ assert.match(html,/maps.google.com\/maps/);assert.match(html,/https:\/\/share.google\/F3PBLPkRmLXqiUX0U/);
+ assert.match(html,/tel:\+2347089254544/);assert.match(html,/No. 10 Pepple Street/);
+ assert.doesNotMatch(html,/mikee-shop|shop-concept|Store concept illustration/);
 });
 
 test('Group 1 final prices reach product pages, cards and calculator choices unchanged',async()=>{

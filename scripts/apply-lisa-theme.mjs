@@ -1,0 +1,2 @@
+import{readdir,readFile,writeFile}from'node:fs/promises';
+async function visit(dir){for(const entry of await readdir(dir,{withFileTypes:true})){if(['node_modules','.git','dist'].includes(entry.name))continue;const path=`${dir}/${entry.name}`;if(entry.isDirectory())await visit(path);else if(entry.name.endsWith('.html')){let html=await readFile(path,'utf8');if(!html.includes('/assets/lisa-site.css'))html=html.replace('</head>','<link rel="stylesheet" href="/assets/lisa-site.css">\n</head>');await writeFile(path,html);}}}await visit('.');

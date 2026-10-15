@@ -14,3 +14,38 @@ body:not(.lisa-store) footer{background:#1b1c20;color:#fff}body:not(.lisa-store)
 body:not(.lisa-store) .eyebrow{color:#bc101c}
 body:not(.lisa-store) .nav a:focus-visible,body:not(.lisa-store) button:focus-visible{outline:3px solid #bc101c;outline-offset:4px}
 @media(max-width:600px){body:not(.lisa-store) h1{font-size:clamp(30px,9vw,44px)}body:not(.lisa-store) .logo img{width:44px;height:44px}}
+/* Consistent mobile sizing on the existing device and payment pages. */
+@media(max-width:760px){
+ body:not(.lisa-store){-webkit-text-size-adjust:100%;font-size:16px}
+ body:not(.lisa-store) main,body:not(.lisa-store) main section,body:not(.lisa-store) form,body:not(.lisa-store) fieldset{min-width:0}
+ body:not(.lisa-store) input,body:not(.lisa-store) select,body:not(.lisa-store) textarea{font-size:16px!important;max-width:100%;min-height:48px}
+ body:not(.lisa-store) .wrap{width:calc(100% - 32px)}
+ body:not(.lisa-store) .commerce-nav{width:calc(100% - 32px);gap:10px;min-height:76px;flex-wrap:wrap}
+ body:not(.lisa-store) .commerce-brand strong,body:not(.lisa-store) .commerce-brand small{color:#17191d}
+ body:not(.lisa-store) .commerce-brand img{width:44px!important;height:44px!important}
+ body:not(.lisa-store) .commerce-nav-actions{gap:8px}
+ body:not(.lisa-store) .commerce-menu-button,body:not(.lisa-store) .commerce-search-trigger{width:44px;height:44px;min-height:44px;background:#f5f5f7;color:#17191d;border-color:#ddd}
+ body:not(.lisa-store) .commerce-menu-button span{background:#17191d}
+ body:not(.lisa-store) .commerce-menu.is-open{max-height:65dvh;overflow:auto}
+ body:not(.lisa-store) .commerce-menu a{min-height:48px;display:flex;align-items:center}
+ body:not(.lisa-store) .product-hero{grid-template-columns:minmax(0,1fr);padding-inline:16px;gap:24px}
+ body:not(.lisa-store) .product-hero-media{min-width:0}
+ body:not(.lisa-store) .product-main-image{max-height:none}
+ body:not(.lisa-store) .product-main-image>.device-media{height:260px}
+ body:not(.lisa-store) .product-hero-copy h1{font-size:30px;line-height:1.2;overflow-wrap:anywhere}
+ body:not(.lisa-store) .purchase-panel{padding:20px 16px;border-radius:16px;min-width:0}
+ body:not(.lisa-store) .purchase-panel .selector-pills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ body:not(.lisa-store) .selector-pills button{min-height:52px;padding:10px;font-size:14px;white-space:normal;overflow-wrap:anywhere}
+ body:not(.lisa-store) .purchase-panel .selection-grid{grid-template-columns:minmax(0,1fr);gap:14px}
+ body:not(.lisa-store) .selection-grid label>span,body:not(.lisa-store) .purchase-panel .purchase-label{font-size:14px}
+ body:not(.lisa-store) .product-hero-copy .purchase-actions .commerce-button{min-height:50px;font-size:15px;line-height:1.45;padding:13px}
+ body:not(.lisa-store) .product-trust,body:not(.lisa-store) .commerce-breadcrumbs{font-size:13px;line-height:1.6}
+ body:not(.lisa-store) .catalog-search-dialog{width:calc(100% - 24px);max-width:100%;max-height:85dvh;padding:16px}
+ body:not(.lisa-store) .customer-fields label{font-size:14px}
+ body:not(.lisa-store) .flow-main,body:not(.lisa-store) .order-summary{min-width:0;padding:20px 16px}
+ body:not(.lisa-store) .nav{height:auto;min-height:76px;gap:12px;flex-wrap:wrap;padding-block:12px}
+ body:not(.lisa-store) .nav .menu-toggle{min-width:44px;min-height:44px}
+ body:not(.lisa-store) .nav #navigation.open a{min-height:48px;display:flex;align-items:center}
+ body:not(.lisa-store) .mobile-bottom-nav{padding-bottom:env(safe-area-inset-bottom)}
+ body:not(.lisa-store) .mobile-bottom-nav a{min-height:48px}
+}

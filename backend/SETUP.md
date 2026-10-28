@@ -35,3 +35,6 @@ Keep PAYMENTS_ENABLED=false until the remaining checkout requirements pass. This
 
 ## Optional physical stock
 Apply schema/optional-stock.sql after checkout.sql. New and imported products default to sourcing orders without a stock count. Enable track_stock to count physical units, and leave allow_backorder on to source any shortfall. Disable allow_backorder for stock-only sales. Checkout atomically reserves only existing physical units, never a negative count, and snapshots reserved_quantity and sourcing_quantity per item. Payments remain disabled pending Paystack and reservation reconciliation tests.
+
+## Fulfillment
+Apply schema/flat-delivery.sql after optional-stock.sql. Shop pickup costs zero. Delivery in Nigeria has a flat fee of 700000 kobo per order, calculated in the database, with required recipient, street, city and state. The admin order list displays the chosen method and delivery address.

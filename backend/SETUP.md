@@ -32,3 +32,6 @@ Set the Paystack webhook to https://YOUR-DOMAIN/api/paystack-webhook.
 - Connect existing product pages to the live catalogue and checkout.
 - Add order fulfillment controls, image file uploads, email receipts, and agreed delivery options.
 Keep PAYMENTS_ENABLED=false until the remaining checkout requirements pass. This is a development implementation, not a production-ready payment launch.
+
+## Optional physical stock
+Apply schema/optional-stock.sql after checkout.sql. New and imported products default to sourcing orders without a stock count. Enable track_stock to count physical units, and leave allow_backorder on to source any shortfall. Disable allow_backorder for stock-only sales. Checkout atomically reserves only existing physical units, never a negative count, and snapshots reserved_quantity and sourcing_quantity per item. Payments remain disabled pending Paystack and reservation reconciliation tests.

@@ -1,4 +1,4 @@
-import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { landingPages } from "../landing-pages/config.mjs";
@@ -118,7 +118,7 @@ const productSchema = (product) => {
     sku: product.slug,
     url: `${commerceSite.baseUrl}${product.route}`,
     ...(product.images.length ? {
-      image: product.images.map((image) => `${commerceSite.baseUrl}${image}`)
+      image: product.images.map((image) => /^https?:\/\//.test(image) ? image : `${commerceSite.baseUrl}${image}`)
     } : {}),
     ...(pricedOffers.length ? {
       offers: pricedOffers.length === 1 ? pricedOffers[0] : pricedOffers
@@ -196,8 +196,15 @@ const renderHeader = () => `
     </form>
   </dialog>`;
 
+const availableThumbnails = new Set();
+for (const product of products) for (const image of product.images) {
+  const candidate=image.replace('-720.webp','-160.webp');
+  if(candidate.startsWith('/')&&!candidate.startsWith('//')) {
+    try { await access(join(root,candidate)); availableThumbnails.add(candidate); } catch {}
+  }
+}
 const renderProductArtwork = (product) => {
-  const galleryImages = product.images.map(image => /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
+  const galleryImages = product.images.map(image => image.startsWith('/images/') && /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
   if (product.images.length) {
     return `
       <div class="product-gallery" data-product-gallery>
@@ -209,7 +216,7 @@ const renderProductArtwork = (product) => {
         <div class="product-thumbnails" aria-label="${escapeHtml(product.model)} images">
           ${galleryImages.map((image, index) => `
             <button type="button" class="${index === 0 ? "is-active" : ""}" data-gallery-image="${escapeHtml(image)}" aria-label="Show ${escapeHtml(product.model)} image ${index + 1}">
-              <img src="${escapeHtml(image.replace('-720.webp','-160.webp'))}" alt="" width="80" height="80" loading="lazy">
+              <img src="${escapeHtml((availableThumbnails.has(image.replace('-720.webp','-160.webp')) ? image.replace('-720.webp','-160.webp') : image))}" alt="" width="80" height="80" loading="lazy">
             </button>`).join("")}
         </div>
       </div>`;

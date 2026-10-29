@@ -38,3 +38,6 @@ Apply schema/optional-stock.sql after checkout.sql. New and imported products de
 
 ## Fulfillment
 Apply schema/flat-delivery.sql after optional-stock.sql. Shop pickup costs zero. Delivery in Nigeria has a flat fee of 700000 kobo per order, calculated in the database, with required recipient, street, city and state. The admin order list displays the chosen method and delivery address.
+
+## Connected storefront preview
+Preview builds (VERCEL_ENV=preview) run scripts/connect-storefront.mjs to connect the homepage, categories, existing product routes, /catalogue/?sku=... and /cart/ to /api/products. For local connected builds use BACKEND_STOREFRONT=true npm run build. Only published products are returned; drafts never fall back to legacy static prices. Product edits take effect on the next page load. Cart stores product IDs and quantities only and re-reads current prices before checkout; the database calculates authoritative totals. No products are published automatically. Production builds retain the existing storefront until the backend launch is approved. Paystack remains disabled pending credentials and reservation reconciliation. Direct photo uploads, staff roles and live payment acceptance are separate pending work.

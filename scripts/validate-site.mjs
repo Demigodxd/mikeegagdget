@@ -1,5 +1,5 @@
 import { access, readFile, readdir } from "node:fs/promises";
-import { dirname, extname, join } from "node:path";
+import { dirname, extname, join, relative as relativePath } from "node:path";
 import { fileURLToPath } from "node:url";
 import { landingPages, site } from "../landing-pages/config.mjs";
 import { categoryPages, commerceSite, products } from "../commerce/catalog.mjs";
@@ -224,11 +224,12 @@ assert(tiktokPixel.includes("DANV8Q3C77U28JP39CGG"), "TikTok Pixel ID is missing
 await collectHtml(root);
 for (const filePath of htmlFiles) {
   const html = await readFile(filePath, "utf8");
-  const relative = filePath.replace(`${root}/`, "");
+  const relative = relativePath(root,filePath).replaceAll('\\','/');
   assert(!html.includes("2348039248231"), `${relative}: old phone number is present.`);
   assert(!html.includes("0803 924 8231"), `${relative}: old display phone number is present.`);
   assert(!/\b(?:10k\+|4\.9|free shipping nationwide|24\/7 customer support|quality guaranteed|verified buyer)\b/i.test(html), `${relative}: an unverified claim is present.`);
-  if (!relative.startsWith("docs/")) {
+  // Do not load advertising trackers on private admin or checkout pages.
+  if (!["docs/", "admin/", "checkout/"].some(prefix => relative.startsWith(prefix))) {
     assert(html.includes("assets/tiktok-pixel.js"), `${relative}: TikTok Pixel is missing.`);
     assert(html.indexOf("assets/tiktok-pixel.js") < html.indexOf("</head>"), `${relative}: TikTok Pixel must load in the document head.`);
   }

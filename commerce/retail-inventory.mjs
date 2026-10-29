@@ -1,3 +1,4 @@
+import {catalogueImageUpdates} from './catalogue-image-updates.mjs';
 // Customer-facing inventory. All prices are final Naira prices; supplier prices and markups are not stored here.
 export const retailInventory = Object.freeze([
   {

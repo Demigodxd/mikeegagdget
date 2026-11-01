@@ -183,7 +183,7 @@ for (const category of shopCategories) {
   assert(routeManifest.categories.includes(category.route), `${category.route}: shop route is missing from the route manifest.`);
   assert(html.includes(`data-landing-page="${category.route}" data-page-type="category"`), `${category.route}: analytics must use the category route.`);
   assert(html.includes(`<meta property="og:url" content="${url}">`), `${category.route}: sharing URL must match the category.`);
-  assert(html.includes(`<link rel="canonical" href="${url}" />`), `${category.route}: incorrect canonical URL.`);
+  assert(new RegExp(`<link rel="canonical" href="${url.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}"\\s*/?>`).test(html), `${category.route}: incorrect canonical URL.`);
   for (const property of ["og:title", "og:description"]) {
     const content = html.match(new RegExp(`<meta property="${property}" content="([^"]+)"`))?.[1];
     assert(content?.replaceAll('&amp;','&').includes(category.name), `${category.route}: ${property} must describe the category.`);

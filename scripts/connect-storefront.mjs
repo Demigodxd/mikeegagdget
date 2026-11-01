@@ -1,12 +1,15 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {JSDOM} from 'jsdom';
 import {storeItems,categories,shopCategories} from '../commerce/storefront-data.mjs';
-if(process.env.VERCEL_ENV==='preview'||process.env.BACKEND_STOREFRONT==='true'){
+{
+ const connected=process.env.VERCEL_ENV==='preview'||process.env.BACKEND_STOREFRONT==='true';
  const shell=await readFile('index.html','utf8');
  const panel='<section id="liveStore" class="store-section"><p id="liveMessage" role="status">Loading current products…</p><div id="liveContent"></div></section>';
- const pages=new Map([['index.html',{mode:'home'}]]);
+ const pages=new Map(connected?[['index.html',{mode:'home'}]]:[]);
+ if(connected){
  for(const c of [...categories,...shopCategories]){const route=c.route?.replace(/^\//,'').replace(/\/$/,'');if(route)pages.set(route+'/index.html',{mode:'category',category:c.id});}
  for(const p of storeItems){const route=p.route?.replace(/^\//,'').replace(/\/$/,'');if(route)pages.set(route+'/index.html',{mode:'product',source:p.slug});}
+ }
  pages.set('catalogue/index.html',{mode:'product'});pages.set('cart/index.html',{mode:'cart'});
  for(const [path,data] of pages){let source;try{source=await readFile(path,'utf8');}catch{source=shell;}const dom=new JSDOM(source),d=dom.window.document;
  d.querySelectorAll('script').forEach(s=>{if(!s.src.includes('tiktok-pixel'))s.remove();});

@@ -16,7 +16,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-5.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-3.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-2.png",
-    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-4.png"
+    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-4.png",
+    "/images/product-details/iphone-18-pro-max-1-v2.svg"
   ],
   "iphone-18-pro": [
     "/images/store/18pro-1-720.webp",
@@ -34,7 +35,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-5.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-3.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-2.png",
-    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-4.png"
+    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-4.png",
+    "/images/product-details/iphone-18-pro-1-v2.svg"
   ],
   "iphone-17-pro-max": [
     "/images/store/17promax-2-720.webp",
@@ -50,37 +52,44 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-10.png",
     "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-11.png",
     "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-12.png",
-    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-13.png"
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-13.png",
+    "/images/product-details/iphone-17-pro-max-1-v2.svg"
   ],
   "iphone-17-pro": [
     "/images/store/17pro-1-720.webp",
     "/images/store/17pro-2-720.webp",
-    "/images/store/17pro-3-720.webp"
+    "/images/store/17pro-3-720.webp",
+    "/images/product-details/iphone-17-pro-1-v2.svg"
   ],
   "iphone-17": [
     "/images/store/17-1-720.webp",
     "/images/store/17-2-720.webp",
-    "/images/store/17-3-720.webp"
+    "/images/store/17-3-720.webp",
+    "/images/product-details/iphone-17-1-v2.svg"
   ],
   "iphone-17-air": [
     "/images/store/17air-1-720.webp",
     "/images/store/17air-2-720.webp",
-    "/images/store/17air-3-720.webp"
+    "/images/store/17air-3-720.webp",
+    "/images/product-details/iphone-17-air-1-v2.svg"
   ],
   "iphone-17-air-uk-used": [
     "/images/store/17air-1-720.webp",
     "/images/store/17air-2-720.webp",
-    "/images/store/17air-3-720.webp"
+    "/images/store/17air-3-720.webp",
+    "/images/product-details/iphone-17-air-uk-used-1-v2.svg"
   ],
   "iphone-16-pro-max": [
     "/images/store/16promax-1-720.webp",
     "/images/store/16promax-2-720.webp",
-    "/images/store/16promax-3-720.webp"
+    "/images/store/16promax-3-720.webp",
+    "/images/product-details/iphone-16-pro-max-1-v2.svg"
   ],
   "iphone-16-pro-max-uk-used": [
     "/images/store/16promax-1-720.webp",
     "/images/store/16promax-2-720.webp",
-    "/images/store/16promax-3-720.webp"
+    "/images/store/16promax-3-720.webp",
+    "/images/product-details/iphone-16-pro-max-uk-used-1-v2.svg"
   ],
   "iphone-16-plus": [
     "/images/store/16plus-1-720.webp",
@@ -96,32 +105,38 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/09/iPhone-16-Physical-SIM-Brand-New-12.png",
     "https://revenes.com/wp-content/uploads/2024/09/iPhone-16-Physical-SIM-Brand-New-13.png",
     "https://revenes.com/wp-content/uploads/2024/09/iPhone-16-Physical-SIM-Brand-New-4.png",
-    "https://revenes.com/wp-content/uploads/2024/09/iPhone-16-Physical-SIM-Brand-New-5.png"
+    "https://revenes.com/wp-content/uploads/2024/09/iPhone-16-Physical-SIM-Brand-New-5.png",
+    "/images/product-details/iphone-16-plus-1-v2.svg"
   ],
   "iphone-16": [
     "/images/store/16-1-720.webp",
     "/images/store/16-2-720.webp",
-    "/images/store/16-3-720.webp"
+    "/images/store/16-3-720.webp",
+    "/images/product-details/iphone-16-1-v2.svg"
   ],
   "iphone-16-uk-used": [
     "/images/store/16-1-720.webp",
     "/images/store/16-2-720.webp",
-    "/images/store/16-3-720.webp"
+    "/images/store/16-3-720.webp",
+    "/images/product-details/iphone-16-uk-used-1-v2.svg"
   ],
   "iphone-15-pro-max": [
     "/images/store/15promax-1-720.webp",
     "/images/store/15promax-2-720.webp",
-    "/images/store/15promax-3-720.webp"
+    "/images/store/15promax-3-720.webp",
+    "/images/product-details/iphone-15-pro-max-1-v2.svg"
   ],
   "iphone-15-pro": [
     "/images/store/15pro-1-720.webp",
     "/images/store/15pro-2-720.webp",
-    "/images/store/15pro-3-720.webp"
+    "/images/store/15pro-3-720.webp",
+    "/images/product-details/iphone-15-pro-1-v2.svg"
   ],
   "iphone-15-pro-uk-used": [
     "/images/store/15pro-1-720.webp",
     "/images/store/15pro-2-720.webp",
-    "/images/store/15pro-3-720.webp"
+    "/images/store/15pro-3-720.webp",
+    "/images/product-details/iphone-15-pro-uk-used-1-v2.svg"
   ],
   "iphone-15-plus": [
     "/images/catalog/iphone-15-plus.webp",
@@ -131,57 +146,68 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/12/iPhone-15-3.png",
     "https://revenes.com/wp-content/uploads/2023/12/iPhone-15-5.png",
     "https://revenes.com/wp-content/uploads/2023/12/iPhone-15-6.png",
-    "https://revenes.com/wp-content/uploads/2023/12/iPhone-15-7.png"
+    "https://revenes.com/wp-content/uploads/2023/12/iPhone-15-7.png",
+    "/images/product-details/iphone-15-plus-1-v2.svg"
   ],
   "iphone-15": [
     "/images/store/15-1-720.webp",
     "/images/store/15-2-720.webp",
-    "/images/store/15-3-720.webp"
+    "/images/store/15-3-720.webp",
+    "/images/product-details/iphone-15-1-v2.svg"
   ],
   "iphone-15-uk-used": [
     "/images/store/15-1-720.webp",
     "/images/store/15-2-720.webp",
-    "/images/store/15-3-720.webp"
+    "/images/store/15-3-720.webp",
+    "/images/product-details/iphone-15-uk-used-1-v2.svg"
   ],
   "iphone-14-pro-max": [
     "/images/store/14promax-1-720.webp",
     "/images/store/14promax-2-720.webp",
-    "/images/store/14promax-3-720.webp"
+    "/images/store/14promax-3-720.webp",
+    "/images/product-details/iphone-14-pro-max-1-v2.svg"
   ],
   "iphone-14-pro": [
     "/images/store/14pro-1-720.webp",
     "/images/store/14pro-2-720.webp",
-    "/images/store/14pro-3-720.webp"
+    "/images/store/14pro-3-720.webp",
+    "/images/product-details/iphone-14-pro-1-v2.svg"
   ],
   "iphone-13": [
     "/images/store/13-1-720.webp",
     "/images/store/13-2-720.webp",
-    "/images/store/13-3-720.webp"
+    "/images/store/13-3-720.webp",
+    "/images/product-details/iphone-13-1-v2.svg"
   ],
   "iphone-12-pro-max": [
     "/images/store/12promax-1-720.webp",
     "/images/store/12promax-2-720.webp",
-    "/images/store/12promax-3-720.webp"
+    "/images/store/12promax-3-720.webp",
+    "/images/product-details/iphone-12-pro-max-1-v2.svg"
   ],
   "iphone-12-pro": [
     "/images/store/12pro-1-720.webp",
     "/images/store/12pro-2-720.webp",
-    "/images/store/12pro-3-720.webp"
+    "/images/store/12pro-3-720.webp",
+    "/images/product-details/iphone-12-pro-1-v2.svg"
   ],
   "iphone-12": [
     "/images/catalog/iphone-12.webp",
     "/images/store/12-2-720.webp",
-    "/images/store/12-3-720.webp"
+    "/images/store/12-3-720.webp",
+    "/images/product-details/iphone-12-1-v2.svg"
   ],
   "iphone-11-pro": [
     "/images/store/11pro-1-720.webp",
     "/images/store/11pro-2-720.webp",
-    "/images/store/11pro-3-720.webp"
+    "/images/store/11pro-3-720.webp",
+    "/images/product-details/iphone-11-pro-1-v2.svg"
   ],
   "iphone-11": [
     "/images/store/11-1-720.webp",
     "/images/store/11-2-720.webp",
-    "/images/store/11-3-720.webp"
+    "/images/store/11-3-720.webp",
+    "/images/product-details/iphone-11-1-v2.svg"
   ],
   "iphone-xr": [
     "/images/catalog/iphone-xr.webp",
@@ -192,7 +218,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/a579c884-2efc-4d87-a73d-280995a466dc.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/b53da394-8019-4ab4-8f13-35534b366b4f.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/e75f1967-4af9-4667-97a7-9772efbddf80.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/ffb76f32-1679-40c5-9a8b-35a8834e94f2.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/ffb76f32-1679-40c5-9a8b-35a8834e94f2.jpg",
+    "/images/product-details/iphone-xr-1-v2.svg"
   ],
   "iphone-8": [
     "/images/catalog/iphone-8.webp",
@@ -201,7 +228,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/10/c9521f97-6093-4c1f-a126-3f41b46884c5.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/12-2.png",
     "https://revenes.com/wp-content/uploads/2021/12/13-2.png",
-    "https://revenes.com/wp-content/uploads/2021/12/14-2.png"
+    "https://revenes.com/wp-content/uploads/2021/12/14-2.png",
+    "/images/product-details/iphone-8-1-v2.svg"
   ],
   "samsung-s26-ultra": [
     "https://galaxy.hu/cdn/shop/files/galaxys26ultra_black_1.webp?v=1771851789",
@@ -209,7 +237,8 @@ export const productGalleries = {
     "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-sky-blue.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-black.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-white.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-silver-shadow.jpg"
+    "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-silver-shadow.jpg",
+    "/images/product-details/samsung-s26-ultra-1-v2.svg"
   ],
   "samsung-s26-plus": [
     "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/original/samsung/494743137/0/96tU1UjG0r-4YZgZdKByF-SamsungS26Pl-494743137-i-1.jpg",
@@ -230,7 +259,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-16.png",
     "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-17.png",
     "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-18.png",
-    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-19.png"
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-19.png",
+    "/images/product-details/samsung-s26-plus-1-v2.svg"
   ],
   "samsung-s26": [
     "https://s3.us-east-1.amazonaws.com/product-image-bucket-prod-us/884032-Product-0-I-639058415403635867.jpg",
@@ -238,7 +268,8 @@ export const productGalleries = {
     "https://image-us.samsung.com/us/smartphones/galaxy-s26/images/galaxy-s26-features-colors-pink-gold.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s26/images/galaxy-s26-features-colors-cobalt-violet.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s26/images/galaxy-s26-features-colors-sky-blue.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s26/images/galaxy-s26-features-colors-black.jpg"
+    "https://image-us.samsung.com/us/smartphones/galaxy-s26/images/galaxy-s26-features-colors-black.jpg",
+    "/images/product-details/samsung-s26-1-v2.svg"
   ],
   "samsung-s25-ultra": [
     "https://media.cdnws.com/_i/45353/57035/3702/35/telephonie-mobile-smartphone-samsung-galaxy-s25-ultra-s938b-12go-256go-5g-gris-infinytech-reunion-01.jpeg",
@@ -246,7 +277,8 @@ export const productGalleries = {
     "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-jadegreen.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-pinkgold.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-silverblue.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-black.jpg"
+    "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-black.jpg",
+    "/images/product-details/samsung-s25-ultra-1-v2.svg"
   ],
   "samsung-s25-plus": [
     "https://www.samsung-online.com.ua/uploads/shop/products/large/c_c_c_d3306ada9522403ae73d26c38e6bc357.jpg",
@@ -263,7 +295,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-11-1.png",
     "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-12-1.png",
     "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-13-1.png",
-    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-14.png"
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-14.png",
+    "/images/product-details/samsung-s25-plus-1-v2.svg"
   ],
   "samsung-s25": [
     "https://res.cloudinary.com/telia-pim/image/upload/v1737108288/pood/samsung/nutitelefonid/galaxy-s25/helesinine/128-gb/sm-s931blbdeue/samsung-galaxy-s25-nutitelefon-helesinine-eest-tagant-koos.png",
@@ -271,14 +304,16 @@ export const productGalleries = {
     "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-coralred.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-pinkgold.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-navy.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-icyblue.jpg"
+    "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-icyblue.jpg",
+    "/images/product-details/samsung-s25-1-v2.svg"
   ],
   "samsung-s25-edge": [
     "https://cdn.nativ.md/marketplace/6963dcad757d26c174605148_smartphone-samsung-galaxy-s25-edge-12gb512gb-titanium-silver_2560.webp",
     "https://image-us.samsung.com/us/smartphones/galaxy-s25-edge/images/galaxy-s25-edge-features-colors-titanium-silver.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s25-edge/images/galaxy-s25-edge-features-colors-titanium-icyblue.jpg",
     "https://image-us.samsung.com/us/smartphones/galaxy-s25-edge/images/galaxy-s25-edge-features-colors-titanium-jetblack.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25-edge/images/galaxy-s25-edge-features-kv.jpg"
+    "https://image-us.samsung.com/us/smartphones/galaxy-s25-edge/images/galaxy-s25-edge-features-kv.jpg",
+    "/images/product-details/samsung-s25-edge-1-v2.svg"
   ],
   "samsung-s25-fe": [
     "https://oneapple.com.ua/content/images/17/1800x1800l80mc0/60388574313349.jpg",
@@ -296,7 +331,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-12.png",
     "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-13.png",
     "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-14.png",
-    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-15.png"
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-15.png",
+    "/images/product-details/samsung-s25-fe-1-v2.svg"
   ],
   "samsung-s24-ultra": [
     "https://multimedia.bbycastatic.ca/multimedia/products/1500x1500/176/17684/17684373.jpg",
@@ -311,7 +347,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-9.png",
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-10.png",
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-11.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-12.png"
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-12.png",
+    "/images/product-details/samsung-s24-ultra-1-v2.svg"
   ],
   "samsung-s24-plus": [
     "https://cdn.beebom.com/mobile/samsung-galaxy-s24-plus-front-and-back-1.png",
@@ -325,7 +362,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-8-1.png",
     "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-9-1.png",
     "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-10-1.png",
-    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-11-1.png"
+    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-11-1.png",
+    "/images/product-details/samsung-s24-plus-1-v2.svg"
   ],
   "samsung-s23-ultra": [
     "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_142470444?align=center&cdx=1800&cdy=1800&cox=0&coy=0&ex=1800&ey=1800&format=jpg&quality=80&resizesource=&sp=yes&strip=yes&trim=&unsharp=1.5x1+0.7+0.02&x=1800&y=1800",
@@ -343,7 +381,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-12.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-13.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-14.png",
-    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-15.png"
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-15.png",
+    "/images/product-details/samsung-s23-ultra-1-v2.svg"
   ],
   "samsung-s23-plus": [
     "https://s13emagst.akamaized.net/products/52576/52575504/images/res_675b5c9d6f650e7c7c6d275f906d8f6e.jpg",
@@ -358,7 +397,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-10-1.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-11-1.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-12-1.png",
-    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-9-1.png"
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-9-1.png",
+    "/images/product-details/samsung-s23-plus-1-v2.svg"
   ],
   "samsung-s23": [
     "https://images.migrosone.com/sanalmarket/product/39185090/39185090-9601ea-1650x1650.jpg",
@@ -373,7 +413,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-9.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-10.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-11.png",
-    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-12.png"
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-12.png",
+    "/images/product-details/samsung-s23-1-v2.svg"
   ],
   "samsung-s22-ultra": [
     "https://samsungbrshop.vtexassets.com/arquivos/ids/219038/black-13.jpg?v=638309853188300000",
@@ -388,7 +429,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-Ultra-5G-05.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-Ultra-5G-09.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-Ultra-5G-04.png",
-    "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-Ultra-5G-08.png"
+    "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-Ultra-5G-08.png",
+    "/images/product-details/samsung-s22-ultra-1-v2.svg"
   ],
   "samsung-s22-plus": [
     "https://i5.walmartimages.com/seo/SAMSUNG-Galaxy-S22-5G-256GB-8GB-6-6-Factory-Unlocked-GSM-Verizon-S906U1-Excellent-Used_05e1532b-6bf1-4592-9a13-afa375710faa.029f9fd3c767ca7395344101329f615a.jpeg",
@@ -402,7 +444,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/04/Samsung-Galaxy-S22-5G-Single-SIM-UK-Used-2-1.png",
     "https://revenes.com/wp-content/uploads/2022/03/6_s22-plus720.jpg",
     "https://revenes.com/wp-content/uploads/2022/03/s22_colorselection_green_pc_v2.0.webp",
-    "https://revenes.com/wp-content/uploads/2022/03/3_s22-plus720.jpg"
+    "https://revenes.com/wp-content/uploads/2022/03/3_s22-plus720.jpg",
+    "/images/product-details/samsung-s22-plus-1-v2.svg"
   ],
   "samsung-s22": [
     "https://www.lastprice.co.il/uploadimages/S22-16.jpg",
@@ -417,7 +460,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/3_s22-plus720.jpg",
     "https://revenes.com/wp-content/uploads/2022/03/s22_colorselection_green_pc_v2.0.webp",
     "https://revenes.com/wp-content/uploads/2023/04/Samsung-Galaxy-S22-5G-Single-SIM-UK-Used.png",
-    "https://revenes.com/wp-content/uploads/2022/03/6_s22-plus720.jpg"
+    "https://revenes.com/wp-content/uploads/2022/03/6_s22-plus720.jpg",
+    "/images/product-details/samsung-s22-1-v2.svg"
   ],
   "samsung-s21-ultra": [
     "https://a-static.mlcdn.com.br/1500x1500/smartphone-samsung-galaxy-s21-ultra-256gb-preto-5g-12gb-ram-tela-68-cam-quadrupla-selfie-40mp/magazineluiza/155620700/e2f186989b13ac44a67939781ef99d4d.jpg",
@@ -427,14 +471,16 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/4.png",
     "https://revenes.com/wp-content/uploads/2021/11/5.png",
     "https://revenes.com/wp-content/uploads/2021/11/6.png",
-    "https://revenes.com/wp-content/uploads/2021/11/3.png"
+    "https://revenes.com/wp-content/uploads/2021/11/3.png",
+    "/images/product-details/samsung-s21-ultra-1-v2.svg"
   ],
   "samsung-s21-plus": [
     "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/samsung/thumb/117726-anaa_large.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/3-16.png",
     "https://revenes.com/wp-content/uploads/2021/11/2-16.png",
     "https://revenes.com/wp-content/uploads/2021/11/4-10.png",
-    "https://revenes.com/wp-content/uploads/2021/11/1-15.png"
+    "https://revenes.com/wp-content/uploads/2021/11/1-15.png",
+    "/images/product-details/samsung-s21-plus-1-v2.svg"
   ],
   "samsung-s21": [
     "https://getwired.co.ke/wp-content/uploads/2021/02/Samsung-Galaxy-S21-5G-Phantom-White-1.jpg",
@@ -445,14 +491,16 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0002.png",
     "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0006.png",
     "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0004.png",
-    "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0001.png"
+    "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0001.png",
+    "/images/product-details/samsung-s21-1-v2.svg"
   ],
   "samsung-s20-fe": [
     "https://www.mobileciti.com.au/media/catalog/product/s/a/samsung-galaxy-s20-fe-cloud-navy-main_1.jpg?image-type=image&store=mobileciti",
     "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601-1.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/be967d69-a2bd-461a-a7c1-9f410afb15c1.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/31b99f33-a166-4159-9a67-735bd7e06f59.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601.jpg",
+    "/images/product-details/samsung-s20-fe-1-v2.svg"
   ],
   "samsung-z-fold-8-ultra": [
     "https://cdn.beebom.com/mobile/samsung-galaxy-z-fold-8-ultra-front-back.png",
@@ -465,19 +513,22 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-7.png",
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-8.png",
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-9.png",
-    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-10.png"
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-10.png",
+    "/images/product-details/samsung-z-fold-8-ultra-1-v2.svg"
   ],
   "samsung-z-fold-8": [
     "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-lavender.jpg",
     "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-graphite.jpg",
     "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-cream.jpg",
-    "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-pistachio.jpg"
+    "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-pistachio.jpg",
+    "/images/product-details/samsung-z-fold-8-1-v2.svg"
   ],
   "samsung-z-trifold": [
     "https://img.global.news.samsung.com/global/wp-content/uploads/2025/12/02152709/Samsung-Mobile-Galaxy-Z-TriFold-Next-in-Mobile-Evolution_dl4.jpg",
     "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-z-trifold/04092026/1_galaxy-z-trifold_kv-ft03_-kv_dt.jpg?$1440_N_JPG$",
     "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-z-trifold/01132026/3-1_galaxy-z-trifold_highlights_FT12-productivity-pc.jpg?$570_N_JPG$",
-    "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-z-trifold/01132026/3-2_galaxy-z-trifold_highlights_ft12-design-pc.jpg?$LazyLoad_Home_JPG$"
+    "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-z-trifold/01132026/3-2_galaxy-z-trifold_highlights_ft12-design-pc.jpg?$LazyLoad_Home_JPG$",
+    "/images/product-details/samsung-z-trifold-1-v2.svg"
   ],
   "samsung-z-fold-7": [
     "https://www.dateks.lv/images/pic/2400/2400/353/2049.jpg",
@@ -491,7 +542,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Fold7-Brand-New-8.png",
     "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Fold7-Brand-New-9.png",
     "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Fold7-Brand-New-10.png",
-    "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Fold7-Brand-New-11.png"
+    "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Fold7-Brand-New-11.png",
+    "/images/product-details/samsung-z-fold-7-1-v2.svg"
   ],
   "samsung-z-fold-6": [
     "https://i.ebayimg.com/images/g/KNwAAOSwmrdniw-N/s-l1200.jpg",
@@ -502,7 +554,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-4.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-5.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-6.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-6.jpg",
+    "/images/product-details/samsung-z-fold-6-1-v2.svg"
   ],
   "samsung-z-fold-6-confirm-condition": [
     "https://i.ebayimg.com/images/g/KNwAAOSwmrdniw-N/s-l1200.jpg",
@@ -513,7 +566,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-4.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-5.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-6.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD6/SLV-image-6.jpg",
+    "/images/product-details/samsung-z-fold-6-confirm-condition-1-v2.svg"
   ],
   "samsung-z-flip-7": [
     "https://www.pbtech.co.nz/imgprod/M/P/MPHSAM0476610__1.jpg?h=1859026502",
@@ -527,7 +581,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Flip7-Brand-New-5.png",
     "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Flip7-Brand-New-4.png",
     "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Flip7-Brand-New-3.png",
-    "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Flip7-Brand-New-2.png"
+    "https://revenes.com/wp-content/uploads/2025/07/Samsung-Galaxy-Flip7-Brand-New-2.png",
+    "/images/product-details/samsung-z-flip-7-1-v2.svg"
   ],
   "samsung-z-flip-6": [
     "https://www.clevercel.co/cdn/shop/files/SamsungGalaxyZFlip6Silver_1500x.png?v=1761689377",
@@ -538,7 +593,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-4.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-5.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-6.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-6.jpg",
+    "/images/product-details/samsung-z-flip-6-1-v2.svg"
   ],
   "samsung-z-flip-6-confirm-condition": [
     "https://www.clevercel.co/cdn/shop/files/SamsungGalaxyZFlip6Silver_1500x.png?v=1761689377",
@@ -549,7 +605,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-4.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-5.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-6.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-6.jpg",
+    "/images/product-details/samsung-z-flip-6-confirm-condition-1-v2.svg"
   ],
   "samsung-a07": [
     "https://www.3chub.com/cdn/shop/files/A07BLACK.png?v=1773061772&width=1173",
@@ -559,7 +616,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-5.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-6.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-7.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-7.png",
+    "/images/product-details/samsung-a07-1-v2.svg"
   ],
   "samsung-a07-open-box": [
     "https://www.3chub.com/cdn/shop/files/A07BLACK.png?v=1773061772&width=1173",
@@ -569,7 +627,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-5.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-6.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-7.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-7.png",
+    "/images/product-details/samsung-a07-open-box-1-v2.svg"
   ],
   "samsung-a07-uk-used": [
     "https://www.3chub.com/cdn/shop/files/A07BLACK.png?v=1773061772&width=1173",
@@ -579,7 +638,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-5.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-6.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-7.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-7.png",
+    "/images/product-details/samsung-a07-uk-used-1-v2.svg"
   ],
   "samsung-a17": [
     "https://www.dateks.lv/images/pic/2400/2400/246/2066.jpg",
@@ -592,7 +652,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-A17-5G-5.png",
     "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-A17-5G-4.png",
     "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-A17-5G-3.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-A17-5G-2.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-A17-5G-2.png",
+    "/images/product-details/samsung-a17-1-v2.svg"
   ],
   "samsung-a27": [
     "https://shop.samsung.com/ie/images/products/30566/39233/600x600/SM-A276BZKBEUB.png",
@@ -608,7 +669,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-A27-5G-10.png",
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-A27-5G-11.png",
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-A27-5G-12.png",
-    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-A27-5G-13.png"
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-A27-5G-13.png",
+    "/images/product-details/samsung-a27-1-v2.svg"
   ],
   "samsung-a37": [
     "https://innwa.com.mm/storage/product/2625/202604050505samsung-galaxy-a37.webp",
@@ -619,7 +681,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/Galaxy-A57-5G-5.png",
     "https://revenes.com/wp-content/uploads/2021/11/Galaxy-A57-5G-6.png",
     "https://revenes.com/wp-content/uploads/2021/11/Galaxy-A57-5G-7.png",
-    "https://revenes.com/wp-content/uploads/2021/11/Galaxy-A57-5G-8.png"
+    "https://revenes.com/wp-content/uploads/2021/11/Galaxy-A57-5G-8.png",
+    "/images/product-details/samsung-a37-1-v2.svg"
   ],
   "samsung-a57": [
     "https://www.hponline.sk/imgcache/6/3/p1290023-1824234-0a_-1_-1_60244.jpg",
@@ -633,7 +696,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/04/Samsung-A57-5G-pics-8.png",
     "https://revenes.com/wp-content/uploads/2026/04/Samsung-A57-5G-pics-9.png",
     "https://revenes.com/wp-content/uploads/2026/04/Samsung-A57-5G-pics-10.png",
-    "https://revenes.com/wp-content/uploads/2026/04/Samsung-A57-5G-pics-11.png"
+    "https://revenes.com/wp-content/uploads/2026/04/Samsung-A57-5G-pics-11.png",
+    "/images/product-details/samsung-a57-1-v2.svg"
   ],
   "samsung-a06": [
     "https://files.foxtrot.com.ua/PhotoNew/img_0_60_10487_0_1_lCTXfD.jpg",
@@ -648,7 +712,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-9.png",
     "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-10.png",
     "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-11.png",
-    "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-12.png"
+    "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-12.png",
+    "/images/product-details/samsung-a06-1-v2.svg"
   ],
   "samsung-a16": [
     "https://media.zid.store/ece77ccf-86ab-4963-877d-4a5f24928aa9/fde39834-613a-4cdb-8715-e74cc9572830.jpg",
@@ -663,7 +728,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-9.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-10.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-11.png",
-    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-12.png"
+    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-12.png",
+    "/images/product-details/samsung-a16-1-v2.svg"
   ],
   "samsung-a16-open-box": [
     "https://media.zid.store/ece77ccf-86ab-4963-877d-4a5f24928aa9/fde39834-613a-4cdb-8715-e74cc9572830.jpg",
@@ -678,7 +744,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-9.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-10.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-11.png",
-    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-12.png"
+    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-12.png",
+    "/images/product-details/samsung-a16-open-box-1-v2.svg"
   ],
   "samsung-a16-uk-used": [
     "https://media.zid.store/ece77ccf-86ab-4963-877d-4a5f24928aa9/fde39834-613a-4cdb-8715-e74cc9572830.jpg",
@@ -693,7 +760,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-9.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-10.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-11.png",
-    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-12.png"
+    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A16-5G-Pictures-12.png",
+    "/images/product-details/samsung-a16-uk-used-1-v2.svg"
   ],
   "samsung-a26": [
     "https://buymobile.com.au/cdn/shop/files/SamsungGalaxyA26-Black1x1_096c4637-1941-4442-a589-4aaf1fc38854.jpg?v=1775055491&width=2048",
@@ -709,7 +777,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A26-5G-10.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A26-5G-11.png",
     "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A26-5G-12.png",
-    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A26-5G-13.png"
+    "https://revenes.com/wp-content/uploads/2022/04/Samsung-Galaxy-A26-5G-13.png",
+    "/images/product-details/samsung-a26-1-v2.svg"
   ],
   "samsung-a36": [
     "https://i5.walmartimages.ca/asr/4eb21cf2-f5cf-4cec-888b-dce950b43ae2.c60d43b61ac3446cbf58caf5325bd3a3.jpeg",
@@ -725,7 +794,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/05/Samsung-Galaxy-A36-5G-10.png",
     "https://revenes.com/wp-content/uploads/2022/05/Samsung-Galaxy-A36-5G-11.png",
     "https://revenes.com/wp-content/uploads/2022/05/Samsung-Galaxy-A36-5G-12.png",
-    "https://revenes.com/wp-content/uploads/2022/05/Samsung-Galaxy-A36-5G-13.png"
+    "https://revenes.com/wp-content/uploads/2022/05/Samsung-Galaxy-A36-5G-13.png",
+    "/images/product-details/samsung-a36-1-v2.svg"
   ],
   "samsung-a56": [
     "https://cdn.lesnumeriques.com/optim/product/76/76132/1e438b4c-galaxy-a56__1200_1200.jpg",
@@ -741,7 +811,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A56-5G-10.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A56-5G-11.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A56-5G-12.png",
-    "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A56-5G-13.png"
+    "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A56-5G-13.png",
+    "/images/product-details/samsung-a56-1-v2.svg"
   ],
   "samsung-z-fold-5": [
     "https://cdn.mos.cms.futurecdn.net/zkyZ348eGyTw82gCSkV98E.jpg",
@@ -749,7 +820,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD55G/GRA-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD55G/GRA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD55G/GRA-image-2.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD55G/GRA-image-3.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD55G/GRA-image-3.jpg",
+    "/images/product-details/samsung-z-fold-5-1-v2.svg"
   ],
   "samsung-z-fold-4": [
     "https://static01.galaxus.com/productimages/6/1/8/5/7/0/5/3/4/5/8/2/5/7/9/3/0/9/6/019c3023-8bc9-7004-bfb9-56f43fb671fc_sea.jpeg",
@@ -757,12 +829,13 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD4/GRA-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD4/GRA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD4/GRA-image-2.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD4/GRA-image-3.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFOLD4/GRA-image-3.jpg",
+    "/images/product-details/samsung-z-fold-4-1-v2.svg"
   ],
   "samsung-z-fold-3": [
     "https://cdn11.bigcommerce.com/s-d9i7h6tt0z/images/stencil/1280x1280/products/1063/10855/03__82321.1706652555.jpg?c=1",
-    "/images/product-details/samsung-z-fold-3-1.svg",
-    "/images/product-details/samsung-z-fold-3-2.svg"
+    "/images/product-details/samsung-z-fold-3-1-v2.svg",
+    "/images/product-details/samsung-z-fold-3-2-v2.svg"
   ],
   "samsung-z-flip-4": [
     "https://cdn.mafrservices.com/pim-content/UAE/media/product/1892044/1730206803/1892044_main.jpg",
@@ -771,7 +844,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP4/BLU-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP4/BLU-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP4/BLU-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP4/BLU-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP4/BLU-image-4.jpg",
+    "/images/product-details/samsung-z-flip-4-1-v2.svg"
   ],
   "samsung-note-20": [
     "https://files.tecnoblog.net/wp-content/uploads/2025/02/Galaxy-Note-20-Mystic-Bronze.png",
@@ -783,7 +857,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-6.png",
     "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-7.png",
     "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-8.png",
-    "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-9.png"
+    "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-9.png",
+    "/images/product-details/samsung-note-20-1-v2.svg"
   ],
   "samsung-a05": [
     "https://zextons.co.uk/_next/image?q=75&url=https%3A%2F%2Fapi.zextons.co.uk%2Fuploads%2Fproducts%2F20241003_151408_samsung+A05+%281%29.png&w=3840",
@@ -791,7 +866,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-2.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-3.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-4.png",
-    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-5.png"
+    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-5.png",
+    "/images/product-details/samsung-a05-1-v2.svg"
   ],
   "samsung-a05-uk-used": [
     "https://zextons.co.uk/_next/image?q=75&url=https%3A%2F%2Fapi.zextons.co.uk%2Fuploads%2Fproducts%2F20241003_151408_samsung+A05+%281%29.png&w=3840",
@@ -799,7 +875,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-2.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-3.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-4.png",
-    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-5.png"
+    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-5.png",
+    "/images/product-details/samsung-a05-uk-used-1-v2.svg"
   ],
   "samsung-a13": [
     "https://www.mobileciti.com.au/media/catalog/product/s/a/samsung-galaxy-a13-5_2.jpg?height=265&image-type=image&store=mobileciti&width=265",
@@ -807,7 +884,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-4.jpg",
+    "/images/product-details/samsung-a13-1-v2.svg"
   ],
   "samsung-a13-uk-used": [
     "https://www.mobileciti.com.au/media/catalog/product/s/a/samsung-galaxy-a13-5_2.jpg?height=265&image-type=image&store=mobileciti&width=265",
@@ -815,7 +893,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-4.jpg",
+    "/images/product-details/samsung-a13-uk-used-1-v2.svg"
   ],
   "samsung-a14": [
     "https://bf1af2.akinoncloudcdn.com/products/2024/09/06/32631/12082ae6-aaab-44b5-b00e-475fbe4a2569.jpg",
@@ -831,7 +910,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-9.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-10.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-11.png",
-    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-13.png"
+    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-13.png",
+    "/images/product-details/samsung-a14-1-v2.svg"
   ],
   "samsung-a14-uk-used": [
     "https://bf1af2.akinoncloudcdn.com/products/2024/09/06/32631/12082ae6-aaab-44b5-b00e-475fbe4a2569.jpg",
@@ -847,7 +927,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-9.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-10.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-11.png",
-    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-13.png"
+    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-13.png",
+    "/images/product-details/samsung-a14-uk-used-1-v2.svg"
   ],
   "samsung-a15": [
     "https://www.techpro.ma/8324-large_default/samsung-galaxy-a15-blue-black-65-sm-a155fzkdmwd.jpg",
@@ -863,7 +944,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-10.png",
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-11.png",
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-12.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-13.png"
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-13.png",
+    "/images/product-details/samsung-a15-1-v2.svg"
   ],
   "samsung-a15-uk-used": [
     "https://www.techpro.ma/8324-large_default/samsung-galaxy-a15-blue-black-65-sm-a155fzkdmwd.jpg",
@@ -879,21 +961,24 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-10.png",
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-11.png",
     "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-12.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-13.png"
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-13.png",
+    "/images/product-details/samsung-a15-uk-used-1-v2.svg"
   ],
   "samsung-a52": [
     "https://resources.claroshop.com/medios-plazavip/mkt/62c6656a9a443_4202123-1jpg.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/63.png",
     "https://revenes.com/wp-content/uploads/2021/12/65.png",
     "https://revenes.com/wp-content/uploads/2021/12/64.png",
-    "https://revenes.com/wp-content/uploads/2021/12/62.png"
+    "https://revenes.com/wp-content/uploads/2021/12/62.png",
+    "/images/product-details/samsung-a52-1-v2.svg"
   ],
   "samsung-a52-uk-used": [
     "https://resources.claroshop.com/medios-plazavip/mkt/62c6656a9a443_4202123-1jpg.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/63.png",
     "https://revenes.com/wp-content/uploads/2021/12/65.png",
     "https://revenes.com/wp-content/uploads/2021/12/64.png",
-    "https://revenes.com/wp-content/uploads/2021/12/62.png"
+    "https://revenes.com/wp-content/uploads/2021/12/62.png",
+    "/images/product-details/samsung-a52-uk-used-1-v2.svg"
   ],
   "samsung-a53": [
     "https://www.cell2get.com/cdn/shop/files/a53bk_f73ca384-4ba8-4be6-a640-dbe6bc48ab41.jpg?v=1737990550",
@@ -910,7 +995,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A53-5G-1-1.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A53-5G-6.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A53-5G-Blue.png",
-    "https://revenes.com/wp-content/uploads/2022/03/11271-Galaxy-A53-5G-3000x2000-1-scaled.jpg"
+    "https://revenes.com/wp-content/uploads/2022/03/11271-Galaxy-A53-5G-3000x2000-1-scaled.jpg",
+    "/images/product-details/samsung-a53-1-v2.svg"
   ],
   "samsung-a53-uk-used": [
     "https://www.cell2get.com/cdn/shop/files/a53bk_f73ca384-4ba8-4be6-a640-dbe6bc48ab41.jpg?v=1737990550",
@@ -927,7 +1013,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A53-5G-1-1.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A53-5G-6.png",
     "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-A53-5G-Blue.png",
-    "https://revenes.com/wp-content/uploads/2022/03/11271-Galaxy-A53-5G-3000x2000-1-scaled.jpg"
+    "https://revenes.com/wp-content/uploads/2022/03/11271-Galaxy-A53-5G-3000x2000-1-scaled.jpg",
+    "/images/product-details/samsung-a53-uk-used-1-v2.svg"
   ],
   "samsung-a71": [
     "https://www.laptopsdirect.co.uk/Images/SM-A715FZBFBTU_1_Supersize.jpg?v=14",
@@ -939,7 +1026,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-6.png",
     "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-7.png",
     "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-8.png",
-    "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-9.png"
+    "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-9.png",
+    "/images/product-details/samsung-a71-1-v2.svg"
   ],
   "samsung-a71-uk-used": [
     "https://www.laptopsdirect.co.uk/Images/SM-A715FZBFBTU_1_Supersize.jpg?v=14",
@@ -951,27 +1039,28 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-6.png",
     "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-7.png",
     "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-8.png",
-    "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-9.png"
+    "https://revenes.com/wp-content/uploads/2023/08/Samsung-Galaxy-A71-UK-Used-Single-SIM-9.png",
+    "/images/product-details/samsung-a71-uk-used-1-v2.svg"
   ],
   "samsung-a70": [
     "https://www.1p.sg/cdn/shop/products/0011076_samsung-galaxy-a70-sm-a705fds-128gb-dual-sim-black-white-blue-_610.jpg?v=1606837251&width=1024",
-    "/images/product-details/samsung-a70-1.svg",
-    "/images/product-details/samsung-a70-2.svg"
+    "/images/product-details/samsung-a70-1-v2.svg",
+    "/images/product-details/samsung-a70-2-v2.svg"
   ],
   "samsung-a70-uk-used": [
     "https://www.1p.sg/cdn/shop/products/0011076_samsung-galaxy-a70-sm-a705fds-128gb-dual-sim-black-white-blue-_610.jpg?v=1606837251&width=1024",
-    "/images/product-details/samsung-a70-uk-used-1.svg",
-    "/images/product-details/samsung-a70-uk-used-2.svg"
+    "/images/product-details/samsung-a70-uk-used-1-v2.svg",
+    "/images/product-details/samsung-a70-uk-used-2-v2.svg"
   ],
   "samsung-a90": [
     "https://d2e6ccujb3mkqf.cloudfront.net/6c622d5f-65f6-4d75-bdf8-defff178a629-1_9a4e5b0e-0539-4b5e-97d3-db26a18c4345.jpg",
-    "/images/product-details/samsung-a90-1.svg",
-    "/images/product-details/samsung-a90-2.svg"
+    "/images/product-details/samsung-a90-1-v2.svg",
+    "/images/product-details/samsung-a90-2-v2.svg"
   ],
   "samsung-a90-uk-used": [
     "https://d2e6ccujb3mkqf.cloudfront.net/6c622d5f-65f6-4d75-bdf8-defff178a629-1_9a4e5b0e-0539-4b5e-97d3-db26a18c4345.jpg",
-    "/images/product-details/samsung-a90-uk-used-1.svg",
-    "/images/product-details/samsung-a90-uk-used-2.svg"
+    "/images/product-details/samsung-a90-uk-used-1-v2.svg",
+    "/images/product-details/samsung-a90-uk-used-2-v2.svg"
   ],
   "pixel-11-pro-xl": [
     "https://cdn.beebom.com/mobile/google-pixel-11-pro-xl-back-front-3.png",
@@ -990,7 +1079,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-12.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-13.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-14.png",
-    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-15.png"
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-15.png",
+    "/images/product-details/pixel-11-pro-xl-1-v2.svg"
   ],
   "pixel-11-pro": [
     "https://cdn.beebom.com/mobile/google-pixel-11-pro-back-front-3.png",
@@ -1009,7 +1099,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-12.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-13.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-14.png",
-    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-15.png"
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-15.png",
+    "/images/product-details/pixel-11-pro-1-v2.svg"
   ],
   "pixel-11": [
     "https://scr.wfcdn.de/31804/Google-Pixel-11-1783961952-0-0.jpg",
@@ -1025,7 +1116,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-10.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-11.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-12.png",
-    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-13.png"
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-13.png",
+    "/images/product-details/pixel-11-1-v2.svg"
   ],
   "pixel-10-pro-xl": [
     "https://assets.products-live.ao.com/Images/346548f8-30b4-402b-a786-921c344c2d20/1280x1280/8300786be452132a99e7e07823070d799f336876_2.jpg",
@@ -1044,7 +1136,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-17.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-18.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-19.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-20.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-20.png",
+    "/images/product-details/pixel-10-pro-xl-1-v2.svg"
   ],
   "pixel-10-pro-fold": [
     "https://immagini.trovaprezzi.it/magazine/2025/08/Pixel-10-Pro-Fold-1.jpg",
@@ -1066,7 +1159,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXEL10PROFOLD/MOO-image-5.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXEL10PROFOLD/MOO-image-6.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXEL10PROFOLD/MOO-image-7.jpg",
-    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXEL10PROFOLD/MOO-image-8.jpg"
+    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXEL10PROFOLD/MOO-image-8.jpg",
+    "/images/product-details/pixel-10-pro-fold-1-v2.svg"
   ],
   "pixel-10-pro": [
     "https://www.au.com/adobe/dynamicmedia/deliver/dm-aid--92d7fa66-8387-4e31-b7b4-0e006b020f58/pixel10p_moonstone_01_d92aceb2690e766f.jpg?preferwebp=true&quality=90",
@@ -1085,7 +1179,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-13.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-14.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-15.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-16.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-16.png",
+    "/images/product-details/pixel-10-pro-1-v2.svg"
   ],
   "pixel-10": [
     "https://img.pccomponentes.com/articles/1095/10951041/152-google-pixel-10-5g-12gb-256gb-63-azul-indigo.jpg",
@@ -1103,7 +1198,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-11.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-12.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-13.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-14.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-14.png",
+    "/images/product-details/pixel-10-1-v2.svg"
   ],
   "pixel-10a": [
     "https://t-mobile.scene7.com/is/image/Tmusprod/FG-Google_P10a_Lavender_T-Shot_2UP_Lockup_NO_LOGO1%3A1x1?fmt=png&fmt=png-alpha&op_usm=1.75%2C0.3%2C2%2C0&qlt=85%2C0&resMode=sharp2",
@@ -1116,7 +1212,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-5.png",
     "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-4.png",
     "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-3.png",
-    "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-2.png"
+    "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-2.png",
+    "/images/product-details/pixel-10a-1-v2.svg"
   ],
   "pixel-9-pro-fold": [
     "https://api.priceinkenya.com/media/137343/conversions/Google-Pixel-9-Pro-Fold-d-original.webp",
@@ -1129,7 +1226,8 @@ export const productGalleries = {
     "https://api.priceinkenya.com/media/143138/conversions/google-pixel-10-pro-xl-d-medium.webp",
     "https://api.priceinkenya.com/media/144978/conversions/Google-Pixel-10-c-medium.webp",
     "https://api.priceinkenya.com/media/151765/conversions/Google-Pixel-11-medium.webp",
-    "https://api.priceinkenya.com/media/143057/conversions/google-pixel-10-pro-b-medium.webp"
+    "https://api.priceinkenya.com/media/143057/conversions/google-pixel-10-pro-b-medium.webp",
+    "/images/product-details/pixel-9-pro-fold-1-v2.svg"
   ],
   "pixel-9-pro": [
     "https://static01.galaxus.com/productimages/3/0/3/0/3/5/1/0/6/9/0/1/1/3/3/0/0/8/2e802447-6dde-4d09-9605-2437b1e9c16f_cropped.jpg_sea.jpeg",
@@ -1141,7 +1239,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-6.png",
     "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-7.png",
     "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-8.png",
-    "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-9.png"
+    "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-9.png",
+    "/images/product-details/pixel-9-pro-1-v2.svg"
   ],
   "pixel-9a": [
     "https://s3.us-east-1.amazonaws.com/product-image-bucket-prod-us/797233-Product-0-I-638753408405013977.jpg",
@@ -1155,7 +1254,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-8.png",
     "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-9.png",
     "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-10.png",
-    "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-11.png"
+    "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-11.png",
+    "/images/product-details/pixel-9a-1-v2.svg"
   ],
   "pixel-8": [
     "https://www.ourfriday.co.uk/image/cache/catalog/Google/google-pixel-8-obsidian-1-2-800x800.png",
@@ -1163,13 +1263,15 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-5.png",
     "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-4.png",
     "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-3.png",
-    "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8.png"
+    "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8.png",
+    "/images/product-details/pixel-8-1-v2.svg"
   ],
   "ipad-11th-gen": [
     "https://www.techspot.com/images/products/2025/tablets/org/2025-04-15-product.jpg",
     "https://cdn.reebelo.com/pim/products/P-IPAD11THGEN202511INCH/SIL-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-IPAD11THGEN202511INCH/SIL-image-1.jpg",
-    "https://cdn.reebelo.com/pim/products/P-IPAD11THGEN202511INCH/SIL-image-2.jpg"
+    "https://cdn.reebelo.com/pim/products/P-IPAD11THGEN202511INCH/SIL-image-2.jpg",
+    "/images/product-details/ipad-11th-gen-1-v2.svg"
   ],
   "ipad-air-8th-gen-11-inch-m4": [
     "https://ipaddy.nl/cdn/shop/files/iPadAir202611orange01_169ce971-46c9-48e6-b0b5-dc526d5d3ecd.jpg?v=1784037047",
@@ -1177,19 +1279,22 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-IPDAIRM4.2026/SPA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-IPDAIRM4.2026/SPA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-IPDAIRM4.2026/SPA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-IPDAIRM4.2026/SPA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-IPDAIRM4.2026/SPA-image-4.jpg",
+    "/images/product-details/ipad-air-8th-gen-11-inch-m4-1-v2.svg"
   ],
   "apple-watch-series-12": [
     "https://www.apple.com/v/apple-watch-series-12/b/images/overview/product-viewer/product_finishes_landing__h1a6u2lmlhm6_large.avif",
     "https://www.apple.com/v/apple-watch-series-12/b/images/overview/product-viewer/product_finishes_ceramic_pearl_white__m797y0r8nsqy_large.avif",
     "https://www.apple.com/v/apple-watch-series-12/b/images/overview/product-viewer/product_finishes_ceramic_night_blue__c86m67tq2c8y_large.avif",
     "https://www.apple.com/v/apple-watch-series-12/b/images/overview/product-viewer/product_finishes_aluminum_dark_bronze__cn6ty9h5yliu_large.avif",
-    "https://www.apple.com/v/apple-watch-series-12/b/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_large.avif"
+    "https://www.apple.com/v/apple-watch-series-12/b/images/overview/product-viewer/product_finishes_aluminum_light_gold__cr815xqxzoia_large.avif",
+    "/images/product-details/apple-watch-series-12-1-v2.svg"
   ],
   "apple-watch-ultra-4": [
     "https://www.apple.com/v/apple-watch-ultra-4/b/images/overview/product-viewer/product_finishes__dbkgeoads3e6_large.jpg",
     "https://www.apple.com/v/apple-watch-ultra-4/b/images/overview/product-viewer/product_finishes_black__d8fehns3thg2_large.jpg",
-    "https://www.apple.com/v/apple-watch-ultra-4/b/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_large.jpg"
+    "https://www.apple.com/v/apple-watch-ultra-4/b/images/overview/product-viewer/product_finishes_natural__fcf2wz3wghea_large.jpg",
+    "/images/product-details/apple-watch-ultra-4-1-v2.svg"
   ],
   "apple-watch-ultra-3": [
     "https://multimedia.bbycastatic.ca/multimedia/products/1500x1500/194/19451/19451651.jpg",
@@ -1293,7 +1398,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA3/NAT-TIT-OBA-NGR-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA3/NAT-TIT-OBA-NGR-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA3/NAT-TIT-OBA-NGR-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA3/NAT-TIT-OBA-NGR-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA3/NAT-TIT-OBA-NGR-image-4.jpg",
+    "/images/product-details/apple-watch-ultra-3-1-v2.svg"
   ],
   "apple-watch-series-11": [
     "https://www.switch.sg/cdn/shop/files/IMG-18079955_m_jpeg_1_2c5492f3-d18f-4be6-bc56-e3e936776eff.jpg?v=1757490035&width=1920",
@@ -1421,7 +1527,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES11/SIL-ALU-SBA-ANB-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES11/SIL-ALU-SBA-ANB-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES11/SIL-ALU-SBA-BLA-image-0.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES11/SIL-ALU-SBA-BLA-image-1.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES11/SIL-ALU-SBA-BLA-image-1.jpg",
+    "/images/product-details/apple-watch-series-11-1-v2.svg"
   ],
   "apple-watch-ultra-2": [
     "https://img.globaldata.pt/products/MREJ3PO-A.jpg",
@@ -1527,7 +1634,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA2/TIT-TIT-OBA-GRN-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA2/BLA-TIT-TLB-BLL-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA2/BLA-TIT-TLB-BLL-image-1.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA2/BLA-TIT-TLB-BLL-image-2.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHULTRA2/BLA-TIT-TLB-BLL-image-2.jpg",
+    "/images/product-details/apple-watch-ultra-2-1-v2.svg"
   ],
   "apple-watch-series-10": [
     "https://www.istoreil.co.il/media/catalog/product/a/p/apple_watch_series_10_46mm_lte_jet_black_aluminum_sport_band_black_pdp_image_position_1__wwen_2.jpg",
@@ -1863,19 +1971,21 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES10/NAT-N(T-NSB-BLF-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES10/GOL-TIT-MLB-GOL-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES10/GOL-TIT-MLB-GOL-image-1.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES10/GOL-TIT-MLB-GOL-image-2.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEWATCHSERIES10/GOL-TIT-MLB-GOL-image-2.jpg",
+    "/images/product-details/apple-watch-series-10-1-v2.svg"
   ],
   "apple-pencil-2nd-gen-type-c": [
-    "/images/product-details/apple-pencil-2nd-gen-type-c-1.svg",
-    "/images/product-details/apple-pencil-2nd-gen-type-c-2.svg",
-    "/images/product-details/apple-pencil-2nd-gen-type-c-3.svg"
+    "/images/product-details/apple-pencil-2nd-gen-type-c-1-v2.svg",
+    "/images/product-details/apple-pencil-2nd-gen-type-c-2-v2.svg",
+    "/images/product-details/apple-pencil-2nd-gen-type-c-3-v2.svg"
   ],
   "apple-pencil-pro": [
     "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX2D3?wid=4000&hei=4000&fmt=jpeg&qlt=90&.v=1713841707336",
     "https://cdn.reebelo.com/pim/products/P-APPLEPENCILPRO/WHI-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEPENCILPRO/WHI-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEPENCILPRO/WHI-image-2.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEPENCILPRO/WHI-image-3.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEPENCILPRO/WHI-image-3.jpg",
+    "/images/product-details/apple-pencil-pro-1-v2.svg"
   ],
   "magic-keyboard-m4-ipad-pro-13-inch": [
     "https://istyle.ae/cdn/shop/files/IMG-13087529_m_jpg_0_7db681c4-9eb1-4c8b-9f02-f1050cc22ff0.jpg?v=1749027763",
@@ -1883,13 +1993,15 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO13INCHM4/BLA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO13INCHM4/BLA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO13INCHM4/BLA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO13INCHM4/BLA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO13INCHM4/BLA-image-4.jpg",
+    "/images/product-details/magic-keyboard-m4-ipad-pro-13-inch-1-v2.svg"
   ],
   "apple-magic-keyboard-m2-12-9-inch": [
     "https://www.greycom.com.cy/image/cache/catalog/Accessories/2022/iPad%2012.9/Magic%20Keyboard/iPad_Pro_12_9-in_Silver_Black_Magic_Keyboard_14FL_Type_Mode_Screen__USEN-500x500.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO6THGEN129/BLA-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO6THGEN129/BLA-image-1.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO6THGEN129/BLA-image-2.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO6THGEN129/BLA-image-2.jpg",
+    "/images/product-details/apple-magic-keyboard-m2-12-9-inch-1-v2.svg"
   ],
   "apple-magic-keyboard-ipad-pro-m4-11-inch-black": [
     "https://media.binglee.com.au/b/a/b/4/bab4d6e4588b9512f509f34d21dd4680bd6463ee_Apple_MWR23ZA_A_Bags__Cases___Covers_Hero_1.jpg",
@@ -1897,7 +2009,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO11INCHM4/BLA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO11INCHM4/BLA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO11INCHM4/BLA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO11INCHM4/BLA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADPRO11INCHM4/BLA-image-4.jpg",
+    "/images/product-details/apple-magic-keyboard-ipad-pro-m4-11-inch-black-1-v2.svg"
   ],
   "apple-magic-keyboard-ipad-m2-11-inch": [
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADAIR11INCHM2/WHI-image-2.jpg",
@@ -1909,7 +2022,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADAIR11INCHM2/BLA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADAIR11INCHM2/BLA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADAIR11INCHM2/BLA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADAIR11INCHM2/BLA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEMAGICKEYBOARDFORIPADAIR11INCHM2/BLA-image-4.jpg",
+    "/images/product-details/apple-magic-keyboard-ipad-m2-11-inch-1-v2.svg"
   ],
   "apple-magic-mouse-3": [
     "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXK53?.v=1730508286345&fmt=jpeg&hei=2000&qlt=95&wid=2000",
@@ -1919,17 +2033,18 @@ export const productGalleries = {
     "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK53_AV4?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=djl2UEo3THdrR09raUs3dzlYeEhpaVRkTXNZOFJZTitTVFE0NHl0VW5Cb0YwVmtIbGRkS25RMVpBRlo0bk5DUU5ibzNUS1FqNUdMTzZHZDhJK2JJYmc",
     "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK53_AV3?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=ajBLeUdYUVBYR0lTTXVuMzllV0J0U1RkTXNZOFJZTitTVFE0NHl0VW5Cb0YwVmtIbGRkS25RMVpBRlo0bk5DUTJuYUl1cDBvMUtKMTluME5ZRldKT2c",
     "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK53_AV2?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=bU8zc2RhNVc1R3YwelZzL1hjeEJDeVRkTXNZOFJZTitTVFE0NHl0VW5Cb0YwVmtIbGRkS25RMVpBRlo0bk5DUUthamNBdSszeHY5MVl2cFdlZXg5RGc",
-    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK53_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=aXJqWnNhUC95OEdFRHd2b2FjUElSWnp6OEtYUXRNMU1VVTNvay9jWXczQXpIV3RHbE5qdS8zMStVUzZUdGp5bHRveDZjRzhwWnN6WkNVOWpOSnlmakE"
+    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK53_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=aXJqWnNhUC95OEdFRHd2b2FjUElSWnp6OEtYUXRNMU1VVTNvay9jWXczQXpIV3RHbE5qdS8zMStVUzZUdGp5bHRveDZjRzhwWnN6WkNVOWpOSnlmakE",
+    "/images/product-details/apple-magic-mouse-3-1-v2.svg"
   ],
   "playstation-5-joystick-keypad": [
     "https://image.makewebcdn.com/makeweb/m_1920x0/Spf7nJjLD/Accessories_PS5/1_1.jpg",
-    "/images/product-details/playstation-5-joystick-keypad-1.svg",
-    "/images/product-details/playstation-5-joystick-keypad-2.svg"
+    "/images/product-details/playstation-5-joystick-keypad-1-v2.svg",
+    "/images/product-details/playstation-5-joystick-keypad-2-v2.svg"
   ],
   "airpods-5": [
     "https://www.apple.com/newsroom/images/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/article/Apple-AirPods-5_inline.jpg.large_2x.jpg",
-    "/images/product-details/airpods-5-1.svg",
-    "/images/product-details/airpods-5-2.svg"
+    "/images/product-details/airpods-5-1-v2.svg",
+    "/images/product-details/airpods-5-2-v2.svg"
   ],
   "airpods-pro-3": [
     "https://haeri.store/upload/products/1-1_b16078f2.webp?w=500",
@@ -1938,13 +2053,15 @@ export const productGalleries = {
     "https://haeri.store/upload/products/4_cd4ff9f0.webp?w=500",
     "https://haeri.store/upload/products/5_729a95d2.webp?w=500",
     "https://haeri.store/upload/products/6_2f614f45.webp?w=500",
-    "https://haeri.store/upload/products/7_348003a2.webp?w=500"
+    "https://haeri.store/upload/products/7_348003a2.webp?w=500",
+    "/images/product-details/airpods-pro-3-1-v2.svg"
   ],
   "airpods-max-2": [
     "https://www.apple.com/v/airpods-max/l/images/overview/welcome/max-loop_startframe__c0vn1ukmh7ma_xlarge.jpg",
     "https://www.apple.com/v/airpods-max/l/images/overview/bento/midnight/bento_1_airpod_max_midnight__4jy1tkqh9qay_xlarge.jpg",
     "https://www.apple.com/v/airpods-max/l/images/overview/bento/midnight/bento_2_airpod_max_midnight__c4h88dvygxkm_xlarge.jpg",
-    "https://www.apple.com/v/airpods-max/l/images/overview/bento/midnight/bento_3_airpod_max_midnight__csvor4qqjyi6_xlarge.jpg"
+    "https://www.apple.com/v/airpods-max/l/images/overview/bento/midnight/bento_3_airpod_max_midnight__csvor4qqjyi6_xlarge.jpg",
+    "/images/product-details/airpods-max-2-1-v2.svg"
   ],
   "airpods-pro-2": [
     "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP880/sp880-airpods-Pro-2nd-gen.png",
@@ -1953,7 +2070,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-AIRPODSPRO2/WHT-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-AIRPODSPRO2/WHT-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-AIRPODSPRO2/WHT-image-4.jpg",
-    "https://cdn.reebelo.com/pim/products/P-AIRPODSPRO2/WHT-image-5.jpg"
+    "https://cdn.reebelo.com/pim/products/P-AIRPODSPRO2/WHT-image-5.jpg",
+    "/images/product-details/airpods-pro-2-1-v2.svg"
   ],
   "airpods-4": [
     "https://bf1af2.akinoncloudcdn.com/products/2026/01/30/634784/332fa97e-4e49-4f91-99e9-8eeca832b102_size3840_cropCenter.jpg",
@@ -1962,22 +2080,24 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-APPLEAIRPODS4/WHI-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEAIRPODS4/WHI-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-APPLEAIRPODS4/WHI-image-4.jpg",
-    "https://cdn.reebelo.com/pim/products/P-APPLEAIRPODS4/WHI-image-5.jpg"
+    "https://cdn.reebelo.com/pim/products/P-APPLEAIRPODS4/WHI-image-5.jpg",
+    "/images/product-details/airpods-4-1-v2.svg"
   ],
   "sony-headphone": [
-    "/images/product-details/sony-headphone-1.svg",
-    "/images/product-details/sony-headphone-2.svg",
-    "/images/product-details/sony-headphone-3.svg"
+    "/images/product-details/sony-headphone-1-v2.svg",
+    "/images/product-details/sony-headphone-2-v2.svg",
+    "/images/product-details/sony-headphone-3-v2.svg"
   ],
   "samsung-galaxy-tab-a11": [
     "https://cdn.mafrservices.com/pim-content/UAE/media/product/2259469/1758773404/2259469_main.jpg",
-    "/images/product-details/samsung-galaxy-tab-a11-1.svg",
-    "/images/product-details/samsung-galaxy-tab-a11-2.svg"
+    "/images/product-details/samsung-galaxy-tab-a11-1-v2.svg",
+    "/images/product-details/samsung-galaxy-tab-a11-2-v2.svg"
   ],
   "samsung-galaxy-tab-a11-plus": [
     "https://cdn.electronyat.qa/_next/image?q=90&url=https%3A%2F%2Fbackend.electronyat.qa%2Fmedia%2Fcatalog%2Fproduct%2Fu%2Fn%2Funtitled_design_-_2025-12-09t170439.489_1.png&w=3840",
     "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-a11-plus/TabA11Plus_HD01_KV_PC.jpg?imwidth=1366",
-    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-a11-plus/TabA11Plus_FT02_Design_PC.jpg?$1440_N_JPG$"
+    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-a11-plus/TabA11Plus_FT02_Design_PC.jpg?$1440_N_JPG$",
+    "/images/product-details/samsung-galaxy-tab-a11-plus-1-v2.svg"
   ],
   "samsung-galaxy-tab-s9-fe-5g": [
     "https://www.buyitdirect.ie/Images/SM-X516BZAAEUB_2_Supersize.png?v=3",
@@ -1986,7 +2106,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-4.jpg",
+    "/images/product-details/samsung-galaxy-tab-s9-fe-5g-1-v2.svg"
   ],
   "samsung-galaxy-tab-s9-fe": [
     "https://cdn.shopify.com/s/files/1/0622/6663/8441/files/Samsung_-_Galaxy_Tab_S9_FE_-_10.9_256GB_-_Wi-Fi_-_w_S-Pen_-_Mint_-_SM-X510NLGEXAR.webp?v=1783014584",
@@ -1994,17 +2115,18 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYTABS9FE2023/GRA-image-4.jpg",
+    "/images/product-details/samsung-galaxy-tab-s9-fe-1-v2.svg"
   ],
   "samsung-galaxy-tab-s9-fe-plus-5g": [
     "https://api.priceinkenya.com/media/134722/conversions/Samsung-Galaxy-Tab-S9-FE-Plus-e-original.webp",
-    "/images/product-details/samsung-galaxy-tab-s9-fe-plus-5g-1.svg",
-    "/images/product-details/samsung-galaxy-tab-s9-fe-plus-5g-2.svg"
+    "/images/product-details/samsung-galaxy-tab-s9-fe-plus-5g-1-v2.svg",
+    "/images/product-details/samsung-galaxy-tab-s9-fe-plus-5g-2-v2.svg"
   ],
   "samsung-galaxy-tab-s9": [
     "https://cdn.movertix.com/media/catalog/product/s/a/samsung-galaxy-tab-s9-11-5g-beige-128gb-and-8gb-ram-sm-x716b_1.jpg",
-    "/images/product-details/samsung-galaxy-tab-s9-1.svg",
-    "/images/product-details/samsung-galaxy-tab-s9-2.svg"
+    "/images/product-details/samsung-galaxy-tab-s9-1-v2.svg",
+    "/images/product-details/samsung-galaxy-tab-s9-2-v2.svg"
   ],
   "samsung-galaxy-tab-s10-fe": [
     "https://cdn5.coppel.com/pm/2875563-1.jpg?iresize=width%3A400%2Cheight%3A320",
@@ -2013,22 +2135,23 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-GALAXYTABS10FE109INCH/GRY-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-GALAXYTABS10FE109INCH/GRY-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-GALAXYTABS10FE109INCH/GRY-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-GALAXYTABS10FE109INCH/GRY-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-GALAXYTABS10FE109INCH/GRY-image-4.jpg",
+    "/images/product-details/samsung-galaxy-tab-s10-fe-1-v2.svg"
   ],
   "samsung-galaxy-tab-s10-fe-plus": [
     "https://img.pccomponentes.com/articles/1089/10899836/1116-tablet-samsung-galaxy-tab-s10-fe-plus-131-8gb-128gb-wi-fi-plata-s-pen-exynos.jpg",
-    "/images/product-details/samsung-galaxy-tab-s10-fe-plus-1.svg",
-    "/images/product-details/samsung-galaxy-tab-s10-fe-plus-2.svg"
+    "/images/product-details/samsung-galaxy-tab-s10-fe-plus-1-v2.svg",
+    "/images/product-details/samsung-galaxy-tab-s10-fe-plus-2-v2.svg"
   ],
   "samsung-galaxy-tab-s11": [
     "https://shop.samsung.com/ie/images/products/30325/36820/2000x2000/SM-X730NZSTEUB.webp",
-    "/images/product-details/samsung-galaxy-tab-s11-1.svg",
-    "/images/product-details/samsung-galaxy-tab-s11-2.svg"
+    "/images/product-details/samsung-galaxy-tab-s11-1-v2.svg",
+    "/images/product-details/samsung-galaxy-tab-s11-2-v2.svg"
   ],
   "samsung-galaxy-tab-s11-ultra": [
     "https://cdn.comfy.ua/media/catalog/product/g/a/galaxy_tab_s11_ultra_gray_product_image_combo_with_s_pen.jpg",
-    "/images/product-details/samsung-galaxy-tab-s11-ultra-1.svg",
-    "/images/product-details/samsung-galaxy-tab-s11-ultra-2.svg"
+    "/images/product-details/samsung-galaxy-tab-s11-ultra-1-v2.svg",
+    "/images/product-details/samsung-galaxy-tab-s11-ultra-2-v2.svg"
   ],
   "samsung-galaxy-watch-ultra-2": [
     "https://www.orange.pl/medias/sys_master/root/images/hba/hef/16568973557790/samsung-galaxy-watch-ultra-2-black-frontslant.png",
@@ -2037,14 +2160,16 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2/TSL-TIT-MBA-OLI-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2/TSL-TIT-MBA-OLI-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2/TSL-TIT-MBA-OLI-image-4.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2/TSL-TIT-MBA-OLI-image-5.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2/TSL-TIT-MBA-OLI-image-5.jpg",
+    "/images/product-details/samsung-galaxy-watch-ultra-2-1-v2.svg"
   ],
   "samsung-galaxy-watch-9": [
     "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch9/images/Galaxy-Watch9_Design-colors-cream-40mm-start_PC.jpg?imbypass=true",
     "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch9/images/Galaxy-Watch9_Design-colors-graphite-40mm-start_PC.jpg?imbypass=true",
     "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch9/images/Galaxy-Watch9_Design-colors-silver-44mm-start_PC.jpg?imbypass=true",
     "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch9/images/Galaxy-Watch9_Design-colors-graphite-44mm-start_PC.jpg?imbypass=true",
-    "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch9/images/Galaxy-Watch9_Galaxy-experience-watch-face-bands01-color01-front_PC.jpg?imbypass=true"
+    "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch9/images/Galaxy-Watch9_Galaxy-experience-watch-face-bands01-color01-front_PC.jpg?imbypass=true",
+    "/images/product-details/samsung-galaxy-watch-9-1-v2.svg"
   ],
   "samsung-galaxy-watch-ultra-2025": [
     "https://media.hifi.lu/sys-master/products/9537044611102/3840x3840.51007319_001.webp",
@@ -2053,7 +2178,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2025/TSL-TIT-MBA-GRY-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2025/TSL-TIT-MBA-GRY-image-3.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2025/TSL-TIT-MBA-GRY-image-4.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2025/TSL-TIT-MBA-GRY-image-5.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYWATCHULTRA2025/TSL-TIT-MBA-GRY-image-5.jpg",
+    "/images/product-details/samsung-galaxy-watch-ultra-2025-1-v2.svg"
   ],
   "samsung-galaxy-watch-8-classic": [
     "https://cdn2.fptshop.com.vn/unsafe/samsung_galaxy_watch8_classic_den_1_b9432d2763.png",
@@ -2062,7 +2188,8 @@ export const productGalleries = {
     "https://image-us.samsung.com/us/watches/galaxy-watch8-classic/images/galaxy-watch8-classic-innovation-design-end-tb-mo.jpg?imbypass=true",
     "https://image-us.samsung.com/us/watches/galaxy-watch8-classic/images/galaxy-watch8-classic-design-rotating-bezel-start-tb.jpg?imbypass=true",
     "https://image-us.samsung.com/us/watches/galaxy-watch8-classic/images/galaxy-watch8-classic-design-rotating-bezel-end-tb.jpg?imbypass=true",
-    "https://image-us.samsung.com/us/watches/galaxy-watch8-classic/images/galaxy-watch8-classic-design-cushion-end-tb.jpg?imbypass=true"
+    "https://image-us.samsung.com/us/watches/galaxy-watch8-classic/images/galaxy-watch8-classic-design-cushion-end-tb.jpg?imbypass=true",
+    "/images/product-details/samsung-galaxy-watch-8-classic-1-v2.svg"
   ],
   "samsung-galaxy-watch-8": [
     "https://re-luxe142.ru/storage/Samsung/New/%D1%87%D0%B0%D1%81%D1%8B/8/1.jpeg",
@@ -2071,22 +2198,24 @@ export const productGalleries = {
     "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-innovation-design-end-tb-mo.jpg?imbypass=true",
     "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch8/images/galaxy-watch8-design-cushion-sleek.jpg?imbypass=true",
     "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-design-thinnest-watch-start-tb.jpg?imbypass=true",
-    "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-design-thinnest-watch-end-tb.jpg?imbypass=true"
+    "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-design-thinnest-watch-end-tb.jpg?imbypass=true",
+    "/images/product-details/samsung-galaxy-watch-8-1-v2.svg"
   ],
   "samsung-galaxy-watch-7": [
     "https://www.samsungmobile.co.il/pub/media/catalog/product/cache/a1ead2c2961e2ce13911c89cbb3a882f/c/0/C000001035_1-17206148132891701.jpg",
     "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch7/03132025/Watch7-MLP-HD01-KV-DarkBG-D.jpg?imwidth=1366",
-    "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch7/01192025/Watch7-MLP_FT02_Colorful-Durable_PC.jpg?$720_N_JPG$"
+    "https://images.samsung.com/is/image/samsung/assets/us/watches/galaxy-watch7/01192025/Watch7-MLP_FT02_Colorful-Durable_PC.jpg?$720_N_JPG$",
+    "/images/product-details/samsung-galaxy-watch-7-1-v2.svg"
   ],
   "samsung-galaxy-watch-7-fe": [
-    "/images/product-details/samsung-galaxy-watch-7-fe-1.svg",
-    "/images/product-details/samsung-galaxy-watch-7-fe-2.svg",
-    "/images/product-details/samsung-galaxy-watch-7-fe-3.svg"
+    "/images/product-details/samsung-galaxy-watch-7-fe-1-v2.svg",
+    "/images/product-details/samsung-galaxy-watch-7-fe-2-v2.svg",
+    "/images/product-details/samsung-galaxy-watch-7-fe-3-v2.svg"
   ],
   "samsung-galaxy-watch-6-classic": [
     "https://data.clickforshop.it/imgprodotto/samsung-galaxy-watch-6-classic-smartwatch-fitness-tracker-47-mm-gps-wi-fi-colore-argento-con-cinturino-argento_420830_zoom.jpg",
-    "/images/product-details/samsung-galaxy-watch-6-classic-1.svg",
-    "/images/product-details/samsung-galaxy-watch-6-classic-2.svg"
+    "/images/product-details/samsung-galaxy-watch-6-classic-1-v2.svg",
+    "/images/product-details/samsung-galaxy-watch-6-classic-2-v2.svg"
   ],
   "samsung-galaxy-buds-4-pro": [
     "https://technoperry.com/upload/iblock/555/jasuv9qqakzcrjc6lk7ubqh3y0d8dzcr/2.png",
@@ -2113,7 +2242,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS4PRO/WHI-image-4.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS4PRO/WHI-image-5.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS4PRO/WHI-image-6.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS4PRO/WHI-image-7.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS4PRO/WHI-image-7.jpg",
+    "/images/product-details/samsung-galaxy-buds-4-pro-1-v2.svg"
   ],
   "samsung-galaxy-buds-2": [
     "https://www.pbtech.co.nz/imgprod/H/S/HSTSAM0177001I__1.jpg",
@@ -2142,12 +2272,13 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS2/OLI-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS2/OLI-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS2/OLI-image-2.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS2/OLI-image-3.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDS2/OLI-image-3.jpg",
+    "/images/product-details/samsung-galaxy-buds-2-1-v2.svg"
   ],
   "samsung-galaxy-fit-3": [
     "https://media.ldlc.com/r1600/ld/products/00/06/17/38/LD0006173866.jpg",
-    "/images/product-details/samsung-galaxy-fit-3-1.svg",
-    "/images/product-details/samsung-galaxy-fit-3-2.svg"
+    "/images/product-details/samsung-galaxy-fit-3-1-v2.svg",
+    "/images/product-details/samsung-galaxy-fit-3-2-v2.svg"
   ],
   "samsung-galaxy-buds": [
     "https://resources.claroshop.com/medios-plazavip/mkt/5f36ce179deca_sin-t-tulo-njpg.jpg",
@@ -2180,7 +2311,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDSPLUS/ABL-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDSPLUS/ABL-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDSPLUS/ABL-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDSPLUS/ABL-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYBUDSPLUS/ABL-image-4.jpg",
+    "/images/product-details/samsung-galaxy-buds-1-v2.svg"
   ],
   "pixel-watch-4": [
     "https://multimedia.bbycastatic.ca/multimedia/products/1500x1500/194/19410/19410417.jpg",
@@ -2239,7 +2371,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH4/GOL-ALU-ABA-LEM-image-7.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH4/GOL-ALU-ABA-LEM-image-8.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH4/GOL-ALU-ABA-LEM-image-9.jpg",
-    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH4/GOL-ALU-ABA-LEM-image-10.jpg"
+    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH4/GOL-ALU-ABA-LEM-image-10.jpg",
+    "/images/product-details/pixel-watch-4-1-v2.svg"
   ],
   "pixel-watch-3": [
     "https://images.price.tools/images/google-pixel-watch-3-41-mm-l-1Yxtwk0i2.jpg",
@@ -2267,7 +2400,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH3/SIL-1RA-ABA-OBS-image-0.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH3/SIL-1RA-ABA-OBS-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH3/SIL-1RA-ABA-OBS-image-2.jpg",
-    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH3/SIL-1RA-ABA-OBS-image-3.jpg"
+    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH3/SIL-1RA-ABA-OBS-image-3.jpg",
+    "/images/product-details/pixel-watch-3-1-v2.svg"
   ],
   "pixel-watch-2": [
     "https://makeshop-multi-images.akamaized.net/wetrading/itemimages/000000000806_W3DIZ45.jpg",
@@ -2294,7 +2428,8 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH2/POL-ALU-ABA-BYY-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH2/POL-ALU-ABA-BYY-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH2/POL-ALU-ABA-BYY-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH2/POL-ALU-ABA-BYY-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELWATCH2/POL-ALU-ABA-BYY-image-4.jpg",
+    "/images/product-details/pixel-watch-2-1-v2.svg"
   ],
   "pixel-buds-pro": [
     "https://en.macauconsole.com/cdn/shop/products/google-pixel-buds-pro_1024x1024.png?v=1667395060",
@@ -2327,12 +2462,14 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELBUDSPRO/CCL-image-1.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELBUDSPRO/CCL-image-2.jpg",
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELBUDSPRO/CCL-image-3.jpg",
-    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELBUDSPRO/CCL-image-4.jpg"
+    "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXELBUDSPRO/CCL-image-4.jpg",
+    "/images/product-details/pixel-buds-pro-1-v2.svg"
   ],
   "samsung-type-c-45w-pd-fast-charger": [
     "/images/products/samsung-type-c-45w-pd-fast-charger.png",
     "https://revenes.com/wp-content/uploads/2023/06/Samsung-Type-C-45W-PD-Fast-Charger-3.png",
-    "https://revenes.com/wp-content/uploads/2023/06/Samsung-Type-C-45W-PD-Fast-Charger-4.png"
+    "https://revenes.com/wp-content/uploads/2023/06/Samsung-Type-C-45W-PD-Fast-Charger-4.png",
+    "/images/product-details/samsung-type-c-45w-pd-fast-charger-1-v2.svg"
   ],
   "samsung-type-c-25w-pd-fast-charger": [
     "/images/products/samsung-type-c-25w-pd-fast-charger.png",
@@ -2343,12 +2480,14 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/Samsung-Type-C-25W-PD-Fast-Charger-3.png",
     "https://revenes.com/wp-content/uploads/2022/07/Samsung-Type-C-25W-PD-Fast-Charge-Adapter5.png",
     "https://revenes.com/wp-content/uploads/2022/07/Samsung-Type-C-25W-PD-Fast-Charge-Adapter6.png",
-    "https://revenes.com/wp-content/uploads/2022/07/Samsung-Type-C-25W-PD-Fast-Charger-2.png"
+    "https://revenes.com/wp-content/uploads/2022/07/Samsung-Type-C-25W-PD-Fast-Charger-2.png",
+    "/images/product-details/samsung-type-c-25w-pd-fast-charger-1-v2.svg"
   ],
   "iphone-20w-usb-c-complete-fast-charger": [
     "/images/products/iphone-20w-usb-c-complete-fast-charger.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/ab155027-24f0-4006-afba-8209e59b7d8a.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/c918c7c7-0350-439c-8ff0-d540ee17fe4a-1.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/c918c7c7-0350-439c-8ff0-d540ee17fe4a-1.jpg",
+    "/images/product-details/iphone-20w-usb-c-complete-fast-charger-1-v2.svg"
   ],
   "itel-500w-power-tank-all-in-one-solar-inverter-1kwh-lifepo4-battery": [
     "/images/products/itel-500w-power-tank-all-in-one-solar-inverter-1kwh-lifepo4-battery.png",
@@ -2359,14 +2498,16 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/12/Itel-500W-Power-Tank-All-in-One-Solar-Inverter-1kWh-LifePo4-Battery-7.png",
     "https://revenes.com/wp-content/uploads/2025/12/Itel-500W-Power-Tank-All-in-One-Solar-Inverter-1kWh-LifePo4-Battery-8.png",
     "https://revenes.com/wp-content/uploads/2025/12/Itel-500W-Power-Tank-All-in-One-Solar-Inverter-1kWh-LifePo4-Battery-9.png",
-    "https://revenes.com/wp-content/uploads/2025/12/Itel-500W-Power-Tank-All-in-One-Solar-Inverter-1kWh-LifePo4-Battery-10.png"
+    "https://revenes.com/wp-content/uploads/2025/12/Itel-500W-Power-Tank-All-in-One-Solar-Inverter-1kWh-LifePo4-Battery-10.png",
+    "/images/product-details/itel-500w-power-tank-all-in-one-solar-inverter-1kwh-lifepo4-battery-1-v2.svg"
   ],
   "apple-12w-charger": [
     "/images/products/apple-12w-charger.png",
     "https://revenes.com/wp-content/uploads/2021/11/iPhone-12W-Complete-Charger-2.png",
     "https://revenes.com/wp-content/uploads/2021/11/7b895ded-aa2a-4873-9f7c-b107a816451e.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/0a6e3cfe-53e2-4314-8e2d-f344de417ca3.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/102573_1531914433.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/102573_1531914433.jpg",
+    "/images/product-details/apple-12w-charger-1-v2.svg"
   ],
   "itel-power-go-power-bank-100000mah-portable-power-station-130w": [
     "/images/products/itel-power-go-power-bank-100000mah-portable-power-station-130w.png",
@@ -2377,7 +2518,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/02/Itel-Power-Go-Smart-100000mAh-Portable-Power-Station-130W-5.png",
     "https://revenes.com/wp-content/uploads/2026/02/Itel-Power-Go-Smart-100000mAh-Portable-Power-Station-130W-4.png",
     "https://revenes.com/wp-content/uploads/2026/02/Itel-Power-Go-Smart-100000mAh-Portable-Power-Station-130W-3.png",
-    "https://revenes.com/wp-content/uploads/2026/02/Itel-Power-Go-Smart-100000mAh-Portable-Power-Station-130W-2.png"
+    "https://revenes.com/wp-content/uploads/2026/02/Itel-Power-Go-Smart-100000mAh-Portable-Power-Station-130W-2.png",
+    "/images/product-details/itel-power-go-power-bank-100000mah-portable-power-station-130w-1-v2.svg"
   ],
   "xiaomi-redmi-45w-fast-charger": [
     "/images/products/xiaomi-redmi-45w-fast-charger.jpg",
@@ -2389,7 +2531,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/218148657-1850028220.jpg",
     "https://revenes.com/wp-content/uploads/2022/07/218148657-1850028220-1.jpg",
     "https://revenes.com/wp-content/uploads/2022/07/186331888-144993132.jpg",
-    "https://revenes.com/wp-content/uploads/2022/07/1682629740-307587699.jpg"
+    "https://revenes.com/wp-content/uploads/2022/07/1682629740-307587699.jpg",
+    "/images/product-details/xiaomi-redmi-45w-fast-charger-1-v2.svg"
   ],
   "baseus-encok-d02-pro-headphones": [
     "/images/products/baseus-encok-d02-pro-headphones.webp",
@@ -2405,18 +2548,21 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/H61a43f42272444c3a3ab7cd94f0e5e62k.png",
     "https://revenes.com/wp-content/uploads/2022/07/H2d0fef5d50ec4b88adf6e0fadc3c1205Z.jpg_640x640q90.jpg",
     "https://revenes.com/wp-content/uploads/2022/07/H08e3779e21eb4c4fba32369140262a69Y.jpg_640x640q90.jpg",
-    "https://revenes.com/wp-content/uploads/2022/07/H8cd2b003e0d947388e266156f38e30eeK.jpg_640x640q90.jpg"
+    "https://revenes.com/wp-content/uploads/2022/07/H8cd2b003e0d947388e266156f38e30eeK.jpg_640x640q90.jpg",
+    "/images/product-details/baseus-encok-d02-pro-headphones-1-v2.svg"
   ],
   "xiaomi-redmi-mi-in-ear-headphones-basic-earpiece": [
     "/images/products/xiaomi-redmi-mi-in-ear-headphones-basic-earpiece.png",
     "https://revenes.com/wp-content/uploads/2023/06/Xiaomi-Redmi-Mi-In-Ear-Headphones-Basic-Earpiece-2-1.png",
     "https://revenes.com/wp-content/uploads/2023/06/Xiaomi-Redmi-Mi-In-Ear-Headphones-Basic-Earpiece-1.png",
-    "https://revenes.com/wp-content/uploads/2023/06/Xiaomi-Redmi-Mi-In-Ear-Headphones-Basic-Earpiece-3.png"
+    "https://revenes.com/wp-content/uploads/2023/06/Xiaomi-Redmi-Mi-In-Ear-Headphones-Basic-Earpiece-3.png",
+    "/images/product-details/xiaomi-redmi-mi-in-ear-headphones-basic-earpiece-1-v2.svg"
   ],
   "mtn-4g-mifi-zlt-m30s": [
     "/images/products/mtn-4g-mifi-zlt-m30s.png",
     "https://revenes.com/wp-content/uploads/2022/11/MTN-4G-MiFi-ZLT-M30S-2.png",
-    "https://revenes.com/wp-content/uploads/2022/11/MTN-4G-MiFi-ZLT-M30S-3.png"
+    "https://revenes.com/wp-content/uploads/2022/11/MTN-4G-MiFi-ZLT-M30S-3.png",
+    "/images/product-details/mtn-4g-mifi-zlt-m30s-1-v2.svg"
   ],
   "oraimo-traveler-4-20000mah-power-bank": [
     "/images/products/oraimo-traveler-4-20000mah-power-bank.jpg",
@@ -2427,7 +2573,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/opb-p204d_680_-05.jpg",
     "https://revenes.com/wp-content/uploads/2022/07/opb-p204d_680_-06.jpg",
     "https://revenes.com/wp-content/uploads/2022/07/opb-p204d_680_-07.jpg",
-    "https://revenes.com/wp-content/uploads/2022/07/opb-p204d_680_-08.jpg"
+    "https://revenes.com/wp-content/uploads/2022/07/opb-p204d_680_-08.jpg",
+    "/images/product-details/oraimo-traveler-4-20000mah-power-bank-1-v2.svg"
   ],
   "itel-smart-watch-native-storm-sones": [
     "/images/products/itel-smart-watch-native-storm-sones.png",
@@ -2441,7 +2588,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/01/Itel-Smart-Watch-Native-Storm-SONES-10.png",
     "https://revenes.com/wp-content/uploads/2025/01/Itel-Smart-Watch-Native-Storm-SONES-11.png",
     "https://revenes.com/wp-content/uploads/2025/01/Itel-Smart-Watch-Native-Storm-SONES-12.png",
-    "https://revenes.com/wp-content/uploads/2025/01/Itel-Smart-Watch-Native-Storm-SONES-13.png"
+    "https://revenes.com/wp-content/uploads/2025/01/Itel-Smart-Watch-Native-Storm-SONES-13.png",
+    "/images/product-details/itel-smart-watch-native-storm-sones-1-v2.svg"
   ],
   "oraimo-freepods-lite": [
     "/images/products/oraimo-freepods-lite.png",
@@ -2457,17 +2605,20 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/09/otw-330_680___1.jpg",
     "https://revenes.com/wp-content/uploads/2023/09/20230705-164123.jpg",
     "https://revenes.com/wp-content/uploads/2023/09/20230705-164133.jpg",
-    "https://revenes.com/wp-content/uploads/2023/09/img_v2_87cd536c-4ac6-431e-8e8b-60488c9cc92g.jpg"
+    "https://revenes.com/wp-content/uploads/2023/09/img_v2_87cd536c-4ac6-431e-8e8b-60488c9cc92g.jpg",
+    "/images/product-details/oraimo-freepods-lite-1-v2.svg"
   ],
   "airtel-4g-mifi-zlt-m30-pro-unlocked": [
     "/images/products/airtel-4g-mifi-zlt-m30-pro-unlocked.png",
     "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package-Content.jpeg",
-    "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package.jpeg"
+    "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package.jpeg",
+    "/images/product-details/airtel-4g-mifi-zlt-m30-pro-unlocked-1-v2.svg"
   ],
   "mtn-4g-mifi-zlt-unlocked": [
     "/images/products/mtn-4g-mifi-zlt-unlocked.png",
     "https://revenes.com/wp-content/uploads/2022/11/MTN-4G-MiFi-ZLT-M30S-2.png",
-    "https://revenes.com/wp-content/uploads/2022/11/MTN-4G-MiFi-ZLT-M30S-3.png"
+    "https://revenes.com/wp-content/uploads/2022/11/MTN-4G-MiFi-ZLT-M30S-3.png",
+    "/images/product-details/mtn-4g-mifi-zlt-unlocked-1-v2.svg"
   ],
   "oraimo-powercube-20-chic-20w-gan-fast-charger": [
     "/images/products/oraimo-powercube-20-chic-20w-gan-fast-charger.png",
@@ -2476,18 +2627,20 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/Oraimo-PowerCube-20-Chic-20W-Fast-Charger-4.png",
     "https://revenes.com/wp-content/uploads/2022/07/Oraimo-PowerCube-20-Chic-20W-Fast-Charger-5.png",
     "https://revenes.com/wp-content/uploads/2022/07/Oraimo-PowerCube-20-Chic-20W-Fast-Charger-6.png",
-    "https://revenes.com/wp-content/uploads/2022/07/Oraimo-PowerCube-20-Chic-20W-Fast-Charger-7.png"
+    "https://revenes.com/wp-content/uploads/2022/07/Oraimo-PowerCube-20-Chic-20W-Fast-Charger-7.png",
+    "/images/product-details/oraimo-powercube-20-chic-20w-gan-fast-charger-1-v2.svg"
   ],
   "mtn-zte-mf927u-mifi-unlocked": [
     "/images/products/mtn-zte-mf927u-mifi-unlocked.png",
     "https://revenes.com/wp-content/uploads/2022/02/MTN-4G-MiFi-Locked1.png",
     "https://revenes.com/wp-content/uploads/2022/02/MTN-4G-MiFi-Locked2.png",
-    "https://revenes.com/wp-content/uploads/2022/02/MTN-4G-MiFi-Locked3.png"
+    "https://revenes.com/wp-content/uploads/2022/02/MTN-4G-MiFi-Locked3.png",
+    "/images/product-details/mtn-zte-mf927u-mifi-unlocked-1-v2.svg"
   ],
   "xiaomi-redmi-67w-fast-charger": [
     "/images/products/xiaomi-redmi-67w-fast-charger.png",
     "https://revenes.com/wp-content/uploads/2023/06/Xiaomi-Redmi-67W-Fast-Charger-2.png",
-    "/images/product-details/xiaomi-redmi-67w-fast-charger-1.svg"
+    "/images/product-details/xiaomi-redmi-67w-fast-charger-1-v2.svg"
   ],
   "oraimo-freepods-4": [
     "/images/products/oraimo-freepods-4.png",
@@ -2504,7 +2657,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/04/oeb-e105d_680_4_.jpg",
     "https://revenes.com/wp-content/uploads/2023/04/oeb-e105d_680_7_.jpg",
     "https://revenes.com/wp-content/uploads/2023/04/oeb-e105d_680_15_.jpg",
-    "https://revenes.com/wp-content/uploads/2023/04/oeb-e105d_680_2_.jpg"
+    "https://revenes.com/wp-content/uploads/2023/04/oeb-e105d_680_2_.jpg",
+    "/images/product-details/oraimo-freepods-4-1-v2.svg"
   ],
   "oraimo-riff-tws-earbuds": [
     "/images/products/oraimo-riff-tws-earbuds.jpg",
@@ -2515,17 +2669,19 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/02/Oraimo-Riff-TWS-Earbuds-4-Black.jpg",
     "https://revenes.com/wp-content/uploads/2022/02/Oraimo-Riff-TWS-Earbuds-4-White.png",
     "https://revenes.com/wp-content/uploads/2022/02/Oraimo-Riff-TWS-Earbuds-5.jpg",
-    "https://revenes.com/wp-content/uploads/2022/02/Oraimo-Riff-TWS-Earbuds-White.jpg"
+    "https://revenes.com/wp-content/uploads/2022/02/Oraimo-Riff-TWS-Earbuds-White.jpg",
+    "/images/product-details/oraimo-riff-tws-earbuds-1-v2.svg"
   ],
   "itel-star-200-20000mah-powerbank": [
     "/images/products/itel-star-200-20000mah-powerbank.png",
     "https://revenes.com/wp-content/uploads/2022/03/Itel-Star-200.jpeg",
-    "/images/product-details/itel-star-200-20000mah-powerbank-1.svg"
+    "/images/product-details/itel-star-200-20000mah-powerbank-1-v2.svg"
   ],
   "mtn-broadband-4g-zlt-s20-cat4-wifi-router-unlocked": [
     "/images/products/mtn-broadband-4g-zlt-s20-cat4-wifi-router-unlocked.png",
     "https://revenes.com/wp-content/uploads/2023/06/MTN-Broadband-4G-ZLT-S20-Router-2.png",
-    "https://revenes.com/wp-content/uploads/2023/06/MTN-Broadband-4G-ZLT-S20-Router-3.png"
+    "https://revenes.com/wp-content/uploads/2023/06/MTN-Broadband-4G-ZLT-S20-Router-3.png",
+    "/images/product-details/mtn-broadband-4g-zlt-s20-cat4-wifi-router-unlocked-1-v2.svg"
   ],
   "itel-4-way-socket-extension-isu-1421wu": [
     "/images/products/itel-4-way-socket-extension-isu-1421wu.png",
@@ -2535,7 +2691,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/12/Itel-Extension-ISU-1421WU-4.png",
     "https://revenes.com/wp-content/uploads/2022/12/Itel-Extension-ISU-1421WU-5.png",
     "https://revenes.com/wp-content/uploads/2022/12/Itel-Extension-ISU-1421WU-6.png",
-    "https://revenes.com/wp-content/uploads/2022/12/Itel-Extension-ISU-1421WU-7.png"
+    "https://revenes.com/wp-content/uploads/2022/12/Itel-Extension-ISU-1421WU-7.png",
+    "/images/product-details/itel-4-way-socket-extension-isu-1421wu-1-v2.svg"
   ],
   "samsung-galaxy-buds2-pro": [
     "/images/products/samsung-galaxy-buds2-pro.png",
@@ -2550,13 +2707,15 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Buds2-Pro-12.png",
     "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Buds2-Pro-13.png",
     "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Buds2-Pro-14.png",
-    "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Buds2-Pro-5.png"
+    "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Buds2-Pro-5.png",
+    "/images/product-details/samsung-galaxy-buds2-pro-1-v2.svg"
   ],
   "apple-lightning-to-usb-type-c-cable": [
     "/images/products/apple-lightning-to-usb-type-c-cable.png",
     "https://revenes.com/wp-content/uploads/2021/11/iPhone-Lightning-to-USB-Type-C-Cable-2.png",
     "https://revenes.com/wp-content/uploads/2021/11/iPhone-Lightning-to-USB-Type-C-Cable-3.png",
-    "https://revenes.com/wp-content/uploads/2021/11/iPhone-Lightning-to-USB-Type-C-Cable-4.png"
+    "https://revenes.com/wp-content/uploads/2021/11/iPhone-Lightning-to-USB-Type-C-Cable-4.png",
+    "/images/product-details/apple-lightning-to-usb-type-c-cable-1-v2.svg"
   ],
   "jbl-charge-5": [
     "/images/products/jbl-charge-5.png",
@@ -2568,19 +2727,22 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/6-1.png",
     "https://revenes.com/wp-content/uploads/2021/11/7.png",
     "https://revenes.com/wp-content/uploads/2021/11/8.png",
-    "https://revenes.com/wp-content/uploads/2021/11/9.png"
+    "https://revenes.com/wp-content/uploads/2021/11/9.png",
+    "/images/product-details/jbl-charge-5-1-v2.svg"
   ],
   "mtn-broadband-4g-zlt-s50-cat6-wifi-router-unlocked": [
     "/images/products/mtn-broadband-4g-zlt-s50-cat6-wifi-router-unlocked.png",
     "https://revenes.com/wp-content/uploads/2023/05/MTN-Broadband-4G-Router-2.png",
-    "https://revenes.com/wp-content/uploads/2023/05/MTN-Broadband-4G-Router-3.png"
+    "https://revenes.com/wp-content/uploads/2023/05/MTN-Broadband-4G-Router-3.png",
+    "/images/product-details/mtn-broadband-4g-zlt-s50-cat6-wifi-router-unlocked-1-v2.svg"
   ],
   "apple-airpods-pro-2": [
     "/images/products/apple-airpods-pro-2.png",
     "https://revenes.com/wp-content/uploads/2023/06/Apple-AirPods-Pro-2-Pics-2.png",
     "https://revenes.com/wp-content/uploads/2023/06/Apple-AirPods-Pro-2-Pics-3.png",
     "https://revenes.com/wp-content/uploads/2023/06/Apple-AirPods-Pro-2-Pics-4.png",
-    "https://revenes.com/wp-content/uploads/2023/06/Apple-AirPods-Pro-2-Pics-5.png"
+    "https://revenes.com/wp-content/uploads/2023/06/Apple-AirPods-Pro-2-Pics-5.png",
+    "/images/product-details/apple-airpods-pro-2-1-v2.svg"
   ],
   "redmi-buds-6-lite": [
     "/images/products/redmi-buds-6-lite.png",
@@ -2595,7 +2757,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/05/Redmi-Buds-3-Lite-3.png",
     "https://revenes.com/wp-content/uploads/2022/05/Redmi-Buds-3-Lite-4.png",
     "https://revenes.com/wp-content/uploads/2022/05/Redmi-Buds-3-Lite-5.png",
-    "https://revenes.com/wp-content/uploads/2022/05/Redmi-Buds-3-Lite-6.png"
+    "https://revenes.com/wp-content/uploads/2022/05/Redmi-Buds-3-Lite-6.png",
+    "/images/product-details/redmi-buds-6-lite-1-v2.svg"
   ],
   "oraimo-powerbox-300-30000mah-power-bank": [
     "/images/products/oraimo-powerbox-300-30000mah-power-bank.png",
@@ -2608,7 +2771,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/06/opb-p300q_680_3_.jpg",
     "https://revenes.com/wp-content/uploads/2023/06/opb-p300q_680_2_.jpg",
     "https://revenes.com/wp-content/uploads/2023/06/opb-p300q_680_10_.jpg",
-    "https://revenes.com/wp-content/uploads/2023/06/opb-p300q_680_1_.jpg"
+    "https://revenes.com/wp-content/uploads/2023/06/opb-p300q_680_1_.jpg",
+    "/images/product-details/oraimo-powerbox-300-30000mah-power-bank-1-v2.svg"
   ],
   "oraimo-freepods-pro": [
     "/images/products/oraimo-freepods-pro.jpeg",
@@ -2623,13 +2787,15 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/oraimo-FreePods-Pro-ANC-Active-Noise-Cancellation-TWS-True-Wireless-Earbuds_8.jpeg",
     "https://revenes.com/wp-content/uploads/2022/03/oraimo-FreePods-Pro-ANC-Active-Noise-Cancellation-TWS-True-Wireless-Earbuds_9.jpeg",
     "https://revenes.com/wp-content/uploads/2022/03/oraimo-FreePods-Pro-ANC-Active-Noise-Cancellation-TWS-True-Wireless-Earbuds_7.jpeg",
-    "https://revenes.com/wp-content/uploads/2022/03/oraimo-FreePods-Pro-ANC-Active-Noise-Cancellation-TWS-True-Wireless-Earbuds_10.jpeg"
+    "https://revenes.com/wp-content/uploads/2022/03/oraimo-FreePods-Pro-ANC-Active-Noise-Cancellation-TWS-True-Wireless-Earbuds_10.jpeg",
+    "/images/product-details/oraimo-freepods-pro-1-v2.svg"
   ],
   "oraimo-type-c-data-cable": [
     "/images/products/oraimo-type-c-data-cable.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/2-2.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/4-2.jpg",
-    "https://revenes.com/wp-content/uploads/2021/12/3-2.jpg"
+    "https://revenes.com/wp-content/uploads/2021/12/3-2.jpg",
+    "/images/product-details/oraimo-type-c-data-cable-1-v2.svg"
   ],
   "oraimo-freepods-3-tws": [
     "/images/products/oraimo-freepods-3-tws.png",
@@ -2644,7 +2810,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/oeb-e104dc-4.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/oeb-e104dc-3.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/oeb-e104dc-2.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/oeb-e104dc-1.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/oeb-e104dc-1.jpg",
+    "/images/product-details/oraimo-freepods-3-tws-1-v2.svg"
   ],
   "oraimo-spacebuds-neo": [
     "/images/products/oraimo-spacebuds-neo.png",
@@ -2657,7 +2824,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/03/Oraimo-SpaceBuds-Neo-8.png",
     "https://revenes.com/wp-content/uploads/2025/03/Oraimo-SpaceBuds-Neo-9.png",
     "https://revenes.com/wp-content/uploads/2025/03/Oraimo-SpaceBuds-Neo-10.png",
-    "https://revenes.com/wp-content/uploads/2025/03/Oraimo-SpaceBuds-Neo-11.png"
+    "https://revenes.com/wp-content/uploads/2025/03/Oraimo-SpaceBuds-Neo-11.png",
+    "/images/product-details/oraimo-spacebuds-neo-1-v2.svg"
   ],
   "baseus-super-si-quick-charger-20w-for-iphone": [
     "/images/products/baseus-super-si-quick-charger-20w-for-iphone.png",
@@ -2667,7 +2835,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/08/Baseus-Super-Si-Quick-Charger-20W-for-iPhone-4.jpg",
     "https://revenes.com/wp-content/uploads/2023/08/Baseus-Super-Si-Quick-Charger-20W-for-iPhone-5.jpg",
     "https://revenes.com/wp-content/uploads/2023/08/Baseus-Super-Si-Quick-Charger-20W-for-iPhone-6.jpg",
-    "https://revenes.com/wp-content/uploads/2023/08/Baseus-Super-Si-Quick-Charger-20W-for-iPhone-7.jpg"
+    "https://revenes.com/wp-content/uploads/2023/08/Baseus-Super-Si-Quick-Charger-20W-for-iPhone-7.jpg",
+    "/images/product-details/baseus-super-si-quick-charger-20w-for-iphone-1-v2.svg"
   ],
   "airtel-smartbox-4g-wifi-router": [
     "/images/products/airtel-smartbox-4g-wifi-router.png",
@@ -2675,7 +2844,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/03/Airtel-SmartBox-4G-Router-3.png",
     "https://revenes.com/wp-content/uploads/2023/03/Airtel-SmartBox-4G-Router-4.png",
     "https://revenes.com/wp-content/uploads/2023/03/Airtel-SmartBox-4G-Router-5.png",
-    "https://revenes.com/wp-content/uploads/2023/03/Airtel-SmartBox-4G-Router-6.png"
+    "https://revenes.com/wp-content/uploads/2023/03/Airtel-SmartBox-4G-Router-6.png",
+    "/images/product-details/airtel-smartbox-4g-wifi-router-1-v2.svg"
   ],
   "xiaomi-mi-portable-bluetooth-speaker-16w": [
     "/images/products/xiaomi-mi-portable-bluetooth-speaker-16w.png",
@@ -2696,7 +2866,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Mi-Portable-Bluetooth-Speaker-16W-15.png",
     "https://revenes.com/wp-content/uploads/2022/10/Mi-Portable-Bluetooth-Speaker-16W-16.png",
     "https://revenes.com/wp-content/uploads/2022/10/Mi-Portable-Bluetooth-Speaker-16W-17.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Mi-Portable-Bluetooth-Speaker-16W-18.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Mi-Portable-Bluetooth-Speaker-16W-18.png",
+    "/images/product-details/xiaomi-mi-portable-bluetooth-speaker-16w-1-v2.svg"
   ],
   "zealot-s67": [
     "/images/products/zealot-s67.png",
@@ -2711,12 +2882,14 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/20220419_051255_0002.png",
     "https://revenes.com/wp-content/uploads/2022/04/20220419_051255_0006.png",
     "https://revenes.com/wp-content/uploads/2022/04/20220419_051255_0009.png",
-    "https://revenes.com/wp-content/uploads/2022/04/20220419_051255_0008.png"
+    "https://revenes.com/wp-content/uploads/2022/04/20220419_051255_0008.png",
+    "/images/product-details/zealot-s67-1-v2.svg"
   ],
   "chupez-odogwu-60w-pd-super-fast-charger": [
     "/images/products/chupez-odogwu-60w-pd-super-fast-charger.png",
     "https://revenes.com/wp-content/uploads/2022/03/Chupez-Odogwu-60W-PD-Super-Fast-Charger-Black.png",
-    "https://revenes.com/wp-content/uploads/2022/03/Chupez-Odogwu-60W-PD-Super-Fast-Charger-White.png"
+    "https://revenes.com/wp-content/uploads/2022/03/Chupez-Odogwu-60W-PD-Super-Fast-Charger-White.png",
+    "/images/product-details/chupez-odogwu-60w-pd-super-fast-charger-1-v2.svg"
   ],
   "baseus-bipow-digital-display-power-bank-30000mah-15w": [
     "/images/products/baseus-bipow-digital-display-power-bank-30000mah-15w.png",
@@ -2729,7 +2902,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-30000mAh-15W-8.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-30000mAh-15W-9.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-30000mAh-15W-10.png",
-    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-30000mAh-15W-11.png"
+    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-30000mAh-15W-11.png",
+    "/images/product-details/baseus-bipow-digital-display-power-bank-30000mah-15w-1-v2.svg"
   ],
   "itel-power-go-pro-power-bank-100000mah-portable-power-station-200w": [
     "/images/products/itel-power-go-pro-power-bank-100000mah-portable-power-station-200w.png",
@@ -2741,7 +2915,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/08/Itel-Power-Go-Pro-Power-Bank-100000mAh-Portable-Power-Station-200W-7.png",
     "https://revenes.com/wp-content/uploads/2026/08/Itel-Power-Go-Pro-Power-Bank-100000mAh-Portable-Power-Station-200W-8.png",
     "https://revenes.com/wp-content/uploads/2026/08/Itel-Power-Go-Pro-Power-Bank-100000mAh-Portable-Power-Station-200W-9.png",
-    "https://revenes.com/wp-content/uploads/2026/08/Itel-Power-Go-Pro-Power-Bank-100000mAh-Portable-Power-Station-200W-10.png"
+    "https://revenes.com/wp-content/uploads/2026/08/Itel-Power-Go-Pro-Power-Bank-100000mAh-Portable-Power-Station-200W-10.png",
+    "/images/product-details/itel-power-go-pro-power-bank-100000mah-portable-power-station-200w-1-v2.svg"
   ],
   "baseus-bowie-e20-tws-bluetooth-earphones": [
     "/images/products/baseus-bowie-e20-tws-bluetooth-earphones.png",
@@ -2754,7 +2929,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E20-TWS-Bluetooth-Earphones-8.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E20-TWS-Bluetooth-Earphones-9.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E20-TWS-Bluetooth-Earphones-10.png",
-    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E20-TWS-Bluetooth-Earphones-11.png"
+    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E20-TWS-Bluetooth-Earphones-11.png",
+    "/images/product-details/baseus-bowie-e20-tws-bluetooth-earphones-1-v2.svg"
   ],
   "baseus-encok-d02-cz11-wired-type-c-earphones": [
     "/images/products/baseus-encok-d02-cz11-wired-type-c-earphones.png",
@@ -2762,7 +2938,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/03/Baseus-Encok-D02-CZ11-Wired-Type-C-Earphones-2.png",
     "https://revenes.com/wp-content/uploads/2025/03/Baseus-Encok-D02-CZ11-Wired-Type-C-Earphones-3.png",
     "https://revenes.com/wp-content/uploads/2025/03/Baseus-Encok-D02-CZ11-Wired-Type-C-Earphones-4.png",
-    "https://revenes.com/wp-content/uploads/2025/03/Baseus-Encok-D02-CZ11-Wired-Type-C-Earphones-5.png"
+    "https://revenes.com/wp-content/uploads/2025/03/Baseus-Encok-D02-CZ11-Wired-Type-C-Earphones-5.png",
+    "/images/product-details/baseus-encok-d02-cz11-wired-type-c-earphones-1-v2.svg"
   ],
   "oraimo-airbuds-3": [
     "/images/products/oraimo-airbuds-3.jpeg",
@@ -2774,7 +2951,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/oeb-e11d-fb-13.jpg",
     "https://revenes.com/wp-content/uploads/2022/10/oeb-e11d-680-_1-20220425.png",
     "https://revenes.com/wp-content/uploads/2022/10/oeb-e11d-680-4-20220425.jpg",
-    "https://revenes.com/wp-content/uploads/2022/10/oeb-e11d-fb-1.jpg"
+    "https://revenes.com/wp-content/uploads/2022/10/oeb-e11d-fb-1.jpg",
+    "/images/product-details/oraimo-airbuds-3-1-v2.svg"
   ],
   "oraimo-cannon-2-mini-1-2a-charger": [
     "/images/products/oraimo-cannon-2-mini-1-2a-charger.jpg",
@@ -2783,23 +2961,26 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/ocw-u36s_680_-02.jpg",
     "https://revenes.com/wp-content/uploads/2022/07/ocw-u36s_680_-03.jpg",
     "https://revenes.com/wp-content/uploads/2022/07/ocw-u36s_680_-05.jpg",
-    "https://revenes.com/wp-content/uploads/2022/07/ocd-m53_1_7bed1e46-a95d-48a8-9d51-72f949012aa5.jpg"
+    "https://revenes.com/wp-content/uploads/2022/07/ocd-m53_1_7bed1e46-a95d-48a8-9d51-72f949012aa5.jpg",
+    "/images/product-details/oraimo-cannon-2-mini-1-2a-charger-1-v2.svg"
   ],
   "chupez-transformer-60000mah-power-bank": [
     "/images/products/chupez-transformer-60000mah-power-bank.png",
-    "/images/product-details/chupez-transformer-60000mah-power-bank-1.svg",
-    "/images/product-details/chupez-transformer-60000mah-power-bank-2.svg"
+    "/images/product-details/chupez-transformer-60000mah-power-bank-1-v2.svg",
+    "/images/product-details/chupez-transformer-60000mah-power-bank-2-v2.svg"
   ],
   "yoobao-ybl-6-type-c-earpiece": [
     "/images/products/yoobao-ybl-6-type-c-earpiece.png",
     "https://revenes.com/wp-content/uploads/2021/12/5-1.png",
     "https://revenes.com/wp-content/uploads/2021/12/4-2.png",
-    "https://revenes.com/wp-content/uploads/2021/12/6-1.png"
+    "https://revenes.com/wp-content/uploads/2021/12/6-1.png",
+    "/images/product-details/yoobao-ybl-6-type-c-earpiece-1-v2.svg"
   ],
   "iphone-20w-usb-c-adapter-charger-head": [
     "/images/products/iphone-20w-usb-c-adapter-charger-head.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/ab155027-24f0-4006-afba-8209e59b7d8a.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/c918c7c7-0350-439c-8ff0-d540ee17fe4a-1.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/c918c7c7-0350-439c-8ff0-d540ee17fe4a-1.jpg",
+    "/images/product-details/iphone-20w-usb-c-adapter-charger-head-1-v2.svg"
   ],
   "baseus-bipow-digital-display-power-bank-20000mah-15w-copy": [
     "/images/products/baseus-bipow-digital-display-power-bank-20000mah-15w-copy.png",
@@ -2812,7 +2993,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-20000mAh-15W-9.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-20000mAh-15W-10.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-20000mAh-15W-11.png",
-    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-20000mAh-15W-12.png"
+    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bipow-Digital-Display-Power-Bank-20000mAh-15W-12.png",
+    "/images/product-details/baseus-bipow-digital-display-power-bank-20000mah-15w-copy-1-v2.svg"
   ],
   "samsung-galaxy-watch5-brand-new": [
     "/images/products/samsung-galaxy-watch5-brand-new.png",
@@ -2823,12 +3005,14 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/06/Samsung-Galaxy-Watch5-Brand-New-5.png",
     "https://revenes.com/wp-content/uploads/2023/06/Samsung-Galaxy-Watch5-Brand-New-6.png",
     "https://revenes.com/wp-content/uploads/2023/06/Samsung-Galaxy-Watch5-Brand-New-7.png",
-    "https://revenes.com/wp-content/uploads/2023/06/Samsung-Galaxy-Watch5-Brand-New-9.png"
+    "https://revenes.com/wp-content/uploads/2023/06/Samsung-Galaxy-Watch5-Brand-New-9.png",
+    "/images/product-details/samsung-galaxy-watch5-brand-new-1-v2.svg"
   ],
   "mtn-broadband-4g-zlt-s50-cat6-wifi-router": [
     "/images/products/mtn-broadband-4g-zlt-s50-cat6-wifi-router.png",
     "https://revenes.com/wp-content/uploads/2023/05/MTN-Broadband-4G-Router-2.png",
-    "https://revenes.com/wp-content/uploads/2023/05/MTN-Broadband-4G-Router-3.png"
+    "https://revenes.com/wp-content/uploads/2023/05/MTN-Broadband-4G-Router-3.png",
+    "/images/product-details/mtn-broadband-4g-zlt-s50-cat6-wifi-router-1-v2.svg"
   ],
   "amazon-fire-tv-stick-3rd-gen": [
     "/images/products/amazon-fire-tv-stick-3rd-gen.png",
@@ -2837,7 +3021,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-3rd-Gen-4.png",
     "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-3rd-Gen-5.png",
     "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-3rd-Gen-6.png",
-    "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-3rd-Gen-7.png"
+    "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-3rd-Gen-7.png",
+    "/images/product-details/amazon-fire-tv-stick-3rd-gen-1-v2.svg"
   ],
   "new-age-jazzy-anc-earbuds": [
     "/images/products/new-age-jazzy-anc-earbuds.png",
@@ -2845,7 +3030,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/11/5_20221103_084235_0004.png",
     "https://revenes.com/wp-content/uploads/2022/11/6_20221103_084235_0005.png",
     "https://revenes.com/wp-content/uploads/2022/11/3_20221103_084235_0002.png",
-    "https://revenes.com/wp-content/uploads/2022/11/4_20221103_084235_0003.png"
+    "https://revenes.com/wp-content/uploads/2022/11/4_20221103_084235_0003.png",
+    "/images/product-details/new-age-jazzy-anc-earbuds-1-v2.svg"
   ],
   "zealot-s61": [
     "/images/products/zealot-s61.png",
@@ -2862,7 +3048,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S61-Speaker-5-2.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S61-Speaker-6-1.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S61-Speaker-11.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S61-Speaker-12.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S61-Speaker-12.png",
+    "/images/product-details/zealot-s61-1-v2.svg"
   ],
   "xiaomi-mi-watch-2-lite": [
     "/images/products/xiaomi-mi-watch-2-lite.png",
@@ -2873,7 +3060,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/06/Mi-Watch-2-Lite-Ivory.png",
     "https://revenes.com/wp-content/uploads/2022/06/Mi-Watch-2-Lite-3.png",
     "https://revenes.com/wp-content/uploads/2022/06/Mi-Watch-2-Lite-Blue.png",
-    "https://revenes.com/wp-content/uploads/2022/06/Mi-Watch-2-Lite-2.png"
+    "https://revenes.com/wp-content/uploads/2022/06/Mi-Watch-2-Lite-2.png",
+    "/images/product-details/xiaomi-mi-watch-2-lite-1-v2.svg"
   ],
   "beats-studio-buds": [
     "/images/products/beats-studio-buds.png",
@@ -2891,7 +3079,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/Beats-Studio-Buds-00012.png",
     "https://revenes.com/wp-content/uploads/2022/07/Beats-Studio-Buds-00013.png",
     "https://revenes.com/wp-content/uploads/2022/07/Beats-Studio-Buds-00014.png",
-    "https://revenes.com/wp-content/uploads/2022/07/Beats-Studio-Buds-00015.png"
+    "https://revenes.com/wp-content/uploads/2022/07/Beats-Studio-Buds-00015.png",
+    "/images/product-details/beats-studio-buds-1-v2.svg"
   ],
   "oraimo-powerbox-400": [
     "/images/products/oraimo-powerbox-400.png",
@@ -2899,7 +3088,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/05/Oraimo-PowerBox-400-3.png",
     "https://revenes.com/wp-content/uploads/2022/05/Oraimo-PowerBox-400-4.png",
     "https://revenes.com/wp-content/uploads/2022/05/Oraimo-PowerBox-400-5.png",
-    "https://revenes.com/wp-content/uploads/2022/05/Oraimo-PowerBox-400-6.png"
+    "https://revenes.com/wp-content/uploads/2022/05/Oraimo-PowerBox-400-6.png",
+    "/images/product-details/oraimo-powerbox-400-1-v2.svg"
   ],
   "samsung-galaxy-buds-3-fe": [
     "/images/products/samsung-galaxy-buds-3-fe.png",
@@ -2907,7 +3097,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-FE-3.png",
     "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-FE-4.png",
     "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-FE-5.png",
-    "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-FE-6.png"
+    "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-FE-6.png",
+    "/images/product-details/samsung-galaxy-buds-3-fe-1-v2.svg"
   ],
   "oraimo-traveler-3-byte-27000mah-power-bank": [
     "/images/products/oraimo-traveler-3-byte-27000mah-power-bank.jpg",
@@ -2918,7 +3109,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/OPB-P271D_680_-03.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/OPB-P271D_680_-02.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/OPB-P271D_680_-01.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/OPB-P271D_2.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/OPB-P271D_2.jpg",
+    "/images/product-details/oraimo-traveler-3-byte-27000mah-power-bank-1-v2.svg"
   ],
   "apple-watch-se": [
     "/images/products/apple-watch-se.png",
@@ -2927,7 +3119,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0000.png",
     "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0005.png",
     "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0006.png",
-    "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0004.png"
+    "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0004.png",
+    "/images/product-details/apple-watch-se-1-v2.svg"
   ],
   "baseus-compact-charger-2u-10-5w-dual-ports": [
     "/images/products/baseus-compact-charger-2u-10-5w-dual-ports.png",
@@ -2935,7 +3128,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/05/Baseus-Compact-Charger-2U-10.5W-Dual-Ports-3.png",
     "https://revenes.com/wp-content/uploads/2025/05/Baseus-Compact-Charger-2U-10.5W-Dual-Ports-4.png",
     "https://revenes.com/wp-content/uploads/2025/05/Baseus-Compact-Charger-2U-10.5W-Dual-Ports-5.png",
-    "https://revenes.com/wp-content/uploads/2025/05/Baseus-Compact-Charger-2U-10.5W-Dual-Ports-6.png"
+    "https://revenes.com/wp-content/uploads/2025/05/Baseus-Compact-Charger-2U-10.5W-Dual-Ports-6.png",
+    "/images/product-details/baseus-compact-charger-2u-10-5w-dual-ports-1-v2.svg"
   ],
   "mtn-5g-broadband-wifi-router": [
     "/images/products/mtn-5g-broadband-wifi-router.png",
@@ -2946,7 +3140,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/06/MTN-5G-Broadband-Router-5-1.png",
     "https://revenes.com/wp-content/uploads/2023/06/MTN-5G-Broadband-Router-7.png",
     "https://revenes.com/wp-content/uploads/2023/06/MTN-5G-Broadband-Router-8.png",
-    "https://revenes.com/wp-content/uploads/2023/06/MTN-5G-Broadband-Router-9.png"
+    "https://revenes.com/wp-content/uploads/2023/06/MTN-5G-Broadband-Router-9.png",
+    "/images/product-details/mtn-5g-broadband-wifi-router-1-v2.svg"
   ],
   "google-chromecast-with-google-tv-4k": [
     "/images/products/google-chromecast-with-google-tv-4k.png",
@@ -2964,7 +3159,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-14.png",
     "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-16.png",
     "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-17.png",
-    "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-12.png"
+    "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-12.png",
+    "/images/product-details/google-chromecast-with-google-tv-4k-1-v2.svg"
   ],
   "google-chromecast-with-google-tv": [
     "/images/products/google-chromecast-with-google-tv.png",
@@ -2978,7 +3174,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-9.png",
     "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-10.png",
     "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-11.png",
-    "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-12.png"
+    "https://revenes.com/wp-content/uploads/2022/12/Google-Chromecast-with-Google-TV-12.png",
+    "/images/product-details/google-chromecast-with-google-tv-1-v2.svg"
   ],
   "sony-wh-1000xm4-headphones": [
     "/images/products/sony-wh-1000xm4-headphones.png",
@@ -2990,7 +3187,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM4-Headphones-7.png",
     "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM4-Headphones-8.png",
     "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM4-Headphones-9.png",
-    "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM4-Headphones-10.png"
+    "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM4-Headphones-10.png",
+    "/images/product-details/sony-wh-1000xm4-headphones-1-v2.svg"
   ],
   "amazon-fire-tv-stick-4k": [
     "/images/products/amazon-fire-tv-stick-4k.png",
@@ -2999,7 +3197,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-4K-4.png",
     "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-4K-5.png",
     "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-4K-6.png",
-    "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-4K-7.png"
+    "https://revenes.com/wp-content/uploads/2022/11/Amazon-Fire-TV-Stick-4K-7.png",
+    "/images/product-details/amazon-fire-tv-stick-4k-1-v2.svg"
   ],
   "earldom-universal-phone-tablet-holder": [
     "/images/products/earldom-universal-phone-tablet-holder.png",
@@ -3007,13 +3206,15 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/11/Earldom-Eh136-Universal-Phone-Tablet-Holder-3.png",
     "https://revenes.com/wp-content/uploads/2022/11/Earldom-Eh136-Universal-Phone-Tablet-Holder-4.png",
     "https://revenes.com/wp-content/uploads/2022/11/Earldom-Eh136-Universal-Phone-Tablet-Holder-5.png",
-    "https://revenes.com/wp-content/uploads/2022/11/Earldom-Eh136-Universal-Phone-Tablet-Holder-6.png"
+    "https://revenes.com/wp-content/uploads/2022/11/Earldom-Eh136-Universal-Phone-Tablet-Holder-6.png",
+    "/images/product-details/earldom-universal-phone-tablet-holder-1-v2.svg"
   ],
   "apple-usb-c-charge-cable-2m": [
     "/images/products/apple-usb-c-charge-cable-2m.jpeg",
     "https://revenes.com/wp-content/uploads/2022/09/images-68.jpeg",
     "https://revenes.com/wp-content/uploads/2022/09/images-67.jpeg",
-    "https://revenes.com/wp-content/uploads/2022/09/images-66.jpeg"
+    "https://revenes.com/wp-content/uploads/2022/09/images-66.jpeg",
+    "/images/product-details/apple-usb-c-charge-cable-2m-1-v2.svg"
   ],
   "jbl-tune510bt": [
     "/images/products/jbl-tune510bt.webp",
@@ -3024,38 +3225,42 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/06/JBL_TUNE_510BT_Product-Image_Folded-2_Black.webp",
     "https://revenes.com/wp-content/uploads/2022/06/JBL_TUNE_510BT_Product-Image_Left_Black.webp",
     "https://revenes.com/wp-content/uploads/2022/06/JBL_TUNE_510BT_Product-Image_Hero_Blue.png",
-    "https://revenes.com/wp-content/uploads/2022/06/JBL_TUNE_510BT_Product-Image_Hero_White.webp"
+    "https://revenes.com/wp-content/uploads/2022/06/JBL_TUNE_510BT_Product-Image_Hero_White.webp",
+    "/images/product-details/jbl-tune510bt-1-v2.svg"
   ],
   "apple-lightning-to-usb-cable": [
     "/images/products/apple-lightning-to-usb-cable.jpeg",
     "https://revenes.com/wp-content/uploads/2022/04/1.jpg",
     "https://revenes.com/wp-content/uploads/2022/04/images-83.jpeg",
-    "https://revenes.com/wp-content/uploads/2022/04/191127_1626829333.jpg"
+    "https://revenes.com/wp-content/uploads/2022/04/191127_1626829333.jpg",
+    "/images/product-details/apple-lightning-to-usb-cable-1-v2.svg"
   ],
   "mtn-hynetflex-4g-wifi-router": [
     "/images/products/mtn-hynetflex-4g-wifi-router.png",
     "https://revenes.com/wp-content/uploads/2022/04/MTN-HyNetflex-4G-Router-3.png",
-    "https://revenes.com/wp-content/uploads/2022/04/MTN-HyNetflex-4G-Router-1.png"
+    "https://revenes.com/wp-content/uploads/2022/04/MTN-HyNetflex-4G-Router-1.png",
+    "/images/product-details/mtn-hynetflex-4g-wifi-router-1-v2.svg"
   ],
   "oraimo-drum-wired-earphones": [
     "/images/products/oraimo-drum-wired-earphones.jpeg",
     "https://revenes.com/wp-content/uploads/2022/04/oraimo-Drum-In-Ear-Earphone-With-Mic.jpeg",
-    "/images/product-details/oraimo-drum-wired-earphones-1.svg"
+    "/images/product-details/oraimo-drum-wired-earphones-1-v2.svg"
   ],
   "new-age-l30-33000mah-power-bank": [
     "/images/products/new-age-l30-33000mah-power-bank.png",
-    "/images/product-details/new-age-l30-33000mah-power-bank-1.svg",
-    "/images/product-details/new-age-l30-33000mah-power-bank-2.svg"
+    "/images/product-details/new-age-l30-33000mah-power-bank-1-v2.svg",
+    "/images/product-details/new-age-l30-33000mah-power-bank-2-v2.svg"
   ],
   "airtel-4g-mifi-vida-vida-m4": [
     "/images/products/airtel-4g-mifi-vida-vida-m4.png",
     "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package-Content.jpeg",
-    "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package.jpeg"
+    "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package.jpeg",
+    "/images/product-details/airtel-4g-mifi-vida-vida-m4-1-v2.svg"
   ],
   "playstation-5-ps5-controller": [
     "/images/products/playstation-5-ps5-controller.png",
-    "/images/product-details/playstation-5-ps5-controller-1.svg",
-    "/images/product-details/playstation-5-ps5-controller-2.svg"
+    "/images/product-details/playstation-5-ps5-controller-1-v2.svg",
+    "/images/product-details/playstation-5-ps5-controller-2-v2.svg"
   ],
   "jbl-clip-4": [
     "/images/products/jbl-clip-4.png",
@@ -3066,12 +3271,13 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/15.png",
     "https://revenes.com/wp-content/uploads/2021/11/16.png",
     "https://revenes.com/wp-content/uploads/2021/11/17.png",
-    "https://revenes.com/wp-content/uploads/2021/11/18.png"
+    "https://revenes.com/wp-content/uploads/2021/11/18.png",
+    "/images/product-details/jbl-clip-4-1-v2.svg"
   ],
   "oraimo-traveler-160-16000mah-power-bank": [
     "/images/products/oraimo-traveler-160-16000mah-power-bank.png",
     "https://revenes.com/wp-content/uploads/2021/11/20220623_135118_0001.png",
-    "/images/product-details/oraimo-traveler-160-16000mah-power-bank-1.svg"
+    "/images/product-details/oraimo-traveler-160-16000mah-power-bank-1-v2.svg"
   ],
   "oraimo-freepods-neo": [
     "/images/products/oraimo-freepods-neo.png",
@@ -3087,7 +3293,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/Oraimo-FreePods-Neo-11.png",
     "https://revenes.com/wp-content/uploads/2021/11/Oraimo-FreePods-Neo-12.png",
     "https://revenes.com/wp-content/uploads/2021/11/Oraimo-FreePods-Neo-13.png",
-    "https://revenes.com/wp-content/uploads/2021/11/Oraimo-FreePods-Neo-14.png"
+    "https://revenes.com/wp-content/uploads/2021/11/Oraimo-FreePods-Neo-14.png",
+    "/images/product-details/oraimo-freepods-neo-1-v2.svg"
   ],
   "oraimo-cannon-18d-18w-dual-usb-charger": [
     "/images/products/oraimo-cannon-18d-18w-dual-usb-charger.png",
@@ -3096,7 +3303,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/03/Oraimo-Cannon-18D-18W-Dual-USB-Charger-4.png",
     "https://revenes.com/wp-content/uploads/2025/03/Oraimo-Cannon-18D-18W-Dual-USB-Charger-5.png",
     "https://revenes.com/wp-content/uploads/2025/03/Oraimo-Cannon-18D-18W-Dual-USB-Charger-6.png",
-    "https://revenes.com/wp-content/uploads/2025/03/Oraimo-Cannon-18D-18W-Dual-USB-Charger-7.png"
+    "https://revenes.com/wp-content/uploads/2025/03/Oraimo-Cannon-18D-18W-Dual-USB-Charger-7.png",
+    "/images/product-details/oraimo-cannon-18d-18w-dual-usb-charger-1-v2.svg"
   ],
   "oraimo-powerjet-130-27600mah-130w-power-bank": [
     "/images/products/oraimo-powerjet-130-27600mah-130w-power-bank.png",
@@ -3113,17 +3321,19 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2025/02/Oraimo-PowerJet-130-27600mAh-130W-Power-Bank-5.png",
     "https://revenes.com/wp-content/uploads/2025/02/Oraimo-PowerJet-130-27600mAh-130W-Power-Bank-4.png",
     "https://revenes.com/wp-content/uploads/2025/02/Oraimo-PowerJet-130-27600mAh-130W-Power-Bank-3.png",
-    "https://revenes.com/wp-content/uploads/2025/02/Oraimo-PowerJet-130-27600mAh-130W-Power-Bank-2.png"
+    "https://revenes.com/wp-content/uploads/2025/02/Oraimo-PowerJet-130-27600mAh-130W-Power-Bank-2.png",
+    "/images/product-details/oraimo-powerjet-130-27600mah-130w-power-bank-1-v2.svg"
   ],
   "oraimo-boompop-2-headphones": [
     "/images/products/oraimo-boompop-2-headphones.png",
-    "/images/product-details/oraimo-boompop-2-headphones-1.svg",
-    "/images/product-details/oraimo-boompop-2-headphones-2.svg"
+    "/images/product-details/oraimo-boompop-2-headphones-1-v2.svg",
+    "/images/product-details/oraimo-boompop-2-headphones-2-v2.svg"
   ],
   "mtn-broadband-4g-zlt-s20-wifi-router": [
     "/images/products/mtn-broadband-4g-zlt-s20-wifi-router.png",
     "https://revenes.com/wp-content/uploads/2023/06/MTN-Broadband-4G-ZLT-S20-Router-2.png",
-    "https://revenes.com/wp-content/uploads/2023/06/MTN-Broadband-4G-ZLT-S20-Router-3.png"
+    "https://revenes.com/wp-content/uploads/2023/06/MTN-Broadband-4G-ZLT-S20-Router-3.png",
+    "/images/product-details/mtn-broadband-4g-zlt-s20-wifi-router-1-v2.svg"
   ],
   "apple-airpods-max": [
     "/images/products/apple-airpods-max.png",
@@ -3134,7 +3344,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/01/Apple-AirPods-Max-Green.png",
     "https://revenes.com/wp-content/uploads/2023/01/Apple-AirPods-Max-Silver.png",
     "https://revenes.com/wp-content/uploads/2023/01/Apple-AirPods-Max-Sky-Blue.png",
-    "https://revenes.com/wp-content/uploads/2023/01/Apple-AirPods-Max-Space-Gray.png"
+    "https://revenes.com/wp-content/uploads/2023/01/Apple-AirPods-Max-Space-Gray.png",
+    "/images/product-details/apple-airpods-max-1-v2.svg"
   ],
   "oraimo-rhyme-anc-earbuds": [
     "/images/products/oraimo-rhyme-anc-earbuds.png",
@@ -3144,7 +3355,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/11/1_4_.png",
     "https://revenes.com/wp-content/uploads/2022/11/1_5_.png",
     "https://revenes.com/wp-content/uploads/2022/11/1_6_.png",
-    "https://revenes.com/wp-content/uploads/2022/11/1_7_.png"
+    "https://revenes.com/wp-content/uploads/2022/11/1_7_.png",
+    "/images/product-details/oraimo-rhyme-anc-earbuds-1-v2.svg"
   ],
   "zealot-s55": [
     "/images/products/zealot-s55.png",
@@ -3158,7 +3370,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S55-Pics-7.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S55-Pics-8.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S55-Pics-10.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S55-Pics-12.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S55-Pics-12.png",
+    "/images/product-details/zealot-s55-1-v2.svg"
   ],
   "zealot-s37l": [
     "/images/products/zealot-s37l.png",
@@ -3173,14 +3386,16 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S37L-7.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S37L-8.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S37L-9.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S37L-10.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S37L-10.png",
+    "/images/product-details/zealot-s37l-1-v2.svg"
   ],
   "samsung-galaxy-buds-3": [
     "/images/products/samsung-galaxy-buds-3.png",
     "https://revenes.com/wp-content/uploads/2022/09/Galaxy-Buds-3-1.png",
     "https://revenes.com/wp-content/uploads/2022/09/Galaxy-Buds-3-3.png",
     "https://revenes.com/wp-content/uploads/2022/09/Galaxy-Buds-3-4.png",
-    "https://revenes.com/wp-content/uploads/2022/09/Galaxy-Buds-3-5.png"
+    "https://revenes.com/wp-content/uploads/2022/09/Galaxy-Buds-3-5.png",
+    "/images/product-details/samsung-galaxy-buds-3-1-v2.svg"
   ],
   "oraimo-roll-tws-earbuds": [
     "/images/products/oraimo-roll-tws-earbuds.jpg",
@@ -3190,7 +3405,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/09/oeb-e03d_680_-02_1.jpg",
     "https://revenes.com/wp-content/uploads/2022/09/oeb-e03d_680_-06_1.jpg",
     "https://revenes.com/wp-content/uploads/2022/09/oeb-e03d_680_-07_1.jpg",
-    "https://revenes.com/wp-content/uploads/2022/09/oeb-e03d_680_-04_1.jpg"
+    "https://revenes.com/wp-content/uploads/2022/09/oeb-e03d_680_-04_1.jpg",
+    "/images/product-details/oraimo-roll-tws-earbuds-1-v2.svg"
   ],
   "itel-star-100-10000mah-power-bank": [
     "/images/products/itel-star-100-10000mah-power-bank.jpg",
@@ -3201,7 +3417,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/08/Itel-Star-100-10000mAh-Power-Bank-5.png",
     "https://revenes.com/wp-content/uploads/2022/08/Itel-Star-100-10000mAh-Power-Bank-6.png",
     "https://revenes.com/wp-content/uploads/2022/08/Itel-Star-100-10000mAh-Power-Bank-7.png",
-    "https://revenes.com/wp-content/uploads/2022/08/Itel-Star-100-10000mAh-Power-Bank-8.png"
+    "https://revenes.com/wp-content/uploads/2022/08/Itel-Star-100-10000mAh-Power-Bank-8.png",
+    "/images/product-details/itel-star-100-10000mah-power-bank-1-v2.svg"
   ],
   "samsung-galaxy-buds-3-pro": [
     "/images/products/samsung-galaxy-buds-3-pro.png",
@@ -3210,7 +3427,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-Pro-4.png",
     "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-Pro-5.png",
     "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-Pro-6.png",
-    "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-Pro.png"
+    "https://revenes.com/wp-content/uploads/2022/04/Galaxy-Buds-3-Pro.png",
+    "/images/product-details/samsung-galaxy-buds-3-pro-1-v2.svg"
   ],
   "anker-soundcore-flare-2": [
     "/images/products/anker-soundcore-flare-2.png",
@@ -3223,20 +3441,23 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/Soundcore-Flare-2-8.png",
     "https://revenes.com/wp-content/uploads/2022/03/Soundcore-Flare-2-9.png",
     "https://revenes.com/wp-content/uploads/2022/03/Soundcore-Flare-2-11.png",
-    "https://revenes.com/wp-content/uploads/2022/03/Soundcore-Flare-2-12.png"
+    "https://revenes.com/wp-content/uploads/2022/03/Soundcore-Flare-2-12.png",
+    "/images/product-details/anker-soundcore-flare-2-1-v2.svg"
   ],
   "jbl-flip-essential": [
     "/images/products/jbl-flip-essential.webp",
     "https://revenes.com/wp-content/uploads/2022/03/JBL-Flip-Essential.webp",
     "https://revenes.com/wp-content/uploads/2022/03/JBL-Flip-Essential-Back.webp",
     "https://revenes.com/wp-content/uploads/2022/03/JBL-Flip-Essential-Cable.webp",
-    "https://revenes.com/wp-content/uploads/2022/03/JBL-Flip-Essential-Phone.webp"
+    "https://revenes.com/wp-content/uploads/2022/03/JBL-Flip-Essential-Phone.webp",
+    "/images/product-details/jbl-flip-essential-1-v2.svg"
   ],
   "glo-4g-mifi": [
     "/images/products/glo-4g-mifi.png",
     "https://revenes.com/wp-content/uploads/2022/02/GLO-4G-MiFi-Locked-Package-Contents-2.jpg",
     "https://revenes.com/wp-content/uploads/2022/02/GLO-4G-MiFi-Locked-Package.jpg",
-    "https://revenes.com/wp-content/uploads/2022/02/GLO-4G-MiFi-Locked-Package-Contents-.jpg"
+    "https://revenes.com/wp-content/uploads/2022/02/GLO-4G-MiFi-Locked-Package-Contents-.jpg",
+    "/images/product-details/glo-4g-mifi-1-v2.svg"
   ],
   "baseus-bowie-e17-tws-bluetooth-earphones": [
     "/images/products/baseus-bowie-e17-tws-bluetooth-earphones.png",
@@ -3249,7 +3470,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E17-TWS-Bluetooth-Earphones-8.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E17-TWS-Bluetooth-Earphones-9.png",
     "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E17-TWS-Bluetooth-Earphones-10.png",
-    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E17-TWS-Bluetooth-Earphones-11.png"
+    "https://revenes.com/wp-content/uploads/2024/11/Baseus-Bowie-E17-TWS-Bluetooth-Earphones-11.png",
+    "/images/product-details/baseus-bowie-e17-tws-bluetooth-earphones-1-v2.svg"
   ],
   "jbl-flip-6": [
     "/images/products/jbl-flip-6.png",
@@ -3260,7 +3482,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/01/6.png",
     "https://revenes.com/wp-content/uploads/2022/01/7.png",
     "https://revenes.com/wp-content/uploads/2022/01/8.png",
-    "https://revenes.com/wp-content/uploads/2022/01/9.png"
+    "https://revenes.com/wp-content/uploads/2022/01/9.png",
+    "/images/product-details/jbl-flip-6-1-v2.svg"
   ],
   "jbl-g0-3": [
     "/images/products/jbl-g0-3.png",
@@ -3275,7 +3498,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/12/10-1.png",
     "https://revenes.com/wp-content/uploads/2021/12/11-1.png",
     "https://revenes.com/wp-content/uploads/2021/12/12-1.png",
-    "https://revenes.com/wp-content/uploads/2021/12/13-1.png"
+    "https://revenes.com/wp-content/uploads/2021/12/13-1.png",
+    "/images/product-details/jbl-g0-3-1-v2.svg"
   ],
   "itel-earbuds-t1": [
     "/images/products/itel-earbuds-t1.png",
@@ -3285,7 +3509,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/12/1d7444a0263cc08522f88a1d08d59255.jpeg",
     "https://revenes.com/wp-content/uploads/2021/12/90d6cca339cfb94913cbd05c2ace90b6.jpeg",
     "https://revenes.com/wp-content/uploads/2021/12/08ebc9308ef38d5d7fa78e1e48615e33.jpeg",
-    "https://revenes.com/wp-content/uploads/2021/12/0cd00582afb20006c0ace74af3ccdb88.jpeg"
+    "https://revenes.com/wp-content/uploads/2021/12/0cd00582afb20006c0ace74af3ccdb88.jpeg",
+    "/images/product-details/itel-earbuds-t1-1-v2.svg"
   ],
   "oraimo-micro-usb-data-cable": [
     "/images/products/oraimo-micro-usb-data-cable.jpg",
@@ -3293,7 +3518,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/12/4-2.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/3-2.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/1-2.jpg",
-    "https://revenes.com/wp-content/uploads/2021/12/CD-52BR.jpg"
+    "https://revenes.com/wp-content/uploads/2021/12/CD-52BR.jpg",
+    "/images/product-details/oraimo-micro-usb-data-cable-1-v2.svg"
   ],
   "oraimo-cannon-18s-18w-charger": [
     "/images/products/oraimo-cannon-18s-18w-charger.png",
@@ -3302,7 +3528,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/12/Oraimo-Cannon-18S-18W-Charger-4.png",
     "https://revenes.com/wp-content/uploads/2021/12/Oraimo-Cannon-18S-18W-Charger-5.png",
     "https://revenes.com/wp-content/uploads/2021/12/Oraimo-Cannon-18S-18W-Charger-6.png",
-    "https://revenes.com/wp-content/uploads/2021/12/Oraimo-Cannon-18S-18W-Charger-7.png"
+    "https://revenes.com/wp-content/uploads/2021/12/Oraimo-Cannon-18S-18W-Charger-7.png",
+    "/images/product-details/oraimo-cannon-18s-18w-charger-1-v2.svg"
   ],
   "jbl-tune760nc": [
     "/images/products/jbl-tune760nc.png",
@@ -3310,7 +3537,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/5-8.png",
     "https://revenes.com/wp-content/uploads/2021/11/6-5.png",
     "https://revenes.com/wp-content/uploads/2021/11/2-18.png",
-    "https://revenes.com/wp-content/uploads/2021/11/3-17.png"
+    "https://revenes.com/wp-content/uploads/2021/11/3-17.png",
+    "/images/product-details/jbl-tune760nc-1-v2.svg"
   ],
   "oraimo-boompop-headphones": [
     "/images/products/oraimo-boompop-headphones.jpg",
@@ -3322,12 +3550,14 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/OEB-H89D_680_-05.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/OEB-H89D_680_-07.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/OEB-H89D_680_-06.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/OEB-H89D_680_-09.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/OEB-H89D_680_-09.jpg",
+    "/images/product-details/oraimo-boompop-headphones-1-v2.svg"
   ],
   "apple-magsafe-charger": [
     "/images/products/apple-magsafe-charger.png",
     "https://revenes.com/wp-content/uploads/2021/11/2-4.png",
-    "https://revenes.com/wp-content/uploads/2021/11/3-4.png"
+    "https://revenes.com/wp-content/uploads/2021/11/3-4.png",
+    "/images/product-details/apple-magsafe-charger-1-v2.svg"
   ],
   "harman-kardon-onyx-studio-6": [
     "/images/products/harman-kardon-onyx-studio-6.webp",
@@ -3338,7 +3568,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/OnyxStudio6_Back_Blue_1605X1605.webp",
     "https://revenes.com/wp-content/uploads/2021/11/OnyxStudio6_Hero_Blue_1605X1605.webp",
     "https://revenes.com/wp-content/uploads/2021/11/OnyxStudio6_Back_Gray_1605X1605.webp",
-    "https://revenes.com/wp-content/uploads/2021/11/OnyxStudio6_Hero_Gray_1605X1605.webp"
+    "https://revenes.com/wp-content/uploads/2021/11/OnyxStudio6_Hero_Gray_1605X1605.webp",
+    "/images/product-details/harman-kardon-onyx-studio-6-1-v2.svg"
   ],
   "zealot-s27": [
     "/images/products/zealot-s27.jpg",
@@ -3346,7 +3577,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/f37f5b7c-fc40-48b6-a47b-9732cd10061a.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/83d1fdc4-e08c-417e-a023-19f52698543e.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/20211121_210859_0001.png",
-    "https://revenes.com/wp-content/uploads/2021/11/f442b99d-0042-40ce-a6b7-4b442d2e08d3.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/f442b99d-0042-40ce-a6b7-4b442d2e08d3.jpg",
+    "/images/product-details/zealot-s27-1-v2.svg"
   ],
   "oraimo-freepods-3-tws-2": [
     "/images/products/oraimo-freepods-3-tws-2.jpg",
@@ -3355,12 +3587,14 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/52e41042fd6b15f348750efa8cb42eb4.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/16-01.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/12-01.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/11-01.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/11-01.jpg",
+    "/images/product-details/oraimo-freepods-3-tws-2-1-v2.svg"
   ],
   "airtel-4g-mifi-zlt-m30": [
     "/images/products/airtel-4g-mifi-zlt-m30.png",
     "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package-Content.jpeg",
-    "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package.jpeg"
+    "https://revenes.com/wp-content/uploads/2022/02/Airtel-4G-MiFi-Locked-Package.jpeg",
+    "/images/product-details/airtel-4g-mifi-zlt-m30-1-v2.svg"
   ],
   "apple-watch-se-brand-new": [
     "/images/products/apple-watch-se-brand-new.png",
@@ -3370,7 +3604,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0005.png",
     "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0002.png",
     "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0006.png",
-    "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0004.png"
+    "https://revenes.com/wp-content/uploads/2021/11/20211111_171616_0004.png",
+    "/images/product-details/apple-watch-se-brand-new-1-v2.svg"
   ],
   "sony-wh-1000xm5-headphones": [
     "/images/products/sony-wh-1000xm5-headphones.png",
@@ -3388,7 +3623,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM5-Headphones-11.png",
     "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM5-Headphones-Silver-4.png",
     "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM5-Headphones-12.png",
-    "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM5-Headphones-Silver-3.png"
+    "https://revenes.com/wp-content/uploads/2022/12/Sony-WH-1000XM5-Headphones-Silver-3.png",
+    "/images/product-details/sony-wh-1000xm5-headphones-1-v2.svg"
   ],
   "harman-kardon-onyx-studio-8": [
     "/images/products/harman-kardon-onyx-studio-8.png",
@@ -3400,7 +3636,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/11/Harman-Kardon-Onyx-Studio-8-Gallery-001-7.png",
     "https://revenes.com/wp-content/uploads/2022/11/Harman-Kardon-Onyx-Studio-8-Gallery-001-8.png",
     "https://revenes.com/wp-content/uploads/2022/11/Harman-Kardon-Onyx-Studio-8-Gallery-001-9.png",
-    "https://revenes.com/wp-content/uploads/2022/11/Harman-Kardon-Onyx-Studio-8-Gallery-001-10.png"
+    "https://revenes.com/wp-content/uploads/2022/11/Harman-Kardon-Onyx-Studio-8-Gallery-001-10.png",
+    "/images/product-details/harman-kardon-onyx-studio-8-1-v2.svg"
   ],
   "xiaomi-mi-tv-stick": [
     "/images/products/xiaomi-mi-tv-stick.png",
@@ -3411,7 +3648,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Mi-TV-Stick-5.png",
     "https://revenes.com/wp-content/uploads/2022/10/Mi-TV-Stick-6.png",
     "https://revenes.com/wp-content/uploads/2022/10/Mi-TV-Stick-7.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Mi-TV-Stick-8.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Mi-TV-Stick-8.png",
+    "/images/product-details/xiaomi-mi-tv-stick-1-v2.svg"
   ],
   "zealot-s42": [
     "/images/products/zealot-s42.png",
@@ -3422,7 +3660,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S24-Portable-Speaker-6.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S24-Portable-Speaker-7.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S24-Portable-Speaker-8.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S24-Portable-Speaker-9.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S24-Portable-Speaker-9.png",
+    "/images/product-details/zealot-s42-1-v2.svg"
   ],
   "jbl-club-pro-tws": [
     "/images/products/jbl-club-pro-tws.png",
@@ -3436,7 +3675,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/JBL-Club-Pro-TWS-9.png",
     "https://revenes.com/wp-content/uploads/2022/10/JBL-Club-Pro-TWS-10.png",
     "https://revenes.com/wp-content/uploads/2022/10/JBL-Club-Pro-TWS-11.png",
-    "https://revenes.com/wp-content/uploads/2022/10/JBL-Club-Pro-TWS-12.png"
+    "https://revenes.com/wp-content/uploads/2022/10/JBL-Club-Pro-TWS-12.png",
+    "/images/product-details/jbl-club-pro-tws-1-v2.svg"
   ],
   "zealot-s57": [
     "/images/products/zealot-s57.png",
@@ -3455,7 +3695,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S57-Pictiure-14.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S57-Pictiure-15.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-S57-Pictiure-16.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S57-Pictiure-17.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Zealot-S57-Pictiure-17.png",
+    "/images/product-details/zealot-s57-1-v2.svg"
   ],
   "zealot-p8": [
     "/images/products/zealot-p8.png",
@@ -3471,7 +3712,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-P8-7.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-P8-8.png",
     "https://revenes.com/wp-content/uploads/2022/10/Zealot-P8-9.png",
-    "https://revenes.com/wp-content/uploads/2022/10/Zealot-P8-10.png"
+    "https://revenes.com/wp-content/uploads/2022/10/Zealot-P8-10.png",
+    "/images/product-details/zealot-p8-1-v2.svg"
   ],
   "sony-wh-ch510-headphones": [
     "/images/products/sony-wh-ch510-headphones.png",
@@ -3486,7 +3728,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/07/Sony-WH-CH510-000006.png",
     "https://revenes.com/wp-content/uploads/2022/07/Sony-WH-CH510-000004.png",
     "https://revenes.com/wp-content/uploads/2022/07/Sony-WH-CH510-000002.png",
-    "https://revenes.com/wp-content/uploads/2022/07/Sony-WH-CH510-000001.png"
+    "https://revenes.com/wp-content/uploads/2022/07/Sony-WH-CH510-000001.png",
+    "/images/product-details/sony-wh-ch510-headphones-1-v2.svg"
   ],
   "jbl-live-free-nc-tws": [
     "/images/products/jbl-live-free-nc-tws.webp",
@@ -3499,14 +3742,16 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/06/JBL_LIVE_FREE_NC-TWS_Product-image_Case-Bottom_Black.webp",
     "https://revenes.com/wp-content/uploads/2022/06/JBL_LIVE_FREE_NC-TWS_Product-image_Case-Back_Black.webp",
     "https://revenes.com/wp-content/uploads/2022/06/JBL_LIVE_FREE_NC-TWS_Product-image_Accessories_Black.webp",
-    "https://revenes.com/wp-content/uploads/2022/06/HP_JBL_Live-Free-NC-TWS_Box-Image-Blue_Front.png"
+    "https://revenes.com/wp-content/uploads/2022/06/HP_JBL_Live-Free-NC-TWS_Box-Image-Blue_Front.png",
+    "/images/product-details/jbl-live-free-nc-tws-1-v2.svg"
   ],
   "chupez-power-house-40000mah-power-bank": [
     "/images/products/chupez-power-house-40000mah-power-bank.png",
     "https://revenes.com/wp-content/uploads/2022/03/1.png",
     "https://revenes.com/wp-content/uploads/2022/03/3.png",
     "https://revenes.com/wp-content/uploads/2022/03/4.png",
-    "https://revenes.com/wp-content/uploads/2022/03/5.png"
+    "https://revenes.com/wp-content/uploads/2022/03/5.png",
+    "/images/product-details/chupez-power-house-40000mah-power-bank-1-v2.svg"
   ],
   "oraimo-tempo-w3-smart-watch": [
     "/images/products/oraimo-tempo-w3-smart-watch.jpeg",
@@ -3518,7 +3763,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/oraimo-Tempo-W3-Smart-Watch-Online-Exclusive_6.jpeg",
     "https://revenes.com/wp-content/uploads/2022/03/oraimo-Tempo-W3-Smart-Watch-Online-Exclusive_8.jpeg",
     "https://revenes.com/wp-content/uploads/2022/03/oraimo-Tempo-W3-Smart-Watch-Online-Exclusive_7.jpeg",
-    "https://revenes.com/wp-content/uploads/2022/03/oraimo-Tempo-W3-Smart-Watch-Online-Exclusive_9.jpeg"
+    "https://revenes.com/wp-content/uploads/2022/03/oraimo-Tempo-W3-Smart-Watch-Online-Exclusive_9.jpeg",
+    "/images/product-details/oraimo-tempo-w3-smart-watch-1-v2.svg"
   ],
   "jbl-live-pro": [
     "/images/products/jbl-live-pro.png",
@@ -3537,7 +3783,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/JBL-Live-Pro-Plus-6.webp",
     "https://revenes.com/wp-content/uploads/2022/03/JBL-Live-Pro-Plus-2.webp",
     "https://revenes.com/wp-content/uploads/2022/03/JBL-Live-Pro-Plus-1.webp",
-    "https://revenes.com/wp-content/uploads/2022/03/JBL-Live-Pro-Plus-14.webp"
+    "https://revenes.com/wp-content/uploads/2022/03/JBL-Live-Pro-Plus-14.webp",
+    "/images/product-details/jbl-live-pro-1-v2.svg"
   ],
   "bluedio-particle-tws": [
     "/images/products/bluedio-particle-tws.png",
@@ -3546,40 +3793,45 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/03/Bluedio-Particle-5.png",
     "https://revenes.com/wp-content/uploads/2022/03/Bluedio-Particle-4.png",
     "https://revenes.com/wp-content/uploads/2022/03/Bluedio-Particle-6.png",
-    "https://revenes.com/wp-content/uploads/2022/03/Bluedio-Particle-7.png"
+    "https://revenes.com/wp-content/uploads/2022/03/Bluedio-Particle-7.png",
+    "/images/product-details/bluedio-particle-tws-1-v2.svg"
   ],
   "sony-srs-xb23-bluetooth-speaker": [
     "/images/products/sony-srs-xb23-bluetooth-speaker.png",
     "https://revenes.com/wp-content/uploads/2022/02/Sony-SRS-XB23-1.png",
     "https://revenes.com/wp-content/uploads/2022/02/Sony-SRS-XB23-3.png",
     "https://revenes.com/wp-content/uploads/2022/02/Sony-SRS-XB23-4.png",
-    "https://revenes.com/wp-content/uploads/2022/02/Sony-SRS-XB23-2.png"
+    "https://revenes.com/wp-content/uploads/2022/02/Sony-SRS-XB23-2.png",
+    "/images/product-details/sony-srs-xb23-bluetooth-speaker-1-v2.svg"
   ],
   "jbl-live220bt": [
     "/images/products/jbl-live220bt.png",
     "https://revenes.com/wp-content/uploads/2021/12/20.png",
     "https://revenes.com/wp-content/uploads/2021/12/21.png",
     "https://revenes.com/wp-content/uploads/2021/12/22.png",
-    "https://revenes.com/wp-content/uploads/2021/12/23.png"
+    "https://revenes.com/wp-content/uploads/2021/12/23.png",
+    "/images/product-details/jbl-live220bt-1-v2.svg"
   ],
   "jbl-tune120tws": [
     "/images/products/jbl-tune120tws.png",
     "https://revenes.com/wp-content/uploads/2021/12/16.png",
     "https://revenes.com/wp-content/uploads/2021/12/17-1.png",
     "https://revenes.com/wp-content/uploads/2021/12/18-1.png",
-    "https://revenes.com/wp-content/uploads/2021/12/15-1.png"
+    "https://revenes.com/wp-content/uploads/2021/12/15-1.png",
+    "/images/product-details/jbl-tune120tws-1-v2.svg"
   ],
   "huawei-watch-gt-2": [
     "/images/products/huawei-watch-gt-2.png",
-    "/images/product-details/huawei-watch-gt-2-1.svg",
-    "/images/product-details/huawei-watch-gt-2-2.svg"
+    "/images/product-details/huawei-watch-gt-2-1-v2.svg",
+    "/images/product-details/huawei-watch-gt-2-2-v2.svg"
   ],
   "oraimo-conch-wired-earphones": [
     "/images/products/oraimo-conch-wired-earphones.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/6_7e2d46ce-5258-4699-b96d-3b947cf45f80.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/4_20dd77dc-84e9-445d-8309-75580a36d2b8.jpg",
     "https://revenes.com/wp-content/uploads/2021/12/5_85530a05-6221-42e1-b0ed-61248dc28b9f.jpg",
-    "https://revenes.com/wp-content/uploads/2021/12/3_ba030d13-f5b9-4cef-91f8-1805d1a4bc55.jpg"
+    "https://revenes.com/wp-content/uploads/2021/12/3_ba030d13-f5b9-4cef-91f8-1805d1a4bc55.jpg",
+    "/images/product-details/oraimo-conch-wired-earphones-1-v2.svg"
   ],
   "jbl-clip-3": [
     "/images/products/jbl-clip-3.png",
@@ -3590,7 +3842,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/32.png",
     "https://revenes.com/wp-content/uploads/2021/11/33.png",
     "https://revenes.com/wp-content/uploads/2021/11/35.png",
-    "https://revenes.com/wp-content/uploads/2021/11/36.png"
+    "https://revenes.com/wp-content/uploads/2021/11/36.png",
+    "/images/product-details/jbl-clip-3-1-v2.svg"
   ],
   "jbl-xtreme-3": [
     "/images/products/jbl-xtreme-3.png",
@@ -3601,7 +3854,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/23.png",
     "https://revenes.com/wp-content/uploads/2021/11/24.png",
     "https://revenes.com/wp-content/uploads/2021/11/26.png",
-    "https://revenes.com/wp-content/uploads/2021/11/27.png"
+    "https://revenes.com/wp-content/uploads/2021/11/27.png",
+    "/images/product-details/jbl-xtreme-3-1-v2.svg"
   ],
   "jbl-xtreme-2": [
     "/images/products/jbl-xtreme-2.png",
@@ -3614,12 +3868,13 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/47.png",
     "https://revenes.com/wp-content/uploads/2021/11/48.png",
     "https://revenes.com/wp-content/uploads/2021/11/49.png",
-    "https://revenes.com/wp-content/uploads/2021/11/50.png"
+    "https://revenes.com/wp-content/uploads/2021/11/50.png",
+    "/images/product-details/jbl-xtreme-2-1-v2.svg"
   ],
   "jbl-pulse-4": [
     "/images/products/jbl-pulse-4.png",
     "https://revenes.com/wp-content/uploads/2021/11/9-2.png",
-    "/images/product-details/jbl-pulse-4-1.svg"
+    "/images/product-details/jbl-pulse-4-1-v2.svg"
   ],
   "jbl-flip-5": [
     "/images/products/jbl-flip-5.png",
@@ -3640,7 +3895,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/10-1.png",
     "https://revenes.com/wp-content/uploads/2021/11/11.png",
     "https://revenes.com/wp-content/uploads/2021/11/12.png",
-    "https://revenes.com/wp-content/uploads/2021/11/13.png"
+    "https://revenes.com/wp-content/uploads/2021/11/13.png",
+    "/images/product-details/jbl-flip-5-1-v2.svg"
   ],
   "harman-kardon-onyx-studio-7": [
     "/images/products/harman-kardon-onyx-studio-7.png",
@@ -3650,7 +3906,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/5-4.png",
     "https://revenes.com/wp-content/uploads/2021/11/6-3.png",
     "https://revenes.com/wp-content/uploads/2021/11/7-1.png",
-    "https://revenes.com/wp-content/uploads/2021/11/Untitled-design-1.png"
+    "https://revenes.com/wp-content/uploads/2021/11/Untitled-design-1.png",
+    "/images/product-details/harman-kardon-onyx-studio-7-1-v2.svg"
   ],
   "zealot-s39": [
     "/images/products/zealot-s39.png",
@@ -3662,7 +3919,8 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/Zealot-S39-3.png",
     "https://revenes.com/wp-content/uploads/2021/11/Zealot-S39-2.png",
     "https://revenes.com/wp-content/uploads/2021/11/Zealot-S39-8.png",
-    "https://revenes.com/wp-content/uploads/2021/11/Zealot-S39-10.png"
+    "https://revenes.com/wp-content/uploads/2021/11/Zealot-S39-10.png",
+    "/images/product-details/zealot-s39-1-v2.svg"
   ],
   "zealot-p1": [
     "/images/products/zealot-p1.jpg",
@@ -3670,18 +3928,21 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/88bad1b1-e01a-4c7d-9301-47ee84f597b6.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/90fbc51d-64bb-4bef-b3bf-7af4b843a666.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/641e9d81-7af5-45cd-95ba-d2aa2925126e.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/ac8af571-97c9-4e85-95ee-d277327632d1.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/ac8af571-97c9-4e85-95ee-d277327632d1.jpg",
+    "/images/product-details/zealot-p1-1-v2.svg"
   ],
   "apple-airpods-3": [
     "/images/products/apple-airpods-3.png",
     "https://revenes.com/wp-content/uploads/2021/11/20211110_200840_0002.png",
-    "https://revenes.com/wp-content/uploads/2021/11/20211110_200840_0000.png"
+    "https://revenes.com/wp-content/uploads/2021/11/20211110_200840_0000.png",
+    "/images/product-details/apple-airpods-3-1-v2.svg"
   ],
   "airpords-2": [
     "/images/products/airpords-2.png",
     "https://revenes.com/wp-content/uploads/2021/11/1_20211110_210938_0000.png",
     "https://revenes.com/wp-content/uploads/2021/11/3_20211110_210938_0002.png",
-    "https://revenes.com/wp-content/uploads/2021/11/4_20211110_210938_0003.png"
+    "https://revenes.com/wp-content/uploads/2021/11/4_20211110_210938_0003.png",
+    "/images/product-details/airpords-2-1-v2.svg"
   ],
   "oraimo-soundfull-soundbar": [
     "/images/products/oraimo-soundfull-soundbar.jpg",
@@ -3692,12 +3953,14 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/OBS-91D_680_6.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/OBS-91D_680_7.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/OBS-91D_680_2.jpg",
-    "https://revenes.com/wp-content/uploads/2021/11/OBS-91D_680_8.jpg"
+    "https://revenes.com/wp-content/uploads/2021/11/OBS-91D_680_8.jpg",
+    "/images/product-details/oraimo-soundfull-soundbar-1-v2.svg"
   ],
   "apple-airpods-pro": [
     "/images/products/apple-airpods-pro.png",
     "https://revenes.com/wp-content/uploads/2021/11/20211108_183520_0000.png",
-    "https://revenes.com/wp-content/uploads/2021/11/20211108_183520_0002.png"
+    "https://revenes.com/wp-content/uploads/2021/11/20211108_183520_0002.png",
+    "/images/product-details/apple-airpods-pro-1-v2.svg"
   ],
   "jbl-charge-4": [
     "/images/products/jbl-charge-4.png",
@@ -3713,12 +3976,14 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/jb-4.png",
     "https://revenes.com/wp-content/uploads/2021/11/jb-5.png",
     "https://revenes.com/wp-content/uploads/2021/11/jb-6.png",
-    "https://revenes.com/wp-content/uploads/2021/11/jb-7.png"
+    "https://revenes.com/wp-content/uploads/2021/11/jb-7.png",
+    "/images/product-details/jbl-charge-4-1-v2.svg"
   ],
   "iphone-duo": [
     "https://www.apple.com/v/iphone-duo/e/images/overview/design/design_startframe__d0ju7eaey3ki_large.jpg",
     "https://www.apple.com/v/iphone-duo/e/images/overview/design/design_hero__gczn1e74mwa6_large.jpg",
     "https://www.apple.com/v/iphone-duo/e/images/overview/product-viewer/display__bx48n0ntsgvm_large.jpg",
-    "https://www.apple.com/v/iphone-duo/e/images/overview/product-viewer/foldable__iybtpzlhgj6u_large.jpg"
+    "https://www.apple.com/v/iphone-duo/e/images/overview/product-viewer/foldable__iybtpzlhgj6u_large.jpg",
+    "/images/product-details/iphone-duo-1-v2.svg"
   ]
 };

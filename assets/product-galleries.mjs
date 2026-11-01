@@ -3054,9 +3054,21 @@ export const productGalleries = {
   ],
   "samsung-s25-fe": [
     "https://oneapple.com.ua/content/images/17/1800x1800l80mc0/60388574313349.jpg",
-    "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s25-fe/08272025/Galaxy_S25_FE-MLP-FT03-KV-Eyebrow-PC.png?$N_56_PNG$",
     "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s25-fe/08252025/Galaxy_S25_FE-MLP-FT03-KV-PC.jpg?$1440_N_JPG$",
-    "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s25-fe/10272025/3-2_Design-accolades_pc.png?$570_N_PNG$"
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-2.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-3.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-4.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-5.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-6.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-7.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-8.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-9.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-10.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-11.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-12.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-13.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-14.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-15.png"
   ],
   "samsung-s25-plus": [
     "https://www.samsung-online.com.ua/uploads/shop/products/large/c_c_c_d3306ada9522403ae73d26c38e6bc357.jpg",
@@ -3136,13 +3148,7 @@ export const productGalleries = {
     "https://img.pccomponentes.com/articles/1089/10899836/1116-tablet-samsung-galaxy-tab-s10-fe-plus-131-8gb-128gb-wi-fi-plata-s-pen-exynos.jpg"
   ],
   "samsung-galaxy-tab-s11": [
-    "https://shop.samsung.com/ie/images/products/30325/36820/2000x2000/SM-X730NZSTEUB.webp",
-    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-s11/09052025/01-KV-HD01-TabS11Ultra-KV-D.jpg?imwidth=1366",
-    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-s11/02-Highlights-CO16-DiscoverCard-01-Design-D.png?$330_N_PNG$",
-    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-s11/08282025/03-Design-FT02-Slim-Light-Video-Thumbnail-D-V2.jpg?$1440_N_JPG$",
-    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-s11/03-Design-FT08-TabFeature-01-Gray-D.jpg?$1204_n_JPG$",
-    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-s11/03-Design-FT08-TabFeature-02-Silver-D.jpg?$1204_n_JPG$",
-    "https://images.samsung.com/is/image/samsung/assets/us/tablets/galaxy-tab-s11/08-Productivity-01-FT02-FeatureBenefit-DeX-Video-Thumbnail-D.jpg?$1440_N_JPG$"
+    "https://shop.samsung.com/ie/images/products/30325/36820/2000x2000/SM-X730NZSTEUB.webp"
   ],
   "samsung-galaxy-tab-s11-ultra": [
     "https://cdn.comfy.ua/media/catalog/product/g/a/galaxy_tab_s11_ultra_gray_product_image_combo_with_s_pen.jpg"
@@ -3623,3 +3629,4 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2022/04/20220419_051255_0008.png"
   ]
 };
+

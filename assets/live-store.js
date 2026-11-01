@@ -3,7 +3,7 @@ import {money,available,enquiryOnly,reconcileCart,subtotal,readCart,saveCart} fr
 const $=s=>document.querySelector(s),root=$('#liveContent'),message=$('#liveMessage'),params=new URLSearchParams(location.search);
 const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
 function link(text,url){const a=node('a',text);a.href=url;return a;}
-function galleryImages(p){return [...new Set([...(productGalleries[p.attributes?.source_slug]||[]),...(p.images||[]).map(u=>u.replace('https://lisaelectronics.vercel.app/images/','/images/'))])].slice(0,8);}
+function galleryImages(p){const model=p.attributes?.source_slug,sources=productGalleries[model]||[];return [...new Set([...sources,...(p.images||[]).map(u=>u.replace('https://lisaelectronics.vercel.app/images/','/images/'))])].slice(0,8).map(src=>src.startsWith('https://')&&sources.includes(src)?'/api/product-image?model='+encodeURIComponent(model)+'&index='+sources.indexOf(src):src);}
 function photo(src,name,alternatives=[]){const img=node('img');img.src=src;img.alt=name;img.loading='lazy';img.onerror=()=>{if(alternatives.length){img.src=alternatives.shift();return;}img.replaceWith(node('p','Product photo unavailable','live-note'));};return img;}
 let products=[],cart=readCart(localStorage);
 function add(p,q=1){cart=readCart(localStorage);if(!available(p))return;const line=cart.find(l=>l.id===p.id);if(line)line.quantity=Math.min(99,line.quantity+q);else if(cart.length<20)cart.push({id:p.id,quantity:Math.min(99,Math.max(1,q))});else{message.textContent='Your cart can hold up to 20 different products.';return;}saveCart(localStorage,cart);message.replaceChildren(node('span','Added to your cart. '),link('View cart →','/cart/'));}

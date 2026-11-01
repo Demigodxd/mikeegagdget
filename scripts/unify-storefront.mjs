@@ -2,6 +2,7 @@ import {readFile,writeFile,readdir,mkdir} from 'node:fs/promises';
 import {JSDOM} from 'jsdom';
 const home=new JSDOM(await readFile('index.html','utf8')).window.document;
 home.querySelectorAll('.live-cart-link,[data-cart-link]').forEach(el=>el.remove());
+home.querySelectorAll('.footer-grid h3').forEach(el=>{if(el.textContent==='Customer care')el.parentElement.remove();});
 const header=home.querySelector('.site-header').outerHTML,footer=home.querySelector('.store-footer').outerHTML,top=home.querySelector('.lisa-topline').outerHTML;
 const pages=[];
 const pixel=home.querySelector('script[src*="tiktok-pixel"]')?.outerHTML||'';
@@ -28,3 +29,4 @@ for(const path of pages){const dom=new JSDOM(await readFile(path,'utf8')),d=dom.
  const f=d.querySelector('.footer-grid');if(f){const el=d.createElement('div');el.innerHTML='<h3>Customer care</h3><a href="/help/">Help & FAQs</a><a href="/delivery/">Delivery & pickup</a><a href="/returns/">Returns & warranty</a><a href="/privacy/">Privacy & your order</a><a href="/contact/">Contact Lisa</a>';f.append(el);}
  await writeFile(path,dom.serialize());}
 console.log(`Unified ${pages.length} public pages with the Lisa homepage shell`);
+

@@ -1,5 +1,6 @@
 import { newestFirst } from "./catalog-order.mjs";
 import { retailPhoneProducts } from "./retail-inventory.mjs";
+import {productGalleries} from '../assets/product-galleries.mjs';
 
 export const commerceSite = Object.freeze({
   name: "Lisa Electronics",
@@ -17,7 +18,7 @@ export const commerceSite = Object.freeze({
   easyBuyUrl: "/easy-buy/"
 });
 
-export const products = Object.freeze([...retailPhoneProducts].sort(newestFirst));
+export const products = Object.freeze(retailPhoneProducts.map(product=>({...product,images:productGalleries[product.slug]?.length?productGalleries[product.slug]:product.images})).sort(newestFirst));
 
 export const accessories = Object.freeze([
   { name: "Compatible charger", detail: "Ask which charger is recommended for this exact phone." },

@@ -147,7 +147,7 @@ for (const category of categoryPages) {
   }
 
   assert(count(html, /<h1(?:\s|>)/g) === 1, `${category.route}: category page must contain exactly one H1.`);
-  assert(html.includes(`<h1>${category.swap ? "Know what to add." : escapeHtml(category.h1)}</h1>`), `${category.route}: category H1 does not match configuration.`);
+  assert(html.includes(`<h1>${category.swap ? "Goodbye old phone.<br><span>Hello, upgrade.</span>" : escapeHtml(category.h1)}</h1>`), `${category.route}: category H1 does not match configuration.`);
   assert(html.includes(`<title>${escapeHtml(category.title)}</title>`), `${category.route}: category SEO title does not match.`);
   assert(html.includes(`rel="canonical" href="${commerceSite.baseUrl}${category.route}"`), `${category.route}: category canonical URL is incorrect.`);
   assert(html.includes(`wa.me/${commerceSite.whatsappNumber}?text=`), `${category.route}: category WhatsApp path is missing.`);

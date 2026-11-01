@@ -17,7 +17,8 @@ const info={
 };
 for(const [slug,content] of Object.entries(info)){await mkdir(slug,{recursive:true});const d=new JSDOM('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+slug+' | Lisa Electronics</title></head><body><main id="main" class="store-section store-info">'+content+'</main></body></html>').window.document;await writeFile(slug+'/index.html',d.documentElement.outerHTML);pages.push(slug+'/index.html');}
 for(const path of pages){const dom=new JSDOM(await readFile(path,'utf8')),d=dom.window.document;if(!d.querySelector('main'))continue;
- d.querySelectorAll('header,.commerce-topbar,.lisa-topline,footer,.mobile-bottom-nav,.live-cart-link').forEach(el=>el.remove());
+ d.querySelectorAll('header,.announcement,.commerce-topbar,.lisa-topline,footer,.mobile-bottom-nav,.live-cart-link').forEach(el=>el.remove());
+ d.querySelectorAll('a.skip,a.store-skip').forEach(el=>el.className='store-skip');
  if(!path.includes('checkout/')&&!d.querySelector('script[src*="tiktok-pixel"]'))d.head.insertAdjacentHTML('beforeend',pixel);
  d.body.classList.add('lisa-store');d.body.insertAdjacentHTML('afterbegin',top+header);d.body.insertAdjacentHTML('beforeend',footer);
  d.querySelectorAll('header a[href^="#"],footer a[href^="#"]').forEach(a=>a.setAttribute('href','/'+a.getAttribute('href')));
@@ -25,8 +26,9 @@ for(const path of pages){const dom=new JSDOM(await readFile(path,'utf8')),d=dom.
  d.querySelectorAll('a[href*="?method=swap"]').forEach(a=>a.href='/swap/');d.querySelectorAll('a[href*="?method=easy"]').forEach(a=>a.href='/easybuy/');d.querySelectorAll('a').forEach(a=>{if(a.textContent==='Compare devices')a.textContent='Browse devices';});
  const nav=d.querySelector('header .nav');const cart=d.createElement('a');cart.className='lisa-cart';cart.href='/cart/';cart.dataset.cartLink='';cart.setAttribute('aria-label','Shopping cart, 0 items');cart.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M2 3h3l3 13h11l3-9H6M9 21h.01M18 21h.01" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-cart-count hidden>0</span><span class="sr-only">Cart</span>';nav.insertBefore(cart,nav.querySelector('.menu-toggle'));
  for(const css of ['storefront.css','lisa-store.css','store-unified.css'])if(!d.querySelector(`link[href="/assets/${css}"]`)){const el=d.createElement('link');el.rel='stylesheet';el.href='/assets/'+css;d.head.append(el);}
+ if(d.querySelector('[data-journey]')){d.querySelectorAll('link[href="/assets/sales.css"],link[href="/assets/upgrade.css"],link[href="/assets/journey.css"],link[href="/assets/upgrade-store.css"]').forEach(el=>el.remove());const theme=d.createElement('link');theme.rel='stylesheet';theme.href='/assets/upgrade-store.css';d.head.append(theme);d.body.classList.add('upgrade-store-page');d.querySelector('meta[name="theme-color"]')?.setAttribute('content','#b60018');}
+ if(home.body.dataset.liveMode)d.querySelectorAll('a[href*="#products"]').forEach(a=>a.setAttribute('href',a.getAttribute('href').replace('#products','#liveStore')));
  if(!d.querySelector('script[src="/assets/store-shell.js"]')){const el=d.createElement('script');el.type='module';el.src='/assets/store-shell.js';d.body.append(el);}
  const f=d.querySelector('.footer-grid');if(f){const el=d.createElement('div');el.innerHTML='<h3>Customer care</h3><a href="/help/">Help & FAQs</a><a href="/delivery/">Delivery & pickup</a><a href="/returns/">Returns & warranty</a><a href="/privacy/">Privacy & your order</a><a href="/contact/">Contact Lisa</a>';f.append(el);}
  await writeFile(path,dom.serialize());}
 console.log(`Unified ${pages.length} public pages with the Lisa homepage shell`);
-

@@ -1,3 +1,4 @@
+import {catalogueImageUpdates,iphoneDuo} from './catalogue-image-updates.mjs';
 import {commerceSite} from './catalog.mjs';
 import {products as baseProducts} from './catalog.mjs';
 import {retailInventory} from './retail-inventory.mjs';
@@ -67,4 +68,4 @@ const otherItems = [...retailInventory.filter(item=>!item.isPhone&&!importedName
  route:`/product/${item.slug}/`, enquiryUrl:whatsappFor(item),priceMax:item.priceMax,priceCheckedAt:item.priceCheckedAt,conditions:[item.condition],availability:'Confirm exact unit and availability',
  easy:false,swap:false,variants:item.variants.map(makeVariant)
 }));
-export const storeItems = [...phoneItems,...otherItems];
+export const storeItems = [...phoneItems,...otherItems,iphoneDuo].map(item=>({...item,image:item.image||catalogueImageUpdates[item.model]||''}));

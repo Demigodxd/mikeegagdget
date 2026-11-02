@@ -1,10 +1,11 @@
 import { newestFirst } from "./catalog-order.mjs";
 import { retailPhoneProducts } from "./retail-inventory.mjs";
+import {productGalleries} from '../assets/product-galleries.mjs';
 
 export const commerceSite = Object.freeze({
   name: "Lisa Electronics",
   legalName: "LISA ELECTRONICS",
-  baseUrl: "https://lisaelectronics.vercel.app",
+  baseUrl: "https://www.lisaelectronics.com.ng",
   whatsappNumber: "2347089254544",
   telephoneHref: "+2347089254544",
   telephoneDisplay: "0708 925 4544",
@@ -17,7 +18,7 @@ export const commerceSite = Object.freeze({
   easyBuyUrl: "/easy-buy/"
 });
 
-export const products = Object.freeze([...retailPhoneProducts].sort(newestFirst));
+export const products = Object.freeze(retailPhoneProducts.map(product=>({...product,images:productGalleries[product.slug]?.length?productGalleries[product.slug]:product.images})).sort(newestFirst));
 
 export const accessories = Object.freeze([
   { name: "Compatible charger", detail: "Ask which charger is recommended for this exact phone." },
@@ -124,3 +125,4 @@ export const categoryPages = Object.freeze([
 ]);
 
 export const productBySlug = new Map(products.map((product) => [product.slug, product]));
+

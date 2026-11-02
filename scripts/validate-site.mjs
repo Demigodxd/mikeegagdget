@@ -1,5 +1,5 @@
 import { access, readFile, readdir } from "node:fs/promises";
-import { dirname, extname, join } from "node:path";
+import { dirname, extname, join, relative as relativePath } from "node:path";
 import { fileURLToPath } from "node:url";
 import { landingPages, site } from "../landing-pages/config.mjs";
 import { categoryPages, commerceSite, products } from "../commerce/catalog.mjs";
@@ -147,7 +147,7 @@ for (const category of categoryPages) {
   }
 
   assert(count(html, /<h1(?:\s|>)/g) === 1, `${category.route}: category page must contain exactly one H1.`);
-  assert(html.includes(`<h1>${category.swap ? "Know what to add." : escapeHtml(category.h1)}</h1>`), `${category.route}: category H1 does not match configuration.`);
+  assert(html.includes(`<h1>${category.swap ? "Goodbye old phone.<br><span>Hello, upgrade.</span>" : escapeHtml(category.h1)}</h1>`), `${category.route}: category H1 does not match configuration.`);
   assert(html.includes(`<title>${escapeHtml(category.title)}</title>`), `${category.route}: category SEO title does not match.`);
   assert(html.includes(`rel="canonical" href="${commerceSite.baseUrl}${category.route}"`), `${category.route}: category canonical URL is incorrect.`);
   assert(html.includes(`wa.me/${commerceSite.whatsappNumber}?text=`), `${category.route}: category WhatsApp path is missing.`);
@@ -183,7 +183,7 @@ for (const category of shopCategories) {
   assert(routeManifest.categories.includes(category.route), `${category.route}: shop route is missing from the route manifest.`);
   assert(html.includes(`data-landing-page="${category.route}" data-page-type="category"`), `${category.route}: analytics must use the category route.`);
   assert(html.includes(`<meta property="og:url" content="${url}">`), `${category.route}: sharing URL must match the category.`);
-  assert(html.includes(`<link rel="canonical" href="${url}" />`), `${category.route}: incorrect canonical URL.`);
+  assert(new RegExp(`<link rel="canonical" href="${url.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}"\\s*/?>`).test(html), `${category.route}: incorrect canonical URL.`);
   for (const property of ["og:title", "og:description"]) {
     const content = html.match(new RegExp(`<meta property="${property}" content="([^"]+)"`))?.[1];
     assert(content?.replaceAll('&amp;','&').includes(category.name), `${category.route}: ${property} must describe the category.`);
@@ -224,11 +224,12 @@ assert(tiktokPixel.includes("DANV8Q3C77U28JP39CGG"), "TikTok Pixel ID is missing
 await collectHtml(root);
 for (const filePath of htmlFiles) {
   const html = await readFile(filePath, "utf8");
-  const relative = filePath.replace(`${root}/`, "");
+  const relative = relativePath(root,filePath).replaceAll('\\','/');
   assert(!html.includes("2348039248231"), `${relative}: old phone number is present.`);
   assert(!html.includes("0803 924 8231"), `${relative}: old display phone number is present.`);
   assert(!/\b(?:10k\+|4\.9|free shipping nationwide|24\/7 customer support|quality guaranteed|verified buyer)\b/i.test(html), `${relative}: an unverified claim is present.`);
-  if (!relative.startsWith("docs/")) {
+  // Do not load advertising trackers on private admin or checkout pages.
+  if (!["docs/", "admin/", "checkout/"].some(prefix => relative.startsWith(prefix))) {
     assert(html.includes("assets/tiktok-pixel.js"), `${relative}: TikTok Pixel is missing.`);
     assert(html.indexOf("assets/tiktok-pixel.js") < html.indexOf("</head>"), `${relative}: TikTok Pixel must load in the document head.`);
   }

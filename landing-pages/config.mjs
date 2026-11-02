@@ -1,7 +1,7 @@
 export const site = {
   name: "LISA ELECTRONICS",
   displayName: "Lisa Electronics",
-  baseUrl: "https://lisaelectronics.vercel.app",
+  baseUrl: "https://www.lisaelectronics.com.ng",
   whatsappNumber: "2347089254544",
   telephoneHref: "+2347089254544",
   telephoneDisplay: "0708 925 4544",
@@ -1064,3 +1064,4 @@ export const landingPages = [
 ];
 
 export const pageByRoute = new Map(landingPages.map((page) => [page.route, page]));
+

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lisaelectronics.vercel.app/sitemap.xml
+Sitemap: https://www.lisaelectronics.com.ng/sitemap.xml
+

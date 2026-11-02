@@ -1,3 +1,4 @@
+import {commerceSite} from '../commerce/catalog.mjs';
 import {readFile,writeFile,readdir,mkdir} from 'node:fs/promises';
 import {JSDOM} from 'jsdom';
 const home=new JSDOM(await readFile('index.html','utf8')).window.document;
@@ -17,6 +18,9 @@ const info={
 };
 for(const [slug,content] of Object.entries(info)){await mkdir(slug,{recursive:true});const d=new JSDOM('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+slug+' | Lisa Electronics</title></head><body><main id="main" class="store-section store-info">'+content+'</main></body></html>').window.document;await writeFile(slug+'/index.html',d.documentElement.outerHTML);pages.push(slug+'/index.html');}
 for(const path of pages){const dom=new JSDOM(await readFile(path,'utf8')),d=dom.window.document;if(!d.querySelector('main'))continue;
+ for(const el of d.querySelectorAll('link[rel="canonical"],meta[property="og:url"],meta[property="og:image"]')){const attr=el.tagName==='LINK'?'href':'content',value=el.getAttribute(attr);if(value?.startsWith('https://lisaelectronics.vercel.app'))el.setAttribute(attr,value.replace('https://lisaelectronics.vercel.app',commerceSite.baseUrl));}
+ d.querySelectorAll('script[type="application/ld+json"]').forEach(el=>el.textContent=el.textContent.replaceAll('https://lisaelectronics.vercel.app',commerceSite.baseUrl));
+ if(!d.querySelector('link[rel="canonical"]')){const link=d.createElement('link');link.rel='canonical';link.href=new URL(path.replace(/^\.\//,'').replace(/index\.html$/,''),commerceSite.baseUrl+'/').href;d.head.append(link);}
  d.querySelectorAll('header,.announcement,.commerce-topbar,.lisa-topline,footer,.mobile-bottom-nav,.live-cart-link').forEach(el=>el.remove());
  d.querySelectorAll('a.skip,a.store-skip').forEach(el=>el.className='store-skip');
  if(!path.includes('checkout/')&&!d.querySelector('script[src*="tiktok-pixel"]'))d.head.insertAdjacentHTML('beforeend',pixel);
@@ -32,3 +36,4 @@ for(const path of pages){const dom=new JSDOM(await readFile(path,'utf8')),d=dom.
  const f=d.querySelector('.footer-grid');if(f){const el=d.createElement('div');el.innerHTML='<h3>Customer care</h3><a href="/help/">Help & FAQs</a><a href="/delivery/">Delivery & pickup</a><a href="/returns/">Returns & warranty</a><a href="/privacy/">Privacy & your order</a><a href="/contact/">Contact Lisa</a>';f.append(el);}
  await writeFile(path,dom.serialize());}
 console.log(`Unified ${pages.length} public pages with the Lisa homepage shell`);
+

@@ -1,4 +1,4 @@
-// Prices and original product imagery sourced from Revenes on 2026-10-15. Confirm Lisa stock before payment.
+// Supplier prices checked 2026-11-05. MacBooks use Jumia listed price plus 15%; confirm stock before payment.
 export const accessoryInventory = [
   {
     "slug": "samsung-type-c-45w-pd-fast-charger",
@@ -2759,5 +2759,854 @@ export const accessoryInventory = [
     "sourceImage": "https://revenes.com/wp-content/uploads/2021/11/jb-1.png",
     "sourceStock": "out-of-stock",
     "priceCheckedAt": "2026-10-15"
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m3-16gb-512gb-midnight",
+    "model": "Apple MacBook Air 15-inch M3 16GB 512GB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/8023014/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/8023014/1.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/8023014/2.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/8023014/3.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/8023014/4.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "16GB",
+        "color": "Midnight",
+        "price": 2970451.15
+      }
+    ],
+    "priceMax": 2970451.15,
+    "sourcePrice": 2583001,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-2024-macbook-air-15-inch-m3-with-8core-cpu-and-10core-gpu-16gb-unified-memory-512gb-midnight-410320891.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/8023014/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M3 16GB 512GB Midnight. 16GB memory and 512GB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-pro-14-inch-m3-pro-18gb-512gb-space-black",
+    "model": "Apple MacBook Pro 14-inch M3 Pro 18GB 512GB Space Black",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/2178772/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/2178772/1.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/2178772/2.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "18GB",
+        "color": "Space Black",
+        "price": 3622500
+      }
+    ],
+    "priceMax": 3622500,
+    "sourcePrice": 3150000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/macbook-pro-14-laptop-m3-pro-chip-18gb-14-core-gpu-512-ssd-space-black2023-apple-mpg4091125.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/2178772/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Pro 14-inch M3 Pro 18GB 512GB Space Black. 18GB memory and 512GB SSD storage in Space Black. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m2-16gb-512gb-midnight",
+    "model": "Apple MacBook Air 15-inch M2 16GB 512GB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/78/9668372/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/78/9668372/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "16GB",
+        "color": "Midnight",
+        "price": 2298562.5
+      }
+    ],
+    "priceMax": 2298562.5,
+    "sourcePrice": 1998750,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-15-laptop-m2-chip-16gb-memory-512gb-ssd-latest-model-midnight-2023-273866987.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/78/9668372/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M2 16GB 512GB Midnight. 16GB memory and 512GB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-6-inch-m2-8gb-256gb-midnight",
+    "model": "Apple MacBook Air 13.6-inch M2 8GB 256GB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/34/8616942/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/34/8616942/1.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/34/8616942/2.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "color": "Midnight",
+        "price": 1782500
+      }
+    ],
+    "priceMax": 1782500,
+    "sourcePrice": 1550000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-13.6-macbook-air-m2-midnight-8gb-256gb-249616843.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/34/8616942/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13.6-inch M2 8GB 256GB Midnight. 8GB memory and 256GB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-pro-14-inch-m5-24gb-1tb-space-black",
+    "model": "Apple MacBook Pro 14-inch M5 24GB 1TB Space Black",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/97/4199914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/97/4199914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "24GB",
+        "color": "Space Black",
+        "price": 4657500
+      }
+    ],
+    "priceMax": 4657500,
+    "sourcePrice": 4050000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-pro-14-m5-chip-24gb-ram-1tb-2025-model-space-black-419991479.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/97/4199914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Pro 14-inch M5 24GB 1TB Space Black. 24GB memory and 1TB SSD storage in Space Black. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-6-inch-m2-16gb-256gb-midnight",
+    "model": "Apple MacBook Air 13.6-inch M2 16GB 256GB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/0384914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/0384914/1.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/0384914/2.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/0384914/3.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/0384914/4.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "16GB",
+        "color": "Midnight",
+        "price": 2242500
+      }
+    ],
+    "priceMax": 2242500,
+    "sourcePrice": 1950000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-mc7x4hna-macbook-air-13-8-core-m2-chip16-gb-ram256-gb-ssdmac-os-sequoialiquid-retina-34.46-cm-13.6-inch-midnight-419483001.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/0384914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13.6-inch M2 16GB 256GB Midnight. 16GB memory and 256GB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m5-16gb-512gb-midnight",
+    "model": "Apple MacBook Air 13-inch M5 16GB 512GB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/76/3399914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/76/3399914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "16GB",
+        "color": "Midnight",
+        "price": 3162500
+      }
+    ],
+    "priceMax": 3162500,
+    "sourcePrice": 2750000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m5-chip-16gb-ram-512gb-2026-model-midnight-419993367.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/76/3399914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M5 16GB 512GB Midnight. 16GB memory and 512GB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-3-inch-m1-8gb-256gb-silver",
+    "model": "Apple MacBook Air 13.3-inch M1 8GB 256GB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/6653914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/6653914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "color": "Silver",
+        "price": 1322500
+      }
+    ],
+    "priceMax": 1322500,
+    "sourcePrice": 1150000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13.3-8gb256gb-m1-silver-419356614.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/6653914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13.3-inch M1 8GB 256GB Silver. 8GB memory and 256GB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-neo-8gb-512gb-indigo",
+    "model": "Apple MacBook Neo 8GB 512GB Indigo",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/33/1011024/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/33/1011024/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "8GB",
+        "color": "Indigo",
+        "price": 1489250
+      }
+    ],
+    "priceMax": 1489250,
+    "sourcePrice": 1295000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-neo-8-512gb-indigo-420110133.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/33/1011024/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Neo 8GB 512GB Indigo. 8GB memory and 512GB SSD storage in Indigo. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-pro-14-inch-m5-24gb-1tb-silver",
+    "model": "Apple MacBook Pro 14-inch M5 24GB 1TB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/6099914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/6099914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "24GB",
+        "color": "Silver",
+        "price": 4657500
+      }
+    ],
+    "priceMax": 4657500,
+    "sourcePrice": 4050000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-pro-14-m5-chip-24gb-ram-1tb-2025-model-silver-419990678.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/6099914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Pro 14-inch M5 24GB 1TB Silver. 24GB memory and 1TB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m5-24gb-1tb-midnight",
+    "model": "Apple MacBook Air 13-inch M5 24GB 1TB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3399914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3399914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "24GB",
+        "color": "Midnight",
+        "price": 3852500
+      }
+    ],
+    "priceMax": 3852500,
+    "sourcePrice": 3350000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m5-chip-24gb-ram-1tb-2026-model-midnight-419993359.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3399914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M5 24GB 1TB Midnight. 24GB memory and 1TB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m5-24gb-1tb-midnight",
+    "model": "Apple MacBook Air 15-inch M5 24GB 1TB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/66/8199914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/66/8199914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "24GB",
+        "color": "Midnight",
+        "price": 4197500
+      }
+    ],
+    "priceMax": 4197500,
+    "sourcePrice": 3650000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-15-m5-chip-24gb-ram-1tb-2026-model-midnight-419991866.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/66/8199914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M5 24GB 1TB Midnight. 24GB memory and 1TB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m5-24gb-1tb-silver",
+    "model": "Apple MacBook Air 15-inch M5 24GB 1TB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/7099914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/7099914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "24GB",
+        "color": "Silver",
+        "price": 4197500
+      }
+    ],
+    "priceMax": 4197500,
+    "sourcePrice": 3650000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-15-m5-chip-24gb-ram-1tb-2026-model-silver-419990711.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/7099914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M5 24GB 1TB Silver. 24GB memory and 1TB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-pro-14-inch-m5-16gb-1tb-space-black",
+    "model": "Apple MacBook Pro 14-inch M5 16GB 1TB Space Black",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3099914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3099914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "16GB",
+        "color": "Space Black",
+        "price": 4312500
+      }
+    ],
+    "priceMax": 4312500,
+    "sourcePrice": 3750000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-pro-14-m5-chip-16gb-ram-1tb-2025-model-space-black-419990359.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3099914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Pro 14-inch M5 16GB 1TB Space Black. 16GB memory and 1TB SSD storage in Space Black. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-pro-14-inch-m5-16gb-1tb-silver",
+    "model": "Apple MacBook Pro 14-inch M5 16GB 1TB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/6099914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/6099914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "16GB",
+        "color": "Silver",
+        "price": 4312500
+      }
+    ],
+    "priceMax": 4312500,
+    "sourcePrice": 3750000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-pro-14-m5-chip-16gb-ram-1tb-2025-model-silver-419990632.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/6099914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Pro 14-inch M5 16GB 1TB Silver. 16GB memory and 1TB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m5-24gb-1tb-silver",
+    "model": "Apple MacBook Air 13-inch M5 24GB 1TB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/18/5299914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/18/5299914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "24GB",
+        "color": "Silver",
+        "price": 3852500
+      }
+    ],
+    "priceMax": 3852500,
+    "sourcePrice": 3350000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m5-chip-24gb-ram-1tb-2026-model-silver-419992581.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/18/5299914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M5 24GB 1TB Silver. 24GB memory and 1TB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m5-16gb-1tb-midnight",
+    "model": "Apple MacBook Air 13-inch M5 16GB 1TB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/21/4299914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/21/4299914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "16GB",
+        "color": "Midnight",
+        "price": 3507500
+      }
+    ],
+    "priceMax": 3507500,
+    "sourcePrice": 3050000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m5-chip-16gb-ram-1tb-2026-model-midnight-419992412.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/21/4299914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M5 16GB 1TB Midnight. 16GB memory and 1TB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m1-8gb-256gb-gold",
+    "model": "Apple MacBook Air 13-inch M1 8GB 256GB Gold",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/921227/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/921227/1.jpg",
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/921227/2.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "color": "Gold",
+        "price": 1581250
+      }
+    ],
+    "priceMax": 1581250,
+    "sourcePrice": 1375000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/macbook-air-13-m1-chip-8gb-256gb-2020-model-gold-apple-mpg1598801.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/921227/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M1 8GB 256GB Gold. 8GB memory and 256GB SSD storage in Gold. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m5-16gb-512gb-silver",
+    "model": "Apple MacBook Air 13-inch M5 16GB 512GB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/71/7299914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/71/7299914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "16GB",
+        "color": "Silver",
+        "price": 3162500
+      }
+    ],
+    "priceMax": 3162500,
+    "sourcePrice": 2750000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m5-chip-16gb-ram-512gb-2026-model-silver-419992717.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/71/7299914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M5 16GB 512GB Silver. 16GB memory and 512GB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-pro-14-inch-m5-16gb-512gb-space-black",
+    "model": "Apple MacBook Pro 14-inch M5 16GB 512GB Space Black",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/6099914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/6099914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "16GB",
+        "color": "Space Black",
+        "price": 3967500
+      }
+    ],
+    "priceMax": 3967500,
+    "sourcePrice": 3450000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-pro-14-m5-chip-16gb-ram-512gb-2025-model-space-black-419990625.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/6099914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Pro 14-inch M5 16GB 512GB Space Black. 16GB memory and 512GB SSD storage in Space Black. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m5-16gb-1tb-silver",
+    "model": "Apple MacBook Air 13-inch M5 16GB 1TB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/5299914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/5299914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "16GB",
+        "color": "Silver",
+        "price": 3507500
+      }
+    ],
+    "priceMax": 3507500,
+    "sourcePrice": 3050000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m5-chip-16gb-ram-1tb-2026-model-silver-419992521.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/5299914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M5 16GB 1TB Silver. 16GB memory and 1TB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-pro-14-inch-m5-16gb-512gb-silver",
+    "model": "Apple MacBook Pro 14-inch M5 16GB 512GB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/1199914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/1199914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "512GB",
+        "ram": "16GB",
+        "color": "Silver",
+        "price": 3967500
+      }
+    ],
+    "priceMax": 3967500,
+    "sourcePrice": 3450000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-pro-14-m5-chip-16gb-ram-512gb-2025-model-silver-419991191.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/19/1199914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Pro 14-inch M5 16GB 512GB Silver. 16GB memory and 512GB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m5-16gb-1tb-silver",
+    "model": "Apple MacBook Air 15-inch M5 16GB 1TB Silver",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/4299914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/4299914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "16GB",
+        "color": "Silver",
+        "price": 3622500
+      }
+    ],
+    "priceMax": 3622500,
+    "sourcePrice": 3150000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-15-m5-chip-16gb-ram-1tb-2026-model-silver-419992405.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/4299914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M5 16GB 1TB Silver. 16GB memory and 1TB SSD storage in Silver. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m4-16gb-256gb-midnight",
+    "model": "Apple MacBook Air 13-inch M4 16GB 256GB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/64/2403114/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/64/2403114/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "16GB",
+        "color": "Midnight",
+        "price": 2990000
+      }
+    ],
+    "priceMax": 2990000,
+    "sourcePrice": 2600000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m4-chip-16gb-ram-256gb-2025-model-midnight-411304246.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/64/2403114/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M4 16GB 256GB Midnight. 16GB memory and 256GB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m5-16gb-1tb-midnight",
+    "model": "Apple MacBook Air 15-inch M5 16GB 1TB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/89/6299914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/89/6299914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "1TB",
+        "ram": "16GB",
+        "color": "Midnight",
+        "price": 3622500
+      }
+    ],
+    "priceMax": 3622500,
+    "sourcePrice": 3150000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-15-m5-chip-16gb-ram-1tb-2026-model-midnight-419992698.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/89/6299914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M5 16GB 1TB Midnight. 16GB memory and 1TB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m4-16gb-256gb-starlight",
+    "model": "Apple MacBook Air 13-inch M4 16GB 256GB Starlight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/99/3403114/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/99/3403114/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "16GB",
+        "color": "Starlight",
+        "price": 2990000
+      }
+    ],
+    "priceMax": 2990000,
+    "sourcePrice": 2600000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m4-chip-16gb-ram-256gb-2025-model-starlight-411304399.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/99/3403114/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M4 16GB 256GB Starlight. 16GB memory and 256GB SSD storage in Starlight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-13-inch-m3-8gb-256gb-space-gray",
+    "model": "Apple MacBook Air 13-inch M3 8GB 256GB Space Gray",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/65/8242983/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/65/8242983/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "color": "Space Gray",
+        "price": 2875000
+      }
+    ],
+    "priceMax": 2875000,
+    "sourcePrice": 2500000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-13-m3-chip-8gb-256gb-space-gray-389242856.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/65/8242983/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 13-inch M3 8GB 256GB Space Gray. 8GB memory and 256GB SSD storage in Space Gray. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m3-8gb-256gb-midnight",
+    "model": "Apple MacBook Air 15-inch M3 8GB 256GB Midnight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/16/6996093/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/16/6996093/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "color": "Midnight",
+        "price": 3105000
+      }
+    ],
+    "priceMax": 3105000,
+    "sourcePrice": 2700000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-15-m3-chip-8gb-256gb-midnight-390699661.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/16/6996093/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M3 8GB 256GB Midnight. 8GB memory and 256GB SSD storage in Midnight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-air-15-inch-m3-8gb-256gb-starlight",
+    "model": "Apple MacBook Air 15-inch M3 8GB 256GB Starlight",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/8242983/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/8242983/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "color": "Starlight",
+        "price": 3105000
+      }
+    ],
+    "priceMax": 3105000,
+    "sourcePrice": 2700000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-air-15-m3-chip-8gb-256gb-starlight-389242801.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/8242983/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Air 15-inch M3 8GB 256GB Starlight. 8GB memory and 256GB SSD storage in Starlight. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
+  },
+  {
+    "slug": "apple-macbook-neo-8gb-256gb-indigo",
+    "model": "Apple MacBook Neo 8GB 256GB Indigo",
+    "brand": "Apple",
+    "category": "macbooks",
+    "condition": "New",
+    "image": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/4309914/1.jpg",
+    "images": [
+      "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/4309914/1.jpg"
+    ],
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB",
+        "ram": "8GB",
+        "color": "Indigo",
+        "price": 1328250
+      }
+    ],
+    "priceMax": 1328250,
+    "sourcePrice": 1155000,
+    "markupPercent": 15,
+    "sourceUrl": "https://www.jumia.com.ng/apple-macbook-neo-8256gb-indigo-419903472.html",
+    "sourceImage": "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/4309914/1.jpg",
+    "sourceStock": "supplier-listed; confirm availability",
+    "priceCheckedAt": "2026-11-05",
+    "description": "Apple MacBook Neo 8GB 256GB Indigo. 8GB memory and 256GB SSD storage in Indigo. Supplied on request by Lisa Electronics; confirm availability, keyboard layout, warranty and delivery before payment."
   }
 ];

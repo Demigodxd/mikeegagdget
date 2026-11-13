@@ -34,7 +34,7 @@ export const shopCategories = categories.filter(c=>!['iphones','samsung','pixel'
  route: `/shop/${category.id}/`
 }));
 
-const seriesFor = model => model.match(/^iPhone (\d+)/)?.[1] || (model.startsWith('iPhone X')?'X':model.startsWith('iPhone SE')?'SE':'');
+const seriesFor = model => model === 'iPhone Air' ? '17' : model.match(/^iPhone (\d+)/)?.[1] || (model.startsWith('iPhone X')?'X':model.startsWith('iPhone SE')?'SE':'');
 const makeVariant = v => ({
  storage:v.storage,
  price:v.price,

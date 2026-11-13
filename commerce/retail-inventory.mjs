@@ -129,7 +129,7 @@ export const retailInventory = Object.freeze([
   },
   {
     "brand": "Apple",
-    "model": "iPhone 17 Air",
+    "model": "iPhone Air",
     "category": "iphones",
     "condition": "UK Used",
     "slug": "iphone-17-air-uk-used",
@@ -140,9 +140,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "256GB",
         "price": 1070000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/17air-1-720.webp",
+      "/images/store/17air-2-720.webp",
+      "/images/store/17air-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -267,10 +280,19 @@ export const retailInventory = Object.freeze([
       },
       {
         "storage": "256GB",
+        "price": 935000
+      },
+      {
+        "storage": "512GB",
         "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/16-1-720.webp",
+      "/images/store/16-2-720.webp",
+      "/images/store/16-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -335,9 +357,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "256GB",
         "price": 1220000
+      },
+      {
+        "storage": "512GB",
+        "price": 1310000
+      },
+      {
+        "storage": "1TB",
+        "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/16promax-1-720.webp",
+      "/images/store/16promax-2-720.webp",
+      "/images/store/16promax-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -373,9 +408,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "128GB",
         "price": 625000
+      },
+      {
+        "storage": "256GB",
+        "price": 690000
+      },
+      {
+        "storage": "512GB",
+        "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/15-1-720.webp",
+      "/images/store/15-2-720.webp",
+      "/images/store/15-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -435,10 +483,27 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "256GB",
+        "price": 870000
+      },
+      {
+        "storage": "128GB",
+        "price": 795000
+      },
+      {
+        "storage": "512GB",
+        "price": 935000
+      },
+      {
+        "storage": "1TB",
         "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/15pro-1-720.webp",
+      "/images/store/15pro-2-720.webp",
+      "/images/store/15pro-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -2344,9 +2409,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "256GB",
         "price": 940000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/15promax-1-720.webp",
+      "/images/store/15promax-2-720.webp",
+      "/images/store/15promax-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -2361,9 +2439,26 @@ export const retailInventory = Object.freeze([
       {
         "storage": "256GB",
         "price": 820000
+      },
+      {
+        "storage": "128GB",
+        "price": 750000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/14promax-1-720.webp",
+      "/images/store/14promax-2-720.webp",
+      "/images/store/14promax-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -2382,9 +2477,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "128GB",
         "price": 660000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/14pro-1-720.webp",
+      "/images/store/14pro-2-720.webp",
+      "/images/store/14pro-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -2403,9 +2511,18 @@ export const retailInventory = Object.freeze([
       {
         "storage": "256GB",
         "price": 415000
+      },
+      {
+        "storage": "512GB",
+        "price": null
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/13-1-720.webp",
+      "/images/store/13-2-720.webp",
+      "/images/store/13-3-720.webp"
+    ]
   },
   {
     "brand": "Apple",
@@ -3164,6 +3281,467 @@ export const retailInventory = Object.freeze([
       }
     ],
     "colors": []
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-13-mini-uk-used",
+    "legacySlug": "iphone-13-mini",
+    "isPhone": true,
+    "image": "/images/catalog/uk-iphone-13-mini-1.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 350000
+      },
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/catalog/uk-iphone-13-mini-1.webp",
+      "/images/catalog/uk-iphone-13-mini-2.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-13-pro-uk-used",
+    "legacySlug": "iphone-13-pro",
+    "isPhone": true,
+    "image": "/images/store/13pro-1-720.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 530000
+      },
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/13pro-1-720.webp",
+      "/images/store/13pro-2-720.webp",
+      "/images/store/13pro-3-720.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-13-pro-max-uk-used",
+    "legacySlug": "iphone-13-pro-max",
+    "isPhone": true,
+    "image": "/images/store/13promax-1-720.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 658800
+      },
+      {
+        "storage": "256GB",
+        "price": 635000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/13promax-1-720.webp",
+      "/images/store/13promax-2-720.webp",
+      "/images/store/13promax-3-720.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-14-uk-used",
+    "legacySlug": "iphone-14",
+    "isPhone": true,
+    "image": "/images/store/14-1-720.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 455000
+      },
+      {
+        "storage": "256GB",
+        "price": 520000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/14-1-720.webp",
+      "/images/store/14-2-720.webp",
+      "/images/store/14-3-720.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-14-plus-uk-used",
+    "legacySlug": "iphone-14-plus",
+    "isPhone": true,
+    "image": "/images/catalog/iphone-14-plus.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 520000
+      },
+      {
+        "storage": "256GB",
+        "price": 585000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/catalog/iphone-14-plus.webp",
+      "/images/catalog/uk-iphone-14-plus-1.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-15-plus-uk-used",
+    "legacySlug": "iphone-15-plus",
+    "isPhone": true,
+    "image": "/images/catalog/iphone-15-plus.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 655000
+      },
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/catalog/iphone-15-plus.webp",
+      "/images/catalog/uk-iphone-15-plus-2.webp",
+      "/images/catalog/uk-iphone-15-plus-3.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-16-plus-uk-used",
+    "legacySlug": "iphone-16-plus",
+    "isPhone": true,
+    "image": "/images/store/16plus-1-720.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 900000
+      },
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/16plus-1-720.webp",
+      "/images/16plus-2.webp",
+      "/images/catalog/iphone-16-plus.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-16-pro-uk-used",
+    "legacySlug": "iphone-16-pro",
+    "isPhone": true,
+    "image": "/images/store/16pro-1-720.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 1180000
+      },
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": 1300000
+      },
+      {
+        "storage": "1TB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/16pro-1-720.webp",
+      "/images/store/16pro-2-720.webp",
+      "/images/store/16pro-3-720.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16e",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-16e-uk-used",
+    "legacySlug": "iphone-16e",
+    "isPhone": true,
+    "image": "/images/catalog/uk-iphone-16e-1.webp",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 580000
+      },
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/catalog/uk-iphone-16e-1.webp",
+      "/images/catalog/uk-iphone-16e-2.webp",
+      "/images/catalog/uk-iphone-16e-3.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-17-uk-used",
+    "legacySlug": "iphone-17",
+    "isPhone": true,
+    "image": "/images/store/17-1-720.webp",
+    "variants": [
+      {
+        "storage": "256GB",
+        "price": 1270000
+      },
+      {
+        "storage": "512GB",
+        "price": 1600000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/17-1-720.webp",
+      "/images/store/17-2-720.webp",
+      "/images/store/17-3-720.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-17-pro-uk-used",
+    "legacySlug": "iphone-17-pro",
+    "isPhone": true,
+    "image": "/images/store/17pro-1-720.webp",
+    "variants": [
+      {
+        "storage": "256GB",
+        "price": 1425000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/17pro-1-720.webp",
+      "/images/store/17pro-2-720.webp",
+      "/images/store/17pro-3-720.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-17-pro-max-uk-used",
+    "legacySlug": "iphone-17-pro-max",
+    "isPhone": true,
+    "image": "/images/store/17promax-1-720.webp",
+    "variants": [
+      {
+        "storage": "256GB",
+        "price": 1650000
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
+      },
+      {
+        "storage": "2TB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/17promax-1-720.webp",
+      "/images/store/17promax-2-720.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 17e",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-17e-uk-used",
+    "legacySlug": "iphone-17e",
+    "isPhone": true,
+    "image": "/images/catalog/uk-iphone-17e-2.webp",
+    "variants": [
+      {
+        "storage": "256GB",
+        "price": 779700
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/catalog/uk-iphone-17e-2.webp",
+      "/images/catalog/uk-iphone-17e-1.webp",
+      "/images/catalog/uk-iphone-17e-3.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 18 Pro",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-18-pro-uk-used",
+    "legacySlug": "iphone-18-pro",
+    "isPhone": true,
+    "image": "/images/store/18pro-1-720.webp",
+    "variants": [
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
+      },
+      {
+        "storage": "2TB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/18pro-1-720.webp",
+      "/images/store/iphone-18-pro.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 18 Pro Max",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-18-pro-max-uk-used",
+    "legacySlug": "iphone-18-pro-max",
+    "isPhone": true,
+    "image": "/images/store/18promax-1-720.webp",
+    "variants": [
+      {
+        "storage": "256GB",
+        "price": null
+      },
+      {
+        "storage": "512GB",
+        "price": null
+      },
+      {
+        "storage": "1TB",
+        "price": null
+      },
+      {
+        "storage": "2TB",
+        "price": null
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/store/18promax-1-720.webp",
+      "/images/store/iphone-18-pro-max.webp"
+    ]
   }
 ]);
 
@@ -3190,7 +3768,7 @@ export const retailPhoneProducts = Object.freeze(retailInventory.filter(item => 
   defaultStorage: item.variants[0]?.storage || "Confirm variant",
   colors: item.colors.length ? item.colors : ["Ask for today’s available colours"],
   conditions: [item.condition],
-  images: item.image ? [item.image] : [],
+  images: item.gallery || (item.image ? [item.image] : []),
   stockStatus: "Confirm the exact unit and availability before payment",
   easyBuyEligible: true,
   swapEligible: true,

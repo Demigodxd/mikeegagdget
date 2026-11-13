@@ -11,22 +11,22 @@ const record=slug=>retailInventory.find(item=>item.slug===slug);
 const price=(slug,storage)=>record(slug)?.variants.find(variant=>variant.storage===storage)?.price;
 
 test('all supplied products and variants are represented once with conditions kept separate',()=>{
- assert.equal(retailInventory.length,159);
- assert.equal(retailPhoneProducts.length,106);
+ assert.equal(retailInventory.length,174);
+ assert.equal(retailPhoneProducts.length,121);
  assert.ok(storeItems.length>159);
  assert.equal(new Set(storeItems.map(item=>item.slug)).size,storeItems.length);
  assert.equal(new Set(retailInventory.map(item=>item.slug)).size,retailInventory.length);
- assert.equal(retailInventory.reduce((sum,item)=>sum+item.variants.length,0),264);
+ assert.equal(retailInventory.reduce((sum,item)=>sum+item.variants.length,0),331);
  const productCounts=Object.fromEntries(['Brand New','UK Used','Open Box','Confirm condition'].map(condition=>[
   condition,retailInventory.filter(item=>item.condition===condition).length
  ]));
- assert.deepEqual(productCounts,{'Brand New':102,'UK Used':27,'Open Box':11,'Confirm condition':19});
+ assert.deepEqual(productCounts,{'Brand New':102,'UK Used':42,'Open Box':11,'Confirm condition':19});
  const variantCounts=Object.fromEntries(['Brand New','UK Used','Open Box','Confirm condition'].map(condition=>[
   condition,retailInventory.filter(item=>item.condition===condition).reduce((sum,item)=>sum+item.variants.length,0)
  ]));
- assert.deepEqual(variantCounts,{'Brand New':193,'UK Used':34,'Open Box':11,'Confirm condition':26});
- assert.equal(new Set(products.map(item=>item.slug)).size,106);
- assert.equal(products.length,106);
+ assert.deepEqual(variantCounts,{'Brand New':193,'UK Used':101,'Open Box':11,'Confirm condition':26});
+ assert.equal(new Set(products.map(item=>item.slug)).size,121);
+ assert.equal(products.length,121);
 });
 
 test('example prices follow their specified group and ambiguous prices remain Confirm Price',()=>{
@@ -39,9 +39,9 @@ test('example prices follow their specified group and ambiguous prices remain Co
  assert.equal(price('samsung-s23','128GB'),null);
  assert.equal(price('samsung-s23','256GB'),null);
  assert.equal(price('samsung-s25-ultra','256GB'),null);
- assert.equal(price('iphone-15-pro-uk-used','256GB'),null);
- assert.equal(retailInventory.flatMap(item=>item.variants).filter(variant=>variant.price===null).length,22);
- assert.equal(retailInventory.filter(item=>item.variants.some(variant=>variant.price===null)).length,17);
+ assert.equal(price('iphone-15-pro-uk-used','256GB'),870_000);
+ assert.equal(retailInventory.flatMap(item=>item.variants).filter(variant=>variant.price===null).length,64);
+ assert.equal(retailInventory.filter(item=>item.variants.some(variant=>variant.price===null)).length,38);
 });
 
 test('iPhone brand new and UK Used listings stay distinct with matching Easy Buy data',()=>{
@@ -75,7 +75,7 @@ test('cards and category pages show current non-phone products and Confirm Price
 test('verified local images are the only images attached to the new catalog',()=>{
  assert.ok(retailInventory.filter(item=>item.image).length>0);
  assert.ok(retailInventory.every(item=>!item.image||item.image.startsWith('/images/store/')||item.image.startsWith('/images/catalog/')));
- assert.equal(retailInventory.filter(item=>item.image).length,28);
+ assert.equal(retailInventory.filter(item=>item.image).length,43);
  assert.equal(retailInventory.filter(item=>!item.image).length,131);
 });
 

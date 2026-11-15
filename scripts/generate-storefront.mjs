@@ -1,6 +1,6 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {categories,shopCategories,storeItems} from '../commerce/storefront-data.mjs';
-import {card,media,escape,priceText} from '../assets/storefront-ui.mjs';
+import {card,media,escape,money,priceText} from '../assets/storefront-ui.mjs';
 import {commerceSite as site} from '../commerce/catalog.mjs';
 import {featuredDeals} from '../commerce/offers.mjs';
 let html=await readFile('templates/home.html.template','utf8');
@@ -37,8 +37,19 @@ for(const c of shopCategories){
 }
 console.log(`Generated storefront, compact catalogue and ${shopCategories.length} gadget category pages.`);
 
+const renderTabletDetails = item => {
+ if (item.category !== 'tablets' || !item.gallery?.length) return '';
+ const variants = item.variants.map(variant => `<tr><th scope="row">${escape(variant.storage)}</th><td>${escape(money(variant.price))}</td></tr>`).join('');
+ const photos = item.gallery.map((source,index) => `<li><a href="${escape(source)}" target="_blank" rel="noopener">${media(source,`${item.model} view ${index + 1}`)}</a></li>`).join('');
+ const specs = Object.entries(item.specifications || {}).filter(([,value]) => value).map(([field,value]) => `<div><dt>${escape(field)}</dt><dd>${escape(value)}</dd></div>`).join('');
+ return `<section class="tablet-details" aria-label="Tablet details">
+  <div><h2>Available configurations</h2><table><thead><tr><th scope="col">Configuration</th><th scope="col">Price</th></tr></thead><tbody>${variants}</tbody></table></div>
+  <div><h2>Specifications</h2><dl>${specs}</dl><p><a href="${escape(item.specificationsSource)}">Manufacturer specifications</a></p></div>
+  <div class="tablet-gallery"><h2>Product gallery</h2><ul>${photos}</ul></div>
+ </section>`;
+};
 for(const item of storeItems.filter(p=>p.enquiryUrl)){
- const main=`<main id="main" class="store-section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/shop/${item.category}/">${escape(categories.find(c=>c.id===item.category)?.name||'Accessories')}</a></p><section class="accessory-layout"><div class="accessory-photo">${media(item.image,item.model,true)}</div><div class="accessory-copy"><p class="eyebrow">${escape(item.brand)} · LISA ELECTRONICS</p><h1>${escape(item.model)}</h1><p class="store-price">${priceText(item)}</p><p>${escape(item.conditions.join(' / '))}</p><p>Confirm the exact model, colour, warranty, current price and availability with Lisa before payment.</p><a class="btn btn-primary" href="${escape(item.enquiryUrl)}">Ask about this product on WhatsApp ↗</a><p><a href="tel:${site.telephoneHref}">Call ${site.telephoneDisplay}</a></p><p>Collect at No. 10 Pepple Street, Computer Village, Ikeja, or ask about delivery.</p><a href="https://share.google/F3PBLPkRmLXqiUX0U">Get directions to Lisa →</a></div></section><section class="related-products"><h2>More to explore</h2><div class="product-grid">${storeItems.filter(p=>p.category===item.category&&p.slug!==item.slug).slice(0,4).map(p=>card(p)).join('')}</div></section></main>`;
+ const main=`<main id="main" class="store-section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/shop/${item.category}/">${escape(categories.find(c=>c.id===item.category)?.name||'Accessories')}</a></p><section class="accessory-layout"><div class="accessory-photo">${media(item.image,item.model,true)}</div><div class="accessory-copy"><p class="eyebrow">${escape(item.brand)} · LISA ELECTRONICS</p><h1>${escape(item.model)}</h1><p class="store-price">${priceText(item)}</p><p>${escape(item.conditions.join(' / '))}</p><p>Confirm the exact model, colour, warranty, current price and availability with Lisa before payment.</p><a class="btn btn-primary" href="${escape(item.enquiryUrl)}">Ask about this product on WhatsApp ↗</a><p><a href="tel:${site.telephoneHref}">Call ${site.telephoneDisplay}</a></p><p>Collect at No. 10 Pepple Street, Computer Village, Ikeja, or ask about delivery.</p><a href="https://share.google/F3PBLPkRmLXqiUX0U">Get directions to Lisa →</a></div></section>${renderTabletDetails(item)}<section class="related-products"><h2>More to explore</h2><div class="product-grid">${storeItems.filter(p=>p.category===item.category&&p.slug!==item.slug).slice(0,4).map(p=>card(p)).join('')}</div></section></main>`;
  const page=html.replace(/<main id="main">[\s\S]*?<\/main>/,main).replace(/<title>.*?<\/title>/,`<title>${escape(item.model)} | Lisa Electronics</title>`).replace(/<link rel="canonical"[^>]*>/,`<link rel="canonical" href="${site.baseUrl}${item.route}">`).replace(/href="#(products|categories|visit)"/g,'href="/#$1"');
  await mkdir(`product/${item.slug}`,{recursive:true});await writeFile(`product/${item.slug}/index.html`,page);
 }

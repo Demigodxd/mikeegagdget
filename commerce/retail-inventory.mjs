@@ -1927,26 +1927,43 @@ export const retailInventory = Object.freeze([
   },
   {
     "brand": "Samsung",
-    "model": "Samsung Galaxy A27",
+    "model": "Samsung Galaxy A27 5G",
     "category": "samsung",
     "condition": "Brand New",
     "slug": "samsung-a27",
     "legacySlug": "samsung-a27",
     "isPhone": true,
-    "image": "",
+    "image": "https://api.samsungmobilepress.com/api/v1/file/5A9853353E52E9FDFE0F65DBFBAB9005BF2563171E7FE79FA5962EFCD62AF639693B07683843E6F413A6B20DB0C9FAA0F6B6268FBECE2317A0F3BB8B751A9E13207AFA1111770E3BA5E8FE4B7D6A9758CF252783BF2EFC7B45E67F86588265ED9A75DD554A6CB099680368E7D7085526C342EF558C976C68AF1BF110A7ACB2B541C542B92DA90CA75220761063A5BD5A",
     "variants": [
       {
-        "storage": "256GB · 6GB RAM",
-        "price": 440000,
-        "ram": "6GB RAM"
+        "storage": "128GB · 6GB RAM · Dual SIM",
+        "price": 376050,
+        "ram": "6GB",
+        "warranty": "International warranty · Confirm written coverage for the exact unit"
       },
       {
-        "storage": "128GB · 6GB RAM",
-        "price": 390000,
-        "ram": "6GB RAM"
+        "storage": "256GB · 8GB RAM · Dual SIM",
+        "price": 452350,
+        "ram": "8GB",
+        "warranty": "International warranty · Confirm written coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/5A9853353E52E9FDFE0F65DBFBAB9005BF2563171E7FE79FA5962EFCD62AF639693B07683843E6F413A6B20DB0C9FAA0F6B6268FBECE2317A0F3BB8B751A9E13207AFA1111770E3BA5E8FE4B7D6A9758CF252783BF2EFC7B45E67F86588265ED9A75DD554A6CB099680368E7D7085526C342EF558C976C68AF1BF110A7ACB2B541C542B92DA90CA75220761063A5BD5A",
+      "https://api.samsungmobilepress.com/api/v1/file/809B805839403A2B3215A570601CB1EB2D0E92A6FA8AFE167F24458FF0626883F53329201A4DF32655BE72CB477704C1971835C1A4B74622A610C56CA93DAF0D6EB9370B74F55B0652FC038C2AE41F52D812E5CDE110AA96F0002C981043D72F560A75D0944AE72C84846E72BF2E40FBEFE91BFE47CF95DC9878B085B4F3850685E813994F8C8408CA26B2700ED3F9F9",
+      "https://api.samsungmobilepress.com/api/v1/file/1E44475AC4461524CACDF724F935C00E10F785FDA401E5A44278BF14558A6CD1AF466DB31189F34167C1267023A7765327BCB89EB39E6DF680934A4392E12135BAA4C0A0E9307B0EC4034D43F09F65072ABF14458C73DC772C404FD5086D1F5015FD113AF16CB25CD932C25F090945242DD8501FBCD8F1F3B79DB9481860FD227F33BE3A8F9CF3F6BF356FF72C4427EB"
+    ],
+    "specifications": {
+      "display": "169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners) · Super AMOLED · 1080 x 2340 (FHD+) · 120 Hz",
+      "camera": "50.0 MP + 5.0 MP + 2.0 MP rear · 12.0 MP front",
+      "processor": "Octa-Core · 2.4GHz, 1.8GHz",
+      "network": "LTE · Bands vary by region",
+      "security": "Samsung security updates through 31 July 2032 for the reference model",
+      "sim": "See the selected variant for the quoted SIM configuration.",
+      "battery": "5000 mAh typical"
+    },
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-a27-5g"
   },
   {
     "brand": "Samsung",
@@ -2284,37 +2301,99 @@ export const retailInventory = Object.freeze([
     "category": "tablets",
     "condition": "Brand New",
     "slug": "samsung-galaxy-tab-a11",
+    "legacySlug": "samsung-galaxy-tab-a11",
     "isPhone": false,
-    "image": "",
     "variants": [
       {
-        "storage": "128GB",
-        "price": 320000
+        "storage": "64GB · Wi-Fi",
+        "price": 196200,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "64GB · Cellular",
+        "price": 212550,
+        "connectivity": "Cellular",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 277950,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 277950,
+        "connectivity": "Cellular",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607595?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607595?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607583?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607586?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-a/galaxy-tab-a11-silver-64gb-sm-x135gzsaect/",
+    "specifications": {
+      "Display": "220.5mm (8.7\") · TFT · 1340 x 800 (WXGA+)",
+      "Processor": "Octa-Core · 2.2GHz, 2GHz",
+      "Cameras": "8.0 MP rear · 5.0 MP front",
+      "Battery": "5100 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
   },
   {
     "brand": "Samsung",
-    "model": "Samsung Galaxy Tab A11 Plus",
+    "model": "Samsung Galaxy Tab A11+",
     "category": "tablets",
     "condition": "Brand New",
     "slug": "samsung-galaxy-tab-a11-plus",
+    "legacySlug": "samsung-galaxy-tab-a11-plus",
     "isPhone": false,
-    "image": "",
     "variants": [
       {
-        "storage": "128GB · 6GB RAM",
-        "price": 380000,
-        "ram": "6GB RAM"
+        "storage": "128GB · Wi-Fi",
+        "price": 327000,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       },
       {
-        "storage": "256GB · 6GB RAM",
-        "price": 490000,
-        "ram": "6GB RAM"
+        "storage": "128GB · Cellular",
+        "price": 354250,
+        "connectivity": "Cellular",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 337900,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 457800,
+        "connectivity": "Cellular",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006831?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006831?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006819?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006822?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/it/tablets/galaxy-tab-a/galaxy-tab-a11-plus-gray-128gb-sm-x236bzareue/buy/",
+    "specifications": {
+      "Display": "11.0-inch · LCD · 1920 × 1200 · 90 Hz",
+      "Processor": "MediaTek MT8775",
+      "Cameras": "8 MP rear · 5 MP front",
+      "Battery": "7040 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
   },
   {
     "brand": "Samsung",
@@ -2373,21 +2452,55 @@ export const retailInventory = Object.freeze([
     "category": "tablets",
     "condition": "Brand New",
     "slug": "samsung-galaxy-tab-s9",
+    "legacySlug": "samsung-galaxy-tab-s9",
     "isPhone": false,
-    "image": "",
     "variants": [
       {
-        "storage": "128GB · 8GB RAM",
-        "price": 770000,
-        "ram": "8GB RAM"
+        "storage": "128GB · Wi-Fi",
+        "price": 719400,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       },
       {
-        "storage": "256GB · 8GB RAM",
-        "price": 990000,
-        "ram": "8GB RAM"
+        "storage": "128GB · 5G",
+        "price": 795700,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 926500,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 1035500,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G · with keyboard",
+        "price": 1166300,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "image": "https://api.samsungmobilepress.com/api/v1/file/B78A8E4608C81F1184DAAD4967B36BAF571D5E6B1457A5AF57EB8765F1F98CE62FBA6FCBD18B4403C692E564B37BFAEE1D9838356B65E7D6F3599D7E55B194C630F267557E16A64FCE58C71FAE2A4001843D648178BA2EBB47B2804A2469C8FF65DDEDE95A03DF10A94060CE9C4A23EDD7CBD7BA6DD8FB67F48395A7FAFF11D3",
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/B78A8E4608C81F1184DAAD4967B36BAF571D5E6B1457A5AF57EB8765F1F98CE62FBA6FCBD18B4403C692E564B37BFAEE1D9838356B65E7D6F3599D7E55B194C630F267557E16A64FCE58C71FAE2A4001843D648178BA2EBB47B2804A2469C8FF65DDEDE95A03DF10A94060CE9C4A23EDD7CBD7BA6DD8FB67F48395A7FAFF11D3",
+      "https://api.samsungmobilepress.com/api/v1/file/4F018CCE1DB25704BA5D11802FAAE9A2E8FBD60C7FF97705285CA53CA929CD0AB438AE696334FE8543CFAABE0D645B34431D189614A863CFD10CB7586DEE1B6ACC7E9A70C8195D081C64E46AD7F3D6A7031AF863C9ABBE1751C96E4B39EBE8B0EEECE6AD69C37B92DE423C47E339DF5F26B1FEBAF80F73213C23547219B3DA26",
+      "https://api.samsungmobilepress.com/api/v1/file/6D38B39CAA21598F40C4DB15B4184519AC52BC9A41E8347E06D8348174095858C0769F0175004D8D5910F22C656502729E825391F8D14217780B65559EF5254EDB2E89E55B3C9C60F33EAAB95858DC25C28BBDC2FE747EE576C34B86084D42164881A1C10CF3CE9302EB5150638FD633A4AE18B08306D37EC75CED306B8097D2FF22CCDE524E1B3BC72DC6166A7B85EF"
+    ],
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s9",
+    "specifications": {
+      "Display": "11-inch · Dynamic AMOLED 2X · 2560 × 1600 · 120 Hz",
+      "Processor": "Snapdragon 8 Gen 2 for Galaxy",
+      "Cameras": "13 MP rear · 12 MP front",
+      "Battery": "8400 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
   },
   {
     "brand": "Samsung",
@@ -2395,38 +2508,99 @@ export const retailInventory = Object.freeze([
     "category": "tablets",
     "condition": "Brand New",
     "slug": "samsung-galaxy-tab-s10-fe",
+    "legacySlug": "samsung-galaxy-tab-s10-fe",
     "isPhone": false,
-    "image": "",
     "variants": [
       {
-        "storage": "256GB · 12GB RAM",
-        "price": 890000,
-        "ram": "12GB RAM"
+        "storage": "128GB · Wi-Fi",
+        "price": 643100,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "128GB · 5G",
+        "price": 812050,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 893800,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 991900,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "image": "https://api.samsungmobilepress.com/api/v1/file/5E175989AD7310A3B6FDA1351977EB474353EC6A44E383BFB22FC663965406C38571764A6C696FCAE54AC094790A3BEEE688BF015EB6A7FE2C04313237E194AD7AA070D53D985F6D3893B0E225E7AE128FCB1B2A17CA72E58855FC46643F6675D8ECD088554EE611AE59C128A5B30BDD2EB696F13EBB397F6117899742E9569A",
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/5E175989AD7310A3B6FDA1351977EB474353EC6A44E383BFB22FC663965406C38571764A6C696FCAE54AC094790A3BEEE688BF015EB6A7FE2C04313237E194AD7AA070D53D985F6D3893B0E225E7AE128FCB1B2A17CA72E58855FC46643F6675D8ECD088554EE611AE59C128A5B30BDD2EB696F13EBB397F6117899742E9569A",
+      "https://api.samsungmobilepress.com/api/v1/file/E6C5C17B589249345FE00451B2CF9D56C68F83EB7FA9DEFC5E4E53D8BA7F7A217BBB00A6B5C8B9187D61108E85B4A7F75A8A39DACDE162F9F6CD0EE7219976DD3993BF05A3A2C026C70E0F6161620E05CA8A94E173190BC4E6147883AD4CD94C7BD364833DB7251F617765464138658CB6AC40CB284652B6FFE29661C178EB73",
+      "https://api.samsungmobilepress.com/api/v1/file/37DAD04C88C8EF92E7035D48A4400FE15420477D050E53451FAA58575FAA0F0967D2CC966220C9E6DA17F262770CDA40C83B0BFBEF78ACEA8BE4D0F06AFA1B58265D0405DED6C04E492822382C6708B6DCFCA02168176D10A501610BE6029549A8DB751A0773DBF3A47A016499FFA4C5ACA6DDC6ECB3F9203625AA52B543FE3D"
+    ],
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-fe",
+    "specifications": {
+      "Display": "10.9-inch · LCD · 2304 × 1440 · 90 Hz",
+      "Processor": "Exynos 1580",
+      "Cameras": "13 MP rear · 12 MP front",
+      "Battery": "8000 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
   },
   {
     "brand": "Samsung",
-    "model": "Samsung Galaxy Tab S10 FE Plus",
+    "model": "Samsung Galaxy Tab S10 FE+",
     "category": "tablets",
     "condition": "Brand New",
     "slug": "samsung-galaxy-tab-s10-fe-plus",
+    "legacySlug": "samsung-galaxy-tab-s10-fe-plus",
     "isPhone": false,
-    "image": "",
     "variants": [
       {
-        "storage": "128GB · 8GB RAM",
-        "price": 890000,
-        "ram": "8GB RAM"
+        "storage": "128GB · Wi-Fi",
+        "price": 872000,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       },
       {
-        "storage": "256GB · 12GB RAM",
-        "price": 1020000,
-        "ram": "12GB RAM"
+        "storage": "128GB · 5G",
+        "price": 926500,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 1008250,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 1073650,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397244?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397244?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397224?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397227?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-256gb-sm-x626bzaeafa/",
+    "specifications": {
+      "Display": "332.8mm (13.1\") · TFT · 2880 x 1800 (WQXGA+)",
+      "Processor": "Octa-Core · 2.9GHz, 2.6GHz, 1.9GHz",
+      "Cameras": "13.0 MP rear · 12.0 MP front",
+      "Battery": "10090 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
   },
   {
     "brand": "Samsung",
@@ -2434,21 +2608,79 @@ export const retailInventory = Object.freeze([
     "category": "tablets",
     "condition": "Brand New",
     "slug": "samsung-galaxy-tab-s11",
+    "legacySlug": "samsung-galaxy-tab-s11",
     "isPhone": false,
-    "image": "",
     "variants": [
       {
-        "storage": "128GB · 12GB RAM",
+        "storage": "128GB · Wi-Fi",
         "price": 1090000,
-        "ram": "12GB RAM"
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       },
       {
-        "storage": "256GB · 12GB RAM",
-        "price": 1390000,
-        "ram": "12GB RAM"
+        "storage": "128GB · 5G",
+        "price": 1231700,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "128GB · 5G · with keyboard",
+        "price": 1466050,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 1340700,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 1656800,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G · with keyboard",
+        "price": 1891150,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 1406100,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G",
+        "price": 1744000,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G · with keyboard",
+        "price": 1978350,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891641?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891641?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891623?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891626?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s11-gray-128gb-sm-x736bzaaafa/",
+    "specifications": {
+      "Display": "278.1mm (11.0\") · Dynamic AMOLED 2X · 2560 x 1600 (WQXGA)",
+      "Processor": "Octa-Core · 3.73GHz, 3.3GHz, 2.4GHz",
+      "Cameras": "13.0 MP rear · 12.0 MP front",
+      "Battery": "8400 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
   },
   {
     "brand": "Samsung",
@@ -2456,26 +2688,79 @@ export const retailInventory = Object.freeze([
     "category": "tablets",
     "condition": "Brand New",
     "slug": "samsung-galaxy-tab-s11-ultra",
+    "legacySlug": "samsung-galaxy-tab-s11-ultra",
     "isPhone": false,
-    "image": "",
     "variants": [
       {
-        "storage": "256GB · 12GB RAM",
-        "price": 1690000,
-        "ram": "12GB RAM"
+        "storage": "256GB · Wi-Fi",
+        "price": 1678600,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       },
       {
-        "storage": "512GB · 12GB RAM",
-        "price": 1890000,
-        "ram": "12GB RAM"
+        "storage": "256GB · 5G",
+        "price": 1776700,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       },
       {
-        "storage": "1TB · 12GB RAM",
-        "price": 2290000,
-        "ram": "12GB RAM"
+        "storage": "256GB · 5G · with keyboard",
+        "price": 2071000,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 1874800,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G",
+        "price": 2049200,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G · with keyboard",
+        "price": 2343500,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "1TB · Wi-Fi",
+        "price": 2060100,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "1TB · 5G",
+        "price": 2463400,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "1TB · 5G · with keyboard",
+        "price": 2757700,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
       }
     ],
-    "colors": []
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121934?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121934?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121920?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121923?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s11-ultra-silver-256gb-sm-x936bzsaafa/",
+    "specifications": {
+      "Display": "369.9mm (14.6\") · Dynamic AMOLED 2X · 2960 x 1848 (WQXGA+)",
+      "Processor": "Octa-Core · 3.73GHz, 3.3GHz, 2.4GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP front",
+      "Battery": "11600 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
   },
   {
     "brand": "Samsung",
@@ -3391,20 +3676,47 @@ export const retailInventory = Object.freeze([
   },
   {
     "brand": "Samsung",
-    "model": "Samsung Galaxy Z Fold 4",
+    "model": "Samsung Galaxy Z Fold4",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "Used",
     "slug": "samsung-z-fold-4",
     "legacySlug": "samsung-z-fold-4",
     "isPhone": true,
-    "image": "",
+    "image": "https://api.samsungmobilepress.com/api/v1/file/BCD3E905A12306A2526920B4D7EDB208A979DB69AD23D55DFDDE207118211AA34547C70B809E1BE459D56E7A71630FAECFE0CA5308A7E0C4BECA2A06B6A32477035716AD8D162CDF3AA71711C53B6534AE2089CA84CA01224D6B7486A5AE98DC4F39B0A163898791A6E71D25677D41187C999BD0B49BE9639D27ADA6EBF3626D21218C752C8B794849893E348951BF4C",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 610000
+        "storage": "256GB · Single SIM",
+        "price": 566800
+      },
+      {
+        "storage": "256GB · Dual SIM",
+        "price": 588600
+      },
+      {
+        "storage": "512GB · Single SIM",
+        "price": 588600
+      },
+      {
+        "storage": "512GB · Dual SIM",
+        "price": 610400
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/BCD3E905A12306A2526920B4D7EDB208A979DB69AD23D55DFDDE207118211AA34547C70B809E1BE459D56E7A71630FAECFE0CA5308A7E0C4BECA2A06B6A32477035716AD8D162CDF3AA71711C53B6534AE2089CA84CA01224D6B7486A5AE98DC4F39B0A163898791A6E71D25677D41187C999BD0B49BE9639D27ADA6EBF3626D21218C752C8B794849893E348951BF4C",
+      "https://api.samsungmobilepress.com/api/v1/file/51687806201F3B7A6CAA1B57E0A3A96A5AB04AAAF9A3FCC355F810DA1F3CA1E74714C4FC63AC4D93EFEE48B15C2F66C7E998AC4027035842335F990EA7DEFEFE04268910109EBA3E0DF96184D17BA4ADF99CE0185C6CE7B3E57674DB6332925C99C3387D0989AEE1B5B57A8EB9F97ABCE7BDC50DF101BFFEE9210347453350A32123C93DA79A26F5DD691D91B0658D87",
+      "https://api.samsungmobilepress.com/api/v1/file/88C66C44299CCA321605EDE48867440E9128C1C3B76500E4AA13B7CB326A1AB9F918CE827ADEE717CF17C4C92421644CAD4F302951318BD9BCBE058D84C8E27DFC3C46E9AC855FCBC7DF7617D19F4F2B9081A7A3098DE17328F96B83F4709BCA5C54AAC458A1D1FFB6802CE54146DB69E07B955491C58E3F86E7C5F4151670A757661411A35A5EEB61EDACD844A4A3C7"
+    ],
+    "specifications": {
+      "display": "192.1mm (7.6\" full rectangle) / 188.6mm (7.4\" rounded corners) · Dynamic AMOLED 2X · 2176 x 1812 (QXGA+) · 120 Hz",
+      "camera": "50.0 MP + 12.0 MP + 10.0 MP rear · 10.0 MP front",
+      "processor": "Octa-Core · 3.18GHz, 2.7 GHz, 2 GHz",
+      "network": "LTE · Bands vary by region",
+      "security": "Check security update eligibility for the exact model and region.",
+      "sim": "See the selected variant for the quoted SIM configuration.",
+      "battery": "4400 mAh typical"
+    },
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-z-fold4"
   },
   {
     "brand": "Samsung",
@@ -3452,20 +3764,43 @@ export const retailInventory = Object.freeze([
   },
   {
     "brand": "Samsung",
-    "model": "Samsung Galaxy Z Flip 4",
+    "model": "Samsung Galaxy Z Flip4",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "Used",
     "slug": "samsung-z-flip-4",
     "legacySlug": "samsung-z-flip-4",
     "isPhone": true,
-    "image": "",
+    "image": "https://api.samsungmobilepress.com/api/v1/file/7EE49F08D71812BACE20AE5DAFB9BC17D31454A8EAF592D4A8082C13E691E653BFD35EEAC79ED7D9E75EB40FD52B18977D6599960E5CA17737CAD3E4CEBA978FB2C6BDDF83B775B90D5B3B8EB064873B088CC58A5AC07A98D54C90CF5D57E7CC8AD10FD6DA9B97DCC6A8E2EC605437E6826CD99851443A81EF096535FA94BB5EB71E30992A1691004464221B086441C2",
     "variants": [
       {
+        "storage": "128GB",
+        "price": 327000
+      },
+      {
         "storage": "256GB",
-        "price": 360000
+        "price": 348800
+      },
+      {
+        "storage": "512GB",
+        "price": 370600
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/7EE49F08D71812BACE20AE5DAFB9BC17D31454A8EAF592D4A8082C13E691E653BFD35EEAC79ED7D9E75EB40FD52B18977D6599960E5CA17737CAD3E4CEBA978FB2C6BDDF83B775B90D5B3B8EB064873B088CC58A5AC07A98D54C90CF5D57E7CC8AD10FD6DA9B97DCC6A8E2EC605437E6826CD99851443A81EF096535FA94BB5EB71E30992A1691004464221B086441C2",
+      "https://api.samsungmobilepress.com/api/v1/file/88560D6F31E2396DD8334AE0B66C4CBAAFC39A3144509247DA525BC1768A5B275B67E1BFBFD34EAE5E202B06DB83CE871DFA0B8F97E0E8A30F84CBA2B9B77BB203B990741639C1AB9A44ABE95A2F189134438481D71A32F50D6E50EC7CA17DE6D191548CBDEDB4FD473B4665578EDBEF70EB9DCAA760D017E7D4CADED5B437C967027078A97693FDFB9A0B9871FBC984",
+      "https://api.samsungmobilepress.com/api/v1/file/BB07B1018D7BDF9B190BE196E3A96964E0DD4A3F7A80D4F6FAA4C66881C1BBAE6DB81BADCA7C2D1979F839F8576F97CBE67A2B41FEA49FB504620E07B0DCC719041CD5D86F1884BCD3A17F3D506A62DC421F80039607A5A1E1CD3D7E502D0F3D6D7E65C181F080C04B91FCF5A92B6697D8B5F9A2E5069B35CE5EAD790F337CA6E1FA7933B6DEB014BD08BC607299A79AFC823C97DF214079D7845C4F80D0C3A1"
+    ],
+    "specifications": {
+      "display": "170.3mm (6.7\" full rectangle) / 166.4mm (6.6\" rounded corners) · Dynamic AMOLED 2X · 2640 x 1080 (FHD+) · 120 Hz",
+      "camera": "12.0 MP + 12.0 MP rear · 10.0 MP front",
+      "processor": "Octa-Core · 3.18GHz, 2.7 GHz, 2 GHz",
+      "network": "LTE · Bands vary by region",
+      "security": "Check security update eligibility for the exact model and region.",
+      "sim": "See the selected variant for the quoted SIM configuration.",
+      "battery": "3700 mAh typical"
+    },
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-z-flip4"
   },
   {
     "brand": "Samsung",
@@ -3695,43 +4030,89 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S22 Ultra",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "Used",
     "slug": "samsung-s22-ultra",
     "legacySlug": "samsung-s22-ultra",
     "isPhone": true,
-    "image": "",
+    "image": "https://api.samsungmobilepress.com/api/v1/file/8E2B51BCCA6D9865C7D40AB1BA5E3CD68863E4FB7B1C06E8140AD5C9AD04EAE59205193D00E137519EE5D1F73B37F6861A9097C4A154B83261134AC16D50AF4F02E34AED483D0929CC4B437D0E6C32515218AAB561C64A96BE0B6BD0F9B8C12CE23D4A1E7455975C181B210F24D902B0CDB1D2EC21478DA5FC21EFED4FF5C698BD6C94653959C56EA6F1B7E0F9F5CAB479FCA951143FFCFD6084E30C2937840DA9822CF445651AC7ED6DFA356438091C",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 590000
+        "storage": "128GB · Single SIM",
+        "price": 490500
       },
       {
-        "storage": "128GB",
-        "price": 500000
+        "storage": "128GB · Dual SIM",
+        "price": 512300
+      },
+      {
+        "storage": "256GB · Single SIM",
+        "price": 512300
+      },
+      {
+        "storage": "256GB · Dual SIM",
+        "price": 534100
+      },
+      {
+        "storage": "512GB · Single SIM",
+        "price": 534100
+      },
+      {
+        "storage": "512GB · Dual SIM",
+        "price": 555900
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/8E2B51BCCA6D9865C7D40AB1BA5E3CD68863E4FB7B1C06E8140AD5C9AD04EAE59205193D00E137519EE5D1F73B37F6861A9097C4A154B83261134AC16D50AF4F02E34AED483D0929CC4B437D0E6C32515218AAB561C64A96BE0B6BD0F9B8C12CE23D4A1E7455975C181B210F24D902B0CDB1D2EC21478DA5FC21EFED4FF5C698BD6C94653959C56EA6F1B7E0F9F5CAB479FCA951143FFCFD6084E30C2937840DA9822CF445651AC7ED6DFA356438091C",
+      "https://api.samsungmobilepress.com/api/v1/file/1F5F0B1B053C150EB80A9774AB475AF3E5914002E29248998B73F85D6030568E0C9396CCA44FAE5C9A6C4F47B1058C75D2FE18C33BBCE314F2260E7EF787077A77A1B44B448654AC7893152CD5439E20241F36B97AC6E12CFEE8E128A90C5D0F66A064415879D3CFFE4C64660A1FECAD7D5DD9466A8A16015476BD4F1EA3922ACEFE03DCA2B41E6083C253302175CD8D1EFCD28B56F7BB8D9B765642A846D8C628FDD1CE9C80E4026A1828C3A45D678C",
+      "https://api.samsungmobilepress.com/api/v1/file/D68C4D61C6717415FF0FABE65BB33795EFC7A0B9AB6ABCFFFE0AF9FE510E74AED6B8EC68BE55ED1E2343C00E5261C78DF6B53828BBA4AA0AF56673255769D648CD7A50AAFD3EF0158F15219CA971C35D62A19030E73A86EED4A6759D78B4BEBD3FBF40A3A53F019FFDD553252530472DA6467AFB2839FE0C199B431B0521849EF015798C2FB071AEFDE18935A8456A8717BC2E1BC1A6A7D559A13980BACA5EF4"
+    ],
+    "specifications": {
+      "display": "6.8-inch · Dynamic AMOLED 2X · 3088 × 1440 · 120 Hz",
+      "camera": "108 MP + 12 MP + 10 MP + 10 MP rear · 40 MP front",
+      "processor": "Snapdragon 8 Gen 1 or Exynos 2200, depending on region",
+      "network": "5G and LTE · Bands vary by region",
+      "security": "Check security update eligibility for the exact model and region.",
+      "sim": "See the selected variant for the quoted SIM configuration.",
+      "battery": "5000 mAh typical"
+    },
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-s22-ultra"
   },
   {
     "brand": "Samsung",
-    "model": "Samsung Galaxy S22 Plus",
+    "model": "Samsung Galaxy S22+",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "Used",
     "slug": "samsung-s22-plus",
     "legacySlug": "samsung-s22-plus",
     "isPhone": true,
-    "image": "",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2202/gallery/sg-galaxy-s22-plus-s906-410010-sm-s906eidgxsp-530867542?$Q90_684_547_JPG$",
     "variants": [
+      {
+        "storage": "128GB · Single SIM",
+        "price": 327000
+      },
       {
         "storage": "256GB",
         "price": 390000
-      },
-      {
-        "storage": "128GB",
-        "price": 360000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/sg/2202/gallery/sg-galaxy-s22-plus-s906-410010-sm-s906eidgxsp-530867542?$Q90_684_547_JPG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/sg/2202/gallery/sg-galaxy-s22-plus-s906-410010-sm-s906eidgxsp-530867528?$Q90_684_547_JPG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/sg/2202/gallery/sg-galaxy-s22-plus-s906-410010-sm-s906eidgxsp-530867529?$Q90_684_547_JPG$"
+    ],
+    "specifications": {
+      "display": "6.6-inch · Dynamic AMOLED 2X · 2340 × 1080 · 120 Hz",
+      "camera": "50 MP + 10 MP + 12 MP rear · 10 MP front",
+      "processor": "Snapdragon 8 Gen 1 or Exynos 2200, depending on region",
+      "network": "5G and LTE · Bands vary by region",
+      "security": "Check security update eligibility for the exact model and region.",
+      "sim": "See the selected variant for the quoted SIM configuration.",
+      "battery": "4500 mAh typical"
+    },
+    "specificationsSource": "https://www.samsung.com/sg/business/smartphones/galaxy-s/galaxy-s22-plus-for-business-sm-s901-sm-s906eidgxsp/buy/"
   },
   {
     "brand": "Samsung",
@@ -5278,6 +5659,42 @@ export const retailInventory = Object.freeze([
   {
     "brand": "Samsung",
     "category": "samsung",
+    "slug": "samsung-a27-used",
+    "legacySlug": "samsung-a27-used",
+    "isPhone": true,
+    "variants": [
+      {
+        "storage": "128GB · Dual SIM",
+        "price": 305200
+      },
+      {
+        "storage": "256GB · Dual SIM",
+        "price": 359700
+      }
+    ],
+    "colors": [],
+    "model": "Samsung Galaxy A27 5G",
+    "condition": "Used",
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/5A9853353E52E9FDFE0F65DBFBAB9005BF2563171E7FE79FA5962EFCD62AF639693B07683843E6F413A6B20DB0C9FAA0F6B6268FBECE2317A0F3BB8B751A9E13207AFA1111770E3BA5E8FE4B7D6A9758CF252783BF2EFC7B45E67F86588265ED9A75DD554A6CB099680368E7D7085526C342EF558C976C68AF1BF110A7ACB2B541C542B92DA90CA75220761063A5BD5A",
+      "https://api.samsungmobilepress.com/api/v1/file/809B805839403A2B3215A570601CB1EB2D0E92A6FA8AFE167F24458FF0626883F53329201A4DF32655BE72CB477704C1971835C1A4B74622A610C56CA93DAF0D6EB9370B74F55B0652FC038C2AE41F52D812E5CDE110AA96F0002C981043D72F560A75D0944AE72C84846E72BF2E40FBEFE91BFE47CF95DC9878B085B4F3850685E813994F8C8408CA26B2700ED3F9F9",
+      "https://api.samsungmobilepress.com/api/v1/file/1E44475AC4461524CACDF724F935C00E10F785FDA401E5A44278BF14558A6CD1AF466DB31189F34167C1267023A7765327BCB89EB39E6DF680934A4392E12135BAA4C0A0E9307B0EC4034D43F09F65072ABF14458C73DC772C404FD5086D1F5015FD113AF16CB25CD932C25F090945242DD8501FBCD8F1F3B79DB9481860FD227F33BE3A8F9CF3F6BF356FF72C4427EB"
+    ],
+    "image": "https://api.samsungmobilepress.com/api/v1/file/5A9853353E52E9FDFE0F65DBFBAB9005BF2563171E7FE79FA5962EFCD62AF639693B07683843E6F413A6B20DB0C9FAA0F6B6268FBECE2317A0F3BB8B751A9E13207AFA1111770E3BA5E8FE4B7D6A9758CF252783BF2EFC7B45E67F86588265ED9A75DD554A6CB099680368E7D7085526C342EF558C976C68AF1BF110A7ACB2B541C542B92DA90CA75220761063A5BD5A",
+    "specifications": {
+      "display": "169.1mm (6.7\" full rectangle) / 164.5mm (6.5\" rounded corners) · Super AMOLED · 1080 x 2340 (FHD+) · 120 Hz",
+      "camera": "50.0 MP + 5.0 MP + 2.0 MP rear · 12.0 MP front",
+      "processor": "Octa-Core · 2.4GHz, 1.8GHz",
+      "network": "LTE · Bands vary by region",
+      "security": "Samsung security updates through 31 July 2032 for the reference model",
+      "sim": "See the selected variant for the quoted SIM configuration.",
+      "battery": "5000 mAh typical"
+    },
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-a27-5g"
+  },
+  {
+    "brand": "Samsung",
+    "category": "samsung",
     "slug": "samsung-a35-used",
     "legacySlug": "samsung-a35-used",
     "isPhone": true,
@@ -5998,6 +6415,42 @@ export const retailInventory = Object.freeze([
       "battery": "5000 mAh typical"
     },
     "specificationsSource": "https://www.samsung.com/africa_en/business/smartphones/galaxy-s/galaxy-s26-ultra-sm-s948bzviafb/"
+  },
+  {
+    "brand": "Samsung",
+    "category": "samsung",
+    "slug": "samsung-z-flip-3-used",
+    "legacySlug": "samsung-z-flip-3-used",
+    "isPhone": true,
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 283400
+      },
+      {
+        "storage": "256GB",
+        "price": 305200
+      }
+    ],
+    "colors": [],
+    "model": "Samsung Galaxy Z Flip3",
+    "condition": "Used",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2108/gallery/uk-galaxy-z-flip3-f711-5g-sm-f711bzkaeua-477356139?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2108/gallery/uk-galaxy-z-flip3-f711-5g-sm-f711bzkaeua-477356123?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2108/gallery/uk-galaxy-z-flip3-f711-5g-sm-f711bzkaeua-477356125?$1164_776_PNG$"
+    ],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/uk/2108/gallery/uk-galaxy-z-flip3-f711-5g-sm-f711bzkaeua-477356139?$1164_776_PNG$",
+    "specifications": {
+      "display": "6.7-inch · Dynamic AMOLED 2X · 2640 × 1080 · 120 Hz",
+      "camera": "12 MP + 12 MP rear · 10 MP front",
+      "processor": "Snapdragon 888",
+      "network": "5G and LTE · Bands vary by region",
+      "security": "Check security update eligibility for the exact model and region.",
+      "sim": "See the selected variant for the quoted SIM configuration.",
+      "battery": "3300 mAh typical"
+    },
+    "specificationsSource": "https://www.samsung.com/uk/smartphones/galaxy-z/galaxy-z-flip3-5g-phantom-black-128gb-sm-f711bzkaeua/buy/"
   },
   {
     "brand": "Samsung",
@@ -6938,6 +7391,1108 @@ export const retailInventory = Object.freeze([
       "battery": "4300 mAh typical"
     },
     "specificationsSource": "https://www.samsung.com/ie/business/smartphones/galaxy-z/galaxy-z-flip8-pink-256gb-sm-f776bligeub/"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A8",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-a8-used",
+    "legacySlug": "samsung-galaxy-tab-a8-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "32GB · Wi-Fi",
+        "price": 163500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "32GB · Cellular",
+        "price": 174400,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "64GB · Wi-Fi",
+        "price": 174400,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "64GB · Cellular",
+        "price": 196200,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/ie/sm-x205nzaeeua/gallery/ie-galaxy-a8-sm-x205-sm-x205nzaeeua-530569610?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/ie/sm-x205nzaeeua/gallery/ie-galaxy-a8-sm-x205-sm-x205nzaeeua-530569610?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/ie/sm-x205nzaeeua/gallery/ie-galaxy-a8-sm-x205-sm-x205nzaeeua-530569591?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/ie/sm-x205nzaeeua/gallery/ie-galaxy-a8-sm-x205-sm-x205nzaeeua-530569592?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/ie/tablets/galaxy-tab-a/galaxy-tab-a8-lte-dark-gray-64gb-sm-x205nzaeeua/",
+    "specifications": {
+      "Display": "10.5\" (266.9mm) · TFT · 1920 x 1200 (WUXGA)",
+      "Processor": "Octa-Core · 2GHz",
+      "Cameras": "8.0 MP rear · 5.0 MP front",
+      "Battery": "7040 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A9",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-a9-used",
+    "legacySlug": "samsung-galaxy-tab-a9-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "64GB · Wi-Fi",
+        "price": 109000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "64GB · Cellular",
+        "price": 136250,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 136250,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 163500,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x115nzaaafa/gallery/africa-en-galaxy-tab-a9-sm-x115-sm-x115nzaaafa-538834316?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x115nzaaafa/gallery/africa-en-galaxy-tab-a9-sm-x115-sm-x115nzaaafa-538834316?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x115nzaaafa/gallery/africa-en-galaxy-tab-a9-sm-x115-sm-x115nzaaafa-538834303?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x115nzaaafa/gallery/africa-en-galaxy-tab-a9-sm-x115-sm-x115nzaaafa-538834304?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-a/galaxy-tab-a9-lte-graphite-64gb-sm-x115nzaaafa/",
+    "specifications": {
+      "Display": "8.7\" (220.5mm) · TFT · 1340 x 800 (WXGA+)",
+      "Processor": "Octa-Core · 2.2GHz, 2GHz",
+      "Cameras": "8.0 MP rear · 2.0 MP front",
+      "Battery": "5100 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A11",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-a11-used",
+    "legacySlug": "samsung-galaxy-tab-a11-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "64GB · Wi-Fi",
+        "price": 136250,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "64GB · Cellular",
+        "price": 163500,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 163500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 196200,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607595?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607595?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607583?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x135gzsaect/gallery/africa-en-galaxy-tab-a11-sm-x130-sm-x135gzsaect-549607586?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-a/galaxy-tab-a11-silver-64gb-sm-x135gzsaect/",
+    "specifications": {
+      "Display": "220.5mm (8.7\") · TFT · 1340 x 800 (WXGA+)",
+      "Processor": "Octa-Core · 2.2GHz, 2GHz",
+      "Cameras": "8.0 MP rear · 5.0 MP front",
+      "Battery": "5100 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A11+",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-a11-plus-used",
+    "legacySlug": "samsung-galaxy-tab-a11-plus-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 239800,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 272500,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 272500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 327000,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006831?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006831?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006819?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/it/sm-x236bzareue/gallery/it-galaxy-tab-a11-plus-sm-x230-570735-sm-x236bzareue-550006822?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/it/tablets/galaxy-tab-a/galaxy-tab-a11-plus-gray-128gb-sm-x236bzareue/buy/",
+    "specifications": {
+      "Display": "11.0-inch · LCD · 1920 × 1200 · 90 Hz",
+      "Processor": "MediaTek MT8775",
+      "Cameras": "8 MP rear · 5 MP front",
+      "Battery": "7040 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S7 FE",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s7-fe-used",
+    "legacySlug": "samsung-galaxy-tab-s7-fe-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "64GB · Wi-Fi",
+        "price": 272500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "64GB · Cellular",
+        "price": 299750,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 299750,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 327000,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/sa_en/sm-t736blgamea/gallery/sa-en-galaxy-tab-s7-fe-5g-t736-sm-t736blgamea-460165476?$Q90_684_547_JPG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/sa_en/sm-t736blgamea/gallery/sa-en-galaxy-tab-s7-fe-5g-t736-sm-t736blgamea-460165476?$Q90_684_547_JPG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/sa_en/sm-t736blgamea/gallery/sa-en-galaxy-tab-s7-fe-5g-t736-sm-t736blgamea-460165463?$Q90_684_547_JPG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/sa_en/sm-t736blgamea/gallery/sa-en-galaxy-tab-s7-fe-5g-t736-sm-t736blgamea-460165458?$Q90_684_547_JPG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/sa_en/business/tablets/galaxy-tab-s/galaxy-tab-s7-fe-5g-t736-sm-t736blgamea/buy/",
+    "specifications": {
+      "Display": "12.4-inch · TFT LCD · 2560 × 1600",
+      "Processor": "Octa-core Qualcomm Snapdragon · chipset differs by connectivity",
+      "Cameras": "8 MP rear · 5 MP front",
+      "Battery": "10090 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S9 FE",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s9-fe-used",
+    "legacySlug": "samsung-galaxy-tab-s9-fe-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 381500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 436000,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x516bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-sm-x516-sm-x516bzaaafa-538833786?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x516bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-sm-x516-sm-x516bzaaafa-538833786?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x516bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-sm-x516-sm-x516bzaaafa-538833765?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x516bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-sm-x516-sm-x516bzaaafa-538833767?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516bzaaafa/",
+    "specifications": {
+      "Display": "10.9\" (277.0mm) · TFT · 2304 x 1440 (WUXGA+)",
+      "Processor": "Octa-Core · 2.4GHz, 2GHz",
+      "Cameras": "8.0 MP rear · 12.0 MP front",
+      "Battery": "8000 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S9 FE+",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s9-fe-plus-used",
+    "legacySlug": "samsung-galaxy-tab-s9-fe-plus-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 436000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · 5G",
+        "price": 490500,
+        "connectivity": "5G"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 490500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 599500,
+        "connectivity": "5G"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833209?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833209?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833188?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833190?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-5g-gray-128gb-sm-x616bzaaafa/",
+    "specifications": {
+      "Display": "12.4\" (315.0mm) · TFT · 2560 x 1600 (WQXGA)",
+      "Processor": "Octa-Core · 2.4GHz, 2GHz",
+      "Cameras": "8.0 MP + 8.0 MP rear · 12.0 MP front",
+      "Battery": "10090 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S9",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s9-used",
+    "legacySlug": "samsung-galaxy-tab-s9-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 501400,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · 5G",
+        "price": 577700,
+        "connectivity": "5G"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 577700,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 654000,
+        "connectivity": "5G"
+      }
+    ],
+    "colors": [],
+    "image": "https://api.samsungmobilepress.com/api/v1/file/B78A8E4608C81F1184DAAD4967B36BAF571D5E6B1457A5AF57EB8765F1F98CE62FBA6FCBD18B4403C692E564B37BFAEE1D9838356B65E7D6F3599D7E55B194C630F267557E16A64FCE58C71FAE2A4001843D648178BA2EBB47B2804A2469C8FF65DDEDE95A03DF10A94060CE9C4A23EDD7CBD7BA6DD8FB67F48395A7FAFF11D3",
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/B78A8E4608C81F1184DAAD4967B36BAF571D5E6B1457A5AF57EB8765F1F98CE62FBA6FCBD18B4403C692E564B37BFAEE1D9838356B65E7D6F3599D7E55B194C630F267557E16A64FCE58C71FAE2A4001843D648178BA2EBB47B2804A2469C8FF65DDEDE95A03DF10A94060CE9C4A23EDD7CBD7BA6DD8FB67F48395A7FAFF11D3",
+      "https://api.samsungmobilepress.com/api/v1/file/4F018CCE1DB25704BA5D11802FAAE9A2E8FBD60C7FF97705285CA53CA929CD0AB438AE696334FE8543CFAABE0D645B34431D189614A863CFD10CB7586DEE1B6ACC7E9A70C8195D081C64E46AD7F3D6A7031AF863C9ABBE1751C96E4B39EBE8B0EEECE6AD69C37B92DE423C47E339DF5F26B1FEBAF80F73213C23547219B3DA26",
+      "https://api.samsungmobilepress.com/api/v1/file/6D38B39CAA21598F40C4DB15B4184519AC52BC9A41E8347E06D8348174095858C0769F0175004D8D5910F22C656502729E825391F8D14217780B65559EF5254EDB2E89E55B3C9C60F33EAAB95858DC25C28BBDC2FE747EE576C34B86084D42164881A1C10CF3CE9302EB5150638FD633A4AE18B08306D37EC75CED306B8097D2FF22CCDE524E1B3BC72DC6166A7B85EF"
+    ],
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s9",
+    "specifications": {
+      "Display": "11-inch · Dynamic AMOLED 2X · 2560 × 1600 · 120 Hz",
+      "Processor": "Snapdragon 8 Gen 2 for Galaxy",
+      "Cameras": "13 MP rear · 12 MP front",
+      "Battery": "8400 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S9 Ultra",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s9-ultra-used",
+    "legacySlug": "samsung-galaxy-tab-s9-ultra-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 763000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 817500,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 817500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "512GB · Cellular",
+        "price": 872000,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x916bzadafa/gallery/africa-en-galaxy-tab-s9-ultra-5g-x916-468461-sm-x916bzadafa-537719359?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x916bzadafa/gallery/africa-en-galaxy-tab-s9-ultra-5g-x916-468461-sm-x916bzadafa-537719359?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x916bzadafa/gallery/africa-en-galaxy-tab-s9-ultra-5g-x916-468461-sm-x916bzadafa-537719338?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x916bzadafa/gallery/africa-en-galaxy-tab-s9-ultra-5g-x916-468461-sm-x916bzadafa-537719341?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s9-ultra-5g-graphite-256gb-sm-x916bzadafa/",
+    "specifications": {
+      "Display": "14.6\" (369.9mm) · Dynamic AMOLED 2X · 2960 x 1848 (WQXGA+)",
+      "Processor": "Octa-Core · 3.36GHz, 2.8GHz, 2GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP + 12.0 MP front",
+      "Battery": "11200 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10 Lite",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s10-lite-used",
+    "legacySlug": "samsung-galaxy-tab-s10-lite-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 327000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · 5G",
+        "price": 359700,
+        "connectivity": "5G"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 359700,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 512300,
+        "connectivity": "5G"
+      }
+    ],
+    "colors": [],
+    "image": "https://api.samsungmobilepress.com/api/v1/file/19559507DD2BB6BC6945FC6BECE25767056F1B9C9F0425A4B917B8767CED6709D1272935FDE655E21FA6BD3D3D09647105BB96828B86A0D8B020678A1299F4D1C35076CBAEC6418B014CD1E245B2E865CC809AFFCD39705CF30C22F8D5BA8AF142F7A7989673097C9DFCA987E63D667A691650936ED93FB968C343604E3515E7DB58FED972E0039E94D15D5915C4448B",
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/19559507DD2BB6BC6945FC6BECE25767056F1B9C9F0425A4B917B8767CED6709D1272935FDE655E21FA6BD3D3D09647105BB96828B86A0D8B020678A1299F4D1C35076CBAEC6418B014CD1E245B2E865CC809AFFCD39705CF30C22F8D5BA8AF142F7A7989673097C9DFCA987E63D667A691650936ED93FB968C343604E3515E7DB58FED972E0039E94D15D5915C4448B",
+      "https://api.samsungmobilepress.com/api/v1/file/6302DF372B7B99EAA6326268614EF24CEEE3BC766430970295A54929062FD8F579A8EDC4F728E6890A1D918C9059A9C8E6AF683D9F344FBA045D73F6E1A64B9A123FED2754820BA7476510FE58C3CDCC0B33420FF4EC3068612F238B2602E5C69F21CD1F15912E51A6AC61750E03135A204D2A1D617DA8043E4234E9A0E51472C73A7625E2DCBCCA4E416CFA40A0B2AC",
+      "https://api.samsungmobilepress.com/api/v1/file/020B33C215F4220036D3643C4344E7CE3E2239338BF8DDB04D678AFFD329E85B84BBF991892D3EDD551A7D036C2968CBEC943D8ABF7FCD83EE229D23AFC7DA0434EA25628DE40EEBC145CCC7F564C7EC27EB61618E6D5059730D0505CB25B746AC47DF6A27A38BF29662FF4A09E5DDD0296D26C4F0972A6E6C5DF3DD068499E71F82C5CC195987F99CB50E4DE72EAEA8"
+    ],
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-lite",
+    "specifications": {
+      "Display": "10.9-inch · LCD · 2112 × 1320 · 90 Hz",
+      "Processor": "Exynos 1380",
+      "Cameras": "8 MP rear · 5 MP front",
+      "Battery": "8000 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10 FE",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s10-fe-used",
+    "legacySlug": "samsung-galaxy-tab-s10-fe-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 446900,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 523200,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 523200,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 654000,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://api.samsungmobilepress.com/api/v1/file/5E175989AD7310A3B6FDA1351977EB474353EC6A44E383BFB22FC663965406C38571764A6C696FCAE54AC094790A3BEEE688BF015EB6A7FE2C04313237E194AD7AA070D53D985F6D3893B0E225E7AE128FCB1B2A17CA72E58855FC46643F6675D8ECD088554EE611AE59C128A5B30BDD2EB696F13EBB397F6117899742E9569A",
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/5E175989AD7310A3B6FDA1351977EB474353EC6A44E383BFB22FC663965406C38571764A6C696FCAE54AC094790A3BEEE688BF015EB6A7FE2C04313237E194AD7AA070D53D985F6D3893B0E225E7AE128FCB1B2A17CA72E58855FC46643F6675D8ECD088554EE611AE59C128A5B30BDD2EB696F13EBB397F6117899742E9569A",
+      "https://api.samsungmobilepress.com/api/v1/file/E6C5C17B589249345FE00451B2CF9D56C68F83EB7FA9DEFC5E4E53D8BA7F7A217BBB00A6B5C8B9187D61108E85B4A7F75A8A39DACDE162F9F6CD0EE7219976DD3993BF05A3A2C026C70E0F6161620E05CA8A94E173190BC4E6147883AD4CD94C7BD364833DB7251F617765464138658CB6AC40CB284652B6FFE29661C178EB73",
+      "https://api.samsungmobilepress.com/api/v1/file/37DAD04C88C8EF92E7035D48A4400FE15420477D050E53451FAA58575FAA0F0967D2CC966220C9E6DA17F262770CDA40C83B0BFBEF78ACEA8BE4D0F06AFA1B58265D0405DED6C04E492822382C6708B6DCFCA02168176D10A501610BE6029549A8DB751A0773DBF3A47A016499FFA4C5ACA6DDC6ECB3F9203625AA52B543FE3D"
+    ],
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-fe",
+    "specifications": {
+      "Display": "10.9-inch · LCD · 2304 × 1440 · 90 Hz",
+      "Processor": "Exynos 1580",
+      "Cameras": "13 MP rear · 12 MP front",
+      "Battery": "8000 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10 FE+",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s10-fe-plus-used",
+    "legacySlug": "samsung-galaxy-tab-s10-fe-plus-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 545000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 632200,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 632200,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 708500,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397244?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397244?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397224?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x626bzaeafa/gallery/africa-en-galaxy-tab-s10-fe-plus-sm-x626-sm-x626bzaeafa-546397227?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-256gb-sm-x626bzaeafa/",
+    "specifications": {
+      "Display": "332.8mm (13.1\") · TFT · 2880 x 1800 (WQXGA+)",
+      "Processor": "Octa-Core · 2.9GHz, 2.6GHz, 1.9GHz",
+      "Cameras": "13.0 MP rear · 12.0 MP front",
+      "Battery": "10090 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10+",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s10-plus-used",
+    "legacySlug": "samsung-galaxy-tab-s10-plus-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 763000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 850200,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 850200,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "512GB · Cellular",
+        "price": 926500,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688569?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688569?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688549?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688552?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s10-plus-gray-256gb-sm-x826bzadafa/",
+    "specifications": {
+      "Display": "12.4\" (315.0mm) · Dynamic AMOLED 2X · 2800 x 1752 (WQXGA+)",
+      "Processor": "Octa-Core · 3.4GHz, 2.8GHz, 2GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP front",
+      "Battery": "10090 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10 Ultra",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s10-ultra-used",
+    "legacySlug": "samsung-galaxy-tab-s10-ultra-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 959200,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 1068200,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 1068200,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "512GB · Cellular",
+        "price": 1144500,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "1TB · Wi-Fi",
+        "price": 1144500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "1TB · Cellular",
+        "price": 1199000,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688869?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688869?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688854?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688857?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s10-ultra-gray-512gb-sm-x926bzahafa/",
+    "specifications": {
+      "Display": "14.6\" (369.9mm) · Dynamic AMOLED 2X · 2960 x 1848 (WQXGA+)",
+      "Processor": "Octa-Core · 3.4GHz, 2.8GHz, 2GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP + 12.0 MP front",
+      "Battery": "11200 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S11",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s11-used",
+    "legacySlug": "samsung-galaxy-tab-s11-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 654000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "128GB · Cellular",
+        "price": 817500,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 817500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 926500,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 926500,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "512GB · Cellular",
+        "price": 1035500,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891641?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891641?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891623?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x736bzaaafa/gallery/africa-en-galaxy-tab-s11-sm-x730-sm-x736bzaaafa-548891626?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s11-gray-128gb-sm-x736bzaaafa/",
+    "specifications": {
+      "Display": "278.1mm (11.0\") · Dynamic AMOLED 2X · 2560 x 1600 (WQXGA)",
+      "Processor": "Octa-Core · 3.73GHz, 3.3GHz, 2.4GHz",
+      "Cameras": "13.0 MP rear · 12.0 MP front",
+      "Battery": "8400 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S11 Ultra",
+    "category": "tablets",
+    "condition": "Used",
+    "slug": "samsung-galaxy-tab-s11-ultra-used",
+    "legacySlug": "samsung-galaxy-tab-s11-ultra-used",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 1090000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "256GB · Cellular",
+        "price": 1199000,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 1199000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "512GB · Cellular",
+        "price": 1308000,
+        "connectivity": "Cellular"
+      },
+      {
+        "storage": "1TB · Wi-Fi",
+        "price": 1417000,
+        "connectivity": "Wi-Fi"
+      },
+      {
+        "storage": "1TB · Cellular",
+        "price": 1526000,
+        "connectivity": "Cellular"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121934?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121934?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121920?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x936bzsaafa/gallery/africa-en-galaxy-tab-s11-ultra-sm-x930-sm-x936bzsaafa-549121923?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s11-ultra-silver-256gb-sm-x936bzsaafa/",
+    "specifications": {
+      "Display": "369.9mm (14.6\") · Dynamic AMOLED 2X · 2960 x 1848 (WQXGA+)",
+      "Processor": "Octa-Core · 3.73GHz, 3.3GHz, 2.4GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP front",
+      "Battery": "11600 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S9 FE+",
+    "category": "tablets",
+    "condition": "Brand New",
+    "slug": "samsung-galaxy-tab-s9-fe-plus",
+    "legacySlug": "samsung-galaxy-tab-s9-fe-plus",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · 5G",
+        "price": 817500,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833209?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833209?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833188?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x616bzaaafa/gallery/africa-en-galaxy-tab-s9-fe-plus-sm-x616-sm-x616bzaaafa-538833190?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s9-fe-plus-5g-gray-128gb-sm-x616bzaaafa/",
+    "specifications": {
+      "Display": "12.4\" (315.0mm) · TFT · 2560 x 1600 (WQXGA)",
+      "Processor": "Octa-Core · 2.4GHz, 2GHz",
+      "Cameras": "8.0 MP + 8.0 MP rear · 12.0 MP front",
+      "Battery": "10090 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10 Lite",
+    "category": "tablets",
+    "condition": "Brand New",
+    "slug": "samsung-galaxy-tab-s10-lite",
+    "legacySlug": "samsung-galaxy-tab-s10-lite",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "128GB · Wi-Fi",
+        "price": 485050,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "128GB · 5G",
+        "price": 632200,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 632200,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 730300,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      }
+    ],
+    "colors": [],
+    "image": "https://api.samsungmobilepress.com/api/v1/file/19559507DD2BB6BC6945FC6BECE25767056F1B9C9F0425A4B917B8767CED6709D1272935FDE655E21FA6BD3D3D09647105BB96828B86A0D8B020678A1299F4D1C35076CBAEC6418B014CD1E245B2E865CC809AFFCD39705CF30C22F8D5BA8AF142F7A7989673097C9DFCA987E63D667A691650936ED93FB968C343604E3515E7DB58FED972E0039E94D15D5915C4448B",
+    "gallery": [
+      "https://api.samsungmobilepress.com/api/v1/file/19559507DD2BB6BC6945FC6BECE25767056F1B9C9F0425A4B917B8767CED6709D1272935FDE655E21FA6BD3D3D09647105BB96828B86A0D8B020678A1299F4D1C35076CBAEC6418B014CD1E245B2E865CC809AFFCD39705CF30C22F8D5BA8AF142F7A7989673097C9DFCA987E63D667A691650936ED93FB968C343604E3515E7DB58FED972E0039E94D15D5915C4448B",
+      "https://api.samsungmobilepress.com/api/v1/file/6302DF372B7B99EAA6326268614EF24CEEE3BC766430970295A54929062FD8F579A8EDC4F728E6890A1D918C9059A9C8E6AF683D9F344FBA045D73F6E1A64B9A123FED2754820BA7476510FE58C3CDCC0B33420FF4EC3068612F238B2602E5C69F21CD1F15912E51A6AC61750E03135A204D2A1D617DA8043E4234E9A0E51472C73A7625E2DCBCCA4E416CFA40A0B2AC",
+      "https://api.samsungmobilepress.com/api/v1/file/020B33C215F4220036D3643C4344E7CE3E2239338BF8DDB04D678AFFD329E85B84BBF991892D3EDD551A7D036C2968CBEC943D8ABF7FCD83EE229D23AFC7DA0434EA25628DE40EEBC145CCC7F564C7EC27EB61618E6D5059730D0505CB25B746AC47DF6A27A38BF29662FF4A09E5DDD0296D26C4F0972A6E6C5DF3DD068499E71F82C5CC195987F99CB50E4DE72EAEA8"
+    ],
+    "specificationsSource": "https://www.samsungmobilepress.com/media-assets/galaxy-tab-s10-lite",
+    "specifications": {
+      "Display": "10.9-inch · LCD · 2112 × 1320 · 90 Hz",
+      "Processor": "Exynos 1380",
+      "Cameras": "8 MP rear · 5 MP front",
+      "Battery": "8000 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10+",
+    "category": "tablets",
+    "condition": "Brand New",
+    "slug": "samsung-galaxy-tab-s10-plus",
+    "legacySlug": "samsung-galaxy-tab-s10-plus",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 1046400,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 1199000,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G · with keyboard",
+        "price": 1329800,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 1199000,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G",
+        "price": 1362500,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688569?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688569?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688549?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x826bzadafa/gallery/africa-en-galaxy-tab-s10-plus-sm-x820-sm-x826bzadafa-543688552?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s10-plus-gray-256gb-sm-x826bzadafa/",
+    "specifications": {
+      "Display": "12.4\" (315.0mm) · Dynamic AMOLED 2X · 2800 x 1752 (WQXGA+)",
+      "Processor": "Octa-Core · 3.4GHz, 2.8GHz, 2GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP front",
+      "Battery": "10090 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10 Ultra",
+    "category": "tablets",
+    "condition": "Brand New",
+    "slug": "samsung-galaxy-tab-s10-ultra",
+    "legacySlug": "samsung-galaxy-tab-s10-ultra",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · Wi-Fi",
+        "price": 1340700,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "256GB · 5G",
+        "price": 1504200,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · Wi-Fi",
+        "price": 1591400,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G",
+        "price": 1744000,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "1TB · Wi-Fi",
+        "price": 1776700,
+        "connectivity": "Wi-Fi",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "1TB · 5G",
+        "price": 1962000,
+        "connectivity": "5G",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688869?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688869?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688854?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x926bzahafa/gallery/africa-en-galaxy-tab-s10-ultra-sm-x920-sm-x926bzahafa-543688857?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s10-ultra-gray-512gb-sm-x926bzahafa/",
+    "specifications": {
+      "Display": "14.6\" (369.9mm) · Dynamic AMOLED 2X · 2960 x 1848 (WQXGA+)",
+      "Processor": "Octa-Core · 3.4GHz, 2.8GHz, 2GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP + 12.0 MP front",
+      "Battery": "11200 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S12+",
+    "category": "tablets",
+    "condition": "Brand New",
+    "slug": "samsung-galaxy-tab-s12-plus",
+    "legacySlug": "samsung-galaxy-tab-s12-plus",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · 5G · 12GB RAM",
+        "price": 1744000,
+        "connectivity": "5G",
+        "ram": "12GB",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G · 12GB RAM",
+        "price": 2016500,
+        "connectivity": "5G",
+        "ram": "12GB",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x846bzsdafa/gallery/africa-en-galaxy-tab-s12-plus-sm-x846-sm-x846bzsdafa-554785689?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x846bzsdafa/gallery/africa-en-galaxy-tab-s12-plus-sm-x846-sm-x846bzsdafa-554785689?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x846bzsdafa/gallery/africa-en-galaxy-tab-s12-plus-sm-x846-sm-x846bzsdafa-554785670?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x846bzsdafa/gallery/africa-en-galaxy-tab-s12-plus-sm-x846-sm-x846bzsdafa-554785673?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s12-plus-5g-silver-256gb-sm-x846bzsdafa/",
+    "specifications": {
+      "Display": "320.4mm (12.6\") · Dynamic AMOLED 2X · 2800 x 1752 (WQXGA+)",
+      "Processor": "Octa-Core · 4.21GHz, 3.5GHz, 2.7GHz",
+      "Cameras": "13.0 MP rear · 12.0 MP front",
+      "Battery": "10600 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S12 Ultra",
+    "category": "tablets",
+    "condition": "Brand New",
+    "slug": "samsung-galaxy-tab-s12-ultra",
+    "legacySlug": "samsung-galaxy-tab-s12-ultra",
+    "isPhone": false,
+    "variants": [
+      {
+        "storage": "256GB · 5G · 12GB RAM",
+        "price": 2016500,
+        "connectivity": "5G",
+        "ram": "12GB",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      },
+      {
+        "storage": "512GB · 5G · 12GB RAM",
+        "price": 2267200,
+        "connectivity": "5G",
+        "ram": "12GB",
+        "warranty": "International warranty · Confirm coverage for the exact unit"
+      }
+    ],
+    "colors": [],
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x946bzadafa/gallery/africa-en-galaxy-tab-s12-ultra-5g-sm-x946bzadafa-554796033?$1164_776_PNG$",
+    "gallery": [
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x946bzadafa/gallery/africa-en-galaxy-tab-s12-ultra-5g-sm-x946bzadafa-554796033?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x946bzadafa/gallery/africa-en-galaxy-tab-s12-ultra-5g-sm-x946bzadafa-554796014?$1164_776_PNG$",
+      "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-x946bzadafa/gallery/africa-en-galaxy-tab-s12-ultra-5g-sm-x946bzadafa-554796017?$1164_776_PNG$"
+    ],
+    "specificationsSource": "https://www.samsung.com/africa_en/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-5g-gray-256gb-sm-x946bzadafa/",
+    "specifications": {
+      "Display": "369.9mm (14.6\") · Dynamic AMOLED 2X · 2960 x 1848 (WQXGA+)",
+      "Processor": "Octa-Core · 4.21GHz, 3.5GHz, 2.7GHz",
+      "Cameras": "13.0 MP + 8.0 MP rear · 12.0 MP front",
+      "Battery": "11600 mAh typical",
+      "Connection": "See Wi-Fi and cellular options in the price list."
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Google Pixel 9 Pro Fold",
+    "category": "pixel",
+    "condition": "UK Used",
+    "isPhone": true,
+    "slug": "pixel-9-pro-fold-uk-used",
+    "legacySlug": "pixel-9-pro-fold-uk-used",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image1-10_resize.width-1200.format-webp.webp",
+    "gallery": [
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image1-10_resize.width-1200.format-webp.webp",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9PFold_YT_Thumbnail_v3.width-1200.format-webp.webp",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image3-18_resized.width-1200.format-webp.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "storage": "256GB",
+        "price": 937400
+      },
+      {
+        "storage": "512GB",
+        "price": 1024600
+      }
+    ],
+    "specifications": {
+      "display": "8-inch inner OLED and 6.3-inch cover OLED",
+      "camera": "48 MP wide, 10.5 MP ultrawide and 10.8 MP telephoto rear cameras",
+      "processor": "Google Tensor G4",
+      "network": "5G and LTE · Bands vary by model and carrier",
+      "security": "Google Titan M2",
+      "sim": "Check SIM and eSIM compatibility for the exact model."
+    },
+    "specificationsSource": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+  },
+  {
+    "brand": "Google",
+    "model": "Google Pixel 9a",
+    "category": "pixel",
+    "condition": "UK Used",
+    "isPhone": true,
+    "slug": "pixel-9a-uk-used",
+    "legacySlug": "pixel-9a-uk-used",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_4_jOSUlxw.width-800.format-webp.webp",
+    "gallery": [
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_4_jOSUlxw.width-800.format-webp.webp",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel9a_inline_camerabump.width-1200.format-webp.webp",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel9a_inline_handholdingpixel.width-1200.format-webp.webp"
+    ],
+    "colors": [],
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 506850
+      }
+    ],
+    "specifications": {
+      "display": "6.3-inch OLED with up to 120 Hz",
+      "camera": "48 MP wide and 13 MP ultrawide rear cameras",
+      "processor": "Google Tensor G4",
+      "network": "5G and LTE · Bands vary by model and carrier",
+      "security": "Google Titan M2",
+      "sim": "Check SIM and eSIM compatibility for the exact model."
+    },
+    "specificationsSource": "https://support.google.com/pixelphone/answer/7158570?hl=en"
   }
 ]);
 

@@ -64,6 +64,7 @@ const normal = s=>s.toLowerCase().replace(/apple|[^a-z0-9]/g,'');
 const importedNames=new Set(accessoryInventory.map(p=>normal(p.model)));
 const otherItems = [...retailInventory.filter(item=>!item.isPhone&&!importedNames.has(normal(item.model))),...accessoryInventory].map(item=>({
  slug:item.slug,model:item.model,brand:item.brand,category:item.category,image:item.image||'',
+ gallery:item.gallery, specifications:item.specifications, specificationsSource:item.specificationsSource,
  route:`/product/${item.slug}/`, enquiryUrl:whatsappFor(item),priceMax:item.priceMax,priceCheckedAt:item.priceCheckedAt,conditions:[item.condition],availability:'Confirm exact unit and availability',
  easy:false,swap:false,variants:item.variants.map(makeVariant)
 }));

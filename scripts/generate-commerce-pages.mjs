@@ -297,15 +297,17 @@ const renderDetails = (product) => `
         <article><span>Camera</span><strong>${escapeHtml(product.specifications.camera)}</strong></article>
         <article><span>Processor</span><strong>${escapeHtml(product.specifications.processor)}</strong></article>
         <article><span>Network</span><strong>${escapeHtml(product.specifications.network)}</strong></article>
+        ${product.specifications.battery ? `<article><span>Battery</span><strong>${escapeHtml(product.specifications.battery)}</strong></article>` : ''}
         <article><span>Security</span><strong>${escapeHtml(product.specifications.security)}</strong></article>
         <article><span>SIM options</span><strong>${escapeHtml(product.specifications.sim)}</strong></article>
-      </div>`}
+      </div>${product.specificationsSource ? `<p><a href="${escapeHtml(product.specificationsSource)}">Manufacturer specifications</a></p>` : ''}`}
     </div>
     <aside class="condition-panel">
       <p class="commerce-eyebrow">Condition guide</p>
       ${product.conditions.includes('UK Used') ? '<article><span>01</span><div><h3>UK Used</h3><p>Request photos, battery information and the condition of the exact device before payment.</p></div></article>' : ''}
+      ${product.conditions.includes('Used') ? '<article><span>01</span><div><h3>Used</h3><p>Ask for photos, battery information and condition of the exact device before payment.</p></div></article>' : ''}
       ${product.conditions.includes('Brand New') ? '<article><span>02</span><div><h3>Brand New</h3><p>Ask what comes with the exact unit and confirm availability.</p></div></article>' : ''}
-      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition to confirm</h3><p>Ask Lisa Electronics for the exact unit details before payment.</p></div></article>' : ''}
+      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition to confirm</h3><p>Ask Lisa Electronics for the exact unit details before payment.</p></div></article>' : ''}
     </aside>
   </section>`;
 

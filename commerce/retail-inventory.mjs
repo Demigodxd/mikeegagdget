@@ -8,27 +8,57 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-18-pro",
     "legacySlug": "iphone-18-pro",
     "isPhone": true,
-    "image": "/images/store/18pro-1-720.webp",
+    "image": "/images/catalog/lisa-iphone-18-series-front-back.webp",
     "variants": [
       {
-        "storage": "256GB · Burgundy",
-        "price": 1970000,
-        "color": "Burgundy"
+        "storage": "256GB · Burgundy · Physical SIM + eSIM · Not activated",
+        "price": 2136400,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "256GB · Glacier",
-        "price": 1920000,
-        "color": "Glacier"
+        "storage": "256GB · Glacier · Physical SIM + eSIM · Not activated",
+        "price": 2103700,
+        "color": "Glacier",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "512GB",
-        "price": 2290000
+        "storage": "512GB · Burgundy · Physical SIM + eSIM · Not activated",
+        "price": 2485200,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "512GB · Black · Physical SIM + eSIM · Not activated",
+        "price": 2452500,
+        "color": "Black",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "1TB · Burgundy · Physical SIM + eSIM · Not activated",
+        "price": 3161000,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
       }
     ],
     "colors": [
       "Burgundy",
-      "Glacier"
-    ]
+      "Glacier",
+      "Black"
+    ],
+    "gallery": [
+      "/images/catalog/lisa-iphone-18-series-front-back.webp",
+      "/images/catalog/lisa-iphone-18-series-side.webp",
+      "/images/catalog/lisa-iphone-18-series-colours.webp"
+    ],
+    "specifications": {
+      "display": "6.3-inch OLED Super Retina XDR with up to 120 Hz ProMotion",
+      "camera": "Triple 48 MP Fusion cameras with variable aperture on the main camera",
+      "processor": "A20 Pro",
+      "network": "5G and LTE",
+      "security": "Face ID",
+      "sim": "SIM configuration varies by region. See the selected variant."
+    }
   },
   {
     "brand": "Apple",
@@ -38,38 +68,94 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-18-pro-max",
     "legacySlug": "iphone-18-pro-max",
     "isPhone": true,
-    "image": "/images/store/18promax-1-720.webp",
+    "image": "/images/catalog/lisa-iphone-18-series-front-back.webp",
     "variants": [
       {
-        "storage": "256GB · Burgundy",
-        "price": 2540000,
-        "color": "Burgundy"
+        "storage": "256GB · Burgundy/Glacier · US eSIM · Unlocked · Not activated",
+        "price": 2180000,
+        "color": "Burgundy/Glacier",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "256GB · Silver/Blue",
-        "price": 2340000,
-        "color": "Silver/Blue"
+        "storage": "512GB · Black · US eSIM · Unlocked · Not activated",
+        "price": 2452500,
+        "color": "Black",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "512GB · Burgundy",
-        "price": 2690000,
-        "color": "Burgundy"
+        "storage": "512GB · Burgundy · US eSIM · Unlocked · Not activated",
+        "price": 2507000,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "512GB · Glacier",
-        "price": 2590000,
-        "color": "Glacier"
+        "storage": "1TB · Burgundy · US eSIM · Unlocked · Not activated",
+        "price": 3215500,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "1TB",
-        "price": 3590000
+        "storage": "256GB · Burgundy · Physical SIM + eSIM · Not activated",
+        "price": 2343500,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "256GB · Glacier · Physical SIM + eSIM · Not activated",
+        "price": 2289000,
+        "color": "Glacier",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "256GB · Black/Silver · Physical SIM + eSIM · Not activated",
+        "price": 2267200,
+        "color": "Black/Silver",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "512GB · Burgundy · Physical SIM + eSIM · Not activated",
+        "price": 2703200,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "512GB · Glacier/Black · Physical SIM + eSIM · Not activated",
+        "price": 2659600,
+        "color": "Glacier/Black",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "1TB · Burgundy · Physical SIM + eSIM · Not activated",
+        "price": 3466200,
+        "color": "Burgundy",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "1TB · Black · Physical SIM + eSIM · Not activated",
+        "price": 3433500,
+        "color": "Black",
+        "activationStatus": "Not Activated"
       }
     ],
     "colors": [
       "Burgundy",
-      "Silver/Blue",
-      "Glacier"
-    ]
+      "Glacier",
+      "Black",
+      "Silver"
+    ],
+    "gallery": [
+      "/images/catalog/lisa-iphone-18-series-front-back.webp",
+      "/images/catalog/lisa-iphone-18-series-side.webp",
+      "/images/catalog/lisa-iphone-18-series-colours.webp"
+    ],
+    "specifications": {
+      "display": "6.9-inch OLED Super Retina XDR with up to 120 Hz ProMotion",
+      "camera": "Triple 48 MP Fusion cameras with variable aperture on the main camera",
+      "processor": "A20 Pro",
+      "network": "5G and LTE",
+      "security": "Face ID",
+      "sim": "SIM configuration varies by region. See the selected variant."
+    }
   },
   {
     "brand": "Apple",
@@ -79,17 +165,19 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-17",
     "legacySlug": "iphone-17",
     "isPhone": true,
-    "image": "/images/store/17-1-720.webp",
+    "image": "/images/catalog/lisa-iphone-17-front-back.webp",
     "variants": [
       {
-        "storage": "256GB · Sage/Lavender",
-        "price": 1310000,
-        "color": "Sage/Lavender"
+        "storage": "256GB · Mist Blue/White/Black · Physical SIM · Not activated",
+        "price": 1340700,
+        "color": "Mist Blue/White/Black",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "256GB · Blue/White/Black",
-        "price": 1290000,
-        "color": "Blue/White/Black"
+        "storage": "256GB · Sage/Lavender · Physical SIM · Not activated",
+        "price": 1351600,
+        "color": "Sage/Lavender",
+        "activationStatus": "Not Activated"
       },
       {
         "storage": "512GB · Sage/Lavender",
@@ -103,21 +191,28 @@ export const retailInventory = Object.freeze([
       {
         "storage": "512GB · Physical SIM · Activated",
         "price": 1350000
-      },
-      {
-        "storage": "256GB · Physical SIM · Not activated",
-        "price": 1190000
       }
     ],
     "colors": [
-      "Sage/Lavender",
-      "Blue/White/Black"
+      "Mist Blue",
+      "White",
+      "Black",
+      "Sage",
+      "Lavender"
     ],
     "gallery": [
-      "/images/store/17-1-720.webp",
-      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-official-model-views.png",
-      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-official-gallery-view.png"
-    ]
+      "/images/catalog/lisa-iphone-17-front-back.webp",
+      "/images/catalog/lisa-iphone-17-side.webp",
+      "/images/catalog/lisa-iphone-17-colours.webp"
+    ],
+    "specifications": {
+      "display": "6.3-inch OLED Super Retina XDR with up to 120 Hz ProMotion",
+      "camera": "Dual 48 MP Fusion cameras",
+      "processor": "A19",
+      "network": "5G and LTE",
+      "security": "Face ID",
+      "sim": "SIM configuration varies by region. See the selected variant."
+    }
   },
   {
     "brand": "Apple",
@@ -195,25 +290,35 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-17-pro",
     "legacySlug": "iphone-17-pro",
     "isPhone": true,
-    "image": "/images/store/17pro-1-720.webp",
+    "image": "/images/catalog/lisa-iphone-17-pro-front-back.webp",
     "variants": [
       {
-        "storage": "256GB · Silver",
-        "price": 1690000,
-        "color": "Silver"
+        "storage": "256GB · Cosmic Orange · Physical SIM · Not activated",
+        "price": 1711300,
+        "color": "Cosmic Orange",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "256GB · Orange/Blue",
-        "price": 1660000,
-        "color": "Orange/Blue"
+        "storage": "256GB · Deep Blue · Physical SIM · Not activated",
+        "price": 1744000,
+        "color": "Deep Blue",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "256GB · Silver · Physical SIM · Not activated",
+        "price": 1787600,
+        "color": "Silver",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "1TB · Silver · Physical SIM · Not activated",
+        "price": 2452500,
+        "color": "Silver",
+        "activationStatus": "Not Activated"
       },
       {
         "storage": "512GB",
         "price": 2040000
-      },
-      {
-        "storage": "1TB · Non-Active",
-        "price": 2240000
       },
       {
         "storage": "512GB · eSIM only · Not activated",
@@ -224,27 +329,28 @@ export const retailInventory = Object.freeze([
         "price": 1530000
       },
       {
-        "storage": "1TB · Physical SIM · Not activated",
-        "price": 2100000
-      },
-      {
         "storage": "512GB · Physical SIM · Not activated",
         "price": 1940000
-      },
-      {
-        "storage": "256GB · Physical SIM · Not activated",
-        "price": 1580000
       }
     ],
     "colors": [
-      "Silver",
-      "Orange/Blue"
+      "Cosmic Orange",
+      "Deep Blue",
+      "Silver"
     ],
     "gallery": [
-      "/images/store/17pro-1-720.webp",
-      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-official-model-views.png",
-      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-front-and-rear-view.jpg"
-    ]
+      "/images/catalog/lisa-iphone-17-pro-front-back.webp",
+      "/images/catalog/lisa-iphone-17-pro-rear.webp",
+      "/images/catalog/lisa-iphone-17-pro-colours.webp"
+    ],
+    "specifications": {
+      "display": "6.3-inch OLED Super Retina XDR with up to 120 Hz ProMotion",
+      "camera": "Triple 48 MP Fusion cameras",
+      "processor": "A19 Pro",
+      "network": "5G and LTE",
+      "security": "Face ID",
+      "sim": "SIM configuration varies by region. See the selected variant."
+    }
   },
   {
     "brand": "Apple",
@@ -254,31 +360,48 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-17-pro-max",
     "legacySlug": "iphone-17-pro-max",
     "isPhone": true,
-    "image": "/images/store/17promax-1-720.webp",
+    "image": "/images/catalog/lisa-iphone-17-pro-front-back.webp",
     "variants": [
       {
-        "storage": "256GB · Silver",
-        "price": 1840000,
-        "color": "Silver"
+        "storage": "256GB · Deep Blue/Cosmic Orange · Physical SIM · Not activated",
+        "price": 1853000,
+        "color": "Deep Blue/Cosmic Orange",
+        "activationStatus": "Not Activated"
       },
       {
-        "storage": "256GB · Blue/Orange",
-        "price": 1800000,
-        "color": "Blue/Orange"
+        "storage": "256GB · Silver · Physical SIM · Not activated",
+        "price": 1983800,
+        "color": "Silver",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "512GB · Deep Blue · Physical SIM · Not activated",
+        "price": 2256300,
+        "color": "Deep Blue",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "512GB · Cosmic Orange · Physical SIM · Not activated",
+        "price": 2234500,
+        "color": "Cosmic Orange",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "1TB · Cosmic Orange · Physical SIM · Not activated",
+        "price": 2670500,
+        "color": "Cosmic Orange",
+        "activationStatus": "Not Activated"
+      },
+      {
+        "storage": "1TB · Deep Blue · Physical SIM · Not activated",
+        "price": 2703200,
+        "color": "Deep Blue",
+        "activationStatus": "Not Activated"
       },
       {
         "storage": "512GB · Silver",
         "price": 2190000,
         "color": "Silver"
-      },
-      {
-        "storage": "512GB · Blue/Orange",
-        "price": 2100000,
-        "color": "Blue/Orange"
-      },
-      {
-        "storage": "1TB",
-        "price": 2660000
       },
       {
         "storage": "2TB",
@@ -295,29 +418,26 @@ export const retailInventory = Object.freeze([
       {
         "storage": "256GB · eSIM only · Not activated",
         "price": 1630000
-      },
-      {
-        "storage": "1TB · Physical SIM · Not activated",
-        "price": 2370000
-      },
-      {
-        "storage": "512GB · Physical SIM · Not activated",
-        "price": 2050000
-      },
-      {
-        "storage": "256GB · Physical SIM · Not activated",
-        "price": 1740000
       }
     ],
     "colors": [
-      "Silver",
-      "Blue/Orange"
+      "Deep Blue",
+      "Cosmic Orange",
+      "Silver"
     ],
     "gallery": [
-      "/images/store/17promax-1-720.webp",
-      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-Max-official-model-views.png",
-      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-Max-official-gallery-view.png"
-    ]
+      "/images/catalog/lisa-iphone-17-pro-front-back.webp",
+      "/images/catalog/lisa-iphone-17-pro-rear.webp",
+      "/images/catalog/lisa-iphone-17-pro-colours.webp"
+    ],
+    "specifications": {
+      "display": "6.9-inch OLED Super Retina XDR with up to 120 Hz ProMotion",
+      "camera": "Triple 48 MP Fusion cameras",
+      "processor": "A19 Pro",
+      "network": "5G and LTE",
+      "security": "Face ID",
+      "sim": "SIM configuration varies by region. See the selected variant."
+    }
   },
   {
     "brand": "Apple",
@@ -3953,13 +4073,14 @@ export const retailPhoneProducts = Object.freeze(retailInventory.filter(item => 
   route: `/${item.slug}`,
   family: item.brand === "Apple" ? "iPhone" : item.brand === "Google" ? "Pixel" : "Galaxy",
   listingPending: false,
-  specificationsPending: true,
+  specificationsPending: !item.specifications,
   variants: item.variants.map(variant => ({
     storage: variant.storage,
     price: variant.price,
     color: variant.color || null,
     ram: variant.ram || null,
     warranty: variant.warranty || null,
+    activationStatus: variant.activationStatus || null,
     availability: variant.price === null ? "Confirm price and availability" : "Confirm availability",
     priceNeedsExtraConfirmation: variant.price === null,
     oldPrice: null
@@ -3973,7 +4094,7 @@ export const retailPhoneProducts = Object.freeze(retailInventory.filter(item => 
   swapEligible: true,
   warranty: "Confirm written terms for the exact unit",
   batteryHealth: "Ask for battery-condition details when considering a used unit.",
-  specifications: {
+  specifications: item.specifications || {
     display: "Confirm the exact unit’s display",
     camera: "Confirm the exact camera configuration",
     processor: "Confirm the exact model specification",

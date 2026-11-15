@@ -118,7 +118,7 @@ const productSchema = (product) => {
     sku: product.slug,
     url: `${commerceSite.baseUrl}${product.route}`,
     ...(product.images.length ? {
-      image: product.images.map((image) => `${commerceSite.baseUrl}${image}`)
+      image: product.images.map((image) => new URL(image, commerceSite.baseUrl).href)
     } : {}),
     ...(pricedOffers.length ? {
       offers: pricedOffers.length === 1 ? pricedOffers[0] : pricedOffers
@@ -197,7 +197,7 @@ const renderHeader = () => `
   </dialog>`;
 
 const renderProductArtwork = (product) => {
-  const galleryImages = product.images.map(image => /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
+  const galleryImages = product.images.map(image => !/^https?:\/\//i.test(image) && /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
   if (product.images.length) {
     return `
       <div class="product-gallery" data-product-gallery>
@@ -209,7 +209,7 @@ const renderProductArtwork = (product) => {
         <div class="product-thumbnails" aria-label="${escapeHtml(product.model)} images">
           ${galleryImages.map((image, index) => `
             <button type="button" class="${index === 0 ? "is-active" : ""}" data-gallery-image="${escapeHtml(image)}" aria-label="Show ${escapeHtml(product.model)} image ${index + 1}">
-              <img src="${escapeHtml(image.replace('-720.webp','-160.webp'))}" alt="" width="80" height="80" loading="lazy">
+              <img src="${escapeHtml(/^https?:\/\//i.test(image) ? image : image.replace('-720.webp','-160.webp'))}" alt="" width="80" height="80" loading="lazy">
             </button>`).join("")}
         </div>
       </div>`;

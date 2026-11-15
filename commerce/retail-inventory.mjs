@@ -95,11 +95,28 @@ export const retailInventory = Object.freeze([
         "storage": "512GB · Sage/Lavender",
         "price": 1540000,
         "color": "Sage/Lavender"
+      },
+      {
+        "storage": "512GB · Physical SIM · Not activated",
+        "price": 1450000
+      },
+      {
+        "storage": "512GB · Physical SIM · Activated",
+        "price": 1350000
+      },
+      {
+        "storage": "256GB · Physical SIM · Not activated",
+        "price": 1190000
       }
     ],
     "colors": [
       "Sage/Lavender",
       "Blue/White/Black"
+    ],
+    "gallery": [
+      "/images/store/17-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-official-model-views.png",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-official-gallery-view.png"
     ]
   },
   {
@@ -123,9 +140,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "1TB · Non-Active",
         "price": 1570000
+      },
+      {
+        "storage": "512GB · eSIM only · Not activated",
+        "price": 1340000
+      },
+      {
+        "storage": "256GB · eSIM only · Not activated",
+        "price": 1190000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/17air-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-Air-official-model-views.png",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-Air-official-gallery-view.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -184,11 +214,36 @@ export const retailInventory = Object.freeze([
       {
         "storage": "1TB · Non-Active",
         "price": 2240000
+      },
+      {
+        "storage": "512GB · eSIM only · Not activated",
+        "price": 1810000
+      },
+      {
+        "storage": "256GB · eSIM only · Not activated",
+        "price": 1530000
+      },
+      {
+        "storage": "1TB · Physical SIM · Not activated",
+        "price": 2100000
+      },
+      {
+        "storage": "512GB · Physical SIM · Not activated",
+        "price": 1940000
+      },
+      {
+        "storage": "256GB · Physical SIM · Not activated",
+        "price": 1580000
       }
     ],
     "colors": [
       "Silver",
       "Orange/Blue"
+    ],
+    "gallery": [
+      "/images/store/17pro-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-official-model-views.png",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-front-and-rear-view.jpg"
     ]
   },
   {
@@ -228,11 +283,40 @@ export const retailInventory = Object.freeze([
       {
         "storage": "2TB",
         "price": null
+      },
+      {
+        "storage": "1TB · eSIM only · Not activated",
+        "price": 2080000
+      },
+      {
+        "storage": "512GB · eSIM only · Not activated",
+        "price": 1920000
+      },
+      {
+        "storage": "256GB · eSIM only · Not activated",
+        "price": 1630000
+      },
+      {
+        "storage": "1TB · Physical SIM · Not activated",
+        "price": 2370000
+      },
+      {
+        "storage": "512GB · Physical SIM · Not activated",
+        "price": 2050000
+      },
+      {
+        "storage": "256GB · Physical SIM · Not activated",
+        "price": 1740000
       }
     ],
     "colors": [
       "Silver",
       "Blue/Orange"
+    ],
+    "gallery": [
+      "/images/store/17promax-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-Max-official-model-views.png",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-17-Pro-Max-official-gallery-view.png"
     ]
   },
   {
@@ -260,9 +344,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "512GB",
         "price": 1360000
+      },
+      {
+        "storage": "256GB · eSIM only Not activated",
+        "price": 1120000
+      },
+      {
+        "storage": "128GB · eSIM only Not activated",
+        "price": 1080000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/16-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-16-product-photography.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-16-side-product-photography.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -315,9 +412,22 @@ export const retailInventory = Object.freeze([
       {
         "storage": "512GB",
         "price": 1490000
+      },
+      {
+        "storage": "256GB · Physical SIM · Not activated",
+        "price": 1250000
+      },
+      {
+        "storage": "128GB · Physical SIM · Not activated",
+        "price": 1070000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/16plus-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-16-product-photography.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-16-side-product-photography.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -340,9 +450,26 @@ export const retailInventory = Object.freeze([
       {
         "storage": "1TB",
         "price": 2140000
+      },
+      {
+        "storage": "512GB · Physical SIM · Not activated · White Titanium",
+        "price": 1820000
+      },
+      {
+        "storage": "512GB · Physical SIM Not activated Desert",
+        "price": 1850000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/16promax-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-16-Pro-Max-model-views.png",
+      "https://cse.com.ng/wp-content/uploads/2026/09/Apple-iPhone-16-Pro-family-product-view.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/6079b8c54db09c1c9a4e4f71a17ed1b8.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/d72cab2824fe7fd0922430c9768aa640.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/2469eb82c981f84376573d00ee16cce4.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/IMG-20260819-WA0043.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -2451,13 +2578,19 @@ export const retailInventory = Object.freeze([
       {
         "storage": "1TB",
         "price": null
+      },
+      {
+        "storage": "512GB · Physical SIM + eSIM",
+        "price": 880000
       }
     ],
     "colors": [],
     "gallery": [
       "/images/store/14promax-1-720.webp",
       "/images/store/14promax-2-720.webp",
-      "/images/store/14promax-3-720.webp"
+      "/images/store/14promax-3-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-14pro-product-photography.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-14pro-black-product-photography.jpg"
     ]
   },
   {
@@ -2536,14 +2669,23 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "256GB",
-        "price": 470000
+        "price": 540000
       },
       {
         "storage": "128GB",
         "price": 430000
+      },
+      {
+        "storage": "512GB",
+        "price": 590000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "/images/store/12promax-1-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-12pro-photograph.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Official-Apple-iPhone-12pro-side-product-photo.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -3323,7 +3465,7 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 530000
+        "price": 400000
       },
       {
         "storage": "256GB",
@@ -3342,7 +3484,8 @@ export const retailInventory = Object.freeze([
     "gallery": [
       "/images/store/13pro-1-720.webp",
       "/images/store/13pro-2-720.webp",
-      "/images/store/13pro-3-720.webp"
+      "/images/store/13pro-3-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-13pro-product-photography.jpg"
     ]
   },
   {
@@ -3523,13 +3666,19 @@ export const retailInventory = Object.freeze([
       {
         "storage": "1TB",
         "price": null
+      },
+      {
+        "storage": "256GB · Physical SIM + eSIM",
+        "price": 1150000
       }
     ],
     "colors": [],
     "gallery": [
       "/images/store/16pro-1-720.webp",
       "/images/store/16pro-2-720.webp",
-      "/images/store/16pro-3-720.webp"
+      "/images/store/16pro-3-720.webp",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Official-Apple-iPhone-16-Pro-lineup-—-front-and-rear.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Official-Apple-iPhone-16-Pro-lineup-—-black-natural-white-and-desert-titanium.jpg"
     ]
   },
   {
@@ -3741,6 +3890,56 @@ export const retailInventory = Object.freeze([
     "gallery": [
       "/images/store/18promax-1-720.webp",
       "/images/store/iphone-18-pro-max.webp"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "category": "iphones",
+    "condition": "Brand New",
+    "slug": "iphone-16-pro-brand-new",
+    "legacySlug": "iphone-16-pro-brand-new",
+    "isPhone": true,
+    "image": "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-16-Pro-official-model-views.png",
+    "variants": [
+      {
+        "storage": "256GB · Physical SIM · Not activated · Natural Titanium",
+        "price": 1480000
+      },
+      {
+        "storage": "256GB · Physical SIM Not activated White & Desert",
+        "price": 1400000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://cse.com.ng/wp-content/uploads/2026/09/iPhone-16-Pro-official-model-views.png",
+      "https://cse.com.ng/wp-content/uploads/2026/09/Apple-iPhone-16-Pro-family-product-view.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/6079b8c54db09c1c9a4e4f71a17ed1b8.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/d72cab2824fe7fd0922430c9768aa640.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/2469eb82c981f84376573d00ee16cce4.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/08/IMG-20260819-WA0043.jpg"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "category": "iphones",
+    "condition": "Brand New",
+    "slug": "iphone-15-pro-max-brand-new",
+    "legacySlug": "iphone-15-pro-max-brand-new",
+    "isPhone": true,
+    "image": "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-15pro-product-photography.jpg",
+    "variants": [
+      {
+        "storage": "256GB · Physical SIM + eSIM Activated",
+        "price": 1100000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-15pro-product-photography.jpg",
+      "https://cse.com.ng/wp-content/uploads/2026/10/Apple-official-iPhone-15pro-colors-product-photography.jpg"
     ]
   }
 ]);

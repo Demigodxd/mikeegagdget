@@ -23,6 +23,10 @@ const escapeHtml = (value = "") => String(value)
   .replaceAll("'", "&#039;");
 
 const escapeJson = (value) => JSON.stringify(value).replaceAll("<", "\\u003c");
+const listedVariantPrice = (variant) => {
+  if (!variant?.price) return "Confirm Price";
+  return variant.priceMax ? `${formatNaira(variant.price)} – ${formatNaira(variant.priceMax)}` : formatNaira(variant.price);
+};
 const cleanGeneratedOutput = (value) => value.replace(/[ \t]+$/gm, "");
 const formatNaira = (value) => new Intl.NumberFormat("en-NG", {
   style: "currency",
@@ -237,7 +241,7 @@ const renderVariantSelector = (product) => `
           data-price="${variant.price ?? ""}"
           data-price-confirm="${variant.priceNeedsExtraConfirmation ? "true" : "false"}"
           aria-pressed="${variant.storage === product.defaultStorage ? "true" : "false"}"
-        ><span class="storage-name">${escapeHtml(variant.storage.replace(/Non-Active/gi,"Not Activated"))}</span><span class="storage-price">${variant.price ? formatNaira(variant.price) : 'Confirm Price'}</span></button>`).join("")}
+        ><span class="storage-name">${escapeHtml(variant.storage.replace(/Non-Active/gi,"Not Activated"))}</span><span class="storage-price">${listedVariantPrice(variant)}</span></button>`).join("")}
     </div>
     <div class="selection-grid">
       <label>
@@ -256,9 +260,7 @@ const renderVariantSelector = (product) => `
     <div class="price-display">
       <span data-variant-label>${escapeHtml(product.model)} ${escapeHtml(product.defaultStorage)}</span>
       <strong data-product-price>${escapeHtml(
-        product.variants.find((variant) => variant.storage === product.defaultStorage)?.price
-          ? formatNaira(product.variants.find((variant) => variant.storage === product.defaultStorage).price)
-          : "Confirm Price"
+        listedVariantPrice(product.variants.find((variant) => variant.storage === product.defaultStorage))
       )}</strong>
       <small data-price-note>Confirm today’s price, condition and stock before payment.</small>
     </div>
@@ -279,7 +281,7 @@ const renderVariantCards = (product) => `
         <article class="variant-card" data-variant-card="${escapeHtml(variant.storage)}">
           <div class="variant-card-top"><span>${escapeHtml(product.brand)}</span><span>${escapeHtml(product.stockStatus)}</span></div>
           <h3>${escapeHtml(product.model)} ${escapeHtml(variant.storage)}</h3>
-          <p class="variant-price">${variant.price ? formatNaira(variant.price) : "Confirm Price"}</p>
+          <p class="variant-price">${listedVariantPrice(variant)}</p>
           <button type="button" data-select-variant="${escapeHtml(variant.storage)}" aria-pressed="${variant.storage===product.defaultStorage}">Choose ${escapeHtml(variant.storage)}</button>
         </article>`).join("")}
     </div></details>

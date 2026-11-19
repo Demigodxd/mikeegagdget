@@ -256,7 +256,7 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "256GB",
-        "price": 1070000
+        "price": 1060000
       },
       {
         "storage": "512GB",
@@ -575,7 +575,7 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "256GB",
-        "price": 1220000
+        "price": 1250000
       },
       {
         "storage": "512GB",
@@ -626,7 +626,7 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 625000
+        "price": 630000
       },
       {
         "storage": "256GB",
@@ -701,12 +701,12 @@ export const retailInventory = Object.freeze([
     "image": "/images/store/15pro-1-720.webp",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 870000
+        "storage": "128GB",
+        "price": 770000
       },
       {
-        "storage": "128GB",
-        "price": 795000
+        "storage": "256GB",
+        "price": 845000
       },
       {
         "storage": "512GB",
@@ -3356,15 +3356,15 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "256GB",
-        "price": 940000
+        "price": 965000
       },
       {
         "storage": "512GB",
-        "price": null
+        "price": 1050000
       },
       {
         "storage": "1TB",
-        "price": null
+        "price": 1130000
       }
     ],
     "colors": [],
@@ -3385,12 +3385,12 @@ export const retailInventory = Object.freeze([
     "image": "/images/store/14promax-1-720.webp",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 820000
+        "storage": "128GB",
+        "price": 760000
       },
       {
-        "storage": "128GB",
-        "price": 750000
+        "storage": "256GB",
+        "price": 800000
       },
       {
         "storage": "512GB",
@@ -3425,16 +3425,16 @@ export const retailInventory = Object.freeze([
     "image": "/images/store/14pro-1-720.webp",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 705000
-      },
-      {
         "storage": "128GB",
         "price": 660000
       },
       {
+        "storage": "256GB",
+        "price": 700000
+      },
+      {
         "storage": "512GB",
-        "price": null
+        "price": 730000
       },
       {
         "storage": "1TB",
@@ -3460,11 +3460,11 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 370000
+        "price": 380000
       },
       {
         "storage": "256GB",
-        "price": 415000
+        "price": 420000
       },
       {
         "storage": "512GB",
@@ -3489,16 +3489,16 @@ export const retailInventory = Object.freeze([
     "image": "/images/store/12promax-1-720.webp",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 540000
+        "storage": "128GB",
+        "price": 440000
       },
       {
-        "storage": "128GB",
-        "price": 430000
+        "storage": "256GB",
+        "price": 480000
       },
       {
         "storage": "512GB",
-        "price": 590000
+        "price": 490000
       }
     ],
     "colors": [],
@@ -3516,18 +3516,23 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-12-pro",
     "legacySlug": "iphone-12-pro",
     "isPhone": true,
-    "image": "/images/store/12pro-1-720.webp",
+    "image": "https://revenes.com/wp-content/uploads/2021/12/46.png",
     "variants": [
       {
         "storage": "128GB",
-        "price": 355000
+        "price": 375000
       },
       {
         "storage": "256GB",
-        "price": 385000
+        "price": 390000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/12/46.png",
+      "https://revenes.com/wp-content/uploads/2021/11/d4fa0066-c056-4d15-9cc9-310c254fda08.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/26cdfce3-29b2-41d1-90d5-37357de136be.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -3537,14 +3542,23 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-12",
     "legacySlug": "iphone-12",
     "isPhone": true,
-    "image": "/images/catalog/iphone-12.webp",
+    "image": "https://revenes.com/wp-content/uploads/2021/11/058159ec-35cd-4dfa-be36-eb4abc69fdd8-1.jpg",
     "variants": [
       {
+        "storage": "64GB",
+        "price": 270000
+      },
+      {
         "storage": "128GB",
-        "price": 290000
+        "price": 310000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/058159ec-35cd-4dfa-be36-eb4abc69fdd8-1.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/4d909d82-c138-4a44-bc52-cb824c3dc9d4-2.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/6ab5d070-46b4-4ee4-a3d7-8c7079471e76-2.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -3571,18 +3585,23 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-11",
     "legacySlug": "iphone-11",
     "isPhone": true,
-    "image": "/images/store/11-1-720.webp",
+    "image": "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-UK-Used-1.png",
     "variants": [
       {
-        "storage": "128GB",
-        "price": 270000
+        "storage": "64GB",
+        "price": 240000
       },
       {
-        "storage": "64GB",
-        "price": 225000
+        "storage": "128GB",
+        "price": 275000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-UK-Used-1.png",
+      "https://revenes.com/wp-content/uploads/2021/11/5c65feca-6b8a-4a9a-9b78-ec39bd2f414f.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/71b091c3-56a6-4749-a890-1213b554aca0.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -3592,7 +3611,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-xr",
     "legacySlug": "iphone-xr",
     "isPhone": true,
-    "image": "/images/catalog/iphone-xr.webp",
+    "image": "https://revenes.com/wp-content/uploads/2021/11/c52d1fcd-06f9-493d-bfc0-5d4a945bbf53.jpg",
     "variants": [
       {
         "storage": "64GB",
@@ -3600,10 +3619,19 @@ export const retailInventory = Object.freeze([
       },
       {
         "storage": "128GB",
-        "price": 225000
+        "price": 235000
+      },
+      {
+        "storage": "256GB",
+        "price": 245000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/c52d1fcd-06f9-493d-bfc0-5d4a945bbf53.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/7b2c4606-106c-4691-b7e7-cf51f49a75c5.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/094ad2f2-779b-4860-9abe-fe4f5daf032c.jpg"
+    ]
   },
   {
     "brand": "Apple",
@@ -3626,27 +3654,19 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy Z Fold5",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-z-fold-5",
     "legacySlug": "samsung-z-fold-5",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f946bzkgafa/gallery/africa-en-galaxy-z-fold5-f946-471486-sm-f946bzkgafa-538008113?$1164_776_PNG$",
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 675800
+        "storage": "256GB",
+        "price": 700000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 697600
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 697600
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 719400
+        "storage": "512GB",
+        "price": 720000
       },
       {
         "storage": "1TB · Single SIM",
@@ -3678,27 +3698,19 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy Z Fold4",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-z-fold-4",
     "legacySlug": "samsung-z-fold-4",
     "isPhone": true,
     "image": "https://api.samsungmobilepress.com/api/v1/file/BCD3E905A12306A2526920B4D7EDB208A979DB69AD23D55DFDDE207118211AA34547C70B809E1BE459D56E7A71630FAECFE0CA5308A7E0C4BECA2A06B6A32477035716AD8D162CDF3AA71711C53B6534AE2089CA84CA01224D6B7486A5AE98DC4F39B0A163898791A6E71D25677D41187C999BD0B49BE9639D27ADA6EBF3626D21218C752C8B794849893E348951BF4C",
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 566800
+        "storage": "256GB",
+        "price": 550000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 588600
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 588600
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 610400
+        "storage": "512GB",
+        "price": 560000
       }
     ],
     "colors": [],
@@ -3722,27 +3734,19 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy Z Fold3",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-z-fold-3",
     "legacySlug": "samsung-z-fold-3",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/2108/gallery/levant-galaxy-z-fold3-f926-5g-sm-f926bzgdmea-477353599?$Q90_684_547_JPG$",
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 501400
+        "storage": "256GB",
+        "price": 490000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 523200
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 523200
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 545000
+        "storage": "512GB",
+        "price": 510000
       }
     ],
     "colors": [],
@@ -3766,7 +3770,7 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy Z Flip4",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-z-flip-4",
     "legacySlug": "samsung-z-flip-4",
     "isPhone": true,
@@ -3774,11 +3778,11 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 327000
+        "price": 285000
       },
       {
         "storage": "256GB",
-        "price": 348800
+        "price": 295000
       },
       {
         "storage": "512GB",
@@ -3806,27 +3810,23 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S24 Ultra",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-s24-ultra",
     "legacySlug": "samsung-s24-ultra",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s928bzycafb/gallery/africa-en-galaxy-s24-s928-490614-sm-s928bzycafb-539860150?$Q90_684_547_JPG$",
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 861100
+        "storage": "256GB",
+        "price": 810000
       },
       {
         "storage": "256GB · Dual SIM",
-        "price": 882900
+        "price": 840000
       },
       {
-        "storage": "512GB · Single SIM",
-        "price": 904700
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 926500
+        "storage": "512GB",
+        "price": 890000
       }
     ],
     "colors": [],
@@ -3850,19 +3850,15 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S24+",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-s24-plus",
     "legacySlug": "samsung-s24-plus",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s926bzacafb/gallery/africa-en-galaxy-s24-plus-490682-sm-s926bzacafb-539859473?$Q90_684_547_JPG$",
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 610400
-      },
-      {
-        "storage": "256GB · Dual SIM",
-        "price": 632200
+        "storage": "256GB",
+        "price": 590000
       },
       {
         "storage": "512GB · Single SIM",
@@ -3894,27 +3890,27 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S23 Ultra",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-s23-ultra",
     "legacySlug": "samsung-s23-ultra",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s918bzkcafc/gallery/africa-en-galaxy-s23-s918-446698-sm-s918bzkcafc-535214293?$1164_776_PNG$",
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 654000
+        "storage": "256GB",
+        "price": 620000
       },
       {
         "storage": "256GB · Dual SIM",
-        "price": 675800
+        "price": 640000
       },
       {
-        "storage": "512GB · Single SIM",
-        "price": 675800
+        "storage": "512GB",
+        "price": 680000
       },
       {
         "storage": "512GB · Dual SIM",
-        "price": 697600
+        "price": 700000
       }
     ],
     "colors": [],
@@ -3938,27 +3934,24 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S23+",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-s23-plus",
     "legacySlug": "samsung-s23-plus",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s916bzkbafa/gallery/africa-en-galaxy-s23-s916-446693-sm-s916bzkbafa-535213936?$1164_776_PNG$",
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 479600
+        "storage": "256GB",
+        "price": 445000,
+        "priceMax": 450000
       },
       {
         "storage": "256GB · Dual SIM",
-        "price": 501400
+        "price": 470000
       },
       {
-        "storage": "512GB · Single SIM",
-        "price": 501400
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 523200
+        "storage": "512GB",
+        "price": 490000
       }
     ],
     "colors": [],
@@ -3982,27 +3975,21 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S23",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-s23",
     "legacySlug": "samsung-s23",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s911bzkcafa/gallery/africa-en-galaxy-s23-s911-446620-sm-s911bzkcafa-535214522?$1164_776_PNG$",
     "variants": [
       {
-        "storage": "128GB · Single SIM",
-        "price": 392400
+        "storage": "128GB · eSIM",
+        "price": 360000,
+        "priceMax": 370000
       },
       {
-        "storage": "128GB · Dual SIM",
-        "price": 414200
-      },
-      {
-        "storage": "256GB · Single SIM",
-        "price": 414200
-      },
-      {
-        "storage": "256GB · Dual SIM",
-        "price": 436000
+        "storage": "256GB · eSIM",
+        "price": 400000,
+        "priceMax": 405000
       },
       {
         "storage": "512GB · Single SIM",
@@ -4030,35 +4017,24 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S22 Ultra",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-s22-ultra",
     "legacySlug": "samsung-s22-ultra",
     "isPhone": true,
     "image": "https://api.samsungmobilepress.com/api/v1/file/8E2B51BCCA6D9865C7D40AB1BA5E3CD68863E4FB7B1C06E8140AD5C9AD04EAE59205193D00E137519EE5D1F73B37F6861A9097C4A154B83261134AC16D50AF4F02E34AED483D0929CC4B437D0E6C32515218AAB561C64A96BE0B6BD0F9B8C12CE23D4A1E7455975C181B210F24D902B0CDB1D2EC21478DA5FC21EFED4FF5C698BD6C94653959C56EA6F1B7E0F9F5CAB479FCA951143FFCFD6084E30C2937840DA9822CF445651AC7ED6DFA356438091C",
     "variants": [
       {
-        "storage": "128GB · Single SIM",
-        "price": 490500
+        "storage": "128GB · Single SIM + eSIM",
+        "price": 440000,
+        "priceMax": 450000
       },
       {
-        "storage": "128GB · Dual SIM",
-        "price": 512300
+        "storage": "256GB · Single SIM + eSIM",
+        "price": 510000
       },
       {
-        "storage": "256GB · Single SIM",
-        "price": 512300
-      },
-      {
-        "storage": "256GB · Dual SIM",
-        "price": 534100
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 534100
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 555900
+        "storage": "512GB · eSIM",
+        "price": 540000
       }
     ],
     "colors": [],
@@ -4082,19 +4058,23 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S22+",
     "category": "samsung",
-    "condition": "Used",
+    "condition": "UK Used",
     "slug": "samsung-s22-plus",
     "legacySlug": "samsung-s22-plus",
     "isPhone": true,
     "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2202/gallery/sg-galaxy-s22-plus-s906-410010-sm-s906eidgxsp-530867542?$Q90_684_547_JPG$",
     "variants": [
       {
-        "storage": "128GB · Single SIM",
-        "price": 327000
+        "storage": "128GB",
+        "price": 290000
       },
       {
         "storage": "256GB",
-        "price": 390000
+        "price": 325000
+      },
+      {
+        "storage": "256GB · Dual SIM",
+        "price": 330000
       }
     ],
     "colors": [],
@@ -4118,60 +4098,79 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S21 Ultra",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "UK Used",
     "slug": "samsung-s21-ultra",
     "legacySlug": "samsung-s21-ultra",
     "isPhone": true,
-    "image": "",
+    "image": "https://revenes.com/wp-content/uploads/2021/11/5.png",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 480000
+        "storage": "128GB",
+        "price": 310000
       },
       {
-        "storage": "128GB",
-        "price": 420000
+        "storage": "128GB · Org (confirm details)",
+        "price": 360000
+      },
+      {
+        "storage": "256GB · eSIM",
+        "price": 380000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/5.png",
+      "https://revenes.com/wp-content/uploads/2021/11/1.png",
+      "https://revenes.com/wp-content/uploads/2021/11/4.png"
+    ]
   },
   {
     "brand": "Samsung",
     "model": "Samsung Galaxy S21 Plus",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "UK Used",
     "slug": "samsung-s21-plus",
     "legacySlug": "samsung-s21-plus",
     "isPhone": true,
-    "image": "",
+    "image": "https://revenes.com/wp-content/uploads/2021/11/2-16.png",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 320000
+        "storage": "128GB",
+        "price": 240000
       },
       {
-        "storage": "128GB",
-        "price": 315000
+        "storage": "256GB",
+        "price": 255000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/2-16.png",
+      "https://revenes.com/wp-content/uploads/2021/11/4-10.png",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/73/4235552/1.jpg?2615"
+    ]
   },
   {
     "brand": "Samsung",
     "model": "Samsung Galaxy Note 20",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "UK Used",
     "slug": "samsung-note-20",
     "legacySlug": "samsung-note-20",
     "isPhone": true,
-    "image": "",
+    "image": "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-3.png",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 325000
+        "storage": "256GB · Original S Pen",
+        "price": 235000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-3.png",
+      "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-2.png",
+      "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-4.png"
+    ]
   },
   {
     "brand": "Samsung",
@@ -4483,52 +4482,75 @@ export const retailInventory = Object.freeze([
     "brand": "Samsung",
     "model": "Samsung Galaxy S20 FE",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "UK Used",
     "slug": "samsung-s20-fe",
     "legacySlug": "samsung-s20-fe",
     "isPhone": true,
-    "image": "",
+    "image": "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601-1.jpg",
     "variants": [
       {
         "storage": "Standard",
-        "price": 175000
+        "price": 170000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601-1.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/be967d69-a2bd-461a-a7c1-9f410afb15c1.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/31b99f33-a166-4159-9a67-735bd7e06f59.jpg"
+    ]
   },
   {
     "brand": "Samsung",
     "model": "Samsung Galaxy S21",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "UK Used",
     "slug": "samsung-s21",
     "legacySlug": "samsung-s21",
     "isPhone": true,
-    "image": "",
+    "image": "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0000.png",
     "variants": [
       {
-        "storage": "Standard",
+        "storage": "128GB",
+        "price": 235000
+      },
+      {
+        "storage": "256GB",
         "price": 245000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0000.png",
+      "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0007.png",
+      "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0005.png"
+    ]
   },
   {
     "brand": "Samsung",
     "model": "Samsung Galaxy S22",
     "category": "samsung",
-    "condition": "Confirm condition",
+    "condition": "UK Used",
     "slug": "samsung-s22",
     "legacySlug": "samsung-s22",
     "isPhone": true,
-    "image": "",
+    "image": "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-S22-UK-Used.png",
     "variants": [
       {
-        "storage": "Standard",
-        "price": 330000
+        "storage": "128GB",
+        "price": 275000
+      },
+      {
+        "storage": "256GB",
+        "price": 300000
       }
     ],
-    "colors": []
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-S22-UK-Used.png",
+      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-5G2.png",
+      "https://revenes.com/wp-content/uploads/2023/04/Samsung-Galaxy-S22-5G-Single-SIM-UK-Used-4.png"
+    ]
   },
   {
     "brand": "Apple",
@@ -4571,11 +4593,11 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 400000
+        "price": 490000
       },
       {
         "storage": "256GB",
-        "price": null
+        "price": 530000
       },
       {
         "storage": "512GB",
@@ -4606,11 +4628,11 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 658800
+        "price": 580000
       },
       {
         "storage": "256GB",
-        "price": 635000
+        "price": 640000
       },
       {
         "storage": "512GB",
@@ -4644,7 +4666,7 @@ export const retailInventory = Object.freeze([
       },
       {
         "storage": "256GB",
-        "price": 520000
+        "price": 500000
       },
       {
         "storage": "512GB",
@@ -4666,15 +4688,15 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-14-plus-uk-used",
     "legacySlug": "iphone-14-plus",
     "isPhone": true,
-    "image": "/images/catalog/iphone-14-plus.webp",
+    "image": "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-11.png",
     "variants": [
       {
         "storage": "128GB",
-        "price": 520000
+        "price": 500000
       },
       {
         "storage": "256GB",
-        "price": 585000
+        "price": 560000
       },
       {
         "storage": "512GB",
@@ -4683,8 +4705,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "/images/catalog/iphone-14-plus.webp",
-      "/images/catalog/uk-iphone-14-plus-1.webp"
+      "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-11.png",
+      "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-1.png",
+      "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-15.png"
     ]
   },
   {
@@ -4699,7 +4722,7 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 655000
+        "price": 670000
       },
       {
         "storage": "256GB",
@@ -4759,11 +4782,11 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 1180000
+        "price": 1030000
       },
       {
         "storage": "256GB",
-        "price": null
+        "price": 1105000
       },
       {
         "storage": "512GB",
@@ -4772,10 +4795,6 @@ export const retailInventory = Object.freeze([
       {
         "storage": "1TB",
         "price": null
-      },
-      {
-        "storage": "256GB · Physical SIM + eSIM",
-        "price": 1150000
       }
     ],
     "colors": [],
@@ -4828,15 +4847,24 @@ export const retailInventory = Object.freeze([
     "image": "/images/store/17-1-720.webp",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 1270000
+        "storage": "256GB · White",
+        "price": 1030000,
+        "color": "White"
+      },
+      {
+        "storage": "256GB · Lavender",
+        "price": 1050000,
+        "color": "Lavender"
       },
       {
         "storage": "512GB",
         "price": 1600000
       }
     ],
-    "colors": [],
+    "colors": [
+      "White",
+      "Lavender"
+    ],
     "gallery": [
       "/images/store/17-1-720.webp",
       "/images/store/17-2-720.webp",
@@ -4854,19 +4882,31 @@ export const retailInventory = Object.freeze([
     "image": "/images/store/17pro-1-720.webp",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 1425000
+        "storage": "1TB · Silver",
+        "price": 1800000,
+        "color": "Silver"
       },
       {
-        "storage": "512GB",
-        "price": null
+        "storage": "512GB · Cosmic Orange",
+        "price": 1580000,
+        "color": "Cosmic Orange"
       },
       {
-        "storage": "1TB",
-        "price": null
+        "storage": "256GB · Deep Blue · AB Grade",
+        "price": 1440000,
+        "color": "Deep Blue"
+      },
+      {
+        "storage": "256GB · Deep Blue",
+        "price": 1480000,
+        "color": "Deep Blue"
       }
     ],
-    "colors": [],
+    "colors": [
+      "Silver",
+      "Cosmic Orange",
+      "Deep Blue"
+    ],
     "gallery": [
       "/images/store/17pro-1-720.webp",
       "/images/store/17pro-2-720.webp",
@@ -4881,15 +4921,27 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-17-pro-max-uk-used",
     "legacySlug": "iphone-17-pro-max",
     "isPhone": true,
-    "image": "/images/store/17promax-1-720.webp",
+    "image": "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-5.png",
     "variants": [
       {
-        "storage": "256GB",
-        "price": 1650000
+        "storage": "512GB · Cosmic Orange",
+        "price": 1800000,
+        "color": "Cosmic Orange"
       },
       {
-        "storage": "512GB",
-        "price": null
+        "storage": "512GB · Deep Blue",
+        "price": 1800000,
+        "color": "Deep Blue"
+      },
+      {
+        "storage": "256GB · Deep Blue",
+        "price": 1600000,
+        "color": "Deep Blue"
+      },
+      {
+        "storage": "256GB · Cosmic Orange · Device message (confirm details)",
+        "price": 1580000,
+        "color": "Cosmic Orange"
       },
       {
         "storage": "1TB",
@@ -4900,10 +4952,14 @@ export const retailInventory = Object.freeze([
         "price": null
       }
     ],
-    "colors": [],
+    "colors": [
+      "Cosmic Orange",
+      "Deep Blue"
+    ],
     "gallery": [
-      "/images/store/17promax-1-720.webp",
-      "/images/store/17promax-2-720.webp"
+      "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-5.png",
+      "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-1.png",
+      "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-2.png"
     ]
   },
   {
@@ -6032,25 +6088,17 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "128GB · Single SIM",
-        "price": 523200
+        "storage": "128GB",
+        "price": 500000
       },
       {
-        "storage": "128GB · Dual SIM",
-        "price": 545000
-      },
-      {
-        "storage": "256GB · Single SIM",
-        "price": 545000
-      },
-      {
-        "storage": "256GB · Dual SIM",
-        "price": 566800
+        "storage": "256GB",
+        "price": 550000
       }
     ],
     "colors": [],
     "model": "Samsung Galaxy S24",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s921bzabafb/gallery/africa-en-galaxy-s24-490613-sm-s921bzabafb-539859214?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s921bzabafb/gallery/africa-en-galaxy-s24-490613-sm-s921bzabafb-539859197?$Q90_684_547_JPG$",
@@ -6112,25 +6160,21 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
+        "storage": "256GB",
+        "price": 690000
+      },
+      {
         "storage": "128GB · Single SIM",
         "price": 577700
       },
       {
         "storage": "128GB · Dual SIM",
         "price": 599500
-      },
-      {
-        "storage": "256GB · Single SIM",
-        "price": 599500
-      },
-      {
-        "storage": "256GB · Dual SIM",
-        "price": 621300
       }
     ],
     "colors": [],
     "model": "Samsung Galaxy S25",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/2501/gallery/africa-en-galaxy-s25-s931-sm-s931bdbiafb-544674843?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/2501/gallery/africa-en-galaxy-s25-s931-sm-s931bdbiafb-544674826?$Q90_684_547_JPG$",
@@ -6156,12 +6200,8 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 730300
-      },
-      {
-        "storage": "256GB · Dual SIM",
-        "price": 763000
+        "storage": "256GB",
+        "price": 790000
       },
       {
         "storage": "512GB · Single SIM",
@@ -6174,7 +6214,7 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "model": "Samsung Galaxy S25+",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/2501/gallery/africa-en-galaxy-s25-s936-sm-s936bdbiafb-544654458?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/2501/gallery/africa-en-galaxy-s25-s936-sm-s936bdbiafb-544654441?$Q90_684_547_JPG$",
@@ -6200,20 +6240,12 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 959200
+        "storage": "256GB",
+        "price": 1050000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 981000
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 1002800
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 1035500
+        "storage": "512GB",
+        "price": 1130000
       },
       {
         "storage": "1TB · Single SIM",
@@ -6226,7 +6258,7 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "model": "Samsung Galaxy S25 Ultra",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s938bztiafb/gallery/africa-en-galaxy-s25-s938-534322-sm-s938bztiafb-544984539?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s938bztiafb/gallery/africa-en-galaxy-s25-s938-534322-sm-s938bztiafb-544984515?$Q90_684_547_JPG$",
@@ -6328,12 +6360,8 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 872000
-      },
-      {
-        "storage": "256GB · Dual SIM",
-        "price": 926500
+        "storage": "256GB",
+        "price": 930000
       },
       {
         "storage": "512GB · Single SIM",
@@ -6346,7 +6374,7 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "model": "Samsung Galaxy S26+",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s947bzviafb/gallery/africa-en-galaxy-s26-plus-s947-sm-s947bzviafb-551435931?$1164_776_PNG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s947bzviafb/gallery/africa-en-galaxy-s26-plus-s947-sm-s947bzviafb-551435914?$1164_776_PNG$",
@@ -6372,20 +6400,12 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 1144500
+        "storage": "256GB",
+        "price": 1150000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 1177200
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 1335250
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 1362500
+        "storage": "512GB",
+        "price": 1440000
       },
       {
         "storage": "1TB · Single SIM",
@@ -6398,7 +6418,7 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "model": "Samsung Galaxy S26 Ultra",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s948bzviafb/gallery/africa-en-galaxy-s26-ultra-s948-578665-sm-s948bzviafb-551415403?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s948bzviafb/gallery/africa-en-galaxy-s26-ultra-s948-578665-sm-s948bzviafb-551415379?$Q90_684_547_JPG$",
@@ -6425,16 +6445,16 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "128GB",
-        "price": 283400
+        "price": 255000
       },
       {
         "storage": "256GB",
-        "price": 305200
+        "price": 265000
       }
     ],
     "colors": [],
     "model": "Samsung Galaxy Z Flip3",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/uk/2108/gallery/uk-galaxy-z-flip3-f711-5g-sm-f711bzkaeua-477356139?$1164_776_PNG$",
       "https://images.samsung.com/is/image/samsung/p6pim/uk/2108/gallery/uk-galaxy-z-flip3-f711-5g-sm-f711bzkaeua-477356123?$1164_776_PNG$",
@@ -6461,16 +6481,16 @@ export const retailInventory = Object.freeze([
     "variants": [
       {
         "storage": "256GB",
-        "price": 403300
+        "price": 370000
       },
       {
         "storage": "512GB",
-        "price": 425100
+        "price": 390000
       }
     ],
     "colors": [],
     "model": "Samsung Galaxy Z Flip5",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f731blgeafb/gallery/africa-en-galaxy-z-flip5-f731-467794-sm-f731blgeafb-538007135?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f731blgeafb/gallery/africa-en-galaxy-z-flip5-f731-467794-sm-f731blgeafb-538007117?$Q90_684_547_JPG$",
@@ -6496,25 +6516,17 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 523200
+        "storage": "256GB",
+        "price": 450000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 545000
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 545000
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 566800
+        "storage": "512GB",
+        "price": 470000
       }
     ],
     "colors": [],
     "model": "Samsung Galaxy Z Flip6",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f741bzseafb/gallery/africa-en-galaxy-zflip6-f741-513164-sm-f741bzseafb-542774729?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f741bzseafb/gallery/africa-en-galaxy-zflip6-f741-513164-sm-f741bzseafb-542774711?$Q90_684_547_JPG$",
@@ -6620,20 +6632,12 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 981000
+        "storage": "256GB",
+        "price": 980000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 1013700
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 1013700
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 1046400
+        "storage": "512GB",
+        "price": 1000000
       },
       {
         "storage": "1TB · Single SIM",
@@ -6646,7 +6650,7 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "model": "Samsung Galaxy Z Fold6",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f956blidafb/gallery/africa-en-galaxy-z-fold6-f956-513165-sm-f956blidafb-542770989?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f956blidafb/gallery/africa-en-galaxy-z-fold6-f956-513165-sm-f956blidafb-542770973?$Q90_684_547_JPG$",
@@ -6672,20 +6676,12 @@ export const retailInventory = Object.freeze([
     "isPhone": true,
     "variants": [
       {
-        "storage": "256GB · Single SIM",
-        "price": 1362500
+        "storage": "256GB",
+        "price": 1280000
       },
       {
-        "storage": "256GB · Dual SIM",
-        "price": 1395200
-      },
-      {
-        "storage": "512GB · Single SIM",
-        "price": 1395200
-      },
-      {
-        "storage": "512GB · Dual SIM",
-        "price": 1427900
+        "storage": "512GB",
+        "price": 1390000
       },
       {
         "storage": "1TB · Single SIM",
@@ -6698,7 +6694,7 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "model": "Samsung Galaxy Z Fold7",
-    "condition": "Used",
+    "condition": "UK Used",
     "gallery": [
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f966bdbdafb/gallery/africa-en-galaxy-z-fold7-f966-554169-sm-f966bdbdafb-548455391?$Q90_684_547_JPG$",
       "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-f966bdbdafb/gallery/africa-en-galaxy-z-fold7-f966-554169-sm-f966bdbdafb-548455379?$Q90_684_547_JPG$",
@@ -8493,6 +8489,491 @@ export const retailInventory = Object.freeze([
       "sim": "Check SIM and eSIM compatibility for the exact model."
     },
     "specificationsSource": "https://support.google.com/pixelphone/answer/7158570?hl=en"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S8",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s8-uk-used",
+    "legacySlug": "samsung-s8-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-1.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 133000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-1.png",
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-8.png",
+      "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/04/6478004/1.jpg?7567"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S8 Active",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s8-active-uk-used",
+    "legacySlug": "samsung-s8-active-uk-used",
+    "isPhone": true,
+    "image": "https://img.us.news.samsung.com/us/wp-content/uploads/2017/08/14152549/S8Active_MeteorGray_Front.jpg",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 120000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://img.us.news.samsung.com/us/wp-content/uploads/2017/08/14152549/S8Active_MeteorGray_Front.jpg",
+      "https://img.us.news.samsung.com/us/wp-content/uploads/2017/08/14152552/S8Active_MeteorGray_Back.jpg",
+      "https://img.us.news.samsung.com/us/wp-content/uploads/2017/08/14152553/S8Active_Gold_Front.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S8+",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s8-plus-uk-used",
+    "legacySlug": "samsung-s8-plus-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 145000,
+        "priceMax": 153000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used.png",
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-2.png",
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-3.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S9",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s9-uk-used",
+    "legacySlug": "samsung-s9-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/2-3.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 143000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/2-3.png",
+      "https://revenes.com/wp-content/uploads/2021/11/1-3.png",
+      "https://revenes.com/wp-content/uploads/2021/11/3-3.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S9+",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s9-plus-uk-used",
+    "legacySlug": "samsung-s9-plus-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/3-13.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 163000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/3-13.png",
+      "https://revenes.com/wp-content/uploads/2021/11/1-12.png",
+      "https://revenes.com/wp-content/uploads/2021/11/2-13.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S10e",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s10e-uk-used",
+    "legacySlug": "samsung-s10e-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-1.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 173000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-1.png",
+      "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-2.png",
+      "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-3.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S10",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s10-uk-used",
+    "legacySlug": "samsung-s10-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/abfd2ffb-94a5-48d4-8faa-ae5f87c49144-1.jpg",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 208000,
+        "priceMax": 210000
+      },
+      {
+        "storage": "Dual SIM",
+        "price": 219000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/abfd2ffb-94a5-48d4-8faa-ae5f87c49144-1.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/1567ee2a-e091-4871-a252-8e21c42c3479.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/f8f3b1ed-1d49-4869-9d64-c450f72229d3.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S10+",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s10-plus-uk-used",
+    "legacySlug": "samsung-s10-plus-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/70cb82dd-441d-4c4f-98d6-e93713a56bf6-1.jpg",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 245000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/70cb82dd-441d-4c4f-98d6-e93713a56bf6-1.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/26c0c6ac-f1e6-4a45-b4ee-ac0fdecece0f.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/eca802d5-d37f-4e36-9d77-3ca33b171b9a.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S20",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s20-uk-used",
+    "legacySlug": "samsung-s20-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/12/15_20221102_113420_0014.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 205000
+      },
+      {
+        "storage": "Dual SIM",
+        "price": 220000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/12/15_20221102_113420_0014.png",
+      "https://revenes.com/wp-content/uploads/2021/12/1_20221102_113420_0000.png",
+      "https://revenes.com/wp-content/uploads/2021/12/2_20221102_113420_0001.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S20+",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s20-plus-uk-used",
+    "legacySlug": "samsung-s20-plus-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/a3f10c03-ff86-49f8-bb18-d2e5cd49e9ab.jpg",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 220000
+      },
+      {
+        "storage": "Dual SIM",
+        "price": 230000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/a3f10c03-ff86-49f8-bb18-d2e5cd49e9ab.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/5ac1379f-707a-443b-8ba5-278cb5545214.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/821b4fe3-f259-4a4f-88ba-5247884d2b84.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S20 Ultra",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s20-ultra-uk-used",
+    "legacySlug": "samsung-s20-ultra-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/57.png",
+    "variants": [
+      {
+        "storage": "128GB",
+        "price": 270000
+      },
+      {
+        "storage": "256GB",
+        "price": 280000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/57.png",
+      "https://revenes.com/wp-content/uploads/2021/11/56.png",
+      "https://revenes.com/wp-content/uploads/2021/11/Galaxy-S20-Ultra-1.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S21 FE",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-s21-fe-uk-used",
+    "legacySlug": "samsung-s21-fe-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-2.png",
+    "variants": [
+      {
+        "storage": "Single SIM",
+        "price": 205000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-2.png",
+      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-3-1.png",
+      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-3.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 8",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-note-8-uk-used",
+    "legacySlug": "samsung-note-8-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 153000,
+        "priceMax": 158000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used.png",
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used-1.png",
+      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used-2.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 9",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-note-9-uk-used",
+    "legacySlug": "samsung-note-9-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-7.png",
+    "variants": [
+      {
+        "storage": "Standard",
+        "price": 168000,
+        "priceMax": 175000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-7.png",
+      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-5.png",
+      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-2.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 10",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-note-10-uk-used",
+    "legacySlug": "samsung-note-10-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-3.png",
+    "variants": [
+      {
+        "storage": "Standard · Original S Pen",
+        "price": 220000,
+        "priceMax": 225000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-3.png",
+      "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-1.png",
+      "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-2.png"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 10+",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-note-10-plus-uk-used",
+    "legacySlug": "samsung-note-10-plus-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/6fb35fe7-9f82-47e2-a94e-8bb65f939288.jpg",
+    "variants": [
+      {
+        "storage": "Standard · Original S Pen",
+        "price": 290000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/6fb35fe7-9f82-47e2-a94e-8bb65f939288.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/c12e6fa9-d246-4d9d-a701-445f69bff2e1.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/f44a77e7-d2ac-4678-9160-df5ea9f22d13.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 20 Ultra",
+    "category": "samsung",
+    "condition": "UK Used",
+    "slug": "samsung-note-20-ultra-uk-used",
+    "legacySlug": "samsung-note-20-ultra-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/4-9.png",
+    "variants": [
+      {
+        "storage": "Storage to confirm",
+        "price": 345000
+      },
+      {
+        "storage": "256GB",
+        "price": 365000
+      },
+      {
+        "storage": "256GB · Dual SIM",
+        "price": 400000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/4-9.png",
+      "https://revenes.com/wp-content/uploads/2021/11/3-11.png",
+      "https://revenes.com/wp-content/uploads/2021/11/2-11.png"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-11-pro-max-uk-used",
+    "legacySlug": "iphone-11-pro-max-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-Pro-Max-UK-Used-1.png",
+    "variants": [
+      {
+        "storage": "64GB",
+        "price": 300000
+      },
+      {
+        "storage": "256GB",
+        "price": 350000
+      },
+      {
+        "storage": "512GB",
+        "price": 360000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-Pro-Max-UK-Used-1.png",
+      "https://revenes.com/wp-content/uploads/2021/10/05cd77d5-8be7-4711-aaf6-ffb4bc702d60-1.jpg",
+      "https://revenes.com/wp-content/uploads/2021/10/74c5914e-b75f-4d1d-a921-cf56e9156412.jpg"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-xs-uk-used",
+    "legacySlug": "iphone-xs-uk-used",
+    "isPhone": true,
+    "image": "https://revenes.com/wp-content/uploads/2021/11/imageedit_21_7327802923.png",
+    "variants": [
+      {
+        "storage": "64GB",
+        "price": 185000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "https://revenes.com/wp-content/uploads/2021/11/imageedit_21_7327802923.png",
+      "https://revenes.com/wp-content/uploads/2021/11/1623bd9e-3ed5-40fd-b3f0-6650d7158948.jpg",
+      "https://revenes.com/wp-content/uploads/2021/11/8751b2f9-804e-4c74-9c39-b73d262898b1.jpg"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "category": "iphones",
+    "condition": "UK Used",
+    "slug": "iphone-xs-max-uk-used",
+    "legacySlug": "iphone-xs-max-uk-used",
+    "isPhone": true,
+    "image": "/images/catalog/iphone-xs-max.webp",
+    "variants": [
+      {
+        "storage": "64GB",
+        "price": 235000
+      },
+      {
+        "storage": "256GB",
+        "price": 285000
+      },
+      {
+        "storage": "512GB",
+        "price": 300000
+      }
+    ],
+    "colors": [],
+    "gallery": [
+      "/images/catalog/iphone-xs-max.webp",
+      "https://revenes.com/wp-content/uploads/2021/11/56edb808-003b-4797-a6b6-f7fd2959e2ca.jpg",
+      "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-combo-gold-09122018_big.jpg.large_2x.jpg"
+    ]
   }
 ]);
 
@@ -8509,6 +8990,7 @@ export const retailPhoneProducts = Object.freeze(retailInventory.filter(item => 
   variants: item.variants.map(variant => ({
     storage: variant.storage,
     price: variant.price,
+    ...(variant.priceMax ? { priceMax: variant.priceMax } : {}),
     color: variant.color || null,
     ram: variant.ram || null,
     warranty: variant.warranty || null,

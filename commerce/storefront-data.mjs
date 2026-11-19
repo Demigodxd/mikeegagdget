@@ -38,6 +38,7 @@ const seriesFor = model => model === 'iPhone Air' ? '17' : model.match(/^iPhone 
 const makeVariant = v => ({
  storage:v.storage,
  price:v.price,
+ priceMax:v.priceMax,
  regularPrice:v.regularPrice,
  offerId:v.offerId,
  ram:v.ram,

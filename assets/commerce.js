@@ -299,7 +299,10 @@ if (productDataElement) {
     });
 
     if (variantLabel) variantLabel.textContent = `${product.model} ${selectedStorage}`;
-    if (productPrice) productPrice.textContent = variant.price ? naira.format(variant.price) : "Confirm Price";
+    if (productPrice) {
+      const listedPrice = variant.price ? naira.format(variant.price) : "Confirm Price";
+      productPrice.textContent = variant.priceMax ? `${listedPrice} – ${naira.format(variant.priceMax)}` : listedPrice;
+    }
     if (priceNote) {
       priceNote.textContent = variant.availability?.includes('out of stock')
         ? "This source variant was out of stock when checked. Ask Lisa Electronics to confirm availability and today's price."

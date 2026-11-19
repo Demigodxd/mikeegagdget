@@ -201,7 +201,7 @@ const renderHeader = () => `
   </dialog>`;
 
 const renderProductArtwork = (product) => {
-  const galleryImages = product.images.map(image => !/^https?:\/\//i.test(image) && /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
+  const galleryImages = product.images.map(image => !/^https?:\/\//i.test(image) && !image.startsWith('/images/catalog/uk-used-gallery/') && /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
   if (product.images.length) {
     return `
       <div class="product-gallery" data-product-gallery>

@@ -3516,7 +3516,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-12-pro",
     "legacySlug": "iphone-12-pro",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/12/46.png",
+    "image": "/images/catalog/uk-used-gallery/iphone-12-pro-1.jpg",
     "variants": [
       {
         "storage": "128GB",
@@ -3529,9 +3529,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/12/46.png",
-      "https://revenes.com/wp-content/uploads/2021/11/d4fa0066-c056-4d15-9cc9-310c254fda08.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/26cdfce3-29b2-41d1-90d5-37357de136be.jpg"
+      "/images/catalog/uk-used-gallery/iphone-12-pro-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-12-pro-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-12-pro-3.jpg"
     ]
   },
   {
@@ -3542,7 +3542,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-12",
     "legacySlug": "iphone-12",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/058159ec-35cd-4dfa-be36-eb4abc69fdd8-1.jpg",
+    "image": "/images/catalog/uk-used-gallery/iphone-12-1.jpg",
     "variants": [
       {
         "storage": "64GB",
@@ -3555,9 +3555,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/058159ec-35cd-4dfa-be36-eb4abc69fdd8-1.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/4d909d82-c138-4a44-bc52-cb824c3dc9d4-2.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/6ab5d070-46b4-4ee4-a3d7-8c7079471e76-2.jpg"
+      "/images/catalog/uk-used-gallery/iphone-12-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-12-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-12-3.jpg"
     ]
   },
   {
@@ -3585,7 +3585,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-11",
     "legacySlug": "iphone-11",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-UK-Used-1.png",
+    "image": "/images/catalog/uk-used-gallery/iphone-11-1.jpg",
     "variants": [
       {
         "storage": "64GB",
@@ -3598,9 +3598,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-UK-Used-1.png",
-      "https://revenes.com/wp-content/uploads/2021/11/5c65feca-6b8a-4a9a-9b78-ec39bd2f414f.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/71b091c3-56a6-4749-a890-1213b554aca0.jpg"
+      "/images/catalog/uk-used-gallery/iphone-11-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-11-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-11-3.jpg"
     ]
   },
   {
@@ -3611,7 +3611,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-xr",
     "legacySlug": "iphone-xr",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/c52d1fcd-06f9-493d-bfc0-5d4a945bbf53.jpg",
+    "image": "/images/catalog/uk-used-gallery/iphone-xr-1.jpg",
     "variants": [
       {
         "storage": "64GB",
@@ -3628,9 +3628,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/c52d1fcd-06f9-493d-bfc0-5d4a945bbf53.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/7b2c4606-106c-4691-b7e7-cf51f49a75c5.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/094ad2f2-779b-4860-9abe-fe4f5daf032c.jpg"
+      "/images/catalog/uk-used-gallery/iphone-xr-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-xr-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-xr-3.jpg"
     ]
   },
   {
@@ -4102,7 +4102,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s21-ultra",
     "legacySlug": "samsung-s21-ultra",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/5.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s21-ultra-1.jpg",
     "variants": [
       {
         "storage": "128GB",
@@ -4119,9 +4119,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/5.png",
-      "https://revenes.com/wp-content/uploads/2021/11/1.png",
-      "https://revenes.com/wp-content/uploads/2021/11/4.png"
+      "/images/catalog/uk-used-gallery/samsung-s21-ultra-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-ultra-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-ultra-3.jpg"
     ]
   },
   {
@@ -4132,7 +4132,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s21-plus",
     "legacySlug": "samsung-s21-plus",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/2-16.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s21-plus-1.jpg",
     "variants": [
       {
         "storage": "128GB",
@@ -4145,8 +4145,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/2-16.png",
-      "https://revenes.com/wp-content/uploads/2021/11/4-10.png",
+      "/images/catalog/uk-used-gallery/samsung-s21-plus-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-plus-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-plus-3.jpg",
       "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/73/4235552/1.jpg?2615"
     ]
   },
@@ -4158,7 +4159,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-note-20",
     "legacySlug": "samsung-note-20",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-3.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-note-20-1.jpg",
     "variants": [
       {
         "storage": "256GB · Original S Pen",
@@ -4167,9 +4168,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-3.png",
-      "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-2.png",
-      "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-4.png"
+      "/images/catalog/uk-used-gallery/samsung-note-20-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-20-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-20-3.jpg"
     ]
   },
   {
@@ -4486,7 +4487,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s20-fe",
     "legacySlug": "samsung-s20-fe",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601-1.jpg",
+    "image": "/images/catalog/uk-used-gallery/samsung-s20-fe-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -4495,9 +4496,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601-1.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/be967d69-a2bd-461a-a7c1-9f410afb15c1.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/31b99f33-a166-4159-9a67-735bd7e06f59.jpg"
+      "/images/catalog/uk-used-gallery/samsung-s20-fe-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-fe-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-fe-3.jpg"
     ]
   },
   {
@@ -4508,7 +4509,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s21",
     "legacySlug": "samsung-s21",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0000.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s21-1.jpg",
     "variants": [
       {
         "storage": "128GB",
@@ -4521,9 +4522,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0000.png",
-      "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0007.png",
-      "https://revenes.com/wp-content/uploads/2022/06/20221026_104017_0005.png"
+      "/images/catalog/uk-used-gallery/samsung-s21-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-3.jpg"
     ]
   },
   {
@@ -4534,7 +4535,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s22",
     "legacySlug": "samsung-s22",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-S22-UK-Used.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s22-1.jpg",
     "variants": [
       {
         "storage": "128GB",
@@ -4547,9 +4548,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-S22-UK-Used.png",
-      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S22-5G2.png",
-      "https://revenes.com/wp-content/uploads/2023/04/Samsung-Galaxy-S22-5G-Single-SIM-UK-Used-4.png"
+      "/images/catalog/uk-used-gallery/samsung-s22-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s22-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s22-3.webp"
     ]
   },
   {
@@ -4688,7 +4689,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-14-plus-uk-used",
     "legacySlug": "iphone-14-plus",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-11.png",
+    "image": "/images/catalog/uk-used-gallery/iphone-14-plus-uk-used-1.jpg",
     "variants": [
       {
         "storage": "128GB",
@@ -4705,9 +4706,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-11.png",
-      "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-1.png",
-      "https://revenes.com/wp-content/uploads/2022/09/iPhone-14-15.png"
+      "/images/catalog/uk-used-gallery/iphone-14-plus-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-14-plus-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-14-plus-uk-used-3.jpg"
     ]
   },
   {
@@ -4921,7 +4922,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-17-pro-max-uk-used",
     "legacySlug": "iphone-17-pro-max",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-5.png",
+    "image": "/images/catalog/uk-used-gallery/iphone-17-pro-max-uk-used-1.jpg",
     "variants": [
       {
         "storage": "512GB · Cosmic Orange",
@@ -4957,9 +4958,9 @@ export const retailInventory = Object.freeze([
       "Deep Blue"
     ],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-5.png",
-      "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-1.png",
-      "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-2.png"
+      "/images/catalog/uk-used-gallery/iphone-17-pro-max-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-17-pro-max-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-17-pro-max-uk-used-3.jpg"
     ]
   },
   {
@@ -8498,7 +8499,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s8-uk-used",
     "legacySlug": "samsung-s8-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-1.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s8-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8507,8 +8508,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-1.png",
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-8.png",
+      "/images/catalog/uk-used-gallery/samsung-s8-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s8-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s8-uk-used-3.jpg",
       "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/04/6478004/1.jpg?7567"
     ]
   },
@@ -8542,7 +8544,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s8-plus-uk-used",
     "legacySlug": "samsung-s8-plus-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s8-plus-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8552,9 +8554,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used.png",
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-2.png",
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-S8-UK-Used-3.png"
+      "/images/catalog/uk-used-gallery/samsung-s8-plus-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s8-plus-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s8-plus-uk-used-3.jpg"
     ]
   },
   {
@@ -8565,7 +8567,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s9-uk-used",
     "legacySlug": "samsung-s9-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/2-3.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s9-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8574,9 +8576,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/2-3.png",
-      "https://revenes.com/wp-content/uploads/2021/11/1-3.png",
-      "https://revenes.com/wp-content/uploads/2021/11/3-3.png"
+      "/images/catalog/uk-used-gallery/samsung-s9-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s9-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s9-uk-used-3.jpg"
     ]
   },
   {
@@ -8587,7 +8589,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s9-plus-uk-used",
     "legacySlug": "samsung-s9-plus-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/3-13.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s9-plus-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8596,9 +8598,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/3-13.png",
-      "https://revenes.com/wp-content/uploads/2021/11/1-12.png",
-      "https://revenes.com/wp-content/uploads/2021/11/2-13.png"
+      "/images/catalog/uk-used-gallery/samsung-s9-plus-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s9-plus-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s9-plus-uk-used-3.jpg"
     ]
   },
   {
@@ -8609,7 +8611,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s10e-uk-used",
     "legacySlug": "samsung-s10e-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-1.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s10e-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8618,9 +8620,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-1.png",
-      "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-2.png",
-      "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-S10e-UK-Used-Single-SIM-3.png"
+      "/images/catalog/uk-used-gallery/samsung-s10e-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s10e-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s10e-uk-used-3.jpg"
     ]
   },
   {
@@ -8631,7 +8633,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s10-uk-used",
     "legacySlug": "samsung-s10-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/abfd2ffb-94a5-48d4-8faa-ae5f87c49144-1.jpg",
+    "image": "/images/catalog/uk-used-gallery/samsung-s10-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8645,9 +8647,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/abfd2ffb-94a5-48d4-8faa-ae5f87c49144-1.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/1567ee2a-e091-4871-a252-8e21c42c3479.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/f8f3b1ed-1d49-4869-9d64-c450f72229d3.jpg"
+      "/images/catalog/uk-used-gallery/samsung-s10-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s10-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s10-uk-used-3.jpg"
     ]
   },
   {
@@ -8658,7 +8660,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s10-plus-uk-used",
     "legacySlug": "samsung-s10-plus-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/70cb82dd-441d-4c4f-98d6-e93713a56bf6-1.jpg",
+    "image": "/images/catalog/uk-used-gallery/samsung-s10-plus-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8667,9 +8669,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/70cb82dd-441d-4c4f-98d6-e93713a56bf6-1.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/26c0c6ac-f1e6-4a45-b4ee-ac0fdecece0f.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/eca802d5-d37f-4e36-9d77-3ca33b171b9a.jpg"
+      "/images/catalog/uk-used-gallery/samsung-s10-plus-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s10-plus-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s10-plus-uk-used-3.jpg"
     ]
   },
   {
@@ -8680,7 +8682,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s20-uk-used",
     "legacySlug": "samsung-s20-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/12/15_20221102_113420_0014.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s20-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8693,9 +8695,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/12/15_20221102_113420_0014.png",
-      "https://revenes.com/wp-content/uploads/2021/12/1_20221102_113420_0000.png",
-      "https://revenes.com/wp-content/uploads/2021/12/2_20221102_113420_0001.png"
+      "/images/catalog/uk-used-gallery/samsung-s20-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-uk-used-3.jpg"
     ]
   },
   {
@@ -8706,7 +8708,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s20-plus-uk-used",
     "legacySlug": "samsung-s20-plus-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/a3f10c03-ff86-49f8-bb18-d2e5cd49e9ab.jpg",
+    "image": "/images/catalog/uk-used-gallery/samsung-s20-plus-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8719,9 +8721,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/a3f10c03-ff86-49f8-bb18-d2e5cd49e9ab.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/5ac1379f-707a-443b-8ba5-278cb5545214.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/821b4fe3-f259-4a4f-88ba-5247884d2b84.jpg"
+      "/images/catalog/uk-used-gallery/samsung-s20-plus-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-plus-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-plus-uk-used-3.jpg"
     ]
   },
   {
@@ -8732,7 +8734,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s20-ultra-uk-used",
     "legacySlug": "samsung-s20-ultra-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/57.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s20-ultra-uk-used-1.jpg",
     "variants": [
       {
         "storage": "128GB",
@@ -8745,9 +8747,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/57.png",
-      "https://revenes.com/wp-content/uploads/2021/11/56.png",
-      "https://revenes.com/wp-content/uploads/2021/11/Galaxy-S20-Ultra-1.png"
+      "/images/catalog/uk-used-gallery/samsung-s20-ultra-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-ultra-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s20-ultra-uk-used-3.jpg"
     ]
   },
   {
@@ -8758,7 +8760,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-s21-fe-uk-used",
     "legacySlug": "samsung-s21-fe-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-2.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-s21-fe-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Single SIM",
@@ -8767,9 +8769,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-2.png",
-      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-3-1.png",
-      "https://revenes.com/wp-content/uploads/2022/03/Samsung-Galaxy-S21-FE-5G-3.png"
+      "/images/catalog/uk-used-gallery/samsung-s21-fe-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-fe-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-s21-fe-uk-used-3.jpg"
     ]
   },
   {
@@ -8780,7 +8782,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-note-8-uk-used",
     "legacySlug": "samsung-note-8-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-note-8-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8790,9 +8792,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used.png",
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used-1.png",
-      "https://revenes.com/wp-content/uploads/2023/01/Samsung-Galaxy-Note-8-UK-Used-2.png"
+      "/images/catalog/uk-used-gallery/samsung-note-8-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-8-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-8-uk-used-3.jpg"
     ]
   },
   {
@@ -8803,7 +8805,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-note-9-uk-used",
     "legacySlug": "samsung-note-9-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-7.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-note-9-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard",
@@ -8813,9 +8815,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-7.png",
-      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-5.png",
-      "https://revenes.com/wp-content/uploads/2022/10/Samsung-Galaxy-Note-9-UK-Used-Single-SIM-2.png"
+      "/images/catalog/uk-used-gallery/samsung-note-9-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-9-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-9-uk-used-3.jpg"
     ]
   },
   {
@@ -8826,7 +8828,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-note-10-uk-used",
     "legacySlug": "samsung-note-10-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-3.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-note-10-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard · Original S Pen",
@@ -8836,9 +8838,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-3.png",
-      "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-1.png",
-      "https://revenes.com/wp-content/uploads/2022/09/Samsung-Galaxy-Note-10-UK-Used-Single-SIM-2.png"
+      "/images/catalog/uk-used-gallery/samsung-note-10-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-10-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-10-uk-used-3.jpg"
     ]
   },
   {
@@ -8849,7 +8851,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-note-10-plus-uk-used",
     "legacySlug": "samsung-note-10-plus-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/6fb35fe7-9f82-47e2-a94e-8bb65f939288.jpg",
+    "image": "/images/catalog/uk-used-gallery/samsung-note-10-plus-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Standard · Original S Pen",
@@ -8858,9 +8860,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/6fb35fe7-9f82-47e2-a94e-8bb65f939288.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/c12e6fa9-d246-4d9d-a701-445f69bff2e1.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/f44a77e7-d2ac-4678-9160-df5ea9f22d13.jpg"
+      "/images/catalog/uk-used-gallery/samsung-note-10-plus-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-10-plus-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-10-plus-uk-used-3.jpg"
     ]
   },
   {
@@ -8871,7 +8873,7 @@ export const retailInventory = Object.freeze([
     "slug": "samsung-note-20-ultra-uk-used",
     "legacySlug": "samsung-note-20-ultra-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/4-9.png",
+    "image": "/images/catalog/uk-used-gallery/samsung-note-20-ultra-uk-used-1.jpg",
     "variants": [
       {
         "storage": "Storage to confirm",
@@ -8888,9 +8890,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/4-9.png",
-      "https://revenes.com/wp-content/uploads/2021/11/3-11.png",
-      "https://revenes.com/wp-content/uploads/2021/11/2-11.png"
+      "/images/catalog/uk-used-gallery/samsung-note-20-ultra-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-20-ultra-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/samsung-note-20-ultra-uk-used-3.jpg"
     ]
   },
   {
@@ -8901,7 +8903,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-11-pro-max-uk-used",
     "legacySlug": "iphone-11-pro-max-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-Pro-Max-UK-Used-1.png",
+    "image": "/images/catalog/uk-used-gallery/iphone-11-pro-max-uk-used-1.jpg",
     "variants": [
       {
         "storage": "64GB",
@@ -8918,9 +8920,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/iPhone-11-Pro-Max-UK-Used-1.png",
-      "https://revenes.com/wp-content/uploads/2021/10/05cd77d5-8be7-4711-aaf6-ffb4bc702d60-1.jpg",
-      "https://revenes.com/wp-content/uploads/2021/10/74c5914e-b75f-4d1d-a921-cf56e9156412.jpg"
+      "/images/catalog/uk-used-gallery/iphone-11-pro-max-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-11-pro-max-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-11-pro-max-uk-used-3.jpg"
     ]
   },
   {
@@ -8931,7 +8933,7 @@ export const retailInventory = Object.freeze([
     "slug": "iphone-xs-uk-used",
     "legacySlug": "iphone-xs-uk-used",
     "isPhone": true,
-    "image": "https://revenes.com/wp-content/uploads/2021/11/imageedit_21_7327802923.png",
+    "image": "/images/catalog/uk-used-gallery/iphone-xs-uk-used-1.jpg",
     "variants": [
       {
         "storage": "64GB",
@@ -8940,9 +8942,9 @@ export const retailInventory = Object.freeze([
     ],
     "colors": [],
     "gallery": [
-      "https://revenes.com/wp-content/uploads/2021/11/imageedit_21_7327802923.png",
-      "https://revenes.com/wp-content/uploads/2021/11/1623bd9e-3ed5-40fd-b3f0-6650d7158948.jpg",
-      "https://revenes.com/wp-content/uploads/2021/11/8751b2f9-804e-4c74-9c39-b73d262898b1.jpg"
+      "/images/catalog/uk-used-gallery/iphone-xs-uk-used-1.jpg",
+      "/images/catalog/uk-used-gallery/iphone-xs-uk-used-2.jpg",
+      "/images/catalog/uk-used-gallery/iphone-xs-uk-used-3.jpg"
     ]
   },
   {
@@ -8971,7 +8973,7 @@ export const retailInventory = Object.freeze([
     "colors": [],
     "gallery": [
       "/images/catalog/iphone-xs-max.webp",
-      "https://revenes.com/wp-content/uploads/2021/11/56edb808-003b-4797-a6b6-f7fd2959e2ca.jpg",
+      "/images/catalog/uk-used-gallery/iphone-xs-max-uk-used-1.jpg",
       "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-combo-gold-09122018_big.jpg.large_2x.jpg"
     ]
   }

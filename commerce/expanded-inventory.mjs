@@ -13,7 +13,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/3459304/4.jpg?9552"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g6-intel-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -39,7 +39,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/7080982/2.jpg?3106"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g6-touchscreen-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -66,7 +66,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/39/8514062/4.jpg?0728"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g5-touchscreen-core-i5-16gb-ram-256gb-ssd-backlit-keyboard-fp-reader-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -93,7 +93,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/9786104/4.jpg?2223"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g6-intel-core-i7-32gb-ram-512gb-ssd-backlit-fp-reader-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -120,7 +120,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/5194922/4.jpg?8583"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-x360-1030-g2-touchscreen-core-i5-8gb-ram-1tb-ssd-backlit-keyboard-fp-reader-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -147,7 +147,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/7886104/4.jpg?6410"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g6-intel-core-i7-32gb-ram-1tb-ssd-backlit-fp-reader-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -174,7 +174,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/13/6514062/4.jpg?0477"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g6-intel-core-i7-8gb-ram-256gb-ssd-backlit-keyboard-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -200,7 +200,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/2127814/2.jpg?1176"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-830-g6-touchscreen-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -227,7 +227,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/75/7831473/4.jpg?5259"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-830-g6-touchscreen-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-wins-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -254,7 +254,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/63/4017852/4.jpg?5186"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g8-touchscreen-intel-core-i5-16gb-ram-512ssd-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -281,7 +281,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/82/8750113/4.jpg?7103"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g7-1oth-gen-touchscreen-core-i5-16gb-ram-256gb-ssd-backlit-keyboard-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -308,7 +308,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/8354704/4.jpg?8228"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-645-g9-12th-gen-ryzen-5-pro-5675u-amd-2-3-16gb-ram-256gb-ssd-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -334,7 +334,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/8672814/2.jpg?2568"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g8-touchscreen-11th-gen-intel-core-i5-16gb-ram-256-ssd-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -360,7 +360,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2930863/2.jpg?7212"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g7-1oth-gen-touchscreen-intel-core-i5-16gb-ram-512gb-ssd-backlit-keyboard-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -386,7 +386,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/1947482/2.jpg?3412"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g5-intel-core-i5-16gb-ram-1tb-ssd-win11/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -412,7 +412,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/7066262/2.jpg?5507"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g8-11th-gen-touchscreen-core-i5-16gb-ram-256gb-ssd-backlit-keyboard-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -439,7 +439,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/00/1321073/4.jpg?8101"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-x360-1040-g8-11th-gen-touchscreen-intel-core-i7-16gb-ram-512gb-ssd-backlight-keyboard-win11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -466,7 +466,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/1024062/4.jpg?3672"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g6-intel-core-i5-8gb-ram-512gb-ssd-backlit-keyboard-windows11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -493,7 +493,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/1549004/4.jpg?1111"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-830-g8-touchscreen-intel-core-i7-11th-generation-16gb-ram-512gb-ssd-win-11-pro-backlit-keyboard/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -520,7 +520,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/62/8831473/4.jpg?0212"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g5-touchscreen-core-i5-16gb-ram-1tb-ssd-backlit-keyboard-fp-reader-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -547,7 +547,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/3756972/4.jpg?2123"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g5-intel-core-i5-12gb-ram-512gb-ssd-backlit-keyboard-fp-reader-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -574,7 +574,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/3411353/4.jpg?2554"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-elitebook-840-g6-touchscreen-intel-core-i5-16gb-ram-512gb-ssd-backlit-keyboard-windows11pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -600,7 +600,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/8161914/2.jpg?0643"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touchscreen-intel-celeron-128gb-ssd-4gb-ram-windows10-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -627,7 +627,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/42/8412814/4.jpg?7029"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-intel-celeron-touchscreen-256gb-ssd-4gb-ram-with/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -654,7 +654,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/5792024/4.jpg?8049"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touch-256gb-ssd-4gb-ram-intel-celeron-quad-core-win10-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -680,7 +680,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/9513914/2.jpg?1016"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touchscreen-intel-celeron-128gb-ssd-4gb-ram-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -707,7 +707,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/77/1135814/4.jpg?7377"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x-360-256gb-ssd-4gb-ram-touchscreen/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -734,7 +734,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/98/7203024/4.jpg?8440"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touch-128gb-ssd-4gb-ram-intel-celeron-quad-core-win10-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -760,7 +760,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/33/8981024/2.jpg?5122"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touch-intel-celeron-128gb-ssd-4gb-ram-window-11-plus-usblight/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -787,7 +787,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/26/2096814/4.jpg?8787"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-intel-pentium-256gb-ssd-touchscreen-8gb-ram-windows10-pro-plus-laptop-pouch/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -814,7 +814,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/8956914/4.jpg?3189"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touch-256gb-ssd-8gb-ram-intel-celeron-windows-11/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -840,7 +840,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/9782914/2.jpg?7957"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touchscreen-intel-celeron-256gb-ssd-4gb-ram-windows10-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -866,7 +866,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/1775914/2.jpg?6061"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-x360-convertible-intel-celeron-touchscreen-256gb-ssd-4gb-ram-11-0-screen-window-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -893,7 +893,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/8606024/4.jpg?8730"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touch-256gb-ssd-8gb-ram-intel-celeron-quad-core-win-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -920,7 +920,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3127814/4.jpg?5010"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-x360-435-g8-touch-11th-gen-amd-ryzen-7-pro-5850u-16gb-ram-512gb-ssd-up-to-5ghz-backlit-key-fp-reader-win11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -947,7 +947,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2903914/4.jpg?7488"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-core-i5-touchscreen-8gb-ram-256gb-ssd-windows-10/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -974,7 +974,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/0988814/4.jpg?5387"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-x360-435-g8-touch-11th-gen-amd-ryzen-7-pro-5850u-16gb-ram-1tb-ssd-up-to-5ghz-backlit-key-fp-reader-win11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1000,7 +1000,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/06/8796493/2.jpg?2440"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touchscreen-intel-pentium-256gb-ssd-4gb-ram-touch-win10-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1027,7 +1027,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/6766814/4.jpg?0747"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touch-512gb-ssd-8gb-ram-intel-celeron-windows-11/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1053,7 +1053,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/48/7814352/2.jpg?1698"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-probook-11-x360-touch-intel-celeron-128gb-4gb-ram-win10-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1080,7 +1080,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/94/1382914/4.jpg?9012"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-8-g1i-14-inch-cm3f0uc-intel-core-ultra-7-32gb-ram-512gb-ssd-4gb-nvidia-rtx-500-ada/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1107,7 +1107,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/09/9973914/4.jpg?5930"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-8-g1i-14-inch-ai-mobile-workstation-pc-intel-core-ultra-7-255h-32-gb-ram-512-gb-ssd-nvidia-rtx-500-ada-4gb-backlit-keyboard-fingerprint-reader-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1134,7 +1134,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/20/3737914/4.jpg?8987"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-firefly-14-g8-mobile-workstation-laptop-11th-gen-core-i7-16gb-ram-512gb-ssd-14-inch-fhd-display-nvidia-t500-graphics-backlit-keyboard-fingerprint-reader-windows/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1161,7 +1161,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/9455024/4.jpg?6463"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-fury-15-g7-core-i7-16gb-512gb-ssd-15-6-inch-fhd-mobile-workstation-nvidia-quadro-t1000-4gb-windows-11-pro-plus-free-backpack-optical/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1187,7 +1187,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/17/5898914/2.jpg?6738"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-create-15-g7-intel-core-i7-10th-gen-32gb-ram-512gb-ssd-8gb-nvidia-rtx-2070-15-6-4k-touchscreen-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1213,7 +1213,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/65/6755024/2.jpg?2580"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-fury-15-g7-core-i7-16gb-512gb-ssd-15-6-inch-fhd-mobile-workstation-nvidia-quadro-t1000-4gb-windows-11-pro/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1239,7 +1239,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/0155024/2.jpg?9143"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-15u-g5-core-i7-8gb-256gb-ssd-touchscreen-15-6-inch-fhd-mobile-workstation-amd-radeon-pro-wx3100-2gb-windows-11-pro-plus-free-optical/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1266,7 +1266,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/5475024/4.jpg?4900"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-firefly-14-g8-11th-gen-intel-core-i7-16gb-ram-512gb-ssd-14-inch-fhd-mobile-workstation-intel-iris-xe-graphics-windows-11-pro-plus-free-backpack/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1293,7 +1293,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/81/2555024/4.jpg?6293"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-15u-g5-core-i7-8gb-256gb-ssd-touchscreen-15-6-inch-fhd-mobile-workstation-windows-11-pro-amd-radeon-pro-wx3100-2gb-plus-free-optical/",
     "enquiryUrl": "https://wa.me/2347089254544",
@@ -1320,7 +1320,7 @@ export const expandedInventory = [
       "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/1826024/4.jpg?2115"
     ],
     "conditions": [
-      "Brand New"
+      "Confirm condition with Lisa"
     ],
     "route": "/product/laptop-hp-zbook-firefly-14-g8-11th-gen-intel-core-i7-16gb-ram-512gb-ssd-14-fhd-mobile-workstation-windows-11-pro-plus-free-backpack-optical/",
     "enquiryUrl": "https://wa.me/2347089254544",

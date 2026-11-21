@@ -55,6 +55,6 @@ test('homepage keeps its buying and enquiry routes without applying stale discou
  for(const route of ['easybuy','swap','deals','iphone-14-pro-max','iphone-13','pixel-11','samsung-s23']){
   const page=await readFile(`${route}/index.html`,'utf8');
   assert.ok(page.includes('<h1>'),route);
-  assert.ok(page.includes('/assets/sales.js'),route);
+  assert.ok(page.includes(route==='deals'?'/assets/live-store.js':'/assets/sales.js'),route);
  }
 });

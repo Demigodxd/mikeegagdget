@@ -3,3 +3,5 @@
 @media(max-width:760px){.lisa-store .nav{grid-template-columns:minmax(0,1fr) auto auto;gap:10px}.lisa-store .nav>.brand{grid-column:1;grid-row:1}.lisa-store .nav>.lisa-cart{grid-column:2;grid-row:1}.lisa-store .nav>.menu-toggle{grid-column:3;grid-row:1}.lisa-store .home-catalog-search{grid-column:1/-1;grid-row:2}}
 @media(max-width:650px){.live-cart-row{grid-template-columns:70px minmax(0,1fr);gap:14px}.live-cart-row>img,.live-cart-row>span:first-child{grid-column:1;grid-row:1/span 2}.live-cart-row>h2{grid-column:2;grid-row:1;margin:0}.live-cart-row>p{grid-column:2;margin:0;overflow-wrap:anywhere}.live-cart-row>.live-quantity{grid-column:2;max-width:90px}.live-cart-row>button{grid-column:2;justify-self:start}.live-cart-row>*{min-width:0}.live-cart-row>img{max-width:70px}}
 
+
+.header-account{font-size:12px;font-weight:650;color:#333;text-decoration:none;white-space:nowrap}.live-save{background:#fff!important;color:#9d0018!important;border:1px solid #eedee0!important;padding:9px!important;font-size:12px!important}@media(max-width:650px){.header-account{font-size:11px}}

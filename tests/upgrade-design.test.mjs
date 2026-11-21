@@ -8,7 +8,8 @@ test('all swap and payment-plan entry points share the homepage shell and one co
   assert.equal(d.querySelector('link[href="/assets/sales.css"],link[href="/assets/upgrade.css"],link[href="/assets/journey.css"],.announcement'),null,route+' must not reintroduce the older theme');
  }
 });
-test('every product gallery has at least three images and each information card is labelled honestly',async()=>{
- assert.equal(storeItems.length,293);
- for(const p of storeItems){const images=productGalleries[p.slug];assert.ok(images?.length>=3,p.slug);assert.equal(new Set(images).size,images.length,p.slug+' duplicate image');for(const src of images){if(src.startsWith('/'))await access('.'+src);else assert.match(src,/^https:\/\//);if(src.startsWith('/images/product-details/')){const svg=await readFile('.'+src,'utf8');assert.match(svg,/Information card/);assert.match(svg,/product photographs appear separately/);assert.doesNotMatch(svg,/<script|<image|foreignObject/);const xml=new JSDOM(svg,{contentType:'image/svg+xml'});assert.ok(xml.window.document.querySelector('svg title'));xml.window.close();}}}
+test('only real photographs enter galleries; incomplete galleries stay off the public catalogue',async()=>{
+ const {catalogueVisible}=await import('../backend/lib/catalogue-quality.mjs');
+ assert.ok(storeItems.length>=293);
+ for(const p of storeItems){const images=productGalleries[p.slug]||[];assert.equal(new Set(images).size,images.length,p.slug+' duplicate image');for(const src of images){assert.ok(!src.includes('/product-details/'),p.slug+' must not substitute a text card for a photo');if(src.startsWith('/'))await access('.'+src);else assert.match(src,/^https:\/\//);}if(images.length<3)assert.equal(catalogueVisible({price_kobo:100,images:[],attributes:{source_slug:p.slug}}),false,p.slug+' incomplete gallery');}
 });

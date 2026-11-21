@@ -1,4 +1,4 @@
-import { access, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { landingPages } from "../landing-pages/config.mjs";
@@ -23,6 +23,10 @@ const escapeHtml = (value = "") => String(value)
   .replaceAll("'", "&#039;");
 
 const escapeJson = (value) => JSON.stringify(value).replaceAll("<", "\\u003c");
+const listedVariantPrice = (variant) => {
+  if (!variant?.price) return "Confirm Price";
+  return variant.priceMax ? `${formatNaira(variant.price)} – ${formatNaira(variant.priceMax)}` : formatNaira(variant.price);
+};
 const cleanGeneratedOutput = (value) => value.replace(/[ \t]+$/gm, "");
 const formatNaira = (value) => new Intl.NumberFormat("en-NG", {
   style: "currency",
@@ -118,7 +122,7 @@ const productSchema = (product) => {
     sku: product.slug,
     url: `${commerceSite.baseUrl}${product.route}`,
     ...(product.images.length ? {
-      image: product.images.map((image) => /^https?:\/\//.test(image) ? image : `${commerceSite.baseUrl}${image}`)
+      image: product.images.map((image) => new URL(image, commerceSite.baseUrl).href)
     } : {}),
     ...(pricedOffers.length ? {
       offers: pricedOffers.length === 1 ? pricedOffers[0] : pricedOffers
@@ -196,15 +200,8 @@ const renderHeader = () => `
     </form>
   </dialog>`;
 
-const availableThumbnails = new Set();
-for (const product of products) for (const image of product.images) {
-  const candidate=image.replace('-720.webp','-160.webp');
-  if(candidate.startsWith('/')&&!candidate.startsWith('//')) {
-    try { await access(join(root,candidate)); availableThumbnails.add(candidate); } catch {}
-  }
-}
 const renderProductArtwork = (product) => {
-  const galleryImages = product.images.map(image => image.startsWith('/images/') && /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
+  const galleryImages = product.images.map(image => !/^https?:\/\//i.test(image) && !image.startsWith('/images/catalog/uk-used-gallery/') && /\.jpe?g$/i.test(image) ? `/images/store/${image.split('/').pop().replace(/\.jpe?g$/i,'')}-720.webp` : image);
   if (product.images.length) {
     return `
       <div class="product-gallery" data-product-gallery>
@@ -216,7 +213,7 @@ const renderProductArtwork = (product) => {
         <div class="product-thumbnails" aria-label="${escapeHtml(product.model)} images">
           ${galleryImages.map((image, index) => `
             <button type="button" class="${index === 0 ? "is-active" : ""}" data-gallery-image="${escapeHtml(image)}" aria-label="Show ${escapeHtml(product.model)} image ${index + 1}">
-              <img src="${escapeHtml((availableThumbnails.has(image.replace('-720.webp','-160.webp')) ? image.replace('-720.webp','-160.webp') : image))}" alt="" width="80" height="80" loading="lazy">
+              <img src="${escapeHtml(/^https?:\/\//i.test(image) ? image : image.replace('-720.webp','-160.webp'))}" alt="" width="80" height="80" loading="lazy">
             </button>`).join("")}
         </div>
       </div>`;
@@ -244,7 +241,7 @@ const renderVariantSelector = (product) => `
           data-price="${variant.price ?? ""}"
           data-price-confirm="${variant.priceNeedsExtraConfirmation ? "true" : "false"}"
           aria-pressed="${variant.storage === product.defaultStorage ? "true" : "false"}"
-        ><span class="storage-name">${escapeHtml(variant.storage.replace(/Non-Active/gi,"Not Activated"))}</span><span class="storage-price">${variant.price ? formatNaira(variant.price) : 'Confirm Price'}</span></button>`).join("")}
+        ><span class="storage-name">${escapeHtml(variant.storage.replace(/Non-Active/gi,"Not Activated"))}</span><span class="storage-price">${listedVariantPrice(variant)}</span></button>`).join("")}
     </div>
     <div class="selection-grid">
       <label>
@@ -263,9 +260,7 @@ const renderVariantSelector = (product) => `
     <div class="price-display">
       <span data-variant-label>${escapeHtml(product.model)} ${escapeHtml(product.defaultStorage)}</span>
       <strong data-product-price>${escapeHtml(
-        product.variants.find((variant) => variant.storage === product.defaultStorage)?.price
-          ? formatNaira(product.variants.find((variant) => variant.storage === product.defaultStorage).price)
-          : "Confirm Price"
+        listedVariantPrice(product.variants.find((variant) => variant.storage === product.defaultStorage))
       )}</strong>
       <small data-price-note>Confirm today’s price, condition and stock before payment.</small>
     </div>
@@ -286,7 +281,7 @@ const renderVariantCards = (product) => `
         <article class="variant-card" data-variant-card="${escapeHtml(variant.storage)}">
           <div class="variant-card-top"><span>${escapeHtml(product.brand)}</span><span>${escapeHtml(product.stockStatus)}</span></div>
           <h3>${escapeHtml(product.model)} ${escapeHtml(variant.storage)}</h3>
-          <p class="variant-price">${variant.price ? formatNaira(variant.price) : "Confirm Price"}</p>
+          <p class="variant-price">${listedVariantPrice(variant)}</p>
           <button type="button" data-select-variant="${escapeHtml(variant.storage)}" aria-pressed="${variant.storage===product.defaultStorage}">Choose ${escapeHtml(variant.storage)}</button>
         </article>`).join("")}
     </div></details>
@@ -304,15 +299,17 @@ const renderDetails = (product) => `
         <article><span>Camera</span><strong>${escapeHtml(product.specifications.camera)}</strong></article>
         <article><span>Processor</span><strong>${escapeHtml(product.specifications.processor)}</strong></article>
         <article><span>Network</span><strong>${escapeHtml(product.specifications.network)}</strong></article>
+        ${product.specifications.battery ? `<article><span>Battery</span><strong>${escapeHtml(product.specifications.battery)}</strong></article>` : ''}
         <article><span>Security</span><strong>${escapeHtml(product.specifications.security)}</strong></article>
         <article><span>SIM options</span><strong>${escapeHtml(product.specifications.sim)}</strong></article>
-      </div>`}
+      </div>${product.specificationsSource ? `<p><a href="${escapeHtml(product.specificationsSource)}">Manufacturer specifications</a></p>` : ''}`}
     </div>
     <aside class="condition-panel">
       <p class="commerce-eyebrow">Condition guide</p>
       ${product.conditions.includes('UK Used') ? '<article><span>01</span><div><h3>UK Used</h3><p>Request photos, battery information and the condition of the exact device before payment.</p></div></article>' : ''}
+      ${product.conditions.includes('Used') ? '<article><span>01</span><div><h3>Used</h3><p>Ask for photos, battery information and condition of the exact device before payment.</p></div></article>' : ''}
       ${product.conditions.includes('Brand New') ? '<article><span>02</span><div><h3>Brand New</h3><p>Ask what comes with the exact unit and confirm availability.</p></div></article>' : ''}
-      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition to confirm</h3><p>Ask Lisa Electronics for the exact unit details before payment.</p></div></article>' : ''}
+      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition to confirm</h3><p>Ask Lisa Electronics for the exact unit details before payment.</p></div></article>' : ''}
     </aside>
   </section>`;
 

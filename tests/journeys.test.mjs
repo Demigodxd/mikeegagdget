@@ -185,16 +185,16 @@ test('Buy Outright order flow sends its selection without attribution',async()=>
 });
 test('new colour groups cannot send a Burgundy quote at the Silver/Blue price',async()=>{
  const dom=await setup('iphone-18-pro-max/index.html','/iphone-18-pro-max');await import(`../assets/commerce.js?test=${++serial}`);
- document.querySelector('[data-storage="512GB · Burgundy"]').click();
+ document.querySelector('[data-storage="512GB · Burgundy · US eSIM · Unlocked · Not activated"]').click();
  assert.equal(document.querySelector('[data-color-select]').value,'Burgundy');
  let href=document.querySelector('[data-action="buy"]').href;
- assert.equal(new URL(href).searchParams.get('phone'),'iphone-18-pro-max|512GB · Burgundy');
+ assert.equal(new URL(href).searchParams.get('phone'),'iphone-18-pro-max|512GB · Burgundy · US eSIM · Unlocked · Not activated');
  assert.equal(new URL(href).searchParams.get('color'),'Burgundy');
- document.querySelector('[data-storage="256GB · Silver\/Blue"]').click();
- assert.deepEqual([...document.querySelector('[data-color-select]').options].map(o=>o.value),['Silver','Blue']);
- document.querySelector('[data-color-select]').value='Blue';event(document.querySelector('[data-color-select]'),'change');
+ document.querySelector('[data-storage="256GB · Burgundy\/Glacier · US eSIM · Unlocked · Not activated"]').click();
+ assert.deepEqual([...document.querySelector('[data-color-select]').options].map(o=>o.value),['Burgundy','Glacier']);
+ document.querySelector('[data-color-select]').value='Glacier';event(document.querySelector('[data-color-select]'),'change');
  href=document.querySelector('[data-action="buy"]').href;
- assert.equal(new URL(href).searchParams.get('phone'),'iphone-18-pro-max|256GB · Silver/Blue');assert.equal(new URL(href).searchParams.get('color'),'Blue');
+ assert.equal(new URL(href).searchParams.get('phone'),'iphone-18-pro-max|256GB · Burgundy/Glacier · US eSIM · Unlocked · Not activated');assert.equal(new URL(href).searchParams.get('color'),'Glacier');
  dom.window.close();
 });
 
@@ -213,10 +213,10 @@ test('outright delivery validates fields, updates quantity and keeps PII out of 
  dom.window.close();
 });
 test('changing colour groups clears incompatible colour and quantity cannot be fractional',async()=>{
- const dom=await setup('buy/index.html','/buy/?phone=iphone-18-pro-max%7C256GB%20%C2%B7%20Silver%2FBlue&color=Blue');globalThis.Option=dom.window.Option;
+ const dom=await setup('buy/index.html','/buy/?phone=iphone-18-pro-max%7C256GB%20%C2%B7%20Burgundy%2FGlacier%20%C2%B7%20US%20eSIM%20%C2%B7%20Unlocked%20%C2%B7%20Not%20activated&color=Glacier');globalThis.Option=dom.window.Option;
  await import(`../assets/buy-flow.js?test=${++serial}`);document.getElementById('flow-back').click();
- assert.equal(document.getElementById('buy-colour-select').value,'Blue');
- value('buy-variant','iphone-18-pro-max|512GB · Burgundy');assert.equal(document.getElementById('buy-colour-select').value,'Burgundy');
+ assert.equal(document.getElementById('buy-colour-select').value,'Glacier');
+ value('buy-variant','iphone-18-pro-max|512GB · Burgundy · US eSIM · Unlocked · Not activated');assert.equal(document.getElementById('buy-colour-select').value,'Burgundy');
  document.getElementById('flow-next').click();document.getElementById('flow-next').click();
  value('customer-name','Buyer','input');value('customer-phone','08012345678','input');value('order-quantity',1.5,'input');
  document.getElementById('order-whatsapp').click();assert.ok(!window.dataLayer.some(e=>e.event==='buy_outright_order_submitted'));

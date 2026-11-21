@@ -7,10 +7,10 @@ test('image endpoint rejects arbitrary URLs, unknown models and invalid indexes 
 });
 test('image endpoint serves only catalogue image bytes with caching and blocks redirects',async()=>{
  let requested;globalThis.fetch=async(url,options)=>{requested={url,options};return new Response(new Uint8Array([1,2,3]),{headers:{'content-type':'image/png'}});};
- const r=response();await image({method:'GET',query:{model:'samsung-a06',index:'1'}},r);
+ const r=response();await image({method:'GET',query:{model:'iphone-18-pro-max',index:'3'}},r);
  assert.equal(r.statusCode,200);assert.equal(r.headers['Content-Type'],'image/png');assert.match(r.headers['Cache-Control'],/s-maxage/);assert.equal(requested.options.redirect,'error');assert.match(requested.url,/^https:\/\//);assert.equal(r.data.length,3);
 });
 test('image endpoint rejects non-image upstream responses',async()=>{
  globalThis.fetch=async()=>new Response('<html>Blocked</html>',{headers:{'content-type':'text/html'}});
- const r=response();await image({method:'GET',query:{model:'samsung-a06',index:'1'}},r);assert.equal(r.statusCode,502);
+ const r=response();await image({method:'GET',query:{model:'iphone-18-pro-max',index:'3'}},r);assert.equal(r.statusCode,502);
 });

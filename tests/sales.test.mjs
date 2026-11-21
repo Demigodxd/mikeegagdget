@@ -38,7 +38,7 @@ test('retail selling prices stay final across product, store and calculator data
  assert.ok(legacy.swapReferencePrice>0);
 });
 test('Easy Buy and Swap continue to use final listed target prices',()=>{
- const target=choices.find(p=>p.id==='iphone-18-pro|256GB · Burgundy');
+ const target=choices.find(p=>p.id==='iphone-18-pro|256GB · Burgundy · eSIM · Not activated');
  const plan=financePlan({amount:target.price,duration:3,phone:target});
  assert.equal(plan.deposit,Math.round(target.price*.7));
  assert.equal(plan.totalPayable,plan.deposit+plan.repaymentTotal+plan.processingFee);

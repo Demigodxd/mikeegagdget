@@ -2,7 +2,3 @@ node_modules/
 .sites-runtime/
 
 dist/
-
-.env
-.env.*
-!.env.example

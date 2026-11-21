@@ -1,4 +1,4 @@
-import {catalogueImageUpdates,iphoneDuo} from './catalogue-image-updates.mjs';
+import {iphoneDuo} from './catalogue-image-updates.mjs';
 import {commerceSite} from './catalog.mjs';
 import {products as baseProducts} from './catalog.mjs';
 import {retailInventory} from './retail-inventory.mjs';
@@ -35,10 +35,11 @@ export const shopCategories = categories.filter(c=>!['iphones','samsung','pixel'
  route: `/shop/${category.id}/`
 }));
 
-const seriesFor = model => model.match(/^iPhone (\d+)/)?.[1] || (model.startsWith('iPhone X')?'X':model.startsWith('iPhone SE')?'SE':'');
+const seriesFor = model => model === 'iPhone Air' ? '17' : model.match(/^iPhone (\d+)/)?.[1] || (model.startsWith('iPhone X')?'X':model.startsWith('iPhone SE')?'SE':'');
 const makeVariant = v => ({
  storage:v.storage,
  price:v.price,
+ priceMax:v.priceMax,
  regularPrice:v.regularPrice,
  offerId:v.offerId,
  ram:v.ram,
@@ -65,7 +66,8 @@ const normal = s=>s.toLowerCase().replace(/apple|[^a-z0-9]/g,'');
 const importedNames=new Set(accessoryInventory.map(p=>normal(p.model)));
 const otherItems = [...retailInventory.filter(item=>!item.isPhone&&!importedNames.has(normal(item.model))),...accessoryInventory].map(item=>({
  slug:item.slug,model:item.model,brand:item.brand,category:item.category,image:item.image||'',
+ gallery:item.gallery, specifications:item.specifications, specificationsSource:item.specificationsSource,
  route:`/product/${item.slug}/`, enquiryUrl:whatsappFor(item),priceMax:item.priceMax,priceCheckedAt:item.priceCheckedAt,conditions:[item.condition],availability:'Confirm exact unit and availability',
  easy:false,swap:false,variants:item.variants.map(makeVariant)
 }));
-export const storeItems = [...phoneItems,...otherItems,iphoneDuo].map(item=>({...item,image:item.image||catalogueImageUpdates[item.model]||''}));
+export const storeItems = [...phoneItems,...otherItems,...([...phoneItems,...otherItems].some(p=>p.slug==='iphone-duo')?[]:[iphoneDuo])];

@@ -26,8 +26,8 @@ test('models without Face ID or glass backs never receive those deductions', () 
 test('cracks share one deduction with changed parts; missing prices require a quote', () => {
   assert.equal(estimateSwap({...base,screenCracked:true,screenChanged:true,backCracked:true,backChanged:true}).value,Math.round(current.swapReferencePrice*.48));
   assert.equal(estimateSwap({...base,screenCracked:true}).value,Math.round(current.swapReferencePrice*.5));
-  assert.equal(estimateSwap({...base,target:phone('iphone-15-pro-uk-used|256GB')}).manual,true);
-  assert.equal(estimateSwap({...base,target:phone('samsung-s23|128GB')}).manual,true);
+  assert.equal(estimateSwap({...base,target:phone('iphone-15-pro-uk-used|1TB')}).manual,true);
+  assert.equal(estimateSwap({...base,target:phone('iphone-13|512GB')}).manual,true);
 });
 test('a higher-value trade-in shows zero top-up and a separately agreed surplus', () => {
   const old=phone('iphone-17-pro-max|512GB');

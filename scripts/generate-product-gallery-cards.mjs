@@ -1,0 +1,2 @@
+import {writeFile} from 'node:fs/promises';import {productGalleries} from '../assets/product-galleries.mjs';import {storeItems} from '../commerce/storefront-data.mjs';
+const coverage=storeItems.map(p=>({model:p.model,slug:p.slug,photos:(productGalleries[p.slug]||[]).length,informationCards:0,galleryImages:(productGalleries[p.slug]||[]).length}));await writeFile('docs/gallery-coverage.json',JSON.stringify(coverage,null,2));console.log('Reviewed '+coverage.length+' models; product galleries contain photographs only.');

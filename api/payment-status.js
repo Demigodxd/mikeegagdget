@@ -1,0 +1,2 @@
+import {db,fail,handler,paystack} from '../backend/lib/server.mjs';
+export default handler(async(req,res)=>{if(req.method!=='GET')fail(405,'Method not allowed.');const ref=req.query.reference;if(typeof ref!=='string'||!/^lisa_[0-9a-f-]{36}$/.test(ref))fail(400,'Invalid reference.');const p=await paystack(`transaction/verify/${encodeURIComponent(ref)}`);if(p.status==='success')await db('rpc/confirm_payment',{method:'POST',body:JSON.stringify({p_reference:ref,p_amount:p.amount,p_currency:p.currency})});res.json({status:p.status});});

@@ -1,3 +1,4 @@
+import {phoneDisplay,soundDisplay,workDisplay,categoryDisplay} from '../assets/home-merchandising.mjs';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {categories,shopCategories,storeItems} from '../commerce/storefront-data.mjs';
 import {card,media,escape,money,priceText} from '../assets/storefront-ui.mjs';
@@ -7,11 +8,12 @@ let html=await readFile('templates/home.html.template','utf8');
 html=html.replace('{{COLOUR_OPTIONS}}',[...new Set(storeItems.flatMap(item=>item.variants.flatMap(v=>v.color?.split('/').map(c=>c.trim())||[])))].sort().map(c=>`<option>${escape(c)}</option>`).join(''));
 const trust=html.match(/<div class="trust-loop">([\s\S]*?)<\/div>/)?.[1]||'';
 html=html.replace('{{TRUST_DUPLICATE}}','<div class="trust-loop" aria-hidden="true">'+trust+'</div>');
-const categoryHtml=categories.map(c=>`<a class="category-tile" href="${c.route}" data-category="${c.id}">${media(c.image,c.name)}<strong>${c.name}</strong><span aria-hidden="true">Shop ↗</span></a>`).join('');
+const categoryHtml=categories.map(c=>`<a class="category-tile" href="${c.route}" data-category="${c.id}">${categoryDisplay(c.id)||media(c.image,c.name)}<strong>${c.name}</strong><span aria-hidden="true">Shop ↗</span></a>`).join('');
 html=html.replace('{{SERIES_OPTIONS}}',[...new Set(storeItems.map(p=>p.series).filter(Boolean))].map(series=>`<option value="${series}">iPhone ${series}</option>`).join('')).replace('{{CATEGORIES}}',categoryHtml).replace('{{CATEGORY_OPTIONS}}',categories.map(c=>`<option value="${c.id}">${c.name}</option>`).join('')).replace('{{PRODUCTS}}',storeItems.filter(p=>p.variants.some(v=>v.price>0)).slice(0,8).map(item=>card(item,true)).join('')).replace('{{HOT_DEALS}}',featuredDeals(storeItems).map(card).join('')||'<p class="empty-deals">Current catalogue prices are shown above. Contact Lisa Electronics to ask about current offers.</p>');
 const shelf = id=>storeItems.filter(p=>p.category===id && p.image);
 for (const [key,id] of [['SPEAKERS','speakers'],['EARBUDS','earbuds'],['ACCESSORIES','accessories']]) html=html.replace('{{'+key+'}}',shelf(id).slice(0,5).map(p=>card(p)).join(''));
 for (const [key,id] of [['SPEAKER_ART','speakers'],['BUDS_ART','earbuds'],['POWER_ART','power-banks']]) {const p=shelf(id)[0];html=html.replace('{{'+key+'}}',p?media(p.image,p.model):'');}
+html=html.replace('{{PHONE_DISPLAY}}',phoneDisplay()).replace('{{SOUND_DISPLAY}}',soundDisplay()).replace('{{WORK_DISPLAY}}',workDisplay());
 html=html.replace('{{BRAND_OPTIONS}}',[...new Set(storeItems.map(p=>p.brand))].sort().map(b=>`<option>${escape(b)}</option>`).join(''));
 await writeFile('index.html',html);
 await writeFile('assets/store-catalog.json',JSON.stringify(storeItems));

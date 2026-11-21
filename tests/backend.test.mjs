@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {Readable} from 'node:stream';import webhook from '../api/paystack-webhook.js';import checkout from '../api/checkout.js';import admin from '../api/admin.js';import configuration from '../api/config.js';
+const response=()=>({statusCode:200,setHeader(){},status(n){this.statusCode=n;return this;},json(data){this.data=data;},end(){}});
+test('checkout stays disabled until explicitly enabled',async()=>{delete process.env.PAYMENTS_ENABLED;const r=response();await checkout({method:'POST',body:{}},r);assert.equal(r.statusCode,503);});
+test('admin rejects unauthenticated access',async()=>{const r=response();await admin({headers:{},method:'GET',query:{}},r);assert.equal(r.statusCode,401);});
+test('configuration never returns secret keys',async()=>{process.env.SUPABASE_SERVICE_ROLE_KEY='secret-sentinel';process.env.PAYSTACK_SECRET_KEY='payment-secret';const r=response();await configuration({},r);assert.ok(!JSON.stringify(r.data).includes('secret'));});
+test('unsigned webhook cannot mark an order paid',async()=>{process.env.PAYSTACK_SECRET_KEY='test-secret';const req=Readable.from([Buffer.from('{"event":"charge.success"}')]);req.method='POST';req.headers={};const r=response();await webhook(req,r);assert.equal(r.statusCode,401);});
+test('forged webhook signature is rejected',async()=>{const req=Readable.from([Buffer.from('{}')]);req.method='POST';req.headers={'x-paystack-signature':'0'.repeat(128)};const r=response();await webhook(req,r);assert.equal(r.statusCode,401);});

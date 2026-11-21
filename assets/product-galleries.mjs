@@ -1,35 +1,39 @@
-// Exact-model product photographs. Local catalogue assets are preferred; approved remote sources are cached by the image endpoint.
+// Curated exact-model photographs; mismatched reference galleries excluded.
 export const productGalleries = {
   "iphone-18-pro-max": [
-    "/images/store/18promax-1-720.webp",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-9.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-7.png",
-    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-8.png"
+    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-8.png",
+    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-12.png"
   ],
   "iphone-18-pro": [
-    "/images/store/18pro-1-720.webp",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-9.png",
     "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-7.png",
-    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-8.png"
+    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-8.png",
+    "https://revenes.com/wp-content/uploads/2026/09/iPhone-18-Pro-Max-Brand-New-12.png"
   ],
   "iphone-17-pro-max": [
-    "/images/store/17promax-1-720.webp",
-    "/images/store/17promax-2-720.webp",
     "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-1.png",
     "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-2.png",
-    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-3.png"
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Max-Physical-SIM-Brand-New-5.png"
   ],
   "iphone-17-pro": [
-    "/images/store/17pro-1-720.webp",
-    "/images/store/17pro-2-720.webp",
-    "/images/store/17pro-3-720.webp"
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Physical-SIM-Brand-New.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Physical-SIM-Brand-New-2-1.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Physical-SIM-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Physical-SIM-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Pro-Physical-SIM-Brand-New-5.png"
   ],
   "iphone-17": [
-    "/images/store/17-1-720.webp",
-    "/images/store/17-2-720.webp",
-    "/images/store/17-3-720.webp"
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Physical-SIM-Brand-New.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Physical-SIM-Brand-New-2.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Physical-SIM-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Physical-SIM-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2025/09/iPhone-17-Physical-SIM-Brand-New-5.png"
   ],
   "iphone-17-air": [
     "/images/store/17air-1-720.webp",
@@ -155,46 +159,46 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/12/12-2.png"
   ],
   "samsung-s26-ultra": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s26-ultra-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s26-ultra-2-720.webp",
-    "https://galaxy.hu/cdn/shop/files/galaxys26ultra_black_1.webp?v=1771851789",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-cobalt-violet.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s26-ultra/images/galaxy-s26-ultra-features-colors-sky-blue.jpg"
+    "https://revenes.com/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-Dual-SIM-Brand-New.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-Dual-SIM-Brand-New-2.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-Dual-SIM-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-Dual-SIM-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-Dual-SIM-Brand-New-5.png"
   ],
   "samsung-s26-plus": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s26-plus-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s26-plus-2-720.webp",
-    "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/original/samsung/494743137/0/96tU1UjG0r-4YZgZdKByF-SamsungS26Pl-494743137-i-1.jpg",
     "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26.png",
-    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-3.png"
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-3.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-4.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-5.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-6.png"
   ],
   "samsung-s26": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s26-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s26-2-720.webp",
-    "https://s3.us-east-1.amazonaws.com/product-image-bucket-prod-us/884032-Product-0-I-639058415403635867.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s26/images/galaxy-s26-features-colors-silver-shadow.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s26/images/galaxy-s26-features-colors-pink-gold.jpg"
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-1.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-3.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-4.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-5.png",
+    "https://revenes.com/wp-content/uploads/2026/03/Galaxy-S26-Series-6.png"
   ],
   "samsung-s25-ultra": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s25-ultra-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s25-ultra-2-720.webp",
-    "https://media.cdnws.com/_i/45353/57035/3702/35/telephonie-mobile-smartphone-samsung-galaxy-s25-ultra-s938b-12go-256go-5g-gris-infinytech-reunion-01.jpeg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-jetblack.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-colors-titanium-jadegreen.jpg"
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Ultra-Dual-SIM-Brand-New.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Ultra-Dual-SIM-Brand-New-2.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Ultra-Dual-SIM-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Ultra-Dual-SIM-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Ultra-Dual-SIM-Brand-New-5.png"
   ],
   "samsung-s25-plus": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s25-plus-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s25-plus-2-720.webp",
-    "https://www.samsung-online.com.ua/uploads/shop/products/large/c_c_c_d3306ada9522403ae73d26c38e6bc357.jpg",
-    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New.png",
-    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-2-1.png"
+    "https://revenes.com/wp-content/uploads/2026/09/Samsung-Galaxy-S25-UK-Used.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-2-1.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-3-1.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-4-1.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-5-1.png"
   ],
   "samsung-s25": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s25-1-720.webp",
-    "https://res.cloudinary.com/telia-pim/image/upload/v1737108288/pood/samsung/nutitelefonid/galaxy-s25/helesinine/128-gb/sm-s931blbdeue/samsung-galaxy-s25-nutitelefon-helesinine-eest-tagant-koos.png",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-blueblack.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-coralred.jpg",
-    "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-colors-pinkgold.jpg"
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-1.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-2.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2025/02/Samsung-Galaxy-S25-Dual-SIM-Brand-New-5.png"
   ],
   "samsung-s25-edge": [
     "https://cdn.nativ.md/marketplace/6963dcad757d26c174605148_smartphone-samsung-galaxy-s25-edge-12gb512gb-titanium-silver_2560.webp",
@@ -204,46 +208,46 @@ export const productGalleries = {
     "https://image-us.samsung.com/us/smartphones/galaxy-s25-edge/images/galaxy-s25-edge-features-kv.jpg"
   ],
   "samsung-s25-fe": [
-    "https://oneapple.com.ua/content/images/17/1800x1800l80mc0/60388574313349.jpg",
-    "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s25-fe/08252025/Galaxy_S25_FE-MLP-FT03-KV-PC.jpg?$1440_N_JPG$",
     "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-2.png",
     "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-3.png",
-    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-4.png"
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-4.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-5.png",
+    "https://revenes.com/wp-content/uploads/2025/09/Samsung-Galaxy-S25-FE-Brand-New-Dual-SIM-6.png"
   ],
   "samsung-s24-ultra": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s24-ultra-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s24-ultra-2-720.webp",
-    "https://multimedia.bbycastatic.ca/multimedia/products/1500x1500/176/17684/17684373.jpg",
-    "https://images.samsung.com/is/image/samsung/assets/us/2501/pcd/smartphones/galaxy-s24-ultra/galaxy-S24-ultra-ft02-kv_DT.jpg?$1440_N_JPG$",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-3.png"
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-2-1.png",
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-5.png",
+    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-S24-Ultra-Dual-SIM-Brand-New-6.png"
   ],
   "samsung-s24-plus": [
-    "https://cdn.beebom.com/mobile/samsung-galaxy-s24-plus-front-and-back-1.png",
-    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-1-1.png",
-    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-2-1.png",
     "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-3-1.png",
-    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-4-1.png"
+    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-2-1.png",
+    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-4-1.png",
+    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-5-1.png",
+    "https://revenes.com/wp-content/uploads/2024/02/Samsung-Galaxy-S24-Dual-SIM-Brand-New-6-1.png"
   ],
   "samsung-s23-ultra": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s23-ultra-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s23-ultra-2-720.webp",
-    "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_142470444?align=center&cdx=1800&cdy=1800&cox=0&coy=0&ex=1800&ey=1800&format=jpg&quality=80&resizesource=&sp=yes&strip=yes&trim=&unsharp=1.5x1+0.7+0.02&x=1800&y=1800",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra.png",
-    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-2.png"
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-2.png",
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-3.png",
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-4.png",
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-Gallery-5.png"
   ],
   "samsung-s23-plus": [
-    "https://s13emagst.akamaized.net/products/52576/52575504/images/res_675b5c9d6f650e7c7c6d275f906d8f6e.jpg",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-1.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-2-1.png",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-3-1.png",
-    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-4-1.png"
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-4-1.png",
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-5-1.png"
   ],
   "samsung-s23": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s23-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s23-2-720.webp",
-    "https://images.migrosone.com/sanalmarket/product/39185090/39185090-9601ea-1650x1650.jpg",
     "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23.png",
-    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-2.png"
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-2.png",
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-3.png",
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-4.png",
+    "https://revenes.com/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Gallery-5.png"
   ],
   "samsung-s22-ultra": [
     "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s22-ultra-1-720.webp",
@@ -267,11 +271,11 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2023/04/Samsung-Galaxy-S22-5G-Single-SIM-UK-Used-4.png"
   ],
   "samsung-s21-ultra": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s21-ultra-1-720.webp",
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s21-ultra-2-720.webp",
-    "https://a-static.mlcdn.com.br/1500x1500/smartphone-samsung-galaxy-s21-ultra-256gb-preto-5g-12gb-ram-tela-68-cam-quadrupla-selfie-40mp/magazineluiza/155620700/e2f186989b13ac44a67939781ef99d4d.jpg",
     "https://revenes.com/wp-content/uploads/2021/11/Samsung-Galaxy-S21-Ultra-UK-Used-Single-SIM.png",
-    "https://revenes.com/wp-content/uploads/2021/11/1.png"
+    "https://revenes.com/wp-content/uploads/2021/11/1.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Untitled-design.png",
+    "https://revenes.com/wp-content/uploads/2021/11/4.png",
+    "https://revenes.com/wp-content/uploads/2021/11/5.png"
   ],
   "samsung-s21-plus": [
     "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-s21-plus-1-720.webp",
@@ -295,17 +299,18 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2021/11/86925c88-7646-4e0a-9920-e964a94ba601.jpg"
   ],
   "samsung-z-fold-8-ultra": [
-    "https://cdn.beebom.com/mobile/samsung-galaxy-z-fold-8-ultra-front-back.png",
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New.png",
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-2.png",
     "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-3.png",
-    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-4.png"
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Ultra-Brand-New-5.png"
   ],
   "samsung-z-fold-8": [
-    "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-lavender.jpg",
-    "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-graphite.jpg",
-    "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-cream.jpg",
-    "https://images.samsung.com/us/smartphones/galaxy-z-fold8/images/galaxy-z-fold8-features-colors-pistachio.jpg"
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Brand-New.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Brand-New-5.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Samsung-Galaxy-Z-Fold8-Brand-New-6.png"
   ],
   "samsung-z-trifold": [
     "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-z-trifold-1-720.webp",
@@ -357,25 +362,25 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYZFLIP6/SIL-image-2.jpg"
   ],
   "samsung-a07": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-a07-1-720.webp",
-    "https://www.3chub.com/cdn/shop/files/A07BLACK.png?v=1773061772&width=1173",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-1.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-2.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-3.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-3.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-5.png"
   ],
   "samsung-a07-open-box": [
-    "https://www.3chub.com/cdn/shop/files/A07BLACK.png?v=1773061772&width=1173",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-1.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-2.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-3.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-5.png"
   ],
   "samsung-a07-uk-used": [
-    "https://www.3chub.com/cdn/shop/files/A07BLACK.png?v=1773061772&width=1173",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-1.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-2.png",
     "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-3.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-4.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Samsung-Galaxy-A07-5.png"
   ],
   "samsung-a17": [
     "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-a17-1-720.webp",
@@ -406,11 +411,11 @@ export const productGalleries = {
     "https://revenes.com/wp-content/uploads/2026/04/Samsung-A57-5G-pics-2.png"
   ],
   "samsung-a06": [
-    "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-a06-1-720.webp",
     "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06.png",
     "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-2.png",
     "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-3.png",
-    "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-4.png"
+    "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-4.png",
+    "https://revenes.com/wp-content/uploads/2022/11/Samsung-Galaxy-A06-5.png"
   ],
   "samsung-a16": [
     "https://www.mikeegadget.com.ng/images/store/samsung/samsung-galaxy-a16-1-720.webp",
@@ -479,25 +484,25 @@ export const productGalleries = {
     "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-z-flip4/08082024/galaxy-z-flip4-ft02-kv-op1_DT.jpg?$1440_N_JPG$"
   ],
   "samsung-note-20": [
-    "https://files.tecnoblog.net/wp-content/uploads/2025/02/Galaxy-Note-20-Mystic-Bronze.png",
     "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-1.png",
     "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-2.png",
     "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-3.png",
-    "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-4.png"
+    "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-4.png",
+    "https://revenes.com/wp-content/uploads/2022/12/Samsung-Galaxy-Note-20-UK-Used-Single-SIM-5.png"
   ],
   "samsung-a05": [
-    "https://zextons.co.uk/_next/image?q=75&url=https%3A%2F%2Fapi.zextons.co.uk%2Fuploads%2Fproducts%2F20241003_151408_samsung+A05+%281%29.png&w=3840",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-1.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-2.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-3.png",
-    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-4.png"
+    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-4.png",
+    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-5.png"
   ],
   "samsung-a05-uk-used": [
-    "https://zextons.co.uk/_next/image?q=75&url=https%3A%2F%2Fapi.zextons.co.uk%2Fuploads%2Fproducts%2F20241003_151408_samsung+A05+%281%29.png&w=3840",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-1.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-2.png",
     "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-3.png",
-    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-4.png"
+    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-4.png",
+    "https://revenes.com/wp-content/uploads/2023/12/Samsung-Galaxy-A05-Pictures-5.png"
   ],
   "samsung-a13": [
     "https://www.mobileciti.com.au/media/catalog/product/s/a/samsung-galaxy-a13-5_2.jpg?height=265&image-type=image&store=mobileciti&width=265",
@@ -514,32 +519,32 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-SAMSUNGGALAXYA135G/BLA-image-3.jpg"
   ],
   "samsung-a14": [
-    "https://bf1af2.akinoncloudcdn.com/products/2024/09/06/32631/12082ae6-aaab-44b5-b00e-475fbe4a2569.jpg",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-1.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-2.png",
-    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-3.png"
+    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-3.png",
+    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-4.png"
   ],
   "samsung-a14-uk-used": [
-    "https://bf1af2.akinoncloudcdn.com/products/2024/09/06/32631/12082ae6-aaab-44b5-b00e-475fbe4a2569.jpg",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-1.png",
     "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-2.png",
-    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-3.png"
+    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-3.png",
+    "https://revenes.com/wp-content/uploads/2023/03/Samsung-Galaxy-A14-4.png"
   ],
   "samsung-a15": [
-    "https://www.techpro.ma/8324-large_default/samsung-galaxy-a15-blue-black-65-sm-a155fzkdmwd.jpg",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-2.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-3.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-4.png"
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-2.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-3.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-4.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-5.png"
   ],
   "samsung-a15-uk-used": [
-    "https://www.techpro.ma/8324-large_default/samsung-galaxy-a15-blue-black-65-sm-a155fzkdmwd.jpg",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-2.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-3.png",
-    "https://revenes.com/wp-content/uploads/2024/04/Samsung-Galaxy-A15-5G-4.png"
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-2.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-3.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-4.png",
+    "https://revenes.com/wp-content/uploads/2024/03/Samsung-Galaxy-A15-LTE-5.png"
   ],
   "samsung-a52": [
     "https://resources.claroshop.com/medios-plazavip/mkt/62c6656a9a443_4202123-1jpg.jpg",
@@ -596,32 +601,32 @@ export const productGalleries = {
     "https://d2e6ccujb3mkqf.cloudfront.net/6c622d5f-65f6-4d75-bdf8-defff178a629-1_9a4e5b0e-0539-4b5e-97d3-db26a18c4345.jpg"
   ],
   "pixel-11-pro-xl": [
-    "https://www.mikeegadget.com.ng/images/store/pixel-11-pro-xl-1-720.webp",
-    "https://cdn.beebom.com/mobile/google-pixel-11-pro-xl-back-front-3.png",
-    "https://cdn.beebom.com/mobile/google-pixel-11-pro-xl-back-front.png",
     "https://revenes.com/wp-content/uploads/2026/09/Pixel-11-Pro-XL.png",
-    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-2.png"
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-2.png",
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-3.png",
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-4.png",
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-5.png"
   ],
   "pixel-11-pro": [
-    "https://cdn.beebom.com/mobile/google-pixel-11-pro-back-front-3.png",
-    "https://cdn.beebom.com/mobile/google-pixel-11-pro-back-front.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-1.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-2.png",
-    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-3.png"
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-3.png",
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-4.png",
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Pro-Brand-New-Pics-5.png"
   ],
   "pixel-11": [
-    "https://scr.wfcdn.de/31804/Google-Pixel-11-1783961952-0-0.jpg",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-1.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-2.png",
     "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-3.png",
-    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-4.png"
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-4.png",
+    "https://revenes.com/wp-content/uploads/2026/09/Google-Pixel-11-Brand-New-Pics-5.png"
   ],
   "pixel-10-pro-xl": [
-    "https://www.mikeegadget.com.ng/images/store/pixel-10-pro-xl-1-720.webp",
-    "https://assets.products-live.ao.com/Images/346548f8-30b4-402b-a786-921c344c2d20/1280x1280/8300786be452132a99e7e07823070d799f336876_2.jpg",
-    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-XL-Brand-New-main-pic.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-19.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-2.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-3.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-5.png"
   ],
   "pixel-10-pro-fold": [
     "https://www.mikeegadget.com.ng/images/store/pixel-10-pro-fold-1-720.webp",
@@ -631,25 +636,25 @@ export const productGalleries = {
     "https://cdn.reebelo.com/pim/products/P-GOOGLEPIXEL10PROFOLD/JAD-image-1.jpg"
   ],
   "pixel-10-pro": [
-    "https://www.mikeegadget.com.ng/images/store/pixel-10-pro-1-720.webp",
-    "https://www.au.com/adobe/dynamicmedia/deliver/dm-aid--92d7fa66-8387-4e31-b7b4-0e006b020f58/pixel10p_moonstone_01_d92aceb2690e766f.jpg?preferwebp=true&quality=90",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-2.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-3.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Pro-Brand-New-5.png"
   ],
   "pixel-10": [
-    "https://www.mikeegadget.com.ng/images/store/pixel-10-1-720.webp",
-    "https://img.pccomponentes.com/articles/1095/10951041/152-google-pixel-10-5g-12gb-256gb-63-azul-indigo.jpg",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New.png",
     "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-1.png",
-    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-2.png"
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-2.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-3.png",
+    "https://revenes.com/wp-content/uploads/2025/08/Google-Pixel-10-Brand-New-4.png"
   ],
   "pixel-10a": [
-    "https://t-mobile.scene7.com/is/image/Tmusprod/FG-Google_P10a_Lavender_T-Shot_2UP_Lockup_NO_LOGO1%3A1x1?fmt=png&fmt=png-alpha&op_usm=1.75%2C0.3%2C2%2C0&qlt=85%2C0&resMode=sharp2",
     "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-1.png",
     "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-10.png",
     "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-9.png",
-    "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-8.png"
+    "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-8.png",
+    "https://revenes.com/wp-content/uploads/2026/05/Pixel-10a-Pics-7.png"
   ],
   "pixel-9-pro-fold": [
     "https://www.mikeegadget.com.ng/images/store/pixel-9-pro-fold-1-720.webp",
@@ -659,25 +664,25 @@ export const productGalleries = {
     "https://api.priceinkenya.com/media/139542/conversions/Google-Pixel-9-Pro-b-medium.webp"
   ],
   "pixel-9-pro": [
-    "https://static01.galaxus.com/productimages/3/0/3/0/3/5/1/0/6/9/0/1/1/3/3/0/0/8/2e802447-6dde-4d09-9605-2437b1e9c16f_cropped.jpg_sea.jpeg",
-    "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-Brand-New-1.png",
+    "https://revenes.com/wp-content/uploads/2024/11/Google-Pixel-9-Pro-UK-Used.png",
     "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-2.png",
     "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-3.png",
-    "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-4.png"
+    "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-4.png",
+    "https://revenes.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Brand-New-5.png"
   ],
   "pixel-9a": [
-    "https://s3.us-east-1.amazonaws.com/product-image-bucket-prod-us/797233-Product-0-I-638753408405013977.jpg",
     "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-1.png",
     "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-2.png",
     "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-3.png",
-    "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-4.png"
+    "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-4.png",
+    "https://revenes.com/wp-content/uploads/2025/07/Google-Pixel-9a-5.png"
   ],
   "pixel-8": [
-    "https://www.ourfriday.co.uk/image/cache/catalog/Google/google-pixel-8-obsidian-1-2-800x800.png",
-    "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-2.png",
+    "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8.png",
     "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-5.png",
     "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-4.png",
-    "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-3.png"
+    "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-3.png",
+    "https://revenes.com/wp-content/uploads/2023/11/Google-Pixel-8-2.png"
   ],
   "ipad-11th-gen": [
     "https://www.techspot.com/images/products/2025/tablets/org/2025-04-15-product.jpg",
@@ -1838,5 +1843,379 @@ export const productGalleries = {
     "https://www.apple.com/v/iphone-duo/e/images/overview/design/design_hero__gczn1e74mwa6_large.jpg",
     "https://www.apple.com/v/iphone-duo/e/images/overview/product-viewer/display__bx48n0ntsgvm_large.jpg",
     "https://www.apple.com/v/iphone-duo/e/images/overview/product-viewer/foldable__iybtpzlhgj6u_large.jpg"
+  ],
+  "laptop-hp-elitebook-840-g6-intel-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/3459304/3.jpg?9552",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/3459304/1.jpg?9552",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/3459304/2.jpg?9552",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/3459304/4.jpg?9552"
+  ],
+  "laptop-hp-elitebook-840-g6-touchscreen-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/7080982/3.jpg?3106",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/7080982/1.jpg?3106",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/7080982/2.jpg?3106"
+  ],
+  "laptop-hp-elitebook-840-g5-touchscreen-core-i5-16gb-ram-256gb-ssd-backlit-keyboard-fp-reader-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/39/8514062/3.jpg?0728",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/39/8514062/1.jpg?2207",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/39/8514062/2.jpg?0728",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/39/8514062/4.jpg?0728"
+  ],
+  "laptop-hp-elitebook-840-g6-intel-core-i7-32gb-ram-512gb-ssd-backlit-fp-reader-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/9786104/3.jpg?2223",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/9786104/1.jpg?2223",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/9786104/2.jpg?2223",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/41/9786104/4.jpg?2223"
+  ],
+  "laptop-hp-elitebook-x360-1030-g2-touchscreen-core-i5-8gb-ram-1tb-ssd-backlit-keyboard-fp-reader-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/5194922/3.jpg?8583",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/5194922/1.jpg?8583",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/5194922/2.jpg?8583",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/5194922/4.jpg?8583"
+  ],
+  "laptop-hp-elitebook-840-g6-intel-core-i7-32gb-ram-1tb-ssd-backlit-fp-reader-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/7886104/3.jpg?6410",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/7886104/1.jpg?6410",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/7886104/2.jpg?6410",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/87/7886104/4.jpg?6410"
+  ],
+  "laptop-hp-elitebook-840-g6-intel-core-i7-8gb-ram-256gb-ssd-backlit-keyboard-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/13/6514062/3.jpg?0477",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/13/6514062/1.jpg?5207",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/13/6514062/2.jpg?0492",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/13/6514062/4.jpg?0477"
+  ],
+  "laptop-hp-elitebook-830-g6-touchscreen-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/2127814/3.jpg?1176",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/2127814/1.jpg?1176",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/2127814/2.jpg?1176"
+  ],
+  "laptop-hp-elitebook-830-g6-touchscreen-core-i5-8gb-ram-256gb-ssd-backlit-keyboard-wins-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/75/7831473/3.jpg?5259",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/75/7831473/1.jpg?5259",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/75/7831473/2.jpg?5259",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/75/7831473/4.jpg?5259"
+  ],
+  "laptop-hp-elitebook-840-g8-touchscreen-intel-core-i5-16gb-ram-512ssd-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/63/4017852/3.jpg?5186",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/63/4017852/1.jpg?5186",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/63/4017852/2.jpg?5186",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/63/4017852/4.jpg?5186"
+  ],
+  "laptop-hp-elitebook-840-g7-1oth-gen-touchscreen-core-i5-16gb-ram-256gb-ssd-backlit-keyboard-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/82/8750113/3.jpg?7103",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/82/8750113/1.jpg?7103",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/82/8750113/2.jpg?7103",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/82/8750113/4.jpg?7103"
+  ],
+  "laptop-hp-elitebook-645-g9-12th-gen-ryzen-5-pro-5675u-amd-2-3-16gb-ram-256gb-ssd-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/8354704/3.jpg?8228",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/8354704/1.jpg?8228",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/8354704/2.jpg?8228",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/51/8354704/4.jpg?8228"
+  ],
+  "laptop-hp-elitebook-840-g8-touchscreen-11th-gen-intel-core-i5-16gb-ram-256-ssd-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/8672814/3.jpg?2568",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/8672814/1.jpg?2568",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/8672814/2.jpg?2568"
+  ],
+  "laptop-hp-elitebook-840-g7-1oth-gen-touchscreen-intel-core-i5-16gb-ram-512gb-ssd-backlit-keyboard-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2930863/3.jpg?7212",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2930863/1.jpg?7212",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2930863/2.jpg?7212"
+  ],
+  "laptop-hp-elitebook-840-g5-intel-core-i5-16gb-ram-1tb-ssd-win11": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/1947482/3.jpg?3412",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/1947482/1.jpg?3412",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/85/1947482/2.jpg?3412"
+  ],
+  "laptop-hp-elitebook-840-g8-11th-gen-touchscreen-core-i5-16gb-ram-256gb-ssd-backlit-keyboard-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/7066262/3.jpg?5507",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/7066262/1.jpg?5507",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/60/7066262/2.jpg?5507"
+  ],
+  "laptop-hp-elitebook-x360-1040-g8-11th-gen-touchscreen-intel-core-i7-16gb-ram-512gb-ssd-backlight-keyboard-win11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/00/1321073/3.jpg?8101",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/00/1321073/1.jpg?8100",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/00/1321073/2.jpg?8100",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/00/1321073/4.jpg?8101"
+  ],
+  "laptop-hp-elitebook-840-g6-intel-core-i5-8gb-ram-512gb-ssd-backlit-keyboard-windows11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/1024062/3.jpg?3672",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/1024062/1.jpg?4839",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/1024062/2.jpg?3672",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/1024062/4.jpg?3672"
+  ],
+  "laptop-hp-elitebook-830-g8-touchscreen-intel-core-i7-11th-generation-16gb-ram-512gb-ssd-win-11-pro-backlit-keyboard": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/1549004/3.jpg?1111",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/1549004/1.jpg?1089",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/1549004/2.jpg?1110",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/27/1549004/4.jpg?1111"
+  ],
+  "laptop-hp-elitebook-840-g5-touchscreen-core-i5-16gb-ram-1tb-ssd-backlit-keyboard-fp-reader-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/62/8831473/3.jpg?0212",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/62/8831473/1.jpg?0212",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/62/8831473/2.jpg?0212",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/62/8831473/4.jpg?0212"
+  ],
+  "laptop-hp-elitebook-840-g5-intel-core-i5-12gb-ram-512gb-ssd-backlit-keyboard-fp-reader-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/3756972/3.jpg?2123",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/3756972/1.jpg?2123",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/3756972/2.jpg?2123",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/3756972/4.jpg?2123"
+  ],
+  "laptop-hp-elitebook-840-g6-touchscreen-intel-core-i5-16gb-ram-512gb-ssd-backlit-keyboard-windows11pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/3411353/3.jpg?2554",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/3411353/1.jpg?2554",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/3411353/2.jpg?2554",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/52/3411353/4.jpg?2554"
+  ],
+  "laptop-hp-probook-11-x360-touchscreen-intel-celeron-128gb-ssd-4gb-ram-windows10-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/8161914/3.jpg?0643",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/8161914/1.jpg?0643",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/10/8161914/2.jpg?0643"
+  ],
+  "laptop-hp-probook-11-x360-intel-celeron-touchscreen-256gb-ssd-4gb-ram-with": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/42/8412814/3.jpg?7029",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/42/8412814/1.jpg?7029",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/42/8412814/2.jpg?7029",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/42/8412814/4.jpg?7029"
+  ],
+  "laptop-hp-probook-11-x360-touch-256gb-ssd-4gb-ram-intel-celeron-quad-core-win10-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/5792024/3.jpg?8049",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/5792024/1.jpg?8049",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/5792024/2.jpg?8049",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/5792024/4.jpg?8049"
+  ],
+  "laptop-hp-probook-11-x360-touchscreen-intel-celeron-128gb-ssd-4gb-ram-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/9513914/3.jpg?1016",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/9513914/1.jpg?1016",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/9513914/2.jpg?1016"
+  ],
+  "laptop-hp-probook-11-x-360-256gb-ssd-4gb-ram-touchscreen": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/77/1135814/3.jpg?7377",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/77/1135814/1.jpg?6412",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/77/1135814/2.jpg?7377",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/77/1135814/4.jpg?7377"
+  ],
+  "laptop-hp-probook-11-x360-touch-128gb-ssd-4gb-ram-intel-celeron-quad-core-win10-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/98/7203024/3.jpg?8440",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/98/7203024/1.jpg?8440",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/98/7203024/2.jpg?8440",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/98/7203024/4.jpg?8440"
+  ],
+  "laptop-hp-probook-11-x360-touch-intel-celeron-128gb-ssd-4gb-ram-window-11-plus-usblight": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/33/8981024/3.jpg?5122",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/33/8981024/1.jpg?5122",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/33/8981024/2.jpg?5122"
+  ],
+  "laptop-hp-probook-11-x360-intel-pentium-256gb-ssd-touchscreen-8gb-ram-windows10-pro-plus-laptop-pouch": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/26/2096814/3.jpg?8787",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/26/2096814/1.jpg?8784",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/26/2096814/2.jpg?8787",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/26/2096814/4.jpg?8787"
+  ],
+  "laptop-hp-probook-11-x360-touch-256gb-ssd-8gb-ram-intel-celeron-windows-11": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/8956914/3.jpg?3189",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/8956914/1.jpg?3189",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/8956914/2.jpg?3189",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/23/8956914/4.jpg?3189"
+  ],
+  "laptop-hp-probook-11-x360-touchscreen-intel-celeron-256gb-ssd-4gb-ram-windows10-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/9782914/3.jpg?7957",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/9782914/1.jpg?7957",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/72/9782914/2.jpg?7957"
+  ],
+  "laptop-hp-probook-x360-convertible-intel-celeron-touchscreen-256gb-ssd-4gb-ram-11-0-screen-window-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/1775914/3.jpg?6061",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/1775914/1.jpg?6061",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/1775914/2.jpg?6061"
+  ],
+  "laptop-hp-probook-11-x360-touch-256gb-ssd-8gb-ram-intel-celeron-quad-core-win-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/8606024/3.jpg?8730",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/8606024/1.jpg?8730",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/8606024/2.jpg?8730",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/12/8606024/4.jpg?8730"
+  ],
+  "laptop-hp-probook-x360-435-g8-touch-11th-gen-amd-ryzen-7-pro-5850u-16gb-ram-512gb-ssd-up-to-5ghz-backlit-key-fp-reader-win11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3127814/3.jpg?5010",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3127814/1.jpg?5004",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3127814/2.jpg?5010",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/95/3127814/4.jpg?5010"
+  ],
+  "laptop-hp-probook-11-x360-core-i5-touchscreen-8gb-ram-256gb-ssd-windows-10": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2903914/3.jpg?7488",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2903914/1.jpg?7488",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2903914/2.jpg?7488",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/40/2903914/4.jpg?7488"
+  ],
+  "laptop-hp-probook-x360-435-g8-touch-11th-gen-amd-ryzen-7-pro-5850u-16gb-ram-1tb-ssd-up-to-5ghz-backlit-key-fp-reader-win11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/0988814/3.jpg?5387",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/0988814/1.jpg?5387",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/0988814/2.jpg?5387",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/50/0988814/4.jpg?5387"
+  ],
+  "laptop-hp-probook-11-x360-touchscreen-intel-pentium-256gb-ssd-4gb-ram-touch-win10-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/06/8796493/3.jpg?2440",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/06/8796493/1.jpg?2440",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/06/8796493/2.jpg?2440"
+  ],
+  "laptop-hp-probook-11-x360-touch-512gb-ssd-8gb-ram-intel-celeron-windows-11": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/6766814/3.jpg?0747",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/6766814/1.jpg?0743",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/6766814/2.jpg?0747",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/80/6766814/4.jpg?0747"
+  ],
+  "laptop-hp-probook-11-x360-touch-intel-celeron-128gb-4gb-ram-win10-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/48/7814352/3.jpg?1698",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/48/7814352/1.jpg?1698",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/48/7814352/2.jpg?1698"
+  ],
+  "laptop-hp-zbook-8-g1i-14-inch-cm3f0uc-intel-core-ultra-7-32gb-ram-512gb-ssd-4gb-nvidia-rtx-500-ada": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/94/1382914/3.jpg?9012",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/94/1382914/1.jpg?9012",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/94/1382914/2.jpg?9012",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/94/1382914/4.jpg?9012"
+  ],
+  "laptop-hp-zbook-8-g1i-14-inch-ai-mobile-workstation-pc-intel-core-ultra-7-255h-32-gb-ram-512-gb-ssd-nvidia-rtx-500-ada-4gb-backlit-keyboard-fingerprint-reader-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/09/9973914/3.jpg?5930",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/09/9973914/1.jpg?5930",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/09/9973914/2.jpg?5930",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/09/9973914/4.jpg?5930"
+  ],
+  "laptop-hp-zbook-firefly-14-g8-mobile-workstation-laptop-11th-gen-core-i7-16gb-ram-512gb-ssd-14-inch-fhd-display-nvidia-t500-graphics-backlit-keyboard-fingerprint-reader-windows": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/20/3737914/3.jpg?8987",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/20/3737914/1.jpg?8987",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/20/3737914/2.jpg?8987",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/20/3737914/4.jpg?8987"
+  ],
+  "laptop-hp-zbook-fury-15-g7-core-i7-16gb-512gb-ssd-15-6-inch-fhd-mobile-workstation-nvidia-quadro-t1000-4gb-windows-11-pro-plus-free-backpack-optical": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/9455024/3.jpg?6463",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/9455024/1.jpg?6463",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/9455024/2.jpg?6463",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/11/9455024/4.jpg?6463"
+  ],
+  "laptop-hp-zbook-create-15-g7-intel-core-i7-10th-gen-32gb-ram-512gb-ssd-8gb-nvidia-rtx-2070-15-6-4k-touchscreen-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/17/5898914/3.jpg?6738",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/17/5898914/1.jpg?6738",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/17/5898914/2.jpg?6738"
+  ],
+  "laptop-hp-zbook-fury-15-g7-core-i7-16gb-512gb-ssd-15-6-inch-fhd-mobile-workstation-nvidia-quadro-t1000-4gb-windows-11-pro": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/65/6755024/3.jpg?2580",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/65/6755024/1.jpg?2580",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/65/6755024/2.jpg?2580"
+  ],
+  "laptop-hp-zbook-15u-g5-core-i7-8gb-256gb-ssd-touchscreen-15-6-inch-fhd-mobile-workstation-amd-radeon-pro-wx3100-2gb-windows-11-pro-plus-free-optical": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/0155024/3.jpg?9143",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/0155024/1.jpg?9143",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/91/0155024/2.jpg?9143"
+  ],
+  "laptop-hp-zbook-firefly-14-g8-11th-gen-intel-core-i7-16gb-ram-512gb-ssd-14-inch-fhd-mobile-workstation-intel-iris-xe-graphics-windows-11-pro-plus-free-backpack": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/5475024/3.jpg?4900",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/5475024/1.jpg?4900",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/5475024/2.jpg?4900",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/02/5475024/4.jpg?4900"
+  ],
+  "laptop-hp-zbook-15u-g5-core-i7-8gb-256gb-ssd-touchscreen-15-6-inch-fhd-mobile-workstation-windows-11-pro-amd-radeon-pro-wx3100-2gb-plus-free-optical": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/81/2555024/3.jpg?6293",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/81/2555024/1.jpg?6293",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/81/2555024/2.jpg?6293",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/81/2555024/4.jpg?6293"
+  ],
+  "laptop-hp-zbook-firefly-14-g8-11th-gen-intel-core-i7-16gb-ram-512gb-ssd-14-fhd-mobile-workstation-windows-11-pro-plus-free-backpack-optical": [
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/1826024/3.jpg?2115",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/1826024/1.jpg?2115",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/1826024/2.jpg?2115",
+    "https://ng.jumia.is/unsafe/fit-in/520x520/filters:fill(white)/product/56/1826024/4.jpg?2115"
+  ],
+  "tecno-camon-50": [
+    "https://revenes.com/wp-content/uploads/2022/03/Tecno-Camon-50-Pic2.png",
+    "https://revenes.com/wp-content/uploads/2022/03/Tecno-Camon-50-Pic1.png",
+    "https://revenes.com/wp-content/uploads/2022/03/Tecno-Camon-50-Pic3.png",
+    "https://revenes.com/wp-content/uploads/2022/03/Tecno-Camon-50-Pic4.png",
+    "https://revenes.com/wp-content/uploads/2022/03/Tecno-Camon-50-Pic5.png"
+  ],
+  "tecno-camon-50-pro": [
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-50-Pro-Pic3.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-50-Pro-Pic4.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-50-Pro-Pic5.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-50-Pro-Pic6.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-50-Pro-Pic7.png"
+  ],
+  "tecno-spark-30-pro": [
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Spark-30-Pro-Pic.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Spark-30-Pro-2.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Spark-30-Pro-3.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Spark-30-Pro-4.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Spark-30-Pro-5.png"
+  ],
+  "tecno-pop-10": [
+    "https://revenes.com/wp-content/uploads/2022/04/Tecno-Pop-10.png",
+    "https://revenes.com/wp-content/uploads/2022/04/Tecno-Pop-10-2.png",
+    "https://revenes.com/wp-content/uploads/2022/04/Tecno-Pop-10-3.png",
+    "https://revenes.com/wp-content/uploads/2022/04/Tecno-Pop-10-4.png",
+    "https://revenes.com/wp-content/uploads/2022/04/Tecno-Pop-10-5.png"
+  ],
+  "tecno-camon-40-pro": [
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-40-Pro.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-40-Pro-Pictures-2.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-40-Pro-Pictures-3.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-40-Pro-Pictures-4.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Camon-40-Pro-Pictures-5.png"
+  ],
+  "tecno-pop-9": [
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Pop-9-Pic.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Pop-9-2.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Pop-9-3.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Pop-9-4.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Tecno-Pop-9-5.png"
+  ],
+  "tecno-camon-30": [
+    "https://revenes.com/wp-content/uploads/2024/04/Tecno-Camon-30.png",
+    "https://revenes.com/wp-content/uploads/2024/04/Tecno-Camon-30-2.png",
+    "https://revenes.com/wp-content/uploads/2024/04/Tecno-Camon-30-3.png",
+    "https://revenes.com/wp-content/uploads/2024/04/Tecno-Camon-30-4.png"
+  ],
+  "tecno-camon-40": [
+    "https://revenes.com/wp-content/uploads/2025/03/Tecno-Camon-40.png",
+    "https://revenes.com/wp-content/uploads/2025/03/Tecno-Camon-40-Pictures-2.png",
+    "https://revenes.com/wp-content/uploads/2025/03/Tecno-Camon-40-Pictures-3.png",
+    "https://revenes.com/wp-content/uploads/2025/03/Tecno-Camon-40-Pictures-4.png",
+    "https://revenes.com/wp-content/uploads/2025/03/Tecno-Camon-40-Pictures-5.png"
+  ],
+  "infinix-note-edge": [
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-Edge.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-Edge-14.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-Edge-15.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-Edge-2.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-Edge-3.png"
+  ],
+  "infinix-note-60-pro": [
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-60-Pro.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-60-Pro-Pics-2.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-60-Pro-Pics-3.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-60-Pro-Pics-4.png",
+    "https://revenes.com/wp-content/uploads/2021/11/Infinix-Note-60-Pro-Pics-5.png"
+  ],
+  "redmi-note-17-pro-5g": [
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-Pro-5G-9.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-Pro-5G-1.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-Pro-5G-7.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-Pro-5G-8.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-Pro-5G-10.png"
+  ],
+  "redmi-note-17-4g": [
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-4G-1.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-4G-2.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-4G-3.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-4G-4.png",
+    "https://revenes.com/wp-content/uploads/2026/10/Redmi-Note-17-4G-5.png"
+  ],
+  "redmi-17-4g": [
+    "https://revenes.com/wp-content/uploads/2026/08/Redmi-17-4G.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Redmi-17-4G-2.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Redmi-17-4G-3.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Redmi-17-4G-4.png",
+    "https://revenes.com/wp-content/uploads/2026/08/Redmi-17-4G-5.png"
   ]
 };

@@ -256,7 +256,8 @@ for (const filePath of htmlFiles) {
     let target = cleanReference.startsWith("/")
       ? join(root, cleanReference.replace(/^\/+/, ""))
       : join(dirname(filePath), cleanReference);
-    if (!extname(target)) target = join(target, "index.html");
+    if (/^\/api\/[a-z0-9-]+$/.test(cleanReference)) target += ".js";
+    else if (!extname(target)) target = join(target, "index.html");
 
     try {
       await access(target);

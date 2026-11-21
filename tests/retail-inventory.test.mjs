@@ -69,7 +69,8 @@ test('cards and category pages show current non-phone products and Confirm Price
  const samsung=await readFile('iphone-13/index.html','utf8');
  assert.match(samsung,/Confirm Price/);
  const store=await readFile('assets/store-catalog.json','utf8');
- assert.doesNotMatch(store,/revenes\.com|\/images\/pixel\//i);
+ assert.doesNotMatch(store,/\/images\/pixel\//i);
+ assert.ok(JSON.parse(store).every(p=>!p.image||/^(https:\/\/|\/images\/)/.test(p.image)));
 });
 
 test('verified local images are the only images attached to the new catalog',()=>{

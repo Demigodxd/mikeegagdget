@@ -1,3 +1,4 @@
+import {expandedInventory} from './expanded-inventory.mjs';
 import {iphoneDuo} from './catalogue-image-updates.mjs';
 import {commerceSite} from './catalog.mjs';
 import {products as baseProducts} from './catalog.mjs';
@@ -7,11 +8,13 @@ import {categoryImages} from './product-images.mjs';
 import {offerProduct} from './offers.mjs';
 
 const products=baseProducts.map(offerProduct);
-const categoryOrder=['iphones','samsung','pixel','tablets','laptops','ps5','accessories','speakers','earbuds','headphones','power-banks','networking','streaming','macbooks','ipads','watches','airpods','audio','games'];
+const categoryOrder=['iphones','samsung','pixel','tecno','android','tablets','laptops','ps5','accessories','speakers','earbuds','headphones','power-banks','networking','streaming','macbooks','ipads','watches','airpods','audio','games'];
 export const categories = [
  ['iphones','iPhones','Apple'],
  ['samsung','Samsung','Samsung'],
  ['pixel','Google Pixel','Google'],
+ ['tecno','Tecno','Tecno'],
+ ['android','More Android phones','Various'],
  ['tablets','Samsung Tablets','Samsung'],
  ['macbooks','MacBooks','Apple'],
  ['ipads','iPads','Apple'],
@@ -28,7 +31,7 @@ export const categories = [
  ['networking','Wi-Fi & Networking','Various'],
  ['streaming','TV & Streaming','Various'],
  ['accessories','Accessories','Various']
-].map(([id,name,brand])=>({id,name,brand,image:accessoryInventory.find(p=>p.category===id)?.image||categoryImages[id]||'/images/lisa-logo.jpeg',route:({iphones:'/iphones',samsung:'/samsung-phones',pixel:'/google-pixel-phones'})[id] || `/shop/${id}/`}));
+].map(([id,name,brand])=>({id,name,brand,image:expandedInventory.find(p=>p.category===id)?.image||accessoryInventory.find(p=>p.category===id)?.image||categoryImages[id]||'/images/lisa-logo.jpeg',route:({iphones:'/iphones',samsung:'/samsung-phones',pixel:'/google-pixel-phones'})[id] || `/shop/${id}/`}));
 categories.sort((a,b)=>categoryOrder.indexOf(a.id)-categoryOrder.indexOf(b.id));
 export const shopCategories = categories.filter(c=>!['iphones','samsung','pixel'].includes(c.id)).map(category => ({
  ...category,
@@ -70,4 +73,4 @@ const otherItems = [...retailInventory.filter(item=>!item.isPhone&&!importedName
  route:`/product/${item.slug}/`, enquiryUrl:whatsappFor(item),priceMax:item.priceMax,priceCheckedAt:item.priceCheckedAt,conditions:[item.condition],availability:'Confirm exact unit and availability',
  easy:false,swap:false,variants:item.variants.map(makeVariant)
 }));
-export const storeItems = [...phoneItems,...otherItems,...([...phoneItems,...otherItems].some(p=>p.slug==='iphone-duo')?[]:[iphoneDuo])];
+export const storeItems = [...phoneItems,...otherItems,...expandedInventory,...([...phoneItems,...otherItems].some(p=>p.slug==='iphone-duo')?[]:[iphoneDuo])];

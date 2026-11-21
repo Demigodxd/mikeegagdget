@@ -12,6 +12,7 @@ html=html.replace('{{SERIES_OPTIONS}}',[...new Set(storeItems.map(p=>p.series).f
 const shelf = id=>storeItems.filter(p=>p.category===id && p.image);
 for (const [key,id] of [['SPEAKERS','speakers'],['EARBUDS','earbuds'],['ACCESSORIES','accessories']]) html=html.replace('{{'+key+'}}',shelf(id).slice(0,5).map(p=>card(p)).join(''));
 for (const [key,id] of [['SPEAKER_ART','speakers'],['BUDS_ART','earbuds'],['POWER_ART','power-banks']]) {const p=shelf(id)[0];html=html.replace('{{'+key+'}}',p?media(p.image,p.model):'');}
+html=html.replace('{{SAMSUNG_ART}}',media('/api/product-image?model=samsung-s26-ultra&index=0','Samsung Galaxy S26 Ultra')).replace('{{PIXEL_ART}}',media('/api/product-image?model=pixel-11-pro-xl&index=0','Google Pixel 11 Pro XL'));
 html=html.replace('{{BRAND_OPTIONS}}',[...new Set(storeItems.map(p=>p.brand))].sort().map(b=>`<option>${escape(b)}</option>`).join(''));
 await writeFile('index.html',html);
 await writeFile('assets/store-catalog.json',JSON.stringify(storeItems));

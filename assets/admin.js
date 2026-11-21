@@ -1,3 +1,4 @@
+import {mountProductAssistant} from './product-assistant.mjs';
 import {mountAdminTools} from './admin-tools.mjs';
 const $=s=>document.querySelector(s);let token='',rows=[],resource='products',categories=[];
 const cfg=await fetch('/api/config').then(r=>r.json()).catch(()=>({}));
@@ -18,3 +19,5 @@ function reviewTransfer(order,t){const dialog=node('dialog');dialog.className='t
 $('#orderFilter').onchange=render;let notified=new Set();setInterval(async()=>{if(!token||document.hidden)return;try{const orders=await api('/api/admin-orders');const pending=orders.filter(o=>(o.bank_transfers?.[0]||o.bank_transfers)?.claim_status==='reported'&&o.payment_status==='pending');$('#ordersTab').textContent='Orders'+(pending.length?' · '+pending.length+' transfers to review':'');const fresh=pending.find(o=>!notified.has(o.id));if(fresh){pending.forEach(o=>notified.add(o.id));$('#message').textContent='A customer reported a transfer. Open Orders to check the sender and confirm receipt.';if(resource==='orders')await load();if(!document.querySelector('dialog[open]'))reviewTransfer(fresh,fresh.bank_transfers?.[0]||fresh.bank_transfers);}}catch{}},30000);
 
 const extraTools=mountAdminTools({api,getRows:()=>rows,getResource:()=>resource,showReservations:()=>{resource='reservations';load();},reload:load,isSignedIn:()=>!!token});
+
+mountProductAssistant({api,reload:load});

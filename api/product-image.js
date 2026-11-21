@@ -1,4 +1,5 @@
 import {productGalleries} from '../assets/product-galleries.mjs';
+import {bannerPhotos} from '../assets/home-merchandising.mjs';
 import {handler,fail} from '../backend/lib/server.mjs';
 
 // Only catalogue-owned URLs can be fetched; this is not an arbitrary URL proxy.
@@ -6,7 +7,7 @@ export default handler(async(req,res)=>{
  if(req.method!=='GET')fail(405,'Method not allowed.');
  const {model,index}=req.query||{};
  if(typeof model!=='string'||!/^\d{1,2}$/.test(String(index)))fail(400,'Invalid product image.');
- const photos=Object.hasOwn(productGalleries,model)?productGalleries[model]:null;
+ const photos=Object.hasOwn(productGalleries,model)?productGalleries[model]:Object.hasOwn(bannerPhotos,model)?bannerPhotos[model]:null;
  const src=photos?.[Number(index)];
  if(!src?.startsWith('https://'))fail(404,'Product image unavailable.');
  const image=await fetch(src,{redirect:'error',signal:AbortSignal.timeout(12000),headers:{'User-Agent':'Mozilla/5.0'}});

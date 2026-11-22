@@ -58,15 +58,15 @@ const productFaqs = (product) => {
     ? `Do you sell UK-used ${product.model}?`
     : `What condition is the ${product.model} available in?`;
   const conditionAnswer = product.brand === "Apple"
-    ? `Lisa Electronics lists UK-used and brand-new iPhone enquiries. Ask which ${product.model} units are available today and request the exact condition before payment.`
+    ? `Lisa Electronics lists UK-used and brand-new iPhone enquiries. Our team will help you explore the available ${product.model} options and explain each device’s condition.`
     : product.brand === "Google"
-      ? `This listing is for ${product.conditions[0]}. Ask Lisa Electronics to confirm the exact unit, its condition and current stock before payment.`
-      : `Condition depends on the current device available. Ask Lisa Electronics whether the exact ${product.model} offered is new or used and request inspection details.`;
+      ? `This listing is for ${product.conditions[0]}. Lisa will explain your device’s condition and help arrange your order.`
+      : `Lisa can guide you through the available ${product.model} options, including condition and included accessories.`;
 
   return [
     {
       question: `What is the price of ${product.model} in Nigeria?`,
-      answer: `The price depends on storage, condition, colour and current market availability. This page shows prices where available. Confirm today’s price and stock before payment.`
+      answer: `The price depends on storage, condition, colour and current market availability. This page shows prices where available. Lisa will help with your selected option and keep you updated on your order.`
     },
     {
       question: `How much is ${product.model} ${exampleStorage}?`,
@@ -74,7 +74,7 @@ const productFaqs = (product) => {
     },
     {
       question: `Can I buy ${product.model} and pay in installments?`,
-      answer: `Ask Lisa Electronics to confirm Easy Buy eligibility for the exact device. The calculator is an estimate only; approval, deposit, due dates and complete terms are confirmed before commitment.`
+      answer: `Explore a payment estimate for your chosen device. Lisa will guide you through eligibility, the deposit, payment dates and full plan details. Plans require approval.`
     },
     {
       question: conditionQuestion,
@@ -86,7 +86,7 @@ const productFaqs = (product) => {
     },
     {
       question: "Do you deliver outside Lagos?",
-      answer: `Delivery is available in Lagos and across Nigeria. Confirm the fee, timing and payment or handover arrangement for your location before ordering.`
+      answer: `Delivery is available in Lagos and across Nigeria. Our team will help arrange delivery to your location and share the cost and timing with you.`
     },
     {
       question: `Does ${product.model} come with a warranty?`,
@@ -254,7 +254,7 @@ const renderVariantSelector = (product) => `
     </div>
     <div class="buying-facts">
       <span><b>Battery health</b>${product.listingPending ? "Details coming soon" : product.brand === "Apple" ? "UK-used units: above 83%; confirm exact reading" : "Reading available for the exact used unit"}</span>
-      <span><b>Warranty</b>Confirm written terms for the exact unit</span>
+      <span><b>Warranty</b>Personal after-sales support from Lisa</span>
       <span><b>Delivery</b>Lagos and nationwide options</span>
     </div>
     <div class="price-display">
@@ -262,7 +262,7 @@ const renderVariantSelector = (product) => `
       <strong data-product-price>${escapeHtml(
         listedVariantPrice(product.variants.find((variant) => variant.storage === product.defaultStorage))
       )}</strong>
-      <small data-price-note>Confirm today’s price, condition and stock before payment.</small>
+      <small data-price-note>Your device, price and order details are clearly shown. Lisa is here to help with your choice.</small>
     </div>
     <div class="purchase-actions">
       <a class="commerce-button commerce-button-primary" data-action="buy" href="/buy/?phone=${encodeURIComponent(`${product.slug}|${product.defaultStorage}`)}">Buy Now on WhatsApp</a>
@@ -309,7 +309,7 @@ const renderDetails = (product) => `
       ${product.conditions.includes('UK Used') ? '<article><span>01</span><div><h3>UK Used</h3><p>Request photos, battery information and the condition of the exact device before payment.</p></div></article>' : ''}
       ${product.conditions.includes('Used') ? '<article><span>01</span><div><h3>Used</h3><p>Ask for photos, battery information and condition of the exact device before payment.</p></div></article>' : ''}
       ${product.conditions.includes('Brand New') ? '<article><span>02</span><div><h3>Brand New</h3><p>Ask what comes with the exact unit and confirm availability.</p></div></article>' : ''}
-      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition to confirm</h3><p>Ask Lisa Electronics for the exact unit details before payment.</p></div></article>' : ''}
+      ${!product.conditions.includes('UK Used') && !product.conditions.includes('Used') && !product.conditions.includes('Brand New') ? '<article><span>01</span><div><h3>Condition details from Lisa</h3><p>Ask Lisa Electronics for the exact unit details before payment.</p></div></article>' : ''}
     </aside>
   </section>`;
 
@@ -356,7 +356,7 @@ const renderDelivery = () => `
     <div class="delivery-grid">
       <article><span>01</span><h3>Lagos delivery</h3><p>Ask for timing, fee and whether a payment-on-delivery arrangement applies to your location.</p></article>
       <article><span>02</span><h3>Store pickup</h3><p>Visit ${escapeHtml(commerceSite.address)} and ask to inspect the exact unit before payment.</p></article>
-      <article><span>03</span><h3>Nationwide delivery</h3><p>Confirm courier, fee, timing and handover process for your state before ordering.</p></article>
+      <article><span>03</span><h3>Nationwide delivery</h3><p>Our team helps arrange delivery to your state and keeps you updated.</p></article>
     </div>
   </section>`;
 
@@ -385,7 +385,7 @@ const renderFooter = () => `
     <div><strong>Shop phones</strong><a href="/iphones">All iPhones</a><a href="/samsung-phones">Samsung phones</a><a href="/google-pixel-phones">Google Pixel</a><a href="/uk-used-iphones">UK-used iPhones</a></div>
     <div><strong>Ways to buy</strong><a href="/easy-buy/">Easy Buy calculator</a><a href="/phones-on-installment">Phones on installment</a><a href="/phone-swap">Swap your phone</a><a href="${escapeHtml(communityHref)}" target="_blank" rel="noopener">WhatsApp community</a></div>
     <address><strong>Visit or call</strong><span>${escapeHtml(commerceSite.address)}</span><a href="tel:${commerceSite.telephoneHref}">${commerceSite.telephoneDisplay}</a><a href="${commerceSite.directionsUrl}" target="_blank" rel="noopener">Get directions</a></address>
-    <p class="footer-legal">© 2026 Lisa Electronics. Prices, stock, warranty and Easy Buy terms must be confirmed before payment.</p>
+    <p class="footer-legal">© 2026 Lisa Electronics. Personal guidance and after-sales support from Lisa Electronics.</p>
   </footer>`;
 
 const renderProductPage = (product) => {
@@ -449,7 +449,7 @@ const renderProductPage = (product) => {
       <div class="product-hero-copy">
         <p class="commerce-eyebrow">${escapeHtml(product.brand)} · Buy in Nigeria</p>
         <h1>${escapeHtml(product.model)}</h1>
-        <p class="product-lead">${product.listingPending ? "Price, specifications and availability have not been supplied yet. Contact the store for updates." : `${escapeHtml(product.conditions.join(' / ') || 'Condition to confirm')}. Confirm the exact unit and stock before payment.`}</p>
+        <p class="product-lead">${product.listingPending ? "Looking for this device? Our team can help you explore the current options and find the right fit." : `${escapeHtml(product.conditions.join(' / ') || 'Condition details from Lisa')}. Lisa will guide you through your chosen device and help arrange your order.`}</p>
         <div class="hero-fact-row">
           <span><strong>Storage</strong>${escapeHtml(product.variants.map((variant) => variant.storage).join(" · "))}</span>
           <span><strong>Delivery</strong>Lagos & nationwide</span>
@@ -518,7 +518,7 @@ const renderContentOnly = (category) => {
   return `<div class="content-only-grid">
     <article><span>01</span><h2>Tell us what you need</h2><p>Share your preferred brand, processor, RAM, storage, screen size, condition and budget.</p></article>
     <article><span>02</span><h2>Get current options</h2><p>Lisa Electronics will send the laptops currently available with their exact specifications and prices.</p></article>
-    <article><span>03</span><h2>Confirm before payment</h2><p>Ask for photos, condition, battery information where relevant, warranty terms and delivery arrangements.</p></article>
+    <article><span>03</span><h2>Personal help with your order</h2><p>Our team can help with product photos, condition details, battery information, warranty support and delivery.</p></article>
   </div>`;
 };
 
@@ -592,7 +592,7 @@ const renderCategoryPage = (category) => {
           <div><p class="commerce-eyebrow">Find the exact match</p><h2>${escapeHtml(category.h1)}</h2></div>
           <label><span>Search this list</span><input type="search" data-category-filter placeholder="Search model or storage"></label>
         </div>
-        ${category.condition === "UK Used" ? `<p class="category-disclaimer">This page is an enquiry route. Confirm which exact devices are available in UK-used condition before payment.</p>` : ""}
+        ${category.condition === "UK Used" ? `<p class="category-disclaimer">Explore UK-used options with personal guidance from Lisa. Our team will help you find the right device.</p>` : ""}
         <div class="catalogue-grid" data-category-grid>
           ${matches.map(renderCategoryCard).join("")}
         </div>

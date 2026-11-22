@@ -12,9 +12,9 @@ export const commerceSite = Object.freeze({
   address: "No. 10 Pepple Street, Ikeja, Computer Village, Lagos, Nigeria",
   directionsUrl: "https://share.google/F3PBLPkRmLXqiUX0U",
   communityUrl: "",
-  delivery: "Delivery is available in Lagos and across Nigeria. Confirm the delivery fee, timing and payment arrangement before placing an order.",
-  warranty: "Ask for the written warranty or after-sales terms that apply to the exact device before payment.",
-  usedIphoneBattery: "UK-used iPhones are supplied with battery health above 83%. Ask for the exact reading for the unit offered and confirm it during inspection.",
+  delivery: "Delivery is available in Lagos and across Nigeria. Lisa will guide you through delivery options and keep you updated along the way.",
+  warranty: "Our support continues after your purchase. Lisa will explain the warranty for your chosen device and help with any after-sales questions.",
+  usedIphoneBattery: "UK-used iPhones are supplied with battery health above 83%. Our team can share the battery reading for your chosen unit and help you understand it.",
   easyBuyUrl: "/easy-buy/"
 });
 

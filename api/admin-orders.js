@@ -1,3 +1,4 @@
+import {deliverNotifications} from '../backend/lib/notifications.mjs';
 import {admin,body,db,fail,handler} from '../backend/lib/server.mjs';
 export default handler(async(req,res)=>{
  const actor=await admin(req);
@@ -6,5 +7,5 @@ export default handler(async(req,res)=>{
  const b=body(req);if(!/^[0-9a-f-]{36}$/.test(b.id||''))fail(400,'Invalid order.');
  if(!['confirm_transfer','reject_transfer','fulfillment'].includes(b.action))fail(400,'Invalid action.');
  if(b.action==='confirm_transfer'&&b.received!==true)fail(400,'Confirm that the money has reached Lisa’s account.');
- res.json(await db('rpc/review_store_order',{method:'POST',body:JSON.stringify({p_actor:actor.id,p_order:b.id,p_action:b.action,p_note:String(b.note||'').slice(0,500),p_fulfillment:b.fulfillment||null})}));
+ const reviewed=await db('rpc/review_store_order',{method:'POST',body:JSON.stringify({p_actor:actor.id,p_order:b.id,p_action:b.action,p_note:String(b.note||'').slice(0,500),p_fulfillment:b.fulfillment||null})});await deliverNotifications();res.json(reviewed);
 });

@@ -1,3 +1,4 @@
+import {deliverNotifications} from '../backend/lib/notifications.mjs';
 import {randomBytes} from 'node:crypto';
 import {admin,body,db,fail,handler} from '../backend/lib/server.mjs';
 import {tokenHash} from '../backend/lib/transfer.mjs';
@@ -21,5 +22,5 @@ export default handler(async(req,res)=>{
  if(!Array.isArray(b.items)||!b.items.length||b.items.length>20||b.items.some(i=>!i||!/^[a-f0-9-]{36}$/.test(i.id||'')||!Number.isInteger(i.quantity)||i.quantity<1||i.quantity>99))fail(400,'Check your selected products and quantities.');
  const products=await db('products?id=in.('+b.items.map(i=>i.id).join(',')+')&select=id,published,price_kobo,images,attributes');if(products.length!==b.items.length||products.some(p=>!p.published||!catalogueVisible(p)))fail(409,'One or more products are unavailable. Refresh your selection.');
  const ip=String(req.headers['x-vercel-forwarded-for']||req.headers['x-forwarded-for']||req.socket?.remoteAddress||'unknown').split(',')[0];if(!await db('rpc/allow_checkout',{method:'POST',body:JSON.stringify({p_key:tokenHash('pickup:'+ip+process.env.SUPABASE_SERVICE_ROLE_KEY)})}))fail(429,'Please wait before requesting another reservation.');
- const token=/^[a-f0-9]{64}$/.test(b.token||'')?b.token:randomBytes(32).toString('hex');const result=await db('rpc/reserve_store_pickup',{method:'POST',body:JSON.stringify({p_email:b.email.trim(),p_phone:b.phone,p_name:b.name.trim(),p_items:b.items,p_date:b.date,p_token_hash:tokenHash(token)})});res.json({reference:result.reference||result.paystack_reference,token});
+ const token=/^[a-f0-9]{64}$/.test(b.token||'')?b.token:randomBytes(32).toString('hex');const result=await db('rpc/reserve_store_pickup',{method:'POST',body:JSON.stringify({p_email:b.email.trim().toLowerCase(),p_phone:b.phone,p_name:b.name.trim(),p_items:b.items,p_date:b.date,p_token_hash:tokenHash(token)})});await deliverNotifications();res.json({reference:result.reference||result.paystack_reference,token});
 });

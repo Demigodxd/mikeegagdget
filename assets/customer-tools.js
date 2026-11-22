@@ -1,3 +1,6 @@
+import {accountReady,hasCustomerAccount} from './customer-account.mjs';
+import {mountSupport} from './support-tracker.mjs';
+await accountReady;
 import {readIds} from './catalogue-tools.mjs';
 const el=(tag,text)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
 document.querySelectorAll('[data-cookie-settings]').forEach(button=>button.onclick=()=>{
@@ -7,8 +10,9 @@ document.querySelectorAll('[data-cookie-settings]').forEach(button=>button.oncli
  const close=el('button','Close');close.onclick=()=>dialog.close();dialog.append(close);dialog.addEventListener('close',()=>dialog.remove());document.body.append(dialog);dialog.showModal();
 });
 const service=document.querySelector('#serviceForm');if(service)service.onsubmit=e=>{e.preventDefault();const data=new FormData(service),text=['Hello Lisa Electronics,','Support: '+data.get('topic'),'Order: '+data.get('reference'),'Issue: '+data.get('details')].join('\n');const link=document.querySelector('#serviceLink');link.href='https://wa.me/2347089254544?text='+encodeURIComponent(text);link.hidden=false;document.querySelector('#serviceStatus').textContent='Your message is ready. Review it in WhatsApp and attach any relevant photos there.';};
+mountSupport();
 const account=document.querySelector('[data-account-tools]');
 if(account){try{const r=await fetch('/api/products',{cache:'no-store'});if(!r.ok)throw Error();const products=await r.json();for(const [key,title,id] of [['lisa-saved','Your saved items','saved'],['lisa-recent','Recently viewed','recently-viewed']]){
- const section=el('section');section.id=id;section.className='account-panel';const ids=readIds(localStorage,key,12),items=ids.map(id=>products.find(p=>p.id===id)).filter(Boolean);section.append(el('h2',title),el('p',items.length+' available options · saved on this device','saved-count'));const grid=el('div');grid.className='account-products';
+ const section=el('section');section.id=id;section.className='account-panel';const ids=readIds(localStorage,key,12),items=ids.map(id=>products.find(p=>p.id===id)).filter(Boolean);section.append(el('h2',title),el('p',items.length+' available options · '+(hasCustomerAccount()?'saved to your Lisa account':'saved on this device'),'saved-count'));const grid=el('div');grid.className='account-products';
  for(const p of items.slice(0,4)){const card=el('article'),a=el('a',p.name);a.href='/catalogue/?sku='+encodeURIComponent(p.sku);const src=p.images?.find(u=>!u.includes('/product-details/'));if(src){const img=el('img');img.src=src;img.alt=p.name;img.loading='lazy';card.append(img);}card.append(a,el('p',new Intl.NumberFormat('en-NG',{style:'currency',currency:'NGN'}).format(p.price_kobo/100)));grid.append(card);}section.append(grid);if(!items.length)section.append(el('p','Browse products to start your shortlist.'));const link=el('a',key==='lisa-saved'?'View all saved items →':'Browse products →');link.href=key==='lisa-saved'?'/saved/':'/search/';section.append(link);if(key==='lisa-recent'&&ids.length){const clear=el('button','Clear recent history');clear.onclick=()=>{localStorage.removeItem(key);section.remove();};section.append(clear);}account.append(section);
 }}catch{account.append(el('p','Your saved items could not load. Please refresh.'));}}

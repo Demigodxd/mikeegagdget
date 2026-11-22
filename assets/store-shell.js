@@ -6,3 +6,4 @@ document.querySelector('.menu-toggle')?.addEventListener('click',e=>{e.stopImmed
 document.querySelector('.home-catalog-search')?.addEventListener('submit',e=>{e.preventDefault();location.href='/search/?q='+encodeURIComponent(document.querySelector('#homePhoneSearch').value)+'#liveStore';});
 
 initContactWidget();
+

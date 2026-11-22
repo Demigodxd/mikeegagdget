@@ -21,6 +21,8 @@ export const customerCopyRules=[
  ['Condition depends on the current device available. Ask Lisa Electronics whether the exact ${product.model} offered is new or used and request inspection details.','Lisa can guide you through the available ${product.model} options, including condition and included accessories.'],
  ['Confirm the exact unit, price and condition with Lisa Electronics.','Our team is here to help you choose your device and explain the order details.'],
  ['Confirm condition with Lisa','Condition details available from Lisa'],
+ ['Confirm condition','Condition details available'],
+ ['Product photo unavailable','Ask Lisa for a closer look'],
  ['Condition to confirm','Condition details from Lisa'],
  ['Confirm written terms for the exact unit','Personal after-sales support from Lisa'],
  ['Confirm stock and final price before payment','Helpful advice before and after your purchase'],

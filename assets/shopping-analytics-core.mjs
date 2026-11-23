@@ -1,0 +1,3 @@
+export function analyticsItem(p,quantity=1){return {item_id:String(p.sku||p.id).slice(0,100),item_name:String(p.name).slice(0,100),item_brand:String(p.attributes?.brand||'').slice(0,60),item_category:String(p.categories?.slug||'').slice(0,60),price:Number(p.price_kobo)/100,quantity:Math.min(99,Math.max(1,Math.floor(Number(quantity)||1)))};}
+export function shoppingEvent(name,lines){const items=lines.filter(l=>l?.product&&Number.isFinite(l.product.price_kobo)&&l.product.price_kobo>0).slice(0,20).map(l=>analyticsItem(l.product,l.quantity));return {name,params:{currency:'NGN',value:Math.round(items.reduce((n,i)=>n+i.price*i.quantity,0)*100)/100,items}};}
+export function safeReferrer(value){try{return new URL(value).origin+'/';}catch{return '';}}

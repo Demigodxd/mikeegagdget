@@ -3,12 +3,6 @@ import {mountSupport} from './support-tracker.mjs';
 await accountReady;
 import {readIds} from './catalogue-tools.mjs';
 const el=(tag,text)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
-document.querySelectorAll('[data-cookie-settings]').forEach(button=>button.onclick=()=>{
- const dialog=el('dialog');dialog.className='cookie-dialog';dialog.append(el('h2','Your cookie preferences'),el('p','Necessary browser storage keeps your cart, saved items and comparison working. Optional TikTok advertising measurement is off unless you allow it.'));
- const status=el('p');let current='necessary';try{current=localStorage.getItem('lisa-advertising-consent')==='granted'?'advertising allowed':'necessary only';}catch{}status.textContent='Current choice: '+current;dialog.append(status);
- for(const [text,value] of [['Necessary only','denied'],['Allow advertising','granted']]){const b=el('button',text);b.type='button';b.onclick=()=>{try{localStorage.setItem('lisa-advertising-consent',value);}catch{}if(value==='granted')window.dispatchEvent(new Event('lisa-consent-change'));else{window.ttq?.disableCookie?.();window.ttq?.revokeConsent?.();}dialog.close();if(value==='denied')location.reload();};dialog.append(b);}
- const close=el('button','Close');close.onclick=()=>dialog.close();dialog.append(close);dialog.addEventListener('close',()=>dialog.remove());document.body.append(dialog);dialog.showModal();
-});
 const service=document.querySelector('#serviceForm');if(service)service.onsubmit=e=>{e.preventDefault();const data=new FormData(service),text=['Hello Lisa Electronics,','Support: '+data.get('topic'),'Order: '+data.get('reference'),'Issue: '+data.get('details')].join('\n');const link=document.querySelector('#serviceLink');link.href='https://wa.me/2347089254544?text='+encodeURIComponent(text);link.hidden=false;document.querySelector('#serviceStatus').textContent='Your message is ready. Review it in WhatsApp and attach any relevant photos there.';};
 mountSupport();
 const account=document.querySelector('[data-account-tools]');

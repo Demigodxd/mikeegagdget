@@ -204,7 +204,7 @@ for (const product of products) {
 
 const tracking = await readFile(join(root, "assets", "landing-page.js"), "utf8");
 const tiktokPixel = await readFile(join(root, "assets", "tiktok-pixel.js"), "utf8");
-assert(tiktokPixel.includes("DANV8Q3C77U28JP39CGG"), "TikTok Pixel ID is missing.");
+assert(!tiktokPixel.includes("DANV8Q3C77U28JP39CGG") && tiktokPixel.includes("config.tiktokPixelId"), "Advertising must use Lisa’s configured pixel, never the reference store’s tracker.");
 [
   "view_landing_page",
   "view_product",

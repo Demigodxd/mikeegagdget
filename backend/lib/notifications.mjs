@@ -1,3 +1,4 @@
+import {deliverPurchaseAnalytics} from './shopping-analytics.mjs';
 import {db} from './server.mjs';
 const titles={order_placed:'Your Lisa order is received',payment_paid:'Your payment is confirmed',order_processing:'Lisa is preparing your order',order_shipped:'Your Lisa order is on its way',order_completed:'Thank you for shopping with Lisa',order_cancelled:'An update about your Lisa order',delivery_update:'Your collection or delivery update',support_update:'Lisa has an update on your support request'};
 export function notificationMessage(event,order,payload={}){
@@ -21,4 +22,4 @@ async function processNotifications(){
  return {configured:true,sent,failed};
 }
 
-export async function deliverNotifications(){try{return await processNotifications();}catch{console.error('Order notification processing will retry.');return {configured:!!(process.env.RESEND_API_KEY&&process.env.ORDER_EMAIL_FROM),sent:0,failed:1};}}
+export async function deliverNotifications(){await deliverPurchaseAnalytics();try{return await processNotifications();}catch{console.error('Order notification processing will retry.');return {configured:!!(process.env.RESEND_API_KEY&&process.env.ORDER_EMAIL_FROM),sent:0,failed:1};}}

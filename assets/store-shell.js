@@ -7,3 +7,6 @@ document.querySelector('.home-catalog-search')?.addEventListener('submit',e=>{e.
 
 initContactWidget();
 
+// Change the account hint only after the customer's session is verified.
+window.addEventListener('lisa-account-ready',()=>{document.querySelectorAll('.header-account').forEach(link=>{const hint=link.querySelector('[data-account-hint]');if(hint)hint.textContent='Orders & saved items';link.setAttribute('aria-label','My account, orders and saved items');});});
+

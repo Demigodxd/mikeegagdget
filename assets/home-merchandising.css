@@ -1,0 +1,40 @@
+/* A shared photographic stage keeps the real product packshots visually consistent. */
+.store-home .lisa-hero{grid-template-columns:1fr 1.15fr;padding:38px 24px 34px 34px;min-height:480px;gap:18px;background:linear-gradient(125deg,#f3f0eb 35%,#eae2d8)}
+.store-home .lisa-hero h1{font-size:clamp(38px,4vw,60px)}
+.store-home .hero-art{min-width:0;align-items:center;isolation:auto}
+.phone-collection{position:relative;width:100%;padding:16px 0 10px;text-align:center}
+.phone-collection:before{content:"";position:absolute;inset:3% -16%;background:radial-gradient(ellipse,#fff9 0%,#fff3 48%,transparent 72%);z-index:-1}
+.collection-kicker{display:block;color:#786b5f;letter-spacing:.17em;font-size:9px;font-weight:700;margin-bottom:14px}
+.phone-lineup{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 5px;align-items:end}
+.lineup-phone{min-width:0;margin:0;animation:phone-arrive .7s both;animation-delay:calc(var(--device-order)*70ms)}
+.phone-portrait{display:block;height:130px;overflow:hidden}
+.phone-collection{mix-blend-mode:multiply}
+.store-home .lisa-hero .phone-lineup img{display:block;width:100%;height:100%;position:static;object-fit:cover;transform:scale(1.45);filter:none;mix-blend-mode:multiply;transition:transform .25s ease}
+.lineup-phone figcaption{font-size:9px;line-height:1.3;font-weight:650;color:#4b4139;margin-top:9px;white-space:nowrap}
+.collection-caption{color:#786b5f;font-size:10px;margin:22px 0 0;letter-spacing:.02em}
+.store-home .mini-promo{min-height:230px;padding:24px;display:block}
+.store-home .mini-promo>.promo-copy{width:54%;position:relative;z-index:2}
+.store-home .mini-promo h2{max-width:none;font-size:clamp(23px,2.25vw,31px);line-height:1.07;margin:12px 0}
+.promo-description{display:block;color:#64656b;font-size:10px;line-height:1.6;max-width:145px;margin-bottom:16px}
+.promo-actions{display:flex;gap:14px;flex-wrap:wrap}
+.promo-actions a{font-size:11px;font-weight:750;text-decoration:underline;text-underline-offset:4px;min-height:28px;display:inline-flex;align-items:center}
+.store-home .mini-promo>.promo-products{position:absolute;inset:12% 0 7% 49%;width:auto;z-index:1}
+.promo-products{mix-blend-mode:multiply}
+.promo-products img{position:absolute;object-fit:contain;mix-blend-mode:multiply;width:100%;height:100%;filter:none}
+.sound-products img:first-child{width:90%;height:75%;left:0;top:0;transform:rotate(-10deg)}
+.sound-products img:last-child{width:62%;height:57%;right:0;bottom:-3%}
+.work-products img:first-child{width:94%;height:68%;left:-5%;top:1%;transform:rotate(-6deg)}
+.work-products img:nth-child(2){width:86%;height:64%;right:-2%;bottom:0;transform:rotate(4deg)}
+.work-products img:last-child{width:40%;height:70%;right:0;top:0;transform:rotate(8deg)}
+.lisa-store .category-tile .category-tecno img{transform:scale(1.6)}
+.lisa-store .category-tile .android-collection{display:block;position:relative;padding:0;mix-blend-mode:multiply}
+.lisa-store .category-tile .android-collection img{position:absolute;top:3%;width:64%!important;height:94%!important;min-width:0;object-fit:contain!important;mix-blend-mode:multiply}
+.android-collection img:first-child{left:-12%;transform:rotate(-8deg)}
+.android-collection img:nth-child(2){left:18%;z-index:1;transform:translateY(-3px)}
+.android-collection img:last-child{left:48%;transform:rotate(8deg)}
+@keyframes phone-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.lineup-phone:hover img{transform:scale(1.5)}}
+@media(min-width:761px) and (max-width:1100px){.store-home .launch-grid{grid-template-columns:1fr}.store-home .hero-side{grid-template-columns:1fr 1fr;grid-template-rows:auto}.store-home .lisa-hero h1{font-size:54px}.store-home .lisa-hero .phone-lineup img{height:135px}}
+@media(max-width:760px){.store-home .lisa-hero{grid-template-columns:1fr;padding:28px 24px 22px;gap:12px;min-height:0}.store-home .lisa-hero h1{font-size:40px}.store-home .hero-art{height:auto;min-height:320px;margin-top:14px;overflow:visible}.phone-collection{padding:10px 0 0}.phone-lineup{gap:20px 4px}.store-home .lisa-hero .phone-lineup img{height:110px;width:100%}.lineup-phone figcaption{font-size:9px}.collection-kicker{margin-bottom:18px}.collection-caption{margin-top:20px}.store-home .mini-promo{min-height:210px;padding:23px}.store-home .mini-promo h2{font-size:27px}.store-home .mini-promo>.promo-copy{width:55%}.promo-description{font-size:11px}.promo-actions{gap:11px}.promo-actions a{font-size:12px}.store-home .mini-promo>.promo-products{inset:10% 0 7% 51%}.lisa-store .category-tile .android-collection{padding:13px 4px}}
+@media(max-width:359px){.store-home .lisa-hero{padding:24px 18px 20px}.lineup-phone figcaption{font-size:8px}.store-home .lisa-hero .phone-lineup img{height:94px}.store-home .mini-promo{padding:20px}.store-home .mini-promo h2{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.lineup-phone{animation:none}.store-home .lisa-hero .phone-lineup img{transition:none}}

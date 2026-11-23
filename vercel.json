@@ -12,5 +12,11 @@
   ],
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": null
+  "framework": null,
+  "crons": [
+    {
+      "path": "/api/config?feature=notifications",
+      "schedule": "0 9 * * *"
+    }
+  ]
 }

@@ -196,7 +196,7 @@ const renderTrust = (page) => `
         </a>
       </div>
       <p class="intent-delivery-note">${escapeHtml(site.delivery)}</p>
-      <p class="intent-terms-note">Ask Lisa Electronics to confirm stock, the exact device condition, current price, delivery details and any written warranty or after-sales terms before payment.</p>
+      <p class="intent-terms-note">From choosing your device to getting help after your purchase, Lisa is here for you. Talk to our team for product guidance, delivery updates or after-sales support.</p>
     </div>
   </section>`;
 

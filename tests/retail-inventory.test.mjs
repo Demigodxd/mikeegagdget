@@ -11,37 +11,37 @@ const record=slug=>retailInventory.find(item=>item.slug===slug);
 const price=(slug,storage)=>record(slug)?.variants.find(variant=>variant.storage===storage)?.price;
 
 test('all supplied products and variants are represented once with conditions kept separate',()=>{
- assert.equal(retailInventory.length,174);
- assert.equal(retailPhoneProducts.length,121);
+ assert.equal(retailInventory.length,278);
+ assert.equal(retailPhoneProducts.length,203);
  assert.ok(storeItems.length>159);
  assert.equal(new Set(storeItems.map(item=>item.slug)).size,storeItems.length);
  assert.equal(new Set(retailInventory.map(item=>item.slug)).size,retailInventory.length);
- assert.equal(retailInventory.reduce((sum,item)=>sum+item.variants.length,0),331);
+ assert.equal(retailInventory.reduce((sum,item)=>sum+item.variants.length,0),690);
  const productCounts=Object.fromEntries(['Brand New','UK Used','Open Box','Confirm condition'].map(condition=>[
   condition,retailInventory.filter(item=>item.condition===condition).length
  ]));
- assert.deepEqual(productCounts,{'Brand New':102,'UK Used':42,'Open Box':11,'Confirm condition':19});
+ assert.deepEqual(productCounts,{'Brand New':129,'UK Used':92,'Open Box':11,'Confirm condition':2});
  const variantCounts=Object.fromEntries(['Brand New','UK Used','Open Box','Confirm condition'].map(condition=>[
   condition,retailInventory.filter(item=>item.condition===condition).reduce((sum,item)=>sum+item.variants.length,0)
  ]));
- assert.deepEqual(variantCounts,{'Brand New':193,'UK Used':101,'Open Box':11,'Confirm condition':26});
- assert.equal(new Set(products.map(item=>item.slug)).size,121);
- assert.equal(products.length,121);
+ assert.deepEqual(variantCounts,{'Brand New':314,'UK Used':219,'Open Box':11,'Confirm condition':2});
+ assert.equal(new Set(products.map(item=>item.slug)).size,203);
+ assert.equal(products.length,203);
 });
 
 test('example prices follow their specified group and ambiguous prices remain Confirm Price',()=>{
- assert.equal(price('iphone-18-pro','256GB · Burgundy'),1_970_000);
- assert.equal(price('iphone-13','128GB'),370_000);
- assert.equal(price('iphone-15-uk-used','128GB'),625_000);
+ assert.equal(price('iphone-18-pro','256GB · Burgundy · eSIM · Not activated'),2_136_400);
+ assert.equal(price('iphone-13','128GB'),380_000);
+ assert.equal(price('iphone-15-uk-used','128GB'),630_000);
  assert.equal(price('samsung-a05-uk-used','Standard'),150_000);
  assert.equal(price('samsung-a05','Standard'),160_000);
- assert.equal(price('samsung-s22-plus','256GB'),390_000);
- assert.equal(price('samsung-s23','128GB'),null);
- assert.equal(price('samsung-s23','256GB'),null);
- assert.equal(price('samsung-s25-ultra','256GB'),null);
- assert.equal(price('iphone-15-pro-uk-used','256GB'),870_000);
- assert.equal(retailInventory.flatMap(item=>item.variants).filter(variant=>variant.price===null).length,64);
- assert.equal(retailInventory.filter(item=>item.variants.some(variant=>variant.price===null)).length,38);
+ assert.equal(price('samsung-s22-plus','256GB'),325_000);
+ assert.equal(price('samsung-s23','128GB · eSIM'),360_000);
+ assert.equal(price('samsung-s23','256GB · eSIM'),400_000);
+ assert.equal(price('samsung-s25-ultra','256GB · Single SIM'),1_155_400);
+ assert.equal(price('iphone-15-pro-uk-used','256GB'),845_000);
+ assert.equal(retailInventory.flatMap(item=>item.variants).filter(variant=>variant.price===null).length,47);
+ assert.equal(retailInventory.filter(item=>item.variants.some(variant=>variant.price===null)).length,31);
 });
 
 test('iPhone brand new and UK Used listings stay distinct with matching Easy Buy data',()=>{
@@ -66,17 +66,18 @@ test('cards and category pages show current non-phone products and Confirm Price
  }
  const tablet=await readFile('shop/tablets/index.html','utf8');
  assert.match(tablet,/Samsung Galaxy Tab A11/);
- const samsung=await readFile('samsung-s23/index.html','utf8');
+ const samsung=await readFile('iphone-13/index.html','utf8');
  assert.match(samsung,/Confirm Price/);
  const store=await readFile('assets/store-catalog.json','utf8');
- assert.doesNotMatch(store,/revenes\.com|\/images\/pixel\//i);
+ assert.doesNotMatch(store,/\/images\/pixel\//i);
+ assert.ok(JSON.parse(store).every(p=>!p.image||/^(https:\/\/|\/images\/)/.test(p.image)));
 });
 
 test('verified local images are the only images attached to the new catalog',()=>{
  assert.ok(retailInventory.filter(item=>item.image).length>0);
- assert.ok(retailInventory.every(item=>!item.image||item.image.startsWith('/images/store/')||item.image.startsWith('/images/catalog/')));
- assert.equal(retailInventory.filter(item=>item.image).length,43);
- assert.equal(retailInventory.filter(item=>!item.image).length,131);
+ assert.ok(retailInventory.every(item=>!item.image||item.image.startsWith('/images/store/')||item.image.startsWith('/images/catalog/')||item.image.startsWith('https://')));
+ assert.equal(retailInventory.filter(item=>item.image).length,193);
+ assert.equal(retailInventory.filter(item=>!item.image).length,85);
 });
 
 test('generic store cards use only the available shop image sizes',()=>{

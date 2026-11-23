@@ -38,7 +38,7 @@ test('retail selling prices stay final across product, store and calculator data
  assert.ok(legacy.swapReferencePrice>0);
 });
 test('Easy Buy and Swap continue to use final listed target prices',()=>{
- const target=choices.find(p=>p.id==='iphone-18-pro|256GB · Burgundy');
+ const target=choices.find(p=>p.id==='iphone-18-pro|256GB · Burgundy · eSIM · Not activated');
  const plan=financePlan({amount:target.price,duration:3,phone:target});
  assert.equal(plan.deposit,Math.round(target.price*.7));
  assert.equal(plan.totalPayable,plan.deposit+plan.repaymentTotal+plan.processingFee);
@@ -55,6 +55,6 @@ test('homepage keeps its buying and enquiry routes without applying stale discou
  for(const route of ['easybuy','swap','deals','iphone-14-pro-max','iphone-13','pixel-11','samsung-s23']){
   const page=await readFile(`${route}/index.html`,'utf8');
   assert.ok(page.includes('<h1>'),route);
-  assert.ok(page.includes('/assets/sales.js'),route);
+  assert.ok(page.includes(route==='deals'?'/assets/live-store.js':'/assets/sales.js'),route);
  }
 });

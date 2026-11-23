@@ -16,8 +16,8 @@ test('Lisa location uses the owner-provided map link with an embedded map and ac
 
 test('Group 1 final prices reach product pages, cards and calculator choices unchanged',async()=>{
  const expected={
-  'iphone-18-pro':{'256GB · Burgundy':1970000,'256GB · Glacier':1920000,'512GB':2290000},
-  'iphone-18-pro-max':{'256GB · Burgundy':2540000,'256GB · Silver/Blue':2340000,'512GB · Burgundy':2690000,'512GB · Glacier':2590000,'1TB':3590000}
+  'iphone-18-pro':{'256GB · Burgundy · eSIM · Not activated':2136400,'256GB · Glacier · eSIM · Not activated':2103700,'512GB · Burgundy · eSIM · Not activated':2485200,'512GB · Black · eSIM · Not activated':2452500},
+  'iphone-18-pro-max':{'256GB · Burgundy/Glacier · US eSIM · Unlocked · Not activated':2180000,'512GB · Black · US eSIM · Unlocked · Not activated':2452500,'512GB · Burgundy · US eSIM · Unlocked · Not activated':2507000,'1TB · Burgundy · US eSIM · Unlocked · Not activated':3215500}
  };
  for(const [slug,variants] of Object.entries(expected)){
   const product=products.find(p=>p.slug===slug),item=storeItems.find(p=>p.slug===slug);

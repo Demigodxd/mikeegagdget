@@ -1,3 +1,4 @@
+import {catalogueImageUpdates} from './catalogue-image-updates.mjs';
 // `preferred` points to the merchant's compressed storefront photo. Replace that
 // path when a better Mikee product photo is ready; the catalogue and page layout
 // will keep using the same responsive 360/720 WebP variants automatically.
@@ -195,3 +196,5 @@ export const categoryImages = {
 
 // User-supplied shop photo, sized for mobile and desktop.
 export const storePhotography = { image:'/images/store/mikee-shop-1280.webp', thumbnail:'/images/store/mikee-shop-720.webp', alt:'Lisa Electronics shop image supplied by the store', caption:'See devices in person at our Computer Village store.' };
+
+for(const [model,image] of Object.entries(catalogueImageUpdates)) {if(!productImages[model]?.image)productImages[model]={image};}

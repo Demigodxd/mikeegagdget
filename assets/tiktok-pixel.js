@@ -3,6 +3,6 @@
 var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
 ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
 
-  ttq.load('DANV8Q3C77U28JP39CGG');
-  ttq.page();
+  var loaded=false,loading=false;function allowed(){try{var c=JSON.parse(w.localStorage.getItem('lisa-cookie-consent')||'null');return c&&c.version===2&&c.advertising===true&&Number.isFinite(c.updatedAt)&&c.updatedAt<=Date.now()&&Date.now()-c.updatedAt<180*24*60*60*1000&&!location.search&&!location.hash&&!/^\/(admin|account|service|transfer|pickup)(\/|$)/.test(location.pathname);}catch{return false;}}
+  async function enable(){if(loaded||loading||!allowed())return;loading=true;try{var config=await fetch('/api/config').then(r=>r.json());if(!allowed()||!/^[A-Z0-9]{15,40}$/.test(config.tiktokPixelId||''))return;loaded=true;ttq.load(config.tiktokPixelId);ttq.page();}catch{}finally{loading=false;}}enable();w.addEventListener('lisa-consent-change',enable);
 }(window, document, 'ttq');
